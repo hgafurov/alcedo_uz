@@ -37,7 +37,7 @@
     <div id="quizContainer" class="container">
         <div id="timerTv" class="timer">Vaqt: 00:00</div>
         <div id="quizCountTv" class="progress">SAVOL: 1/20</div>
-        <div id="questionTv" class="question">Savol yuklanmoqda...</div>
+        <div id="questionTv" class="question">Savollar yuklanmoqda...</div>
         
         <div id="optionsGroup" class="options-group">
             <label class="option-label" id="lbl1"><input type="radio" name="quiz_opt" value="0"><span id="opt1"></span></label>
@@ -66,18 +66,14 @@
     </div>
 
     <script>
-        // 💾 BAZA NAMUNASI: Ilovangiz to'g'ri ishlashi uchun barcha savollaringizni shu yerga joylaysiz!
-        const allQuestions = [
-            { id: 1, category: "metrologiya", question: "Xalqaro birliklar tizimida (SI) modda miqdori o‘lchov birligi qaysi?", variants: ["Kilogramm", "Mol", "Kelvin", "Amper"], correct_answer: "Mol" },
-            { id: 2, category: "standartlashtirish", question: "O‘zbekiston Respublikasining milliy standartlashtirish tizimi qaysi tashkilot tomonidan muvofiqlashtiriladi?", variants: ["O‘zstandart agentligi", "UzTest", "O‘zMMI", "Muvofiqlik markazi"], correct_answer: "O‘zstandart agentligi" },
-            { id: 3, category: "sertifikatlashtirish", question: "Sifat menejmenti auditdan nimani baholash uchun foydalaniladi?", variants: ["O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini", "Ishlarni bajarishda mashg`ul ishchilar miqdorini", "Xodimlar malakasini nazorat qilishni", "Mahsulot ishlab chiqarishni"], correct_answer: "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini" }
-        ];
+        // 🔥 DIQQAT: 2-bosqichda olingan GitHub "Raw" havolasini (linkni) pasdagi qo'shtirnoq ichiga joylashtiring!
+        const jsonUrl = "BU_YERGA_GITHUB_RAW_LINKINI_QO_YING";
 
-        // URL orqali kelgan parametrlarni o'qiymiz
         const urlParams = new URLSearchParams(window.location.search);
         const userName = urlParams.get('user') || 'Foydalanuvchi';
         const selectedCategory = urlParams.get('category') || 'umumiy';
 
+        let allQuestions = [];
         let selectedQuestionsList = [];
         let totalQuestionsCount = 0;
         let score = 0;
@@ -87,7 +83,38 @@
         let timerInterval = null;
         let timeLeft = 0;
 
-        // 🏗️ TIZIMNI ISHGA TUSHIRISH
+        // JSON faylni internetdan yoki keshdan yuklab olish
+        async function fetchQuestions() {
+            try {
+                // Avval xotirada (cache) eski baza bormi tekshiramiz (offline ishlashi uchun)
+                let cachedData = localStorage.getItem("OFFLINE_QUIZ_BAZA");
+                
+                if (navigator.onLine && jsonUrl !== "BU_YERGA_GITHUB_RAW_LINKINI_QO_YING") {
+                    // Agar internet bo'lsa, GitHub'dan eng yangi bazani tortadi
+                    const response = await fetch(jsonUrl);
+                    allQuestions = await response.json();
+                    localStorage.setItem("OFFLINE_QUIZ_BAZA", JSON.stringify(allQuestions));
+                } else if (cachedData) {
+                    // Internet bo'lmasa, xotiradagi eski ma'lumotdan foydalanadi
+                    allQuestions = JSON.parse(cachedData);
+                } else {
+                    document.getElementById("questionTv").innerText = "Xato: Internet yo'q va keshda ma'lumot topilmadi!";
+                    return;
+                }
+                
+                initQuiz();
+            } catch (error) {
+                console.error("Xatolik:", error);
+                let cachedData = localStorage.getItem("OFFLINE_QUIZ_BAZA");
+                if (cachedData) {
+                    allQuestions = JSON.parse(cachedData);
+                    initQuiz();
+                } else {
+                    document.getElementById("questionTv").innerText = "Savollarni yuklashda xatolik yuz berdi!";
+                }
+            }
+        }
+
         function initQuiz() {
             let filtered = selectedCategory === "umumiy" ? [...allQuestions] : allQuestions.filter(q => q.category === selectedCategory);
             let maxQuestions = selectedCategory === "umumiy" ? 50 : 20;
@@ -100,11 +127,9 @@
             }
 
             if (selectedCategory === "umumiy") {
-                // Aralash (random)
                 filtered.sort(() => Math.random() - 0.5);
                 selectedQuestionsList = filtered.slice(0, Math.min(filtered.length, maxQuestions));
             } else {
-                // 1 chekkadan ketma-ket va xotirada saqlash
                 let savedIndexKey = "LAST_INDEX_" + selectedCategory;
                 let lastIndex = parseInt(localStorage.getItem(savedIndexKey) || "0");
                 if (lastIndex >= filtered.length) lastIndex = 0;
@@ -120,7 +145,7 @@
                 selectedQuestionsList = tempQuestions;
             }
 
-            totalQuestionsCount = selectedQuestionsList.size || selectedQuestionsList.length;
+            totalQuestionsCount = selectedQuestionsList.length;
             startTimer();
             displayQuestion();
         }
@@ -149,7 +174,6 @@
             isAnswerChecked = false;
             document.getElementById("nextBtn").innerText = "TEKSHIRISH ➔";
 
-            // Tozalash
             const labels = [document.getElementById("lbl1"), document.getElementById("lbl2"), document.getElementById("lbl3"), document.getElementById("lbl4")];
             labels.forEach(l => { l.className = "option-label"; });
             const radios = document.getElementsByName("quiz_opt");
@@ -161,7 +185,6 @@
             document.getElementById("quizCountTv").innerText = `SAVOL: ${currentProgress}/${totalQuestionsCount}`;
             document.getElementById("questionTv").innerText = currentQuiz.question;
 
-            // Variantlarni random qilish
             shuffledVariants = [...currentQuiz.variants].sort(() => Math.random() - 0.5);
             for (let i = 0; i < 4; i++) {
                 document.getElementById("opt" + (i+1)).innerText = shuffledVariants[i];
@@ -173,7 +196,7 @@
             if (!isAnswerChecked) {
                 checkAnswer();
             } else {
-                selectedQuestionsList.shift(); // Birinchi savolni o'chirish
+                selectedQuestionsList.shift();
                 displayQuestion();
             }
         };
@@ -195,7 +218,6 @@
 
             if (selectedValue === "") {
                 alert("Iltimos, javoblardan birini belgilang!");
-                // Savolni oxiriga o'tkazish
                 let skipped = selectedQuestionsList.shift();
                 selectedQuestionsList.push(skipped);
                 displayQuestion();
@@ -211,7 +233,6 @@
                 selectedLabel.classList.add("correct");
             } else {
                 selectedLabel.classList.add("wrong");
-                // To'g'risini topib yashil qilish
                 for (let i = 0; i < 4; i++) {
                     if (radios[i].value === currentQuiz.correct_answer) {
                         document.getElementById("lbl" + (i+1)).classList.add("correct");
@@ -258,7 +279,8 @@
             window.location.href = "category.html?user=" + encodeURIComponent(userName);
         };
 
-        initQuiz();
+        // Savollarni keshdan yoki tarmoqdan yuklashni boshlaymiz
+        fetchQuestions();
     </script>
 </body>
 </html>
