@@ -46,7 +46,9 @@
             <label class="option-label" id="lbl4"><input type="radio" name="quiz_opt" value="3"><span id="opt4"></span></label>
         </div>
         
+        <!-- Tugmalar bloki -->
         <button id="nextBtn">TEKSHIRISH ➔</button>
+        <button id="quitBtn" style="background-color: #33334E; margin-top: 12px;">🏠 BOSH SAHIFA</button>
     </div>
 
     <!-- 📊 NATIJA VA SERTIFIKAT OYNASI -->
@@ -66,7 +68,7 @@
     </div>
 
     <script>
-        // 🔥 DIQQAT: 2-bosqichda olingan GitHub "Raw" havolasini (linkni) pasdagi qo'shtirnoq ichiga joylashtiring!
+        // 🔥 Siz yuklagan GitHub rasmiy havola to'liq joylashtirildi
         const jsonUrl = "https://raw.githubusercontent.com/hgafurov/alcedo_uz/refs/heads/main/professional_quiz_baza.json";
 
         const urlParams = new URLSearchParams(window.location.search);
@@ -83,22 +85,18 @@
         let timerInterval = null;
         let timeLeft = 0;
 
-        // JSON faylni internetdan yoki keshdan yuklab olish
         async function fetchQuestions() {
             try {
-                // Avval xotirada (cache) eski baza bormi tekshiramiz (offline ishlashi uchun)
                 let cachedData = localStorage.getItem("OFFLINE_QUIZ_BAZA");
                 
-                if (navigator.onLine && jsonUrl !== "BU_YERGA_GITHUB_RAW_LINKINI_QO_YING") {
-                    // Agar internet bo'lsa, GitHub'dan eng yangi bazani tortadi
+                if (navigator.onLine && jsonUrl !== "" && jsonUrl.includes("http")) {
                     const response = await fetch(jsonUrl);
                     allQuestions = await response.json();
                     localStorage.setItem("OFFLINE_QUIZ_BAZA", JSON.stringify(allQuestions));
                 } else if (cachedData) {
-                    // Internet bo'lmasa, xotiradagi eski ma'lumotdan foydalanadi
                     allQuestions = JSON.parse(cachedData);
                 } else {
-                    document.getElementById("questionTv").innerText = "Xato: Internet yo'q va keshda ma'lumot topilmadi!";
+                    document.getElementById("questionTv").innerText = "Xato: Internet yo'q va xotirada ma'lumot topilmadi!";
                     return;
                 }
                 
@@ -204,13 +202,11 @@
         function checkAnswer() {
             const radios = document.getElementsByName("quiz_opt");
             let selectedValue = "";
-            let selectedRadio = null;
             let selectedLabel = null;
 
             for (let i = 0; i < radios.length; i++) {
                 if (radios[i].checked) {
                     selectedValue = radios[i].value;
-                    selectedRadio = radios[i];
                     selectedLabel = document.getElementById("lbl" + (i+1));
                     break;
                 }
@@ -271,6 +267,13 @@
             }
         }
 
+        // BOSH SAHIFA tugmasi bosilganda chiqish mantiqi
+        document.getElementById("quitBtn").onclick = function() {
+            if (confirm("Haqiqatdan ham testdan chiqmoqchimisiz? To'plangan ballar saqlanmaydi.")) {
+                window.location.href = "category.html?user=" + encodeURIComponent(userName);
+            }
+        };
+
         document.getElementById("restartBtn").onclick = function() {
             window.location.href = "quiz.html?user=" + encodeURIComponent(userName) + "&category=" + selectedCategory;
         };
@@ -279,7 +282,6 @@
             window.location.href = "category.html?user=" + encodeURIComponent(userName);
         };
 
-        // Savollarni keshdan yoki tarmoqdan yuklashni boshlaymiz
         fetchQuestions();
     </script>
 </body>
