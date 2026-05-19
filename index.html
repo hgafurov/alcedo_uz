@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALCEDO.UZ</title>
+    <style>
+        body { background-color: #0F0F2F; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .container { text-align: center; padding: 24dp; max-width: 400px; width: 100%; }
+        input { width: 80%; padding: 12px; margin: 12px 0; border-radius: 4px; border: none; font-size: 16px; }
+        button { width: 85%; padding: 12px; background-color: #2196F3; color: white; border: none; border-radius: 4px; font-weight: bold; font-size: 16px; cursor: pointer; }
+        .hidden { display: none; }
+        .error { color: #F44336; font-size: 14px; margin-top: 5px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🔐 1-BLOK: PAROL TIZIMI -->
+        <div id="passwordBlock">
+            <h2>TIZIMGA KIRISH</h2>
+            <h3 id="deviceIdTv">Qurilma kodi: Yuklanmoqda...</h3>
+            <p>Iltimos, faollashtirish kalitini kiriting:</p>
+            <input type="password" id="passwordEt" placeholder="Aktivatsiya kalitini kiriting"><br>
+            <div id="errorTxt" class="error hidden">Kalit xato yoki qurilmaga mos kelmadi!</div><br>
+            <button id="startBtn">Faollashtirish va Kirish</button>
+        </div>
+
+        <!-- 👤 2-BLOK: ISM-FAMILIYA KIRITISH -->
+        <div id="userBlock" class="hidden">
+            <h2>MA'LUMOTLARINGIZNI KIRITING</h2>
+            <input type="text" id="fullNameEdt" placeholder="Ism va Familiyangiz"><br>
+            <button id="beginQuizBtn">Testni Boshlash ➔</button>
+        </div>
+    </div>
+
+    <script>
+        // LocalStorage xotirasini tekshiramiz
+        let isActivated = localStorage.getItem("IS_ACTIVATED") === "true";
+
+        // 🆔 iPhone uchun unikal 5 xonali kod yaratish yoki mavjudini olish
+        let shortId = localStorage.getItem("DEVICE_ID");
+        if (!shortId) {
+            // Agar oldin kodi bo'lmasa, tasodifiy yangi kod yaratamiz
+            let chars = "ABCDEF0123456789";
+            shortId = "";
+            for (let i = 0; i < 5; i++) {
+                shortId += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            localStorage.setItem("DEVICE_ID", shortId);
+        }
+
+        const passwordBlock = document.getElementById("passwordBlock");
+        const userBlock = document.getElementById("userBlock");
+        const deviceIdTv = document.getElementById("deviceIdTv");
+        const passwordEt = document.getElementById("passwordEt");
+        const startBtn = document.getElementById("startBtn");
+        const fullNameEdt = document.getElementById("fullNameEdt");
+        const beginQuizBtn = document.getElementById("beginQuizBtn");
+        const errorTxt = document.getElementById("errorTxt");
+
+        deviceIdTv.innerText = "Qurilma kodi: " + shortId;
+
+        // Agar ilova oldin faollashtirilgan bo'lsa, srazu ism so'rashga o'tadi
+        if (isActivated) {
+            showUserForm();
+        }
+
+        // 🔐 Parolni tekshirish tugmasi
+        startBtn.onclick = function() {
+            let inputKey = passwordEt.value.trim().toUpperCase();
+            
+            // Formula: Kodning teskarisi + QUIZ2026
+            let reversedId = shortId.split("").reverse().join("");
+            let correctPassword = reversedId + "QUIZ2026";
+
+            if (inputKey === correctPassword) {
+                localStorage.setItem("IS_ACTIVATED", "true");
+                alert("Ilova muvaffaqiyatli faollashtirildi!");
+                showUserForm();
+            } else {
+                errorTxt.classList.remove("hidden");
+            }
+        };
+
+        // 👤 Test sahifasiga o'tish tugmasi
+        beginQuizBtn.onclick = function() {
+            let fullName = fullNameEdt.value.trim();
+            if (fullName === "") {
+                alert("Iltimos, ism va familiyangizni kiriting!");
+                return;
+            }
+            // Bu yerda keyingi test sahifasiga (quiz.html) o'tkazamiz
+            window.location.href = "quiz.html?user=" + encodeURIComponent(fullName);
+        };
+
+        function showUserForm() {
+            passwordBlock.classList.add("hidden");
+            userBlock.classList.remove("hidden");
+        }
+    </script>
+</body>
+</html>
+

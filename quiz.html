@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALCEDO.UZ - Imtihon</title>
+    <style>
+        body { background-color: #0F0F2F; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; box-sizing: border-box; }
+        .container { background-color: #1F1F42; padding: 24px; border-radius: 8px; max-width: 500px; width: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.5); text-align: center; }
+        .timer { color: #B81616; font-size: 20px; font-weight: bold; margin-bottom: 8px; }
+        .progress { color: #9E9E9E; font-size: 14px; font-weight: bold; margin-bottom: 16px; }
+        .question { font-size: 18px; font-weight: bold; margin-bottom: 24px; line-height: 1.5; }
+        .options-group { text-align: left; margin-bottom: 24px; }
+        .option-label { display: block; background-color: #2A2A5A; padding: 14px; margin-bottom: 10px; border-radius: 4px; cursor: pointer; transition: 0.2s; font-size: 16px; border: 1px solid transparent; }
+        .option-label input { display: none; }
+        .option-label:hover { background-color: #353570; }
+        button { width: 100%; padding: 14px; background-color: #2196F3; color: white; border: none; border-radius: 4px; font-weight: bold; font-size: 16px; cursor: pointer; }
+        .hidden { display: none !important; }
+        
+        /* Ranglar (To'g'ri/Xato) */
+        .correct { background-color: rgba(76, 175, 80, 0.2) !important; border-color: #4CAF50 !important; color: #4CAF50 !important; font-weight: bold; }
+        .wrong { background-color: rgba(244, 67, 54, 0.2) !important; border-color: #F44336 !important; color: #F44336 !important; font-weight: bold; }
+        .disabled { pointer-events: none; opacity: 0.8; }
+
+        /* 📜 Sertifikat Dizayni */
+        .cert-box { border: 4px double #FFD700; background-color: #151535; padding: 24px; border-radius: 4px; margin-bottom: 32px; }
+        .cert-title { color: #FFD700; font-size: 22px; font-weight: bold; margin: 16px 0; letter-spacing: 2px; }
+        .cert-name { font-size: 24px; font-weight: bold; color: #FFFFFF; margin: 12px 0; border-bottom: 1px solid #333; padding-bottom: 8px; }
+        .cert-status { font-size: 22px; font-weight: bold; padding: 10px; border: 2px solid; display: inline-block; margin: 16px 0; }
+        .pass-color { color: #4CAF50; border-color: #4CAF50; }
+        .fail-color { color: #F44336; border-color: #F44336; }
+    </style>
+</head>
+<body>
+
+    <!-- ✏️ TEST SAVOLLARI OYNASI -->
+    <div id="quizContainer" class="container">
+        <div id="timerTv" class="timer">Vaqt: 00:00</div>
+        <div id="quizCountTv" class="progress">SAVOL: 1/20</div>
+        <div id="questionTv" class="question">Savol yuklanmoqda...</div>
+        
+        <div id="optionsGroup" class="options-group">
+            <label class="option-label" id="lbl1"><input type="radio" name="quiz_opt" value="0"><span id="opt1"></span></label>
+            <label class="option-label" id="lbl2"><input type="radio" name="quiz_opt" value="1"><span id="opt2"></span></label>
+            <label class="option-label" id="lbl3"><input type="radio" name="quiz_opt" value="2"><span id="opt3"></span></label>
+            <label class="option-label" id="lbl4"><input type="radio" name="quiz_opt" value="3"><span id="opt4"></span></label>
+        </div>
+        
+        <button id="nextBtn">TEKSHIRISH ➔</button>
+    </div>
+
+    <!-- 📊 NATIJA VA SERTIFIKAT OYNASI -->
+    <div id="resultContainer" class="container hidden">
+        <div class="cert-box">
+            <h2 style="color: #2196F3; margin: 0;">ALCEDO.UZ</h2>
+            <div id="certTitle" class="cert-title">RASMIY SERTIFIKAT</div>
+            <div style="color: #9E9E9E; font-size: 14px;">Ushbu hujjat egasi:</div>
+            <div id="resName" class="cert-name">Ism Familiya</div>
+            <p id="resDescription" style="font-size: 14px; color: #E0E0E0; line-height: 1.4; padding: 0 10px;">Imtihondan muvaffaqiyatli o'tdi.</p>
+            <div id="resExamStatus" class="cert-status pass-color">IMTIHONDAN O'TDI</div>
+            <div id="resScore" style="font-size: 18px; font-weight: bold; margin-top: 10px;">To'plangan ball: 0 / 20</div>
+            <div id="resPercent" style="font-size: 14px; color: #9E9E9E; margin-top: 4px;">Foiz: 0%</div>
+        </div>
+        <button id="restartBtn" style="margin-bottom: 12px;">🔄 QAYTA URINISH</button>
+        <button id="homeBtn" style="background-color: #33334E;">🏠 BOSH SAHIFA</button>
+    </div>
+
+    <script>
+        // 💾 BAZA NAMUNASI: Ilovangiz to'g'ri ishlashi uchun barcha savollaringizni shu yerga joylaysiz!
+        const allQuestions = [
+            { id: 1, category: "metrologiya", question: "Xalqaro birliklar tizimida (SI) modda miqdori o‘lchov birligi qaysi?", variants: ["Kilogramm", "Mol", "Kelvin", "Amper"], correct_answer: "Mol" },
+            { id: 2, category: "standartlashtirish", question: "O‘zbekiston Respublikasining milliy standartlashtirish tizimi qaysi tashkilot tomonidan muvofiqlashtiriladi?", variants: ["O‘zstandart agentligi", "UzTest", "O‘zMMI", "Muvofiqlik markazi"], correct_answer: "O‘zstandart agentligi" },
+            { id: 3, category: "sertifikatlashtirish", question: "Sifat menejmenti auditdan nimani baholash uchun foydalaniladi?", variants: ["O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini", "Ishlarni bajarishda mashg`ul ishchilar miqdorini", "Xodimlar malakasini nazorat qilishni", "Mahsulot ishlab chiqarishni"], correct_answer: "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini" }
+        ];
+
+        // URL orqali kelgan parametrlarni o'qiymiz
+        const urlParams = new URLSearchParams(window.location.search);
+        const userName = urlParams.get('user') || 'Foydalanuvchi';
+        const selectedCategory = urlParams.get('category') || 'umumiy';
+
+        let selectedQuestionsList = [];
+        let totalQuestionsCount = 0;
+        let score = 0;
+        let isAnswerChecked = false;
+        let currentQuiz = null;
+        let shuffledVariants = [];
+        let timerInterval = null;
+        let timeLeft = 0;
+
+        // 🏗️ TIZIMNI ISHGA TUSHIRISH
+        function initQuiz() {
+            let filtered = selectedCategory === "umumiy" ? [...allQuestions] : allQuestions.filter(q => q.category === selectedCategory);
+            let maxQuestions = selectedCategory === "umumiy" ? 50 : 20;
+            timeLeft = selectedCategory === "umumiy" ? 50 * 60 : 20 * 60;
+
+            if (filtered.length === 0) {
+                alert("Bu bo'limda savollar topilmadi!");
+                window.location.href = "category.html?user=" + encodeURIComponent(userName);
+                return;
+            }
+
+            if (selectedCategory === "umumiy") {
+                // Aralash (random)
+                filtered.sort(() => Math.random() - 0.5);
+                selectedQuestionsList = filtered.slice(0, Math.min(filtered.length, maxQuestions));
+            } else {
+                // 1 chekkadan ketma-ket va xotirada saqlash
+                let savedIndexKey = "LAST_INDEX_" + selectedCategory;
+                let lastIndex = parseInt(localStorage.getItem(savedIndexKey) || "0");
+                if (lastIndex >= filtered.length) lastIndex = 0;
+
+                let tempQuestions = [];
+                let idx = lastIndex;
+                for (let i = 0; i < Math.min(filtered.length, maxQuestions); i++) {
+                    if (idx >= filtered.length) idx = 0;
+                    tempQuestions.push(filtered[idx]);
+                    idx++;
+                }
+                localStorage.setItem(savedIndexKey, idx);
+                selectedQuestionsList = tempQuestions;
+            }
+
+            totalQuestionsCount = selectedQuestionsList.size || selectedQuestionsList.length;
+            startTimer();
+            displayQuestion();
+        }
+
+        function startTimer() {
+            timerInterval = setInterval(() => {
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    alert("Vaqtingiz tugadi!");
+                    finishQuiz();
+                    return;
+                }
+                timeLeft--;
+                let mins = Math.floor(timeLeft / 60);
+                let secs = timeLeft % 60;
+                document.getElementById("timerTv").innerText = `Vaqt: ${mins < 10 ? '0':''}${mins}:${secs < 10 ? '0':''}${secs}`;
+            }, 1000);
+        }
+
+        function displayQuestion() {
+            if (selectedQuestionsList.length === 0) {
+                finishQuiz();
+                return;
+            }
+
+            isAnswerChecked = false;
+            document.getElementById("nextBtn").innerText = "TEKSHIRISH ➔";
+
+            // Tozalash
+            const labels = [document.getElementById("lbl1"), document.getElementById("lbl2"), document.getElementById("lbl3"), document.getElementById("lbl4")];
+            labels.forEach(l => { l.className = "option-label"; });
+            const radios = document.getElementsByName("quiz_opt");
+            radios.forEach(r => { r.checked = false; r.disabled = false; });
+            document.getElementById("optionsGroup").classList.remove("disabled");
+
+            currentQuiz = selectedQuestionsList[0];
+            let currentProgress = totalQuestionsCount - selectedQuestionsList.length + 1;
+            document.getElementById("quizCountTv").innerText = `SAVOL: ${currentProgress}/${totalQuestionsCount}`;
+            document.getElementById("questionTv").innerText = currentQuiz.question;
+
+            // Variantlarni random qilish
+            shuffledVariants = [...currentQuiz.variants].sort(() => Math.random() - 0.5);
+            for (let i = 0; i < 4; i++) {
+                document.getElementById("opt" + (i+1)).innerText = shuffledVariants[i];
+                radios[i].value = shuffledVariants[i];
+            }
+        }
+
+        document.getElementById("nextBtn").onclick = function() {
+            if (!isAnswerChecked) {
+                checkAnswer();
+            } else {
+                selectedQuestionsList.shift(); // Birinchi savolni o'chirish
+                displayQuestion();
+            }
+        };
+
+        function checkAnswer() {
+            const radios = document.getElementsByName("quiz_opt");
+            let selectedValue = "";
+            let selectedRadio = null;
+            let selectedLabel = null;
+
+            for (let i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    selectedValue = radios[i].value;
+                    selectedRadio = radios[i];
+                    selectedLabel = document.getElementById("lbl" + (i+1));
+                    break;
+                }
+            }
+
+            if (selectedValue === "") {
+                alert("Iltimos, javoblardan birini belgilang!");
+                // Savolni oxiriga o'tkazish
+                let skipped = selectedQuestionsList.shift();
+                selectedQuestionsList.push(skipped);
+                displayQuestion();
+                return;
+            }
+
+            isAnswerChecked = true;
+            document.getElementById("nextBtn").innerText = "KEYINGI SAVOL ➔";
+            document.getElementById("optionsGroup").classList.add("disabled");
+
+            if (selectedValue === currentQuiz.correct_answer) {
+                score++;
+                selectedLabel.classList.add("correct");
+            } else {
+                selectedLabel.classList.add("wrong");
+                // To'g'risini topib yashil qilish
+                for (let i = 0; i < 4; i++) {
+                    if (radios[i].value === currentQuiz.correct_answer) {
+                        document.getElementById("lbl" + (i+1)).classList.add("correct");
+                        break;
+                    }
+                }
+            }
+        }
+
+        function finishQuiz() {
+            clearInterval(timerInterval);
+            document.getElementById("quizContainer").classList.add("hidden");
+            document.getElementById("resultContainer").classList.remove("hidden");
+
+            let percent = Math.round((score * 100) / totalQuestionsCount);
+            document.getElementById("resName").innerText = userName;
+            document.getElementById("resScore").innerText = `To'plangan ball: ${score} / ${totalQuestionsCount}`;
+            document.getElementById("resPercent").innerText = `Foiz ko'rsatkichi: ${percent}%`;
+
+            let displayCat = "Umumiy fanlar";
+            if(selectedCategory === "metrologiya") displayCat = "Metrologiya fani";
+            if(selectedCategory === "standartlashtirish") displayCat = "Standartlashtirish fani";
+            if(selectedCategory === "sertifikatlashtirish") displayCat = "Sertifikatlashtirish fani";
+
+            const statusBox = document.getElementById("resExamStatus");
+            if (percent >= 60) {
+                document.getElementById("certTitle").innerText = "🎉 TABRIKLAYMIZ!";
+                statusBox.innerText = "IMTIHONDAN O'TDI";
+                statusBox.className = "cert-status pass-color";
+                document.getElementById("resDescription").innerText = `${displayCat} bo'yicha o'tkazilgan imtihondan muvaffaqiyatli o'tdi va o'z bilim darajasini tasdiqladi.`;
+            } else {
+                document.getElementById("certTitle").innerText = "😔 AFZUSKI...";
+                statusBox.innerText = "IMTIHONDAN O'TMADI";
+                statusBox.className = "cert-status fail-color";
+                document.getElementById("resDescription").innerText = `${displayCat} bo'yicha imtihondan o'tish uchun ball yetarli bo'lmadi. Quyida qayta urinib ko'rishingiz mumkin.`;
+            }
+        }
+
+        document.getElementById("restartBtn").onclick = function() {
+            window.location.href = "quiz.html?user=" + encodeURIComponent(userName) + "&category=" + selectedCategory;
+        };
+
+        document.getElementById("homeBtn").onclick = function() {
+            window.location.href = "category.html?user=" + encodeURIComponent(userName);
+        };
+
+        initQuiz();
+    </script>
+</body>
+</html>
+
