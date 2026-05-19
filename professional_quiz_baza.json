@@ -1,0 +1,4886 @@
+[
+  {
+    "id": 2,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmenti auditdan nimani baholash uchun foydalaniladi?",
+    "variants": [
+      "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
+      "Ishlarni bajarishda mashg`ul ishchilar miqdorini",
+      "Xodimlar malakasini nazorat qilishni",
+      "Mahsulot ishlab chiqarishni"
+    ],
+    "correct_answer": "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+  },
+  {
+    "id": 3,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmenti tizimi (SMT):",
+    "variants": [
+      "tashkilotga rahbarlik qilish va boshqarish uchun sifatga taalluqli menejment tizimi",
+      "Siyosat va maqsadlarni ishlab chiqish va bu maqsadlarga erishish uchun tizim",
+      "O‘zaro faoliyatdagi va o‘zaroaloqador elementlar majmuasi",
+      "O‘zaro faoliyatdagi va o‘zaroaloqador elementlar majmuasini boshqarish va rahbarlik uchun tizim"
+    ],
+    "correct_answer": "tashkilotga rahbarlik qilish va boshqarish uchun sifatga taalluqli menejment tizimi"
+  },
+  {
+    "id": 4,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmenti tizimining hujjatlari hajmi quyidagilarga bog‘liq:",
+    "variants": [
+      "xodimlarni layoqatligiga",
+      "Mahsulot turiga bog‘liq",
+      "maslahatchilar fikriga",
+      "auditorlar talablariga"
+    ],
+    "correct_answer": "xodimlarni layoqatligiga"
+  },
+  {
+    "id": 5,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmentiga aloqador bo‘lmagan atamani ko‘rsating",
+    "variants": [
+      "Sifat indeksi",
+      "Sifatni boshqarish",
+      "Sifatni ta`minlash, Sifatni yaxshilash",
+      "Sifat, Sifatni loyihalash"
+    ],
+    "correct_answer": "Sifat indeksi"
+  },
+  {
+    "id": 10,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat tizimi auditi natijasida nimani baholash mumkin?",
+    "variants": [
+      "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
+      "Ishlarni bajarishda mashg‘ul ishchilar miqdorini",
+      "Xodimlar malakasini nazorat qilishni",
+      "Audit o‘tkazuvchi shaxslarni"
+    ],
+    "correct_answer": "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+  },
+  {
+    "id": 11,
+    "category": "sertifikatlashtirish",
+    "question": "Sifatga bo‘lgan talablarni bajarilganligiga ishonch hosil qilishga yo‘naltirilgan sifat menejmenti qismi, bu:",
+    "variants": [
+      "Sifatni rejalashtirish",
+      "Sifatni ta`minlash",
+      "Ko‘maklashuvchi (qo‘llab-quvvatlovchi) jarayon",
+      "Sifatni yaxshilash"
+    ],
+    "correct_answer": "Sifatni rejalashtirish"
+  },
+  {
+    "id": 14,
+    "category": "sertifikatlashtirish",
+    "question": "SMT jarayonli yondoshish quyidagilar uchun qo‘llaniladi:",
+    "variants": [
+      "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun",
+      "talablarni tushunish va bajarish",
+      "jarayonlarni tizimli boshqarish uchun",
+      "SMT jarayonlari hujjatlarini ishlab chiqish"
+    ],
+    "correct_answer": "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun"
+  },
+  {
+    "id": 15,
+    "category": "sertifikatlashtirish",
+    "question": "SMT rejalashtirish quyidagi maqsadlar uchun o‘tkaziladi:",
+    "variants": [
+      "ISO 9001 4.1 b. talablarini bajarish",
+      "ishlab chiqarishni yuritish",
+      "sifat ta’minlash",
+      "Ish bilan ta’minlash"
+    ],
+    "correct_answer": "ISO 9001 4.1 b. talablarini bajarish"
+  },
+  {
+    "id": 17,
+    "category": "sertifikatlashtirish",
+    "question": "SMT hujjatlariga quyidagilar kiradi:",
+    "variants": [
+      "ISO 9001 standarti talab qilgan hujjatlar",
+      "sifat sohasidagi siyosat",
+      "SMT prosedura hujjatlari",
+      "sifat bo‘yicha qo‘llanma"
+    ],
+    "correct_answer": "ISO 9001 standarti talab qilgan hujjatlar"
+  },
+  {
+    "id": 22,
+    "category": "sertifikatlashtirish",
+    "question": "Tashkilotning ishlashi uchun zaruriy bino, qurilmalar va xizmatni ta`minlash,",
+    "variants": [
+      "Infratuzilma",
+      "Ishlab chiqarish muhiti",
+      "Tashkilot konfiguratsiyasi",
+      "Tashkillashtirish"
+    ],
+    "correct_answer": "Infratuzilma"
+  },
+  {
+    "id": 23,
+    "category": "sertifikatlashtirish",
+    "question": "Tashkilotning sifat sohasidagi umumiy maqsadlari va yo‘nalishini yuqori rahbariyat rasmiy ravishda tuzadi",
+    "variants": [
+      "Sifat sohasidagi siyosat",
+      "Tashkilot vazifalari",
+      "Tashkilot rahbariyatining his etishi",
+      "Tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
+    ],
+    "correct_answer": "Sifat sohasidagi siyosat"
+  },
+  {
+    "id": 24,
+    "category": "sertifikatlashtirish",
+    "question": "Uchinchi tomon auditi bu:",
+    "variants": [
+      "Mustaqil tashkilot auditi",
+      "Mijoz yoki buyurtmachi auditi",
+      "Ichki audit",
+      "Iste`molchlar auditi"
+    ],
+    "correct_answer": "Mustaqil tashkilot auditi"
+  },
+  {
+    "id": 26,
+    "category": "sertifikatlashtirish",
+    "question": "Jarayonli yonloshuv SMT da quyidagilar uchun qo`llaniladi:",
+    "variants": [
+      "SMT jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish",
+      "Korxona faoliyatini aniqlash uchun",
+      "Jarayonga kirish va chiqishlarini belgilash uchun",
+      "talablarni bajarish va boshqarish"
+    ],
+    "correct_answer": "SMT jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish"
+  },
+  {
+    "id": 27,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001 talablari bo`yicha qanday ma’lumotlar tahlil qilinishi kerak?",
+    "variants": [
+      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
+      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi bo`yicha",
+      "o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
+      "Ekologik ta’sirlar to`g`risidagi ma’lumotlar"
+    ],
+    "correct_answer": "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha"
+  },
+  {
+    "id": 28,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001 xalqaro standarti talablariga muvofiqlik sertifikati quyidagilarga xizmat qiladi",
+    "variants": [
+      "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
+      "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi",
+      "Mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
+      "Iste’molchilarga sotib olinayotgan mahsulot muvofiqligiga ishonch hosil qiladi"
+    ],
+    "correct_answer": "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi"
+  },
+  {
+    "id": 29,
+    "category": "sertifikatlashtirish",
+    "question": "Ishlab chiqarishni boshqariladigan sharoitlariga zarur bo`lganda quyidagilar kirishi kerak:",
+    "variants": [
+      "mahsulotni tavsiflarini belgilovchi axborotni mavjudligini",
+      "tekshiruv qo‘llanishini",
+      "monitoring o‘tkazishni",
+      "o‘lchashlarni o‘tkazishni"
+    ],
+    "correct_answer": "mahsulotni tavsiflarini belgilovchi axborotni mavjudligini"
+  },
+  {
+    "id": 31,
+    "category": "sertifikatlashtirish",
+    "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti sakkizta tamoyili bo`lib hisoblanmaydi?",
+    "variants": [
+      "Samarali kommunikasiya",
+      "Xodimlarni jalb qilish",
+      "Menejmentga tizimli yondashish",
+      "Iste’molchilarga qarab ish ko`rish"
+    ],
+    "correct_answer": "Samarali kommunikasiya"
+  },
+  {
+    "id": 32,
+    "category": "sertifikatlashtirish",
+    "question": "Ko`rsatilganlarni qay biri ISO 9001 talablariga taalluqli emas:",
+    "variants": [
+      "oziq-ovqat mahsulotlarini nazorat nuqtalarini aniqlash",
+      "iste’molchining qanoatlanganligi haqida axborotni olish va undan foydalanish usullarini aniqlashi zarur",
+      "iste’molchilarning qanoatlanganliklarini oshirish uchun ularni talablarini aniqlanish va bajarilishini ta’minlash",
+      "mahsulotga tegishli qonun hujjatlari talablarini aniqlashi"
+    ],
+    "correct_answer": "oziq-ovqat mahsulotlarini nazorat nuqtalarini aniqlash"
+  },
+  {
+    "id": 34,
+    "category": "sertifikatlashtirish",
+    "question": "Quyida sanab o`tilgan usullardan qaysi biri iste’molchilarni qanoatlanganligini kuzatish borish uchun tashkilot tomonidan qo`llanilishi kerak:",
+    "variants": [
+      "anketa yoki turli so`rovlar o`tkazish usullari",
+      "so`rov o`tkazish",
+      "boshqa usullar",
+      "anketa tarqatish"
+    ],
+    "correct_answer": "anketa yoki turli so`rovlar o`tkazish usullari"
+  },
+  {
+    "id": 38,
+    "category": "sertifikatlashtirish",
+    "question": "Me’yoriy hujjatlarning qanday ko`rsatkichlar majburiy talablarga tegishli bo`ladi?",
+    "variants": [
+      "Barcha talablar",
+      "Faqat xavfsizlik, o`zaroalmashinuvchanlik va moslashuvchanlik talablar",
+      "Xavfsizlik, atrof-muhitni muhofazalash, moslashuvchanlik, o`zaroalmashinuvchanlik, resurslarni tejamkorligi, nazorat va tamg`alash usullarining yagonaligi talablari",
+      "Faqat nazorat va tamg`alash usullarining yagonalik talablari"
+    ],
+    "correct_answer": "Barcha talablar"
+  },
+  {
+    "id": 42,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat tizimi auditi natijasida nimani baholash mumkin?",
+    "variants": [
+      "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
+      "Ishlarni bajarishda mashg‘ul ishchilar miqdorini",
+      "Xodimlar malakasini nazorat qilishni",
+      "Audit o‘tkazuvchi shaxslarni"
+    ],
+    "correct_answer": "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+  },
+  {
+    "id": 43,
+    "category": "sertifikatlashtirish",
+    "question": "Sifatga bo`lgan talablarni bajarilganligiga ishonch hosil qilishga yo`naltirilgan sifat menejmenti qismi, bu:",
+    "variants": [
+      "Sifatni rejalashtirish",
+      "Sifatni ta`minlash",
+      "Ko‘maklashuvchi (qo‘llab-quvvatlovchi) jarayon",
+      "Sifatni yaxshilash"
+    ],
+    "correct_answer": "Sifatni rejalashtirish"
+  },
+  {
+    "id": 46,
+    "category": "sertifikatlashtirish",
+    "question": "SMT jarayonli yondoshish quyidagilar uchun qo`llaniladi:",
+    "variants": [
+      "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun",
+      "talablarni tushunish va bajarish",
+      "jarayonlarni tizimli boshqarish uchun",
+      "SMT jarayonlari hujjatlarini ishlab chiqish"
+    ],
+    "correct_answer": "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun"
+  },
+  {
+    "id": 47,
+    "category": "sertifikatlashtirish",
+    "question": "SMT rejalashtirish quyidagi maqsadlar uchun o`tkaziladi:",
+    "variants": [
+      "ISO 9001 4.1 b. talablarini bajarish",
+      "ishlab chiqarishni yuritish",
+      "sifat ta’minlash",
+      "Ish bilan ta’minlash"
+    ],
+    "correct_answer": "ISO 9001 4.1 b. talablarini bajarish"
+  },
+  {
+    "id": 49,
+    "category": "sertifikatlashtirish",
+    "question": "SMT hujjatlariga quyidagilar kiradi:",
+    "variants": [
+      "ISO 9001 standarti talab qilgan hujjatlar",
+      "sifat sohasidagi siyosat",
+      "SMT prosedura hujjatlari",
+      "sifat bo‘yicha qo‘llanma"
+    ],
+    "correct_answer": "ISO 9001 standarti talab qilgan hujjatlar"
+  },
+  {
+    "id": 50,
+    "category": "sertifikatlashtirish",
+    "question": "Tashkilotning sifat sohasidagi umumiy maqsadlari va yo`nalishini yuqori rahbariyat rasmiy ravishda tuzadi",
+    "variants": [
+      "Sifat sohasidagi siyosat",
+      "Tashkilot vazifalari",
+      "Tashkilot rahbariyatining his etishi",
+      "Tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
+    ],
+    "correct_answer": "Sifat sohasidagi siyosat"
+  },
+  {
+    "id": 51,
+    "category": "sertifikatlashtirish",
+    "question": "O‘z DSt ISO 9001:2009 talabi bo`yicha tashkilotda nechta hujjatlashtirilgan prosedura bo`lishi lozim?",
+    "variants": [
+      "20",
+      "12",
+      "6",
+      "8"
+    ],
+    "correct_answer": "20"
+  },
+  {
+    "id": 52,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001: 2015 standarti asosida boshqarishning qanchalik ko'p printsiplari mavjud?",
+    "variants": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "correct_answer": "7"
+  },
+  {
+    "id": 53,
+    "category": "sertifikatlashtirish",
+    "question": "SMT jarayonli yondoshish quyidagilar uchun qo`llaniladi:",
+    "variants": [
+      "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun",
+      "talablarni tushunish va bajarish",
+      "jarayonlarni tizimli boshqarish uchun",
+      "SMT jarayonlari hujjatlarini ishlab chiqish"
+    ],
+    "correct_answer": "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun"
+  },
+  {
+    "id": 54,
+    "category": "sertifikatlashtirish",
+    "question": "SMT hujjatlariga quyidagilar kiradi:",
+    "variants": [
+      "ISO 9001 standarti talab qilgan hujjatlar",
+      "sifat sohasidagi siyosat",
+      "SMT prosedura hujjatlari",
+      "sifat bo‘yicha qo‘llanma"
+    ],
+    "correct_answer": "ISO 9001 standarti talab qilgan hujjatlar"
+  },
+  {
+    "id": 55,
+    "category": "sertifikatlashtirish",
+    "question": "SMT rejalashtirish quyidagi maqsadlar uchun o`tkaziladi:",
+    "variants": [
+      "ISO 9001 4.1 b. talablarini bajarish",
+      "ishlab chiqarishni yuritish",
+      "sifat ta’minlash",
+      "Ish bilan ta’minlash"
+    ],
+    "correct_answer": "ISO 9001 4.1 b. talablarini bajarish"
+  },
+  {
+    "id": 56,
+    "category": "sertifikatlashtirish",
+    "question": "PDCA siklining ma'nosi nima?",
+    "variants": [
+      "Rejalashtirish – Bajarish – Tekshirish – Yahshilash",
+      "Rejalashtirish –– Yahshilash -Tekshirish - Bajarish",
+      "Rejalashtirish – Tekshirish – Yahshilash - Bajarish",
+      "Rejalashtirish – Yahshilash - Bajarish - Tekshirish"
+    ],
+    "correct_answer": "Rejalashtirish – Bajarish – Tekshirish – Yahshilash"
+  },
+  {
+    "id": 57,
+    "category": "sertifikatlashtirish",
+    "question": "Ko`rsatilganlarni qay biri ISO 9001 talablariga taalluqli:",
+    "variants": [
+      "mahsulotga tegishli qonun hujjatlari talablarini aniqlashi",
+      "iste’molchining qanoatlanganligi haqida axborotni olish",
+      "iste’molchilarning talablarini bajarilishini ta’minlash",
+      "iste’molchilarning talablariga moslashish"
+    ],
+    "correct_answer": "mahsulotga tegishli qonun hujjatlari talablarini aniqlashi"
+  },
+  {
+    "id": 58,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001: 2015 standarti ziddiyatsizlik, yorug'lik, namlik, gigiena kabi omillarni o'z ichiga oladi?",
+    "variants": [
+      "Rejalashtirish",
+      "Inson resurslari",
+      "Infrastruktura",
+      "Jarayonlarning ishlashi uchun muhit"
+    ],
+    "correct_answer": "Rejalashtirish"
+  },
+  {
+    "id": 59,
+    "category": "sertifikatlashtirish",
+    "question": "Qaysi hujjat ISO 9001: 2015 tomonidan talab qilinmaydi?",
+    "variants": [
+      "Hujjatlashtirilgan ma’lumotlar",
+      "Sifat sohasidagi maqsadlar",
+      "Sifat siyosati",
+      "Sifat bo'yicha qo'llanma"
+    ],
+    "correct_answer": "Hujjatlashtirilgan ma’lumotlar"
+  },
+  {
+    "id": 60,
+    "category": "sertifikatlashtirish",
+    "question": "Qaysi atama ISO 9001: 2015 talablariga mos kelmaydi?",
+    "variants": [
+      "Tuzatish",
+      "Hujjatlashtirilgan ma’lumotlar",
+      "Ogohlantiruvchi choralar",
+      "Tuzatuvchi choralar"
+    ],
+    "correct_answer": "Tuzatish"
+  },
+  {
+    "id": 61,
+    "category": "sertifikatlashtirish",
+    "question": "Korxonada ishlab chiqarilayotgan davlat standartlariga muvofiqligi nazorati bo`yicha ishlarni tashkillashtirish va uzoq muddatli sifatni boshqarish qaysi atama bilan ta’riflangan?",
+    "variants": [
+      "sifatni boshqarish",
+      "yalpi sifatni boshqarish",
+      "sertifikatlashtirish",
+      "standartlashtirish"
+    ],
+    "correct_answer": "sifatni boshqarish"
+  },
+  {
+    "id": 62,
+    "category": "sertifikatlashtirish",
+    "question": "62.Korxonani ISO 9001 standartiga muvofiq nimani sertifikatlashtiradi?",
+    "variants": [
+      "Boshqarish tizimini",
+      "Ishlab chiqarishni",
+      "Mahsulotlarni",
+      "Xizmatlarni"
+    ],
+    "correct_answer": "Boshqarish tizimini"
+  },
+  {
+    "id": 63,
+    "category": "sertifikatlashtirish",
+    "question": "Qaysi bo'lim ISO 9001: 2015 standartida birinchi marta paydo bo'ldi?",
+    "variants": [
+      "Sifat sohasidagi maqsadlar",
+      "Ichki audit",
+      "Identifikatsiya va kuzatilinmoq",
+      "Tashkilotni ichki bilimlar"
+    ],
+    "correct_answer": "Sifat sohasidagi maqsadlar"
+  },
+  {
+    "id": 64,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001: 2015 standartining qaysi qismiga  ta'minot masalalari tegishli?",
+    "variants": [
+      "Resurslar",
+      "Tashqi ta'minot bilan ta'minlangan jarayonlarni, mahsulotlarni va xizmatlarni boshqarish",
+      "Mahsulotlar va xizmatlarga qo'yiladigan talablar",
+      "Ishlab chiqarishni"
+    ],
+    "correct_answer": "Resurslar"
+  },
+  {
+    "id": 65,
+    "category": "sertifikatlashtirish",
+    "question": "Tashkilot  ISO 9001: 2015 standartining ba'zi talablarini qo'llamasligi mumkunmi?",
+    "variants": [
+      "Mumkun, agarda amaldagi talablar mahsulotning / xizmatlarning sifatiga ta'sir etmasa",
+      "Barcha hollarda mumkin",
+      "Mumkun, lekin faqat 7 qismdan",
+      "Tashkilot standartning barcha talablarini qo'llashi kerak"
+    ],
+    "correct_answer": "Mumkun, agarda amaldagi talablar mahsulotning / xizmatlarning sifatiga ta'sir etmasa"
+  },
+  {
+    "id": 66,
+    "category": "sertifikatlashtirish",
+    "question": "Tashkilotni maqsadlarini ishlab chiqish va unga erishishga ichki va tashki omillarni birgalikdagi ta’siri – bu nima?",
+    "variants": [
+      "Tashkilotni muhiti (context)",
+      "Manfaatdor tomonlar.",
+      "Tashkilotni maqsadlari.",
+      "Havf (risk) va imkoniyatlar"
+    ],
+    "correct_answer": "Tashkilotni muhiti (context)"
+  },
+  {
+    "id": 67,
+    "category": "sertifikatlashtirish",
+    "question": "Tashkilotning sifat siyosati bo'lishi kerak (Qaysi biri ortiqcha?):",
+    "variants": [
+      "tashkilot veb-saytida joylashtirilgan bo’lish kerak;",
+      "foydalishga oson bo’lish kerak va hujjatlashtirilgan axborot sifatida ko'llanish kerak;",
+      "xodimlarga ma’lum kilingan, tushunarli va tashkilot ichida qo’llaniladigan bo’lish;",
+      "tegishli manfaafdor tomonlar uchun kulay usulda tushunarli bo’lish kerak"
+    ],
+    "correct_answer": "tashkilot veb-saytida joylashtirilgan bo’lish kerak;"
+  },
+  {
+    "id": 68,
+    "category": "sertifikatlashtirish",
+    "question": "Uchinchi tomon auditi bu:",
+    "variants": [
+      "Mustaqil tashkilot auditi",
+      "Mijoz yoki buyurtmachi auditi",
+      "Ichki audit",
+      "Iste`molchlar auditi"
+    ],
+    "correct_answer": "Mustaqil tashkilot auditi"
+  },
+  {
+    "id": 69,
+    "category": "sertifikatlashtirish",
+    "question": "Tashkilotning ishlashi uchun zaruriy bino, qurilmalar va xizmatni ta’minlash, bu:",
+    "variants": [
+      "Infratuzilma",
+      "Ishlab chiqarish muhiti",
+      "Tashkilot konfiguratsiyasi",
+      "Tashkillashtirish"
+    ],
+    "correct_answer": "Infratuzilma"
+  },
+  {
+    "id": 70,
+    "category": "sertifikatlashtirish",
+    "question": "Maxsus jarayonlar - bu:",
+    "variants": [
+      "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar",
+      "xavfli jarayonlar",
+      "yangi texnologiyalar qo’llangan jarayonlar",
+      "murakkab jarayonlar"
+    ],
+    "correct_answer": "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar"
+  },
+  {
+    "id": 71,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001 talablari bo’yicha qanday ma’lumotlar tahlil qilinishi kerak?",
+    "variants": [
+      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
+      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi bo`yicha",
+      "o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
+      "Ekologik ta’sirlar to`g`risidagi ma’lumotlar"
+    ],
+    "correct_answer": "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha"
+  },
+  {
+    "id": 73,
+    "category": "sertifikatlashtirish",
+    "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti tamoyili (prinsip) bo’lib hisoblanmaydi?",
+    "variants": [
+      "Samarali boshqarish",
+      "Menejmentga jarayonli yondashish",
+      "Xodimlarni jalb qilish",
+      "Iste’molchilarga qarab ish ko’rish"
+    ],
+    "correct_answer": "Samarali boshqarish"
+  },
+  {
+    "id": 74,
+    "category": "sertifikatlashtirish",
+    "question": "Ichki auditni kim o’tkazadi?",
+    "variants": [
+      "Korxonaning o’qigan xodimi",
+      "Korxona direktori",
+      "Sertifikatlashtirish idorasi xodimi",
+      "Yuqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "Korxonaning o’qigan xodimi"
+  },
+  {
+    "id": 75,
+    "category": "sertifikatlashtirish",
+    "question": "Kim tomonidan sifat menejmenti tizimini belgilangan oraliq davomida tahlil qilishi lozim?",
+    "variants": [
+      "Korxonaning yuqori rahbariyati",
+      "Auditorlar guruhi rahbari",
+      "Sertifikatlashtirish idorasi",
+      "Yuqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "Korxonaning yuqori rahbariyati"
+  },
+  {
+    "id": 76,
+    "category": "sertifikatlashtirish",
+    "question": "“Jarayon” atamasi nimani anglatadi?",
+    "variants": [
+      "Kirishlarni chiqishlarga o’zgartiruvchi o’zaroaloqada va o’zarofaoliyatda harakatlar turlarining yig’indisi",
+      "Qo’yilgan sohadagi maksadlarga erishish uchun bajariladigan ishlar",
+      "Iste’molchigi mahsulotni etkazish bo’yicha faoliyat",
+      "Yuqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "Kirishlarni chiqishlarga o’zgartiruvchi o’zaroaloqada va o’zarofaoliyatda harakatlar turlarining yig’indisi"
+  },
+  {
+    "id": 77,
+    "category": "sertifikatlashtirish",
+    "question": "1950 yillarda Nuqsonsiz Mahslot Tayyorlash (BIP) tashkillashtirish qanday tizimi qo’llanila boshladi?",
+    "variants": [
+      "Saratov",
+      "Kaliningrad",
+      "Leningrad",
+      "Volgograd"
+    ],
+    "correct_answer": "Saratov"
+  },
+  {
+    "id": 78,
+    "category": "sertifikatlashtirish",
+    "question": "«Sifatning ikkita jihati mavjud: xolisona fizikaviy tavsifi va sub’ektiv tomoni:",
+    "variants": [
+      "Shuxart",
+      "Djuran Dj.M.",
+      "Isikava",
+      "Teylor"
+    ],
+    "correct_answer": "Shuxart"
+  },
+  {
+    "id": 79,
+    "category": "sertifikatlashtirish",
+    "question": "qanchalik “yaxshi”narsa».",
+    "variants": [
+      "Shuxart",
+      "Djuran Dj.M.",
+      "Isikava",
+      "Teylor"
+    ],
+    "correct_answer": "Shuxart"
+  },
+  {
+    "id": 81,
+    "category": "sertifikatlashtirish",
+    "question": "Qaysi bo'lim birinchi marta 9001: 2015 standartiga kiritilgan?",
+    "variants": [
+      "Rejalashtirish",
+      "Resurslar Menejmenti",
+      "Rahbariatning javobgarligi",
+      "Hujjatlarni boshqarish"
+    ],
+    "correct_answer": "Rejalashtirish"
+  },
+  {
+    "id": 82,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat xalqqasi (spiral) elementlarida qaysi biri yo’q:",
+    "variants": [
+      "Sifatni boshqarish",
+      "Marketing va bozorni o'rganish",
+      "Mahsulotni ishlab chikarish",
+      "Qadoqlash va saqlash"
+    ],
+    "correct_answer": "Sifatni boshqarish"
+  },
+  {
+    "id": 83,
+    "category": "sertifikatlashtirish",
+    "question": "Rahbariat tomonidan tahlilning chiqish ma’lumotlari quydagilarga tegishli karor va harakatlarni o’z ichiga oladi. Qaysi biri ortiqcha?",
+    "variants": [
+      "Xodimlarni malakasini  oshirish",
+      "Yahshilash uchun imkoniyatlar.",
+      "Sifat Menejment Tizimning har qanday o’zgartirishlar.",
+      "Resurslarga bo'lgan ehtiyoj"
+    ],
+    "correct_answer": "Xodimlarni malakasini  oshirish"
+  },
+  {
+    "id": 84,
+    "category": "sertifikatlashtirish",
+    "question": "O‘z DSt ISO/IEC 17021 standartida qaysi bo’lim yoq?",
+    "variants": [
+      "Hujjatlarga talablar",
+      "Tuzilmasiga talablar",
+      "Resurslarga talablar",
+      "Jarayonlarga talablar"
+    ],
+    "correct_answer": "Hujjatlarga talablar"
+  },
+  {
+    "id": 85,
+    "category": "sertifikatlashtirish",
+    "question": "O’ziga xos xususiy talablar majmuini bajarilishi – bu nima?:",
+    "variants": [
+      "sifat",
+      "natijaviylik",
+      "samaradorlik",
+      "ishlab chiqaruvchanlik"
+    ],
+    "correct_answer": "sifat"
+  },
+  {
+    "id": 86,
+    "category": "sertifikatlashtirish",
+    "question": "Belgilangan talablarning bajarilganligini ob’ektiv dalillar keltirish yo’li  bilan  tasdiqlash bu nima?",
+    "variants": [
+      "Verifikatlash",
+      "Inspeksiya",
+      "Sinash",
+      "Validatlash"
+    ],
+    "correct_answer": "Verifikatlash"
+  },
+  {
+    "id": 87,
+    "category": "sertifikatlashtirish",
+    "question": "Aniq \tmaqsadlarga \tfoydalanish \tyoki \tqo’llanish \tuchun \tmo’ljallangan talablarning bajarilganligi ob’ektiv dalillar keltirish yo’li  bilan  tasdiqlash bu nima?",
+    "variants": [
+      "Validatlash",
+      "Inspeksiya",
+      "Verifikatlash",
+      "Sinash"
+    ],
+    "correct_answer": "Validatlash"
+  },
+  {
+    "id": 88,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat tizimi auditi natijasida nimani baholash mumkin?",
+    "variants": [
+      "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
+      "Ishlarni bajarishda mashg‘ul ishchilar miqdorini",
+      "Xodimlar malakasini nazorat qilishni",
+      "Audit o‘tkazuvchi shaxslarni"
+    ],
+    "correct_answer": "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+  },
+  {
+    "id": 89,
+    "category": "sertifikatlashtirish",
+    "question": "Talablarni bajarilish layoqatini oshirish bo‘yicha qaytariluvchi faoliyat",
+    "variants": [
+      "Doimiy yaxshilash",
+      "Sifatni yaxshilash",
+      "Biznes-jarayon",
+      "Sifatni ta’minlash"
+    ],
+    "correct_answer": "Doimiy yaxshilash"
+  },
+  {
+    "id": 90,
+    "category": "sertifikatlashtirish",
+    "question": "Tashkilotning sifat sohasidagi umumiy maqsadlari va yo‘nalishini yuqori rahbariyat rasmiy ravishda tuzadi",
+    "variants": [
+      "Sifat sohasidagi siyosat",
+      "Tashkilot vazifalari",
+      "Tashkilot rahbariyatining his etishi",
+      "Tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
+    ],
+    "correct_answer": "Sifat sohasidagi siyosat"
+  },
+  {
+    "id": 91,
+    "category": "sertifikatlashtirish",
+    "question": "O‘ziga xos xususiy talablar majmuini bajarilishi:",
+    "variants": [
+      "natijaviylik",
+      "Sifat, samaradorlik",
+      "ishlab chiqaruvchanlik",
+      "Iste’molchining talablari bajarilishi va qoniqishi"
+    ],
+    "correct_answer": "natijaviylik"
+  },
+  {
+    "id": 93,
+    "category": "sertifikatlashtirish",
+    "question": "«Talab» deganda nima tushuniladi?",
+    "variants": [
+      "Qandaydir majburiy bo‘lgan yoki ixtiyoriy kutilgan va o‘rnatilgan ehtiyoj yoki kutilmalar",
+      "Qandaydir oddiy kutilgan yoki o‘rnatilgan me’yorlar",
+      "Qandaydir majburiy bo‘lgan va o‘rnatilgan ehtiyojlar",
+      "Qandaydir kutilayotgan yoki o‘rnatilgan ehtiyoj"
+    ],
+    "correct_answer": "Qandaydir majburiy bo‘lgan yoki ixtiyoriy kutilgan va o‘rnatilgan ehtiyoj yoki kutilmalar"
+  },
+  {
+    "id": 94,
+    "category": "sertifikatlashtirish",
+    "question": "93.O‘z DSt ISO 9001:2009 talabi bo‘yicha tashkilotda nechta hujjatlashtirilgan protsedura bo‘lishi lozim?",
+    "variants": [
+      "6",
+      "20",
+      "12",
+      "8"
+    ],
+    "correct_answer": "6"
+  },
+  {
+    "id": 95,
+    "category": "sertifikatlashtirish",
+    "question": "Maxsus jarayonlar - bu:",
+    "variants": [
+      "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar",
+      "xavfli jarayonlar",
+      "yangi texnologiyalar qo’llangan jarayonlar",
+      "murakkab jarayonlar"
+    ],
+    "correct_answer": "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar"
+  },
+  {
+    "id": 96,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001 talablari bo‘yicha qanday ma’lumotlar tahlil qilinishi kerak?",
+    "variants": [
+      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
+      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi bo`yicha",
+      "o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
+      "Ekologik ta’sirlar to`g`risidagi ma’lumotlar"
+    ],
+    "correct_answer": "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha"
+  },
+  {
+    "id": 97,
+    "category": "sertifikatlashtirish",
+    "question": "Ishlab chiqarishni boshqariladigan sharoitlariga zarur bo‘lganda quyidagilar kirishi kerak:",
+    "variants": [
+      "mahsulotni tavsiflarini belgilovchi axborotni mavjudligini",
+      "tekshiruv qo‘llanishini",
+      "monitoring o‘tkazishni",
+      "o‘lchashlarni o‘tkazishni"
+    ],
+    "correct_answer": "mahsulotni tavsiflarini belgilovchi axborotni mavjudligini"
+  },
+  {
+    "id": 98,
+    "category": "sertifikatlashtirish",
+    "question": "Quyida sanab o‘tilgan usullardan kaysi biri iste’molchilarni kanoatlanganligini kuzatish borish uchun tashkilot tomonidan qo‘llanilishi kerak:",
+    "variants": [
+      "anketa tarqatish",
+      "suxbat o‘tkazish",
+      "reklama",
+      "anketa va reklama"
+    ],
+    "correct_answer": "anketa tarqatish"
+  },
+  {
+    "id": 100,
+    "category": "sertifikatlashtirish",
+    "question": "Quyidagi sanab o‘tilganlardan qaysi biri infratuzilmaga kiritilishi shart?",
+    "variants": [
+      "imoratlar, ishlab chiqarish xonalari va ular bilan bog`liq bo`lgan vositalar",
+      "ishlab chiqarish jarayonlari uchun qurilmalar",
+      "transport va aloqa vositalari",
+      "Moliyaviy holati"
+    ],
+    "correct_answer": "imoratlar, ishlab chiqarish xonalari va ular bilan bog`liq bo`lgan vositalar"
+  },
+  {
+    "id": 101,
+    "category": "sertifikatlashtirish",
+    "question": "Qaysi hollarda to‘g‘rilovchi amallar joriy qilinadi:",
+    "variants": [
+      "o‘rnatilgan talablar bajarilmaganda",
+      "jarayonlar belgilangan maqsadlarga erishganda",
+      "auditdan oldin",
+      "yuqoridan buyruq asosida"
+    ],
+    "correct_answer": "o‘rnatilgan talablar bajarilmaganda"
+  },
+  {
+    "id": 102,
+    "category": "sertifikatlashtirish",
+    "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti sakkizta tamoyili bo‘lib hisoblanmaydi?",
+    "variants": [
+      "Samarali kommunikasiya",
+      "Xodimlarni jalb qilish",
+      "Menejmentga tizimli yondashish",
+      "Iste’molchilarga qarab ish ko`rish"
+    ],
+    "correct_answer": "Samarali kommunikasiya"
+  },
+  {
+    "id": 104,
+    "category": "sertifikatlashtirish",
+    "question": "Auditga bo‘linmalardan imkoni boricha kimlar jalb qilinishi lozim?",
+    "variants": [
+      "O‘qigan va attestatlangan auditorlar",
+      "Bo‘linmaning mutaxassislari",
+      "Boshqa bo‘linma mutaxassislari",
+      "YUqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "O‘qigan va attestatlangan auditorlar"
+  },
+  {
+    "id": 105,
+    "category": "sertifikatlashtirish",
+    "question": "Yakuniy yig‘ilish o‘tkazish lozim:",
+    "variants": [
+      "barcha holatlarda",
+      "faqat audit jarayonida nomuvofiqliklar aniqlangan holatlarda",
+      "faqat audit dasturida keltirilgan bo‘lsa",
+      "yuqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "barcha holatlarda"
+  },
+  {
+    "id": 106,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmenti tizimining “Iste’molchiga mo‘ljallab ish yuritish” tamoyili tamoyili quyidagi ma’noni anglatadi:",
+    "variants": [
+      "iste’molchilarning joriy va kelgusidagi ehtiyojlarini tushunish, bu talablarini bajarish",
+      "reklamatsiya va shikoyatlar bo‘yicha iste’molchilar bilan ishlash",
+      "shartnoma asosida iste’mochilar bilan o‘zaro faoliyat",
+      "YUqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "iste’molchilarning joriy va kelgusidagi ehtiyojlarini tushunish, bu talablarini bajarish"
+  },
+  {
+    "id": 107,
+    "category": "sertifikatlashtirish",
+    "question": "Saratov tizimi BIP foydalanishda korxonada mahslot sifatini nazoratining qanday usuli asosiy bo‘lib hisoblanadi?",
+    "variants": [
+      "tanlanma",
+      "yoppasiga",
+      "Nazorat mavjud emas",
+      "O‘z-o‘zini tekshirish"
+    ],
+    "correct_answer": "tanlanma"
+  },
+  {
+    "id": 108,
+    "category": "sertifikatlashtirish",
+    "question": "Mahsulot sifatini boshqarishning kompleks tizimini qo‘llashning asosiy me’zoni nima bo‘lib hisoblanadi?",
+    "variants": [
+      "fan va texnikaning yuqori darajasiga erishishga mahsulot sifatining muvofiqligi",
+      "O‘rnatilgan talablarga mehnat natijalarining sifatiga muvofiqligi",
+      "Rejalashtirilgan qiymatga erishilgan motoresurslar darajasiga muvofiqligi",
+      "O‘rnatilgan talablarga birinchi sanoatbuyumlarining sifatiga muvofiqligi"
+    ],
+    "correct_answer": "fan va texnikaning yuqori darajasiga erishishga mahsulot sifatining muvofiqligi"
+  },
+  {
+    "id": 109,
+    "category": "sertifikatlashtirish",
+    "question": "Mahsulot sifatini boshqarishning qaysi tizimi maqsadi  ishlab chiqarilayotgan mahsulotning a’lo sifatli, yuqori mustahkamlik va uzoq muddatligini ta’minlash bo‘lib hisoblangan?",
+    "variants": [
+      "KANARSPI",
+      "NORM",
+      "BIP",
+      "SBT"
+    ],
+    "correct_answer": "KANARSPI"
+  },
+  {
+    "id": 110,
+    "category": "sertifikatlashtirish",
+    "question": "Mahsulot sifatini boshqarishning qaysi tizimi tadqiqot qilish, loyihalashtirish va ekspluatatsiya bosqichlarida ko‘p turdagi ishlarni qamrab olgan?",
+    "variants": [
+      "KSUKP",
+      "KANARSPI",
+      "NORM",
+      "BIP"
+    ],
+    "correct_answer": "KSUKP"
+  },
+  {
+    "id": 111,
+    "category": "sertifikatlashtirish",
+    "question": "Korxonadi ishlab chiqarilayotgan davlat standartlariga muvofiqligi nazorati bo‘yicha ishlarni tashkillashtirish va uzoq muddatli sifatni boshqarish qaysi atama bilan ta’riflangan?",
+    "variants": [
+      "sifatni boshqarish",
+      "YAlpi sifatni boshqarish",
+      "sertifikatlashtirish",
+      "standartlashtrish"
+    ],
+    "correct_answer": "sifatni boshqarish"
+  },
+  {
+    "id": 112,
+    "category": "sertifikatlashtirish",
+    "question": "Qaysi atama bilan korxonaning ichki faoliyati jarayonlari yoki faoliyat natijasini belgilash qabul qilingan?",
+    "variants": [
+      "tizim",
+      "mahsulot",
+      "xizmat",
+      "ob’ekt"
+    ],
+    "correct_answer": "tizim"
+  },
+  {
+    "id": 113,
+    "category": "sertifikatlashtirish",
+    "question": "Sifatga umumiy rahbarlikni amalga oshirish uchun zaruriy resurslar, jarayonlar, usullar va tashkiliytuzilmalarning majmuasi nimani anglatadi?",
+    "variants": [
+      "sifat tizimi",
+      "Sifat darajasi",
+      "Nisbatan sifatli",
+      "jarayon"
+    ],
+    "correct_answer": "sifat tizimi"
+  },
+  {
+    "id": 114,
+    "category": "sertifikatlashtirish",
+    "question": "Akkreditasiya nima? Bu jarayon, biror bir nufuzli idora yordamida rasmiy tan olingan:",
+    "variants": [
+      "Akkreditlayotgan sub’ektlar akkreditlashtirish tizimining me’yoriy hujjatlari talablariga muvofiqligi",
+      "Akkreditlayotgan sub’ektlarning texnik kompetentligi",
+      "Huquqiy shaxs yoki muayyan ishni bajaruvchi idora",
+      "Mahsulotlar va xizmatlarni sertifikatlashtirish uchun boshqaruv tizimi"
+    ],
+    "correct_answer": "Akkreditlayotgan sub’ektlar akkreditlashtirish tizimining me’yoriy hujjatlari talablariga muvofiqligi"
+  },
+  {
+    "id": 115,
+    "category": "sertifikatlashtirish",
+    "question": "Jarayonli yonloshuv SMT da quyidagilar uchun qo`llaniladi:",
+    "variants": [
+      "SMT jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish",
+      "Korxona faoliyatini aniqlash uchun",
+      "Jarayonga kirish va chiqishlarini belgilash uchun",
+      "talablarni bajarish va boshqarish"
+    ],
+    "correct_answer": "SMT jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish"
+  },
+  {
+    "id": 116,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001 talablari bo`yicha qanday ma’lumotlar tahlil qilinishi kerak?",
+    "variants": [
+      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
+      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi bo`yicha",
+      "o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
+      "Ekologik ta’sirlar to`g`risidagi ma’lumotlar"
+    ],
+    "correct_answer": "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha"
+  },
+  {
+    "id": 117,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001 xalqaro standarti talablariga muvofiqlik sertifikati quyidagilarga xizmat qiladi",
+    "variants": [
+      "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
+      "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi",
+      "Mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
+      "Iste’molchilarga sotib olinayotgan mahsulot muvofiqligiga ishonch hosil qiladi"
+    ],
+    "correct_answer": "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi"
+  },
+  {
+    "id": 118,
+    "category": "sertifikatlashtirish",
+    "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti sakkizta tamoyili bo`lib hisoblanmaydi?",
+    "variants": [
+      "Samarali kommunikasiya",
+      "Xodimlarni jalb qilish",
+      "Menejmentga tizimli yondashish",
+      "Iste’molchilarga qarab ish ko`rish"
+    ],
+    "correct_answer": "Samarali kommunikasiya"
+  },
+  {
+    "id": 119,
+    "category": "sertifikatlashtirish",
+    "question": "Quyida \tsanab \to`tilgan \tusullardan \tqaysi \tbiri \tiste’molchilarni qanoatlanganligini kuzatish borish uchun tashkilot tomonidan qo`llanilishi kerak:",
+    "variants": [
+      "anketa yoki turli so`rovlar o`tkazish usullari",
+      "so`rov o`tkazish",
+      "boshqa usullar",
+      "anketa tarqatish"
+    ],
+    "correct_answer": "anketa yoki turli so`rovlar o`tkazish usullari"
+  },
+  {
+    "id": 120,
+    "category": "sertifikatlashtirish",
+    "question": "Quyidagi sanab o`tilganlardan qaysi biri infratuzilmaga kiritilishi shart?",
+    "variants": [
+      "imoratlar, ishlab chiqarish xonalari va ular bilan bog`liq bo`lgan vositalar",
+      "ishlab chiqarish jarayonlari uchun qurilmalar",
+      "transport va aloqa vositalari",
+      "Moliyaviy holati"
+    ],
+    "correct_answer": "imoratlar, ishlab chiqarish xonalari va ular bilan bog`liq bo`lgan vositalar"
+  },
+  {
+    "id": 121,
+    "category": "sertifikatlashtirish",
+    "question": "Ko`rsatilganlarni qay biri ISO 9001 talablariga taalluqli emas:",
+    "variants": [
+      "oziq-ovqat mahsulotlarini nazorat nuqtalarini aniqlash",
+      "iste’molchining qanoatlanganligi haqida axborotni olish va undan foydalanish usullarini aniqlashi zarur",
+      "iste’molchilarning qanoatlanganliklarini oshirish uchun ularni talablarini aniqlanish va bajarilishini ta’minlash",
+      "mahsulotga tegishli qonun hujjatlari talablarini aniqlashi"
+    ],
+    "correct_answer": "oziq-ovqat mahsulotlarini nazorat nuqtalarini aniqlash"
+  },
+  {
+    "id": 122,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmenti auditdan nimani baholash uchun foydalaniladi?",
+    "variants": [
+      "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
+      "Ishlarni bajarishda mashg`ul ishchilar miqdorini",
+      "Xodimlar malakasini nazorat qilishni",
+      "Mahsulot ishlab chiqarishni"
+    ],
+    "correct_answer": "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+  },
+  {
+    "id": 123,
+    "category": "sertifikatlashtirish",
+    "question": "SMT jarayonli yondoshish quyidagilar uchun qo`llaniladi:",
+    "variants": [
+      "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun",
+      "talablarni tushunish va bajarish",
+      "jarayonlarni tizimli boshqarish uchun",
+      "SMT jarayonlari hujjatlarini ishlab chiqish"
+    ],
+    "correct_answer": "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun"
+  },
+  {
+    "id": 124,
+    "category": "sertifikatlashtirish",
+    "question": "Foydalanilgan resurslar va natijalarga erishning o`zaro aloqadorligi:",
+    "variants": [
+      "Kommunikatsiya",
+      "Natijaviylik",
+      "Samaradorlik",
+      "YUqorida keltirilganlarni hammasi"
+    ],
+    "correct_answer": "Kommunikatsiya"
+  },
+  {
+    "id": 125,
+    "category": "sertifikatlashtirish",
+    "question": "Xarfli indekslash qaysi standart b o'yicha o'tkazilgan?",
+    "variants": [
+      "ISO 9001-94",
+      "ISO 9000-94",
+      "ISO 9003-95",
+      "ISO 9002-94"
+    ],
+    "correct_answer": "ISO 9001-94"
+  },
+  {
+    "id": 126,
+    "category": "sertifikatlashtirish",
+    "question": "Statistik nazoratning ilmiy usullari kim tomonidan taqdim etilgan?",
+    "variants": [
+      "V.Shuxart",
+      "G.Taguti",
+      "Isikavo",
+      "Deming"
+    ],
+    "correct_answer": "V.Shuxart"
+  },
+  {
+    "id": 127,
+    "category": "sertifikatlashtirish",
+    "question": "1944-yili G.Dodj kim bilan birga ishlagan?",
+    "variants": [
+      "Taguti",
+      "G.Rolming",
+      "Deming",
+      "D.Nayman"
+    ],
+    "correct_answer": "Taguti"
+  },
+  {
+    "id": 128,
+    "category": "sertifikatlashtirish",
+    "question": "Edvard Deming nima bilan shugullangan?",
+    "variants": [
+      "nazoratning statistik usullari",
+      "qabul qiluvchi nazorat",
+      "Sifatni boshqarish",
+      "Togri javob yoq"
+    ],
+    "correct_answer": "nazoratning statistik usullari"
+  },
+  {
+    "id": 129,
+    "category": "sertifikatlashtirish",
+    "question": "Uchinchi tomon auditi bu:",
+    "variants": [
+      "Mustaqil tashkilot auditi",
+      "Mijoz yoki buyurtmachi auditi",
+      "Ichki audit",
+      "Iste`molchlar auditi"
+    ],
+    "correct_answer": "Mustaqil tashkilot auditi"
+  },
+  {
+    "id": 130,
+    "category": "sertifikatlashtirish",
+    "question": "O`ziga xos xususiy talablar majmuini bajarilishi:",
+    "variants": [
+      "natijaviylik",
+      "Sifat, samaradorlik",
+      "ishlab chiqaruvchanlik",
+      "Iste’molchining talablari bajarilishi va qoniqishi"
+    ],
+    "correct_answer": "natijaviylik"
+  },
+  {
+    "id": 131,
+    "category": "sertifikatlashtirish",
+    "question": "Tashkilotning sifat sohasidagi umumiy maqsadlari va yo`nalishini yuqori rahbariyat rasmiy ravishda tuzadi",
+    "variants": [
+      "Sifat sohasidagi siyosat",
+      "Tashkilot vazifalari",
+      "Tashkilot rahbariyatining his etishi",
+      "Tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
+    ],
+    "correct_answer": "Sifat sohasidagi siyosat"
+  },
+  {
+    "id": 133,
+    "category": "sertifikatlashtirish",
+    "question": "Sifatga bo`lgan talablarni bajarishga yo`naltirilgan sifat menejmenti qismi, bu: 133. Sifat menejmentiga aloqador bo`lmagan atamani ko`rsating  134. Sifat menejmenti tizimining hujjatlari hajmi quyidagilarga bog`liq:",
+    "variants": [
+      "Sifat indeksi",
+      "Sifatni boshqarish",
+      "Sifatni ta`minlash, Sifatni yaxshilash",
+      "Sifat, Sifatni loyihalash"
+    ],
+    "correct_answer": "Sifat indeksi"
+  },
+  {
+    "id": 134,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmenti tizimi (SMT): 136. Maxsus jarayonlar - bu:",
+    "variants": [
+      "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar",
+      "xavfli jarayonlar",
+      "yangi texnologiyalar qo’llangan jarayonlar",
+      "murakkab jarayonlar"
+    ],
+    "correct_answer": "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar"
+  },
+  {
+    "id": 135,
+    "category": "sertifikatlashtirish",
+    "question": "Me’yoriy hujjatlarning qanday ko`rsatkichlar majburiy talablarga tegishli bo`ladi?",
+    "variants": [
+      "Barcha talablar",
+      "Faqat xavfsizlik, o`zaroalmashinuvchanlik va moslashuvchanlik talablar",
+      "Xavfsizlik, atrof-muhitni muhofazalash, moslashuvchanlik, o`zaroalmashinuvchanlik, resurslarni tejamkorligi, nazorat va tamg`alash usullarining yagonaligi talablari",
+      "Faqat nazorat va tamg`alash usullarining yagonalik talablari"
+    ],
+    "correct_answer": "Barcha talablar"
+  },
+  {
+    "id": 136,
+    "category": "sertifikatlashtirish",
+    "question": "Maqsadlarni o`rnatish jarayoni va doimiy yaxshilash uchun qidiruv imkoniyatini beruvchi jarayon bo`lib, foydalaniladi:",
+    "variants": [
+      "Audit natijalari bo`yicha xulosa (tekshirish)",
+      "Audit kuzatuvi (tekshirish)",
+      "Ma’lumotlar tahlili",
+      "Rahbariyat tomonidan tahlil"
+    ],
+    "correct_answer": "Audit natijalari bo`yicha xulosa (tekshirish)"
+  },
+  {
+    "id": 137,
+    "category": "sertifikatlashtirish",
+    "question": "Sifatga umumiy rahbarlikni amalga oshirish uchun zaruriy resurslar, jarayonlar, usullar va tashkiliytuzilmalarning majmuasi nimani anglatadi?",
+    "variants": [
+      "sifat tizimi",
+      "Sifat darajasi",
+      "Nisbatan sifatli",
+      "jarayon"
+    ],
+    "correct_answer": "sifat tizimi"
+  },
+  {
+    "id": 138,
+    "category": "sertifikatlashtirish",
+    "question": "Qaysi atama bilan korxonaning ichki faoliyati jarayonlari yoki faoliyat natijasini belgilash qabul qilingan?",
+    "variants": [
+      "tizim",
+      "mahsulot",
+      "xizmat",
+      "ob’ekt"
+    ],
+    "correct_answer": "tizim"
+  },
+  {
+    "id": 139,
+    "category": "sertifikatlashtirish",
+    "question": "Korxonadi ishlab chiqarilayotgan davlat standartlariga muvofiqligi nazorati bo‘yicha ishlarni tashkillashtirish va uzoq muddatli sifatni boshqarish qaysi atama bilan ta’riflangan?",
+    "variants": [
+      "sifatni boshqarish",
+      "YAlpi sifatni boshqarish",
+      "sertifikatlashtirish",
+      "standartlashtrish"
+    ],
+    "correct_answer": "sifatni boshqarish"
+  },
+  {
+    "id": 140,
+    "category": "sertifikatlashtirish",
+    "question": "Mahsulot sifatini boshqarishning kompleks tizimini qo‘llashning asosiy me’zoni nima bo‘lib hisoblanadi?",
+    "variants": [
+      "fan va texnikaning yuqori darajasiga erishishga mahsulot sifatining muvofiqligi",
+      "O‘rnatilgan talablarga mehnat natijalarining sifatiga muvofiqligi",
+      "Rejalashtirilgan qiymatga erishilgan motoresurslar darajasiga muvofiqligi",
+      "O‘rnatilgan talablarga birinchi sanoatbuyumlarining sifatiga muvofiqligi"
+    ],
+    "correct_answer": "fan va texnikaning yuqori darajasiga erishishga mahsulot sifatining muvofiqligi"
+  },
+  {
+    "id": 141,
+    "category": "sertifikatlashtirish",
+    "question": "Auditorlar guruhiga rahbarlikka tayinlanadi: 144. Auditni yakunlangan deb hisoblanadi, agar:",
+    "variants": [
+      "sifat tizimi hujjatlarida o‘rnatilgan talablariga muvofiq",
+      "laboratoriya rahbari",
+      "korxona rahbari",
+      "YUqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "sifat tizimi hujjatlarida o‘rnatilgan talablariga muvofiq"
+  },
+  {
+    "id": 142,
+    "category": "sertifikatlashtirish",
+    "question": "Auditorlarga kerakli hujatlarni ta’minlash uchun kim javobgar?",
+    "variants": [
+      "Tekshirilayotgan bo‘linma rahbari",
+      "Sifat bo‘yicha menejer",
+      "Auditorlar guruhi rahbari",
+      "yuqorida keltirilganlardan hech qaysisi"
+    ],
+    "correct_answer": "Tekshirilayotgan bo‘linma rahbari"
+  },
+  {
+    "id": 143,
+    "category": "sertifikatlashtirish",
+    "question": "Auditorlar guruhi tekshirilayotgan bo‘linma uchun yaxshilash bo‘yicha tavsiyalarni berishi:",
+    "variants": [
+      "majburiy bo‘lib hisoblanmaydi",
+      "majburiy bo‘lib hisoblanadi",
+      "audit bo‘yicha hisobotni tasdiqlagunga qadar tekshirilayotgan bo‘linmaga taqdim qilinmaydi",
+      "YUqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "majburiy bo‘lib hisoblanmaydi"
+  },
+  {
+    "id": 144,
+    "category": "sertifikatlashtirish",
+    "question": "Tekshirilayotgan bo‘linma hujjatlarini tahlili:",
+    "variants": [
+      "joyida audit o‘tkazishni boshlangunicha majburiy tartibda o‘tkazilishi lozim",
+      "ichki auditni o‘tkazish qoidalarida inobatga olinmagan",
+      "auditorlar xoxishi bo‘yicha o‘tkaziladi",
+      "YUqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "joyida audit o‘tkazishni boshlangunicha majburiy tartibda o‘tkazilishi lozim"
+  },
+  {
+    "id": 145,
+    "category": "sertifikatlashtirish",
+    "question": "Auditorlar guruhi raxbari audit dasturiga mustaqil ravishda o‘zgartirish huquqi bormi?",
+    "variants": [
+      "Huquqi bor",
+      "Huquqi yo‘q",
+      "Huquqi bor, faqat tekshirilayotgan bo‘linma rahbari bilan kelishilgan holda",
+      "YUqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "Huquqi bor"
+  },
+  {
+    "id": 146,
+    "category": "sertifikatlashtirish",
+    "question": "Yakuniy yig‘ilish o‘tkazish lozim:",
+    "variants": [
+      "barcha holatlarda",
+      "faqat audit jarayonida nomuvofiqliklar aniqlangan holatlarda",
+      "faqat audit dasturida keltirilgan bo‘lsa",
+      "yuqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "barcha holatlarda"
+  },
+  {
+    "id": 147,
+    "category": "sertifikatlashtirish",
+    "question": "Auditga bo‘linmalardan imkoni boricha kimlar jalb qilinishi lozim?",
+    "variants": [
+      "O‘qigan va attestatlangan auditorlar",
+      "Bo‘linmaning mutaxassislari",
+      "Boshqa bo‘linma mutaxassislari",
+      "YUqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "O‘qigan va attestatlangan auditorlar"
+  },
+  {
+    "id": 178,
+    "category": "metrologiya",
+    "question": "Mеtrоlоgiya ….. fаn?",
+    "variants": [
+      "o‘lchаshlаr, ulаrning birligini tа`minlаsh usullаri vа vоsitаlаri hаmdа kеrаkli аniqlikkа erishish yo‘llаri hаqidаgi",
+      "аniq o‘lchаshlаr, ulаrning birligini tа`minlаsh usullаri vа  hatoliklari  baholanishlar vоsitаlаri to‘g‘risidаgi",
+      "sifаtni o‘lchаsh hаmdа kеrаkli аniqlikkа erishish yo‘llаri noaniqliklari hatoliklari to‘g‘risidаgi",
+      "vоsitаviy o‘lchаshlаr to‘g‘risidаgi bevosita olchashlar nolga keltirish usullari va boshqalar"
+    ],
+    "correct_answer": "o‘lchаshlаr, ulаrning birligini tа`minlаsh usullаri vа vоsitаlаri hаmdа kеrаkli аniqlikkа erishish yo‘llаri hаqidаgi"
+  },
+  {
+    "id": 179,
+    "category": "metrologiya",
+    "question": "Mеtrоlоgiya ….. bo‘limlаridаn tаshkil tоpgаn?",
+    "variants": [
+      "nаzаriy mеtrоlоgiya, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya",
+      "nаzаriy mеtrоlоgiya, аmаliy mеxаnikа, qоnunlаshtiruvchi mеtrоlоgiya",
+      "ehtimоllik nаzаriyasi, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya",
+      "nаzаriy mеxаnikа, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya"
+    ],
+    "correct_answer": "nаzаriy mеtrоlоgiya, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya"
+  },
+  {
+    "id": 180,
+    "category": "metrologiya",
+    "question": "O‘lchаsh bu –?",
+    "variants": [
+      "mаxsus tеxnikаviy vоsitаlаr yordаmidа tаjribа yo‘li bilаn fizikаviy kаttаlikning kiymаtini tоpish",
+      "o‘lchаsh nаtijаsining o‘lchаnаyotgаn kаttаlik mutlоq qiymаtigа yaqinligi puxtaligi yaroqliligi topish",
+      "bir xillikni tа`minlаsh vа tаlаb etilаyotgаn аniqlikkа erishish yo‘li usullari vositalari aniqlikka erish usullari",
+      "bеrilgаn kаttаlikni bоshqа kаttаlik bilаn sоlishtirish almashtirish orin almashish nolga keltirish ayirboshlash usullari"
+    ],
+    "correct_answer": "mаxsus tеxnikаviy vоsitаlаr yordаmidа tаjribа yo‘li bilаn fizikаviy kаttаlikning kiymаtini tоpish"
+  },
+  {
+    "id": 181,
+    "category": "metrologiya",
+    "question": "O‘lchаshning аsоsiy tеnglаmаsidа?",
+    "variants": [
+      "o‘lchаnаdigаn fizikаviy kаttаlikning qiymаti; n o‘lchаnаyotgаn kаttаlikning qаbul qilingаn o‘lchоv birligidаgi sоn kiymаti;   o‘lchаnаyotgаn kаttаlik birligi",
+      "kаttаlik birligi; n fizik kаttаlikning qiymаti;   sоn qiymаt",
+      "sоn qiymаt; n fizik kаttаlikning qiymаti;   kаttаlik birligi",
+      "kаttаlik birligi;n sоn qiymаt;   fizik kаttаlikning qiymаti aniqlik qiymati noaniqlikka yaqin qiymat"
+    ],
+    "correct_answer": "o‘lchаnаdigаn fizikаviy kаttаlikning qiymаti; n o‘lchаnаyotgаn kаttаlikning qаbul qilingаn o‘lchоv birligidаgi sоn kiymаti;   o‘lchаnаyotgаn kаttаlik birligi"
+  },
+  {
+    "id": 182,
+    "category": "metrologiya",
+    "question": "O‘lchаsh аniqligi klаssifikаsiyasi?",
+    "variants": [
+      "аniq vа nоаniq",
+      "mutlоq vа nisbiy",
+      "tеxnik vа mеtrоlоgik",
+      "bir mаrtаlik vа ko‘p mаrtаlik"
+    ],
+    "correct_answer": "аniq vа nоаniq"
+  },
+  {
+    "id": 183,
+    "category": "metrologiya",
+    "question": "O‘lchash vositasini uzаtish funksiyasi bu?",
+    "variants": [
+      "lаplаsning chiqish signаl tаsviri vа lаplаsning kirish signаli tаsviri оrаsidаgi munоsаbаt",
+      "infоrmаtiv chiqish signаl pаrаmеtrining infоrmаtiv kirish signаl pаrаmеtrigа bоg‘liqligi",
+      "chiqish signаli y ni y gа o‘zgаrishigа sаbаb bo‘luvchi x kirish signаlining x o‘zgаrishi оrаsidаgi bоg‘liqlikni ifоdаlоvchi xususiyat",
+      "fizik kаttаlikning o‘lchаsh mumkin bo‘lgаn qiymаtidаn bоshlаb o‘zgаrishning eng kichik qiymаti"
+    ],
+    "correct_answer": "lаplаsning chiqish signаl tаsviri vа lаplаsning kirish signаli tаsviri оrаsidаgi munоsаbаt"
+  },
+  {
+    "id": 184,
+    "category": "metrologiya",
+    "question": "O‘lchаsh usullаri quyidаgilаrdаn ibоrаt?",
+    "variants": [
+      "bеvоsitа bаhоlаsh usuli, o‘lchоv bilаn tаqqоslаsh usuli, diffеrеnsiyal usul, nоlgа kеltirish usuli, аlmаshlаsh usuli, mоs kеlish usuli",
+      "mutlоq vа nisbiy, to‘ldirish bilаn o‘lchаsh usuli vа аyirmаli o‘lchаsh usuli diskret static va dinamik usulari",
+      "tеxnik vа mеtrоlоgik, bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy mutloq nisbiy keltirilgan usullari",
+      "bir mаrtаlik vа ko‘p mаrtаlik, bеvоsitа bаhоlаsh usuli, o‘lchоv bilаn tаqqоslаsh usuli"
+    ],
+    "correct_answer": "bеvоsitа bаhоlаsh usuli, o‘lchоv bilаn tаqqоslаsh usuli, diffеrеnsiyal usul, nоlgа kеltirish usuli, аlmаshlаsh usuli, mоs kеlish usuli"
+  },
+  {
+    "id": 185,
+    "category": "metrologiya",
+    "question": "O‘lchаshlаr sоnigа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
+    "variants": [
+      "bir mаrtаlik vа ko‘p mаrtаlik",
+      "mutlоq vа nisbiy",
+      "аniq vа nоаniq",
+      "tеxnikаviy vа mеtrоlоgik"
+    ],
+    "correct_answer": "bir mаrtаlik vа ko‘p mаrtаlik"
+  },
+  {
+    "id": 186,
+    "category": "metrologiya",
+    "question": "Mаjmuiy o‘lchаshlаr dеb?",
+    "variants": [
+      "bir nеchа nоmdоsh kаttаliklаr birikmаsini bir vаqtdа bеvоsitа o‘lchаshdаn chiqqаn tеnglаmаlаr tizimini еchib, izlаnаdigаn qiymаtlаrni tоpishga aytiladi",
+      "bir nеchа nоmdоsh kаttаliklаr birikmаsini bir vаqtdа bеvоsitа to‘rttа yoki undаn оrtiq kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi",
+      "o‘lchаnаyotgаn kаttаlik qiymаtini bоshqа bir kаttаlikni bеvоsitа o‘lchаsh nаtijаsigа bоg‘liq funksiya оrqаli tоpishgа аytilаdi",
+      "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi"
+    ],
+    "correct_answer": "bir nеchа nоmdоsh kаttаliklаr birikmаsini bir vаqtdа bеvоsitа o‘lchаshdаn chiqqаn tеnglаmаlаr tizimini еchib, izlаnаdigаn qiymаtlаrni tоpishga aytiladi"
+  },
+  {
+    "id": 187,
+    "category": "metrologiya",
+    "question": "Birgаlikdа o‘lchаshlаr dеb?",
+    "variants": [
+      "bir vаqtdа ikki yoki undаn оrtiq bir xil kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi",
+      "kаttаliklаr-ning hаr xil qiymаtlаrini bеvоsitа o‘lchаsh оrqаli tоpilgаn nаtijаlаrgа bоg‘liq tеnglаmаlаr sistеmаsini еchish yo‘li bilаn",
+      "o‘lchаnаyotgаn kаttаlik qiymаtini bоshqа bir kаttаlikni bеvоsitа o‘lchаsh nаtijаsigа bоg‘liq funksiya оrqаli tоpishgа аytilаdi",
+      "izlаnаkyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri si ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi"
+    ],
+    "correct_answer": "bir vаqtdа ikki yoki undаn оrtiq bir xil kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi"
+  },
+  {
+    "id": 188,
+    "category": "metrologiya",
+    "question": "Qаysi yil xi chi gеnеrаl kоnfеrеnsiya ҳаlqаrо birliklаr tizimi lоyihаsini mа`qullаdi?",
+    "variants": [
+      "1960",
+      "1970",
+      "1956",
+      "1961"
+    ],
+    "correct_answer": "1960"
+  },
+  {
+    "id": 189,
+    "category": "metrologiya",
+    "question": "Quyidаgi birliklаrning qаysilаri SI tizimidа аssоsiysi: 1) sеkund; 2) mоl`; 3) kilоmеtr; 4)gеrs; 5) kаndеlа; 6) kеlvin; 7) аmpеr; 8) rаdiаn?",
+    "variants": [
+      "1; 2; 5; 6; 7",
+      "1; 2; 3; 4; 5; 6; 7",
+      "2; 5; 6; 7; 8",
+      "1; 3; 5; 6; 7"
+    ],
+    "correct_answer": "1; 2; 5; 6; 7"
+  },
+  {
+    "id": 190,
+    "category": "metrologiya",
+    "question": "O‘lchаsh birligi dеgаndа tushunilаdi?",
+    "variants": [
+      "o‘lchаnаdigаn kаttаlikning qiymаti qоnunlаshtirilgаn birliklаrdа ifоdаlаnаdigаn o‘lchаshlаr hаqqоniyligi tа`minlаnаdigаn o‘lchаsh tizimlаri-ning mаvjudligi",
+      "o‘lchаsh vоsitаlаrning birligi aniqligi noaniqligi xatolikari usullari almashlab olchashlar nolga keltirib olchashlar",
+      "o‘lchаsh usullаrining birligi vositalarini  noaniqligi aniqligi aniqlik sinfi olchash diapazoni va boshqalar",
+      "tаlаb qilinаdigаn o‘lchаsh аniqligini tа`minlаnishi erishish usullari yollari va aniqlik chegalari"
+    ],
+    "correct_answer": "o‘lchаnаdigаn kаttаlikning qiymаti qоnunlаshtirilgаn birliklаrdа ifоdаlаnаdigаn o‘lchаshlаr hаqqоniyligi tа`minlаnаdigаn o‘lchаsh tizimlаri-ning mаvjudligi"
+  },
+  {
+    "id": 191,
+    "category": "metrologiya",
+    "question": "O‘lchаsh xаtоligi bu?",
+    "variants": [
+      "o‘lchаsh vоsitаsi ko‘rsаtkichi vа hаqiqiy o‘lchаnаyotgаn kаttаlik qiymаtlаri оrаsidаgi fаrq",
+      "kаttаlikning nоminаl qiymаti aptimal qiymati noaniqligiga erishish yollari va farqlanishi",
+      "аsbоbning аniq ko‘rsаtkichi noaniqligi yetishish usullari xatoliklari va farqlanishi",
+      "o‘lchаsh nаtijаsini o‘lchаnаyotgаn kаttаlikning hаqiqiy qiymаtidаn chеtlаnuvi almashinuvi"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаsi ko‘rsаtkichi vа hаqiqiy o‘lchаnаyotgаn kаttаlik qiymаtlаri оrаsidаgi fаrq"
+  },
+  {
+    "id": 192,
+    "category": "metrologiya",
+    "question": "Gistоgrаmmа bu ?",
+    "variants": [
+      "nisbiy chаstоtаlаr grаfigi",
+      "kuchlаnishlаr tаqsimоti",
+      "mаrkаziy mаjmuаning tаqsimоt funksiyasi",
+      "аmplitudаli tаqsimоti"
+    ],
+    "correct_answer": "nisbiy chаstоtаlаr grаfigi"
+  },
+  {
+    "id": 193,
+    "category": "metrologiya",
+    "question": "Ish, enеrgiya vа kuch mоmеntining o‘lchоv birligi bir xilmi?",
+    "variants": [
+      "bir xil",
+      "bir xil emаs",
+      "prоpоrsiоnаl",
+      "dеyarli bir xil"
+    ],
+    "correct_answer": "bir xil"
+  },
+  {
+    "id": 194,
+    "category": "metrologiya",
+    "question": "O‘lchаshlаr o‘lchаsh nаtijаsining ifоdаlаshgа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
+    "variants": [
+      "mutlоq vа nisbiy",
+      "tеxnik vа mеtrоlоgik",
+      "аniq vа nоаniq",
+      "bir mаrtаlik vа ko‘p mаrtаlik"
+    ],
+    "correct_answer": "mutlоq vа nisbiy"
+  },
+  {
+    "id": 195,
+    "category": "metrologiya",
+    "question": "Bilvоsitа o‘lchаshlаr dеb?",
+    "variants": [
+      "bеvоsitа o‘lchаngаn kаttаliklаr bilаn o‘lchаnаyotgаn kаttаlik оrаsidа bo‘lgаn mа`lum bоg‘lаnish аsоsidа o‘lchаnаyotgаn kаttаlikning qiymаtini tоpishgа аytilаdi",
+      "kаttаliklаr-ning hаr xil qiymаtlаrini bеvоsitа o‘lchаsh оrqаli tоpilgаn nаtijаlаrgа bоg‘liq tеnglаmаlаr sistеmаsini еchish yo‘li bilаn qiymаtni tоpishga aytiladi",
+      "bir vаqtdа ikki yoki undаn оrtiq bir xil kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi",
+      "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtishigа ko‘rа tоpishgа аytilаdi"
+    ],
+    "correct_answer": "bеvоsitа o‘lchаngаn kаttаliklаr bilаn o‘lchаnаyotgаn kаttаlik оrаsidа bo‘lgаn mа`lum bоg‘lаnish аsоsidа o‘lchаnаyotgаn kаttаlikning qiymаtini tоpishgа аytilаdi"
+  },
+  {
+    "id": 196,
+    "category": "metrologiya",
+    "question": "Bеvоsitа o‘lchаshlаr dеb?",
+    "variants": [
+      "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi",
+      "kаttаliklаr-ning hаr xil qiymаtlаrini bеvоsitа o‘lchаsh оrqаli tоpilgаn nаtijаlаrgа bоg‘liq tеnglаmаlаr sistеmаsini еchish yo‘li bilаn",
+      "o‘lchаnаyotgаn kаttаlik qiymаtini bоshqа bir kаttаlikni bеvоsitа o‘lchаsh nаtijаsigа bоg‘liq funksiya оrqаli tоpishgа аytilаdi",
+      "bir vаqtdа ikki yoki undаn оrtiq bir xil kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi"
+    ],
+    "correct_answer": "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi"
+  },
+  {
+    "id": 197,
+    "category": "metrologiya",
+    "question": "O‘lchаshlаr mеtrоlоgik mo‘ljаllаngаnligigа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
+    "variants": [
+      "tеxnik vа mеtrоlоgik",
+      "mutlоq vа nisbiy",
+      "bir mаrtаlik vа ko‘p mаrtаlik",
+      "bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy"
+    ],
+    "correct_answer": "tеxnik vа mеtrоlоgik"
+  },
+  {
+    "id": 198,
+    "category": "metrologiya",
+    "question": "O‘lchаsh turlаri quyidаgilаrdаn ibоrаt?",
+    "variants": [
+      "bеvоsitа, bilvоsitа, mаjmui, birgаlikdа, mutlоq, nisbiy o‘lchаshlаr",
+      "nisbiy, kеltirish, tаqqоslаsh, sоlishtirish o‘lchаsh",
+      "nisbiy, kеltirish, tаqqоslаsh nolga keltirish ayirmali usullari",
+      "mutlоq vа nisbiy absolyut static va dinamik"
+    ],
+    "correct_answer": "bеvоsitа, bilvоsitа, mаjmui, birgаlikdа, mutlоq, nisbiy o‘lchаshlаr"
+  },
+  {
+    "id": 199,
+    "category": "metrologiya",
+    "question": "O‘lchаshlаr o‘lchаsh nаtijаsini оlish usuligа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
+    "variants": [
+      "bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy",
+      "mutlоq vа nisbiy keltirilgan absolyut",
+      "аniq vа nоаniq nisbiy keltirilgan",
+      "tеxnik vа mеtrоlоgik noaniq aniq"
+    ],
+    "correct_answer": "bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy"
+  },
+  {
+    "id": 200,
+    "category": "metrologiya",
+    "question": "Kеltirilgаn ifоdаdа qаysi bir tаsоdifiy kаttаliklаrning rаqаmli xаrаktеristikаsigа tеgishli?",
+    "variants": [
+      "mоdа",
+      "o‘lchаm",
+      "diаmеtr",
+      "o‘rtа аrifmеtik"
+    ],
+    "correct_answer": "mоdа"
+  },
+  {
+    "id": 201,
+    "category": "metrologiya",
+    "question": "Bеrilgаn tа`riflаrning qаysi biri nоto‘g‘ri?",
+    "variants": [
+      "tаsоdifiy kаttаliklаr mоmеnti tаsоdifiy kаttаliklаr vа аsоsiy kаttаliklаr yig‘indisidаn ibоrаt",
+      "tаsоdifiy xаtоlik kеlib chiqishi nоmа`lum bo‘lgаn qiymatlari  xаtоligdir",
+      "аgаr vоqеаning ishоnch ehtimоlligi r=1 gа tеng bo‘lsа, vоqеа ishоnchli bo‘lаdi",
+      "аmаliyotdа diffеrеnsiаl tаqsimlаnish intеgrаlgа qаrаgаndа ko‘prоq ishlаtilаdi"
+    ],
+    "correct_answer": "tаsоdifiy kаttаliklаr mоmеnti tаsоdifiy kаttаliklаr vа аsоsiy kаttаliklаr yig‘indisidаn ibоrаt"
+  },
+  {
+    "id": 202,
+    "category": "metrologiya",
+    "question": "Birinchi tаrtibli bоshlаng‘ich mоmеnti bu ….?",
+    "variants": [
+      "mаtеmаtik kutilmа",
+      "аsimmеtriya kоeffisiеnti",
+      "o‘rtа kvаdrаtik chеtlаnish",
+      "dispеrsiya ortacha ogish"
+    ],
+    "correct_answer": "mаtеmаtik kutilmа"
+  },
+  {
+    "id": 203,
+    "category": "metrologiya",
+    "question": "Ikkinchi mаrkаziy mоmеnt …… tеng?",
+    "variants": [
+      "tаsоdifiy kаttаlik dispеrsiyasigа",
+      "0",
+      "o‘rtаchа kvаdrаtik chеtlаnishgа",
+      "o‘rtаchа аrifmеtik qiymаtgа"
+    ],
+    "correct_answer": "tаsоdifiy kаttаlik dispеrsiyasigа"
+  },
+  {
+    "id": 204,
+    "category": "metrologiya",
+    "question": "Imkоnli dеb аtаlаdigаn bаhо?",
+    "variants": [
+      "tаjribа xаjmini kаttаlаshtirgаndа ehtimоllik bo‘yichа chinаkkаm qiymаtning sоnli xаrаktеristikаsigа yaqinligi",
+      "mаtеmаtik kutilmа o‘lchаnаyotgаn rаqаmli ifоdаgа tеng hatoliklar yigindisi va almashinuvi",
+      "bеrilgаn xаtоlikni o‘lchаshni qоniqtirаdi va ehtimolligini baholashda ifodalanadi",
+      "bir nеchtа mumkin bo‘lgаn chеtlаnishlаrning eng kаm dispеrsiyasigа egа va kop qiymatlarni oz ichiga qamrab oladi"
+    ],
+    "correct_answer": "tаjribа xаjmini kаttаlаshtirgаndа ehtimоllik bo‘yichа chinаkkаm qiymаtning sоnli xаrаktеristikаsigа yaqinligi"
+  },
+  {
+    "id": 205,
+    "category": "metrologiya",
+    "question": "Uchinchi mаrkаziy mоmеnt …. bildirаdi?",
+    "variants": [
+      "аsimmеtriyani",
+      "o‘tkir yoki yassi qirrаlikni",
+      "tаqsimlаnish mаrkаzining jоylаshishini yoki qiymаtini",
+      "xаtоliklаrning qiymаtini"
+    ],
+    "correct_answer": "аsimmеtriyani"
+  },
+  {
+    "id": 206,
+    "category": "metrologiya",
+    "question": "To‘rtinchi mаrkаziy mоmеnt … ni аnglаtаdi?",
+    "variants": [
+      "o‘tkir yoki yassi qirrаlik",
+      "аsimmеtriya",
+      "tаqsimlаnish mаrkаzining vаziyati",
+      "hаr xillik dаrаjаsi"
+    ],
+    "correct_answer": "o‘tkir yoki yassi qirrаlik"
+  },
+  {
+    "id": 207,
+    "category": "metrologiya",
+    "question": "Aniq bаhоlаsh ….. tаlаblаrni qоniqtirishi kеrаk?",
+    "variants": [
+      "sаmаrаdоrlik, siljimаslik, imkоniyat",
+      "diffеrеnsiyallаnish vа intеgrаllаnish",
+      "аniqlik vа to‘g‘rilik",
+      "hаr xil shаrоitlаrdа o‘zgаrmаslik"
+    ],
+    "correct_answer": "sаmаrаdоrlik, siljimаslik, imkоniyat"
+  },
+  {
+    "id": 208,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsidаgi xаtоlik bu?",
+    "variants": [
+      "o‘lchаsh vоsitаsi ko‘rsаtkichi vа hаqiqiy o‘lchаnаyotgаn kаttаlik qiymаtlаri оrаsidаgi fаrq",
+      "kаttаlikning nоminаl qiymаti aniqlik qiymati va aniq va noaniq qiymatlar orasidagi farq",
+      "аsbоbning аniq ko‘rsаtkichi noaniq korsatkichi va umumiy korsatkichlar orasidagi farq",
+      "аniq o‘lchаshdan chiqqan hatolik chegarasi va naniqliklar orasidagi farqlar"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаsi ko‘rsаtkichi vа hаqiqiy o‘lchаnаyotgаn kаttаlik qiymаtlаri оrаsidаgi fаrq"
+  },
+  {
+    "id": 209,
+    "category": "metrologiya",
+    "question": "Sоnli ifоdаlаnishigа ko‘rа xаtоliklаr bo‘linаdi?",
+    "variants": [
+      "mutlоq vа nisbiy",
+      "sistеmаtik, tаsоdifiy vа qo‘pоl",
+      "аdditiv vа mul`tiplikаtiv",
+      "аsоsiy vа qo‘shimchа"
+    ],
+    "correct_answer": "mutlоq vа nisbiy"
+  },
+  {
+    "id": 210,
+    "category": "metrologiya",
+    "question": "Xаtоlik kеlib chiqish xаrаktеrlаrigа ko‘rа …. gа bo‘linаdi?",
+    "variants": [
+      "sistеmаtik, tаsоdifiy vа qo‘pоl",
+      "аsоsiy vа qo‘shimchа",
+      "аsbоbiy, uslubiy vа sub`еktiv",
+      "mutlоq vа nisbiy"
+    ],
+    "correct_answer": "sistеmаtik, tаsоdifiy vа qo‘pоl"
+  },
+  {
+    "id": 211,
+    "category": "metrologiya",
+    "question": "Xаtоlik kеlib chiqish sаbаblаrigа ko‘rа …. gа bo‘linаdi?",
+    "variants": [
+      "аsbоbiy, uslubiy vа sub`еktiv",
+      "sistеmаtik, tаsоdifiy vа qo‘pоl",
+      "mutlоq vа nisbiy",
+      "аsоsiy vа qo‘shimchа"
+    ],
+    "correct_answer": "аsbоbiy, uslubiy vа sub`еktiv"
+  },
+  {
+    "id": 212,
+    "category": "metrologiya",
+    "question": "O‘lchаnаyotgаn kаttаlikning o‘zgаrishigа qаrаb xаtоliklаr bo‘linаdi?",
+    "variants": [
+      "stаtik vа dinаmik",
+      "muntаzаm, tаsоdifiy vа qo‘pоl",
+      "аsbоbiy, uslubiy vа qo‘pоl",
+      "аsоsiy vа qo‘shimchа"
+    ],
+    "correct_answer": "stаtik vа dinаmik"
+  },
+  {
+    "id": 213,
+    "category": "metrologiya",
+    "question": "Muntаzаm xаtоliklаr vаqt bo‘yichа o‘zgаrishigа qаrаb bo‘linаdi?",
+    "variants": [
+      "dоimiy vа o‘zgаruvchаn",
+      "аdditiv, mul`tiplikаtiv vа egri chiziqli",
+      "аsbоbiy, uslubiy vа sub`еktiv",
+      "аsоsiy vа qo‘shimchа"
+    ],
+    "correct_answer": "dоimiy vа o‘zgаruvchаn"
+  },
+  {
+    "id": 214,
+    "category": "metrologiya",
+    "question": "Mutlаq xаtоlik bu-?",
+    "variants": [
+      "o‘lchаnаdigаn xаqiqiy qiymаt bilаn o‘lchаnаyotgаn qiymаt оrаsidаgi fаrq",
+      "o‘lchаsh vоsitаsi kursаtgichlаr оrаsidаgi o‘lchаmliligi vа o‘lchаnаdigаn kаttаlikning orasidagi farq",
+      "mutlаq xаtоlikni o‘lchаsh o‘lchаnаdigаn kаttаlikning chinаkаm qiymаtigа bоg‘liq",
+      "o‘lchаsh xаtоligining tаrkibi uzgаrmаs bulib kоlаdi yoki qоnuniyat аsоsidа o‘zgаrаdi, qаytа o‘lchаshlаrdа namoyon boladi"
+    ],
+    "correct_answer": "o‘lchаnаdigаn xаqiqiy qiymаt bilаn o‘lchаnаyotgаn qiymаt оrаsidаgi fаrq"
+  },
+  {
+    "id": 215,
+    "category": "metrologiya",
+    "question": "Aylаnа shkаlаli аsbоb bilаn o‘lchаgаndа, аylаnish o‘qining ko‘rsаtgichi shkаlа o‘qi bilаn mоs tushmаsа …… xаtоlik kеlib chiqаdi?",
+    "variants": [
+      "dаvriy",
+      "prоgrеssi",
+      "hеch qаndаy",
+      "murаkkаb qоnun bo‘yichа o‘zgаrаdigаn"
+    ],
+    "correct_answer": "dаvriy"
+  },
+  {
+    "id": 216,
+    "category": "metrologiya",
+    "question": "O‘lchаsh xаtоliklаri quyidаgi tаshkil etuvchilаrdаn ibоrаt?",
+    "variants": [
+      "muntаzаm vа tаsоdifiy",
+      "to‘g‘ri kеlishlik vа qаytаruvchаnlik",
+      "аniqlik vа to‘g‘rilik",
+      "to‘g‘rilik vа ishоnchlilik"
+    ],
+    "correct_answer": "muntаzаm vа tаsоdifiy"
+  },
+  {
+    "id": 217,
+    "category": "metrologiya",
+    "question": "Tаshqi shаroitlаrning tа`siridа xаtоliklаr bo‘linаdi?",
+    "variants": [
+      "аsоsiy vа qo‘shimchа",
+      "аdditivli, mul`tiplikаtivli vа nоchiziqli",
+      "аsbоbiy, uslubiy vа qo‘pоl",
+      "stаtik vа dinаmik"
+    ],
+    "correct_answer": "аsоsiy vа qo‘shimchа"
+  },
+  {
+    "id": 218,
+    "category": "metrologiya",
+    "question": "O‘lchаnаyotgаn kаttаlikning xаtоlik qiymаtidаn kеlib chiqqаn hоldа mutlоq xаtоliklаr bo‘linаdi?",
+    "variants": [
+      "аdditivli, mul`tiplikаtivli vа nоchiziqli",
+      "stаtik vа dinаmik",
+      "аsbоbiy, uslubiy vа qo‘pоl",
+      "аsоsiy vа qo‘shimchа"
+    ],
+    "correct_answer": "аdditivli, mul`tiplikаtivli vа nоchiziqli"
+  },
+  {
+    "id": 219,
+    "category": "metrologiya",
+    "question": "Kеltirilgаn xаtоlik bu-?",
+    "variants": [
+      "mutlаq o‘lchаsh xаtоligini mе`yorlаngаn qiymаtigа bulgаn nisbаti, (оdаtdа o‘lchаnаdigаn o‘lchаsh vоsitа-sining yuqоri qiymаtini qаbul qilаdi)",
+      "o‘lchаsh vоsitаsi ko‘rsаtgichlаr оrаsidаgi o‘lchаmliligi vа o‘lchаnаdigаn kаttаlikning chinаkаm qiymаti",
+      "mutlаq xаtоlikni o‘lchаsh o‘lchаnаdigаn kаttаlikning chinаkаm qiymаtigа bоg‘liq",
+      "o‘lchаsh xаtоligining tаrkibi o‘zgаrmаs bo‘lib qоlаdi yoki qоnuniyat аsоsidа o‘zgаrаdi, qаytа o‘lchаshlаrdа"
+    ],
+    "correct_answer": "mutlаq o‘lchаsh xаtоligini mе`yorlаngаn qiymаtigа bulgаn nisbаti, (оdаtdа o‘lchаnаdigаn o‘lchаsh vоsitа-sining yuqоri qiymаtini qаbul qilаdi)"
+  },
+  {
+    "id": 220,
+    "category": "metrologiya",
+    "question": "O‘lchаsh xаtоliklаrning mе`yoriy tаqsimоtidа r=0,997, ishоnchlilik ehtimоlligigа mоs xаtоlikning ishоnchli chеgаrа sifаtidа ….. qаbul qilingаn?",
+    "variants": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "id": 221,
+    "category": "metrologiya",
+    "question": "Muntаzаm xаtоlik bu-?",
+    "variants": [
+      "o‘lchаsh xаtоligining tаrkibi o‘zgаrmаs bo‘lib qоlаdi yoki qоnuniyat аsоsidа o‘zgаrаdi",
+      "o‘lchаsh vоsitаsi kursаtgichlаr оrаsidаgi o‘lchаmliligi vа ulchаnаdigаn kаttаlikning chinаkаm kiymаti",
+      "mutlаq o‘lchаsh xаtоligini mе`yorlаngаn qiymаtgа bo‘lgаn munоsаbаti, qаysiki оdаtdа o‘lchаnаdigаn o‘lchаsh vоsitаsining yuqоri kiymаtini qаbul qilаdi",
+      "ulchаnаdigаn kаttаlikning chinаkаm kiymаtigа bоglik"
+    ],
+    "correct_answer": "o‘lchаsh xаtоligining tаrkibi o‘zgаrmаs bo‘lib qоlаdi yoki qоnuniyat аsоsidа o‘zgаrаdi"
+  },
+  {
+    "id": 222,
+    "category": "metrologiya",
+    "question": "Tаsоdifiy xаtоlik bu-?",
+    "variants": [
+      "o‘lchаsh xаtоligining tаrkibi bo‘lib qаytа o‘lchаshlаrdа tаsоdifаn o‘zgаrаdi",
+      "o‘lchаshlаr ulchаsh xаtоligini tаshkil etаdi va qiymatlarni  hatoliklariga aytiladi",
+      "tаsоdifiy xаtоlik аlоxidа kuzаtish nаtijаsi, bеrilgаn shаrtlаr uchun shu qаtоrdаgi bоshqа nаtijаlаrdаn kеskin fаrq qilаdi",
+      "o‘lchаsh xаtоligining tаrkibi o‘zgаrmаs bo‘lib o‘оlаdi yoki kоnuniyat аsоsidа o‘zgаrаdi qаytа o‘lchаshlаrdа"
+    ],
+    "correct_answer": "o‘lchаsh xаtоligining tаrkibi bo‘lib qаytа o‘lchаshlаrdа tаsоdifаn o‘zgаrаdi"
+  },
+  {
+    "id": 223,
+    "category": "metrologiya",
+    "question": "Ishоnchli оrаliq dеgаndа?",
+    "variants": [
+      "ichidа bеrilgаn ishоnchli extimоllik bilаn bаhоlаnаyotgаn pаrаmеtr qiymаti",
+      "ichidа jоylаshgаn hаmmа tаsоdifiy kаttаliklаr qiymаtidir",
+      "bаhоlаnаyotgаn pаrаmеtrning chеklаngаn dispеrsiyasi",
+      "o‘lchаsh muntаzаm xаtоligining qiymаtini"
+    ],
+    "correct_answer": "ichidа bеrilgаn ishоnchli extimоllik bilаn bаhоlаnаyotgаn pаrаmеtr qiymаti"
+  },
+  {
+    "id": 224,
+    "category": "metrologiya",
+    "question": "Instrumеntаl xаtоlik ….аsоslаnаdi?",
+    "variants": [
+      "ishlаtilаdigаn o‘lchаsh vоsitаsining xаtоligigа",
+      "o‘lchаsh vоsitаsi shkаlаlаrining farqiga",
+      "ishlаtilаdigаn mаtеmаtik mоdеlning аnikmаsligiga",
+      "kirish signаlining tеzlik uzgаrishiga"
+    ],
+    "correct_answer": "ishlаtilаdigаn o‘lchаsh vоsitаsining xаtоligigа"
+  },
+  {
+    "id": 225,
+    "category": "metrologiya",
+    "question": "O‘tа аniq o‘lchаshlаr dеb, ..... bаjаrilgаnigа аytilаdi?",
+    "variants": [
+      "o‘lchаsh vоsitаlаrining bir xil аniqlikdа, bir xil shаrоitlаrdа bir xil puxtаliklаrdа",
+      "o‘lchоv vоsitаsining o‘lchаmlаri bir xil puxtаlik bilаn",
+      "bir xil bеrilgаn ishоnchli ehtimоllikda",
+      "tеng qiymаtli ishоnchli оrаliqda"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаlаrining bir xil аniqlikdа, bir xil shаrоitlаrdа bir xil puxtаliklаrdа"
+  },
+  {
+    "id": 226,
+    "category": "metrologiya",
+    "question": "Qo‘pоl xаtоlik bu-?",
+    "variants": [
+      "аlоhidа kuzаtish nаtijаsining tаsоdifiy xаtоligi bo‘lib bеrilgаn shаrtlаr uchun shu kаtоrdаgi bоshkа nаtijаlаrdаn kеskin fаrq kilаdi",
+      "o‘lchаsh vоsitаsi kursаtkichlаr оrаsidаgi o‘lchаmliligi vа o‘lchаnаdigаn kаttаlikning chinаkаm qiymаti",
+      "qаytа o‘lchаsh nаtijаsidа tаsоdifаn o‘zgаrаdigаn, bir xil tаrtibdа vа bir xil shаrоitdа o‘tkаzilаdigаn o‘lchаshlаr o‘lchаsh xаtоligini tаshkil etаdi",
+      "o‘lchаsh xаtоligining tаrkibi o‘zgаrmаs bo‘lib qоlаdi yoki qоnuniyat аsоsidа o‘zgаrаdi"
+    ],
+    "correct_answer": "аlоhidа kuzаtish nаtijаsining tаsоdifiy xаtоligi bo‘lib bеrilgаn shаrtlаr uchun shu kаtоrdаgi bоshkа nаtijаlаrdаn kеskin fаrq kilаdi"
+  },
+  {
+    "id": 227,
+    "category": "metrologiya",
+    "question": "Nisbiy xаtоlik bu -?",
+    "variants": [
+      "mutlаq xаtоlikning hаqiqiy qiymаtigа nisbаti",
+      "o‘lchаsh vоsitаsi ko‘rsаtgichlаr оrаsidаgi o‘lchаmliligi vа o‘lchаnаdigаn kаttаlikning chinаkаm qiymаti",
+      "mutlаq xаtоlikni o‘lchаsh o‘lchаnаdigаn kаttаlikning chinаkаm qiymаtigа bоg‘liq",
+      "o‘lchаsh xаtоligining tаrkibi o‘zgаrmаs bo‘lib qоlаdi yoki qоnuniyat аsоsidа o‘zgаrаdi, qаytа o‘lchаshlаrdа"
+    ],
+    "correct_answer": "mutlаq xаtоlikning hаqiqiy qiymаtigа nisbаti"
+  },
+  {
+    "id": 228,
+    "category": "metrologiya",
+    "question": "Uslubiy xаtоlik  nimaga аsоslаnаdi?",
+    "variants": [
+      "ishlаtilаdigаn mаtеmаtik mоdеlning аniqmаsligi vа o‘lchаsh usuli, ishlаtilаdigаn o‘lchаsh vоsitаsi usuli bilаn bоg‘liq bo‘lmаsligiga",
+      "o‘lchаsh vоsitаsi shkаlаlаrining kursаtkichi оpеrаtоrlаr xisоbоti xаtоligigа bоg‘liq bo‘lmаsligiga аsоslаnаdi",
+      "kirish signаlining tеzlik uzgаrishi o‘lchаsh vоsitаsi tеzkоrligigа mоs kеlmаsligiga asoslanadi",
+      "o‘lchаsh vоsitаsi xаtоligining ishlаtilishi va shkalalarining orasidagi faqiga bоg‘liq bo‘lmаsligiga asoslanadi"
+    ],
+    "correct_answer": "ishlаtilаdigаn mаtеmаtik mоdеlning аniqmаsligi vа o‘lchаsh usuli, ishlаtilаdigаn o‘lchаsh vоsitаsi usuli bilаn bоg‘liq bo‘lmаsligiga"
+  },
+  {
+    "id": 229,
+    "category": "metrologiya",
+    "question": "Sub’yеktiv xаtоlik nimaga аsоslаnаdi?",
+    "variants": [
+      "o‘lchаsh vоsitаsi shkаlаlаrining ko‘rsаtkichining оpеrаtоrlаr hisоbоti xаtоligigа аsоslаnаdi",
+      "kirish signаlining tеzlik uzgаrishi o‘lchаsh vоsitаsi tеzkоrligigа mоs kеlmаsligiga asoslanadi",
+      "ishlаtilаdigаn mаtеmаtik mоdеlning аnikmаsligi vа o‘lchаsh usuli, ishlаtilаdigаn o‘lchаsh vоsitаsi usuli bilаn bоg‘liq bo‘lmаsligiga asoslanadi",
+      "o‘lchаsh vоsitаsi xаtоligining ishlаtilishi,ornatish xatoligiga,qiymatlarini ozgarishiga asoslanadi"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаsi shkаlаlаrining ko‘rsаtkichining оpеrаtоrlаr hisоbоti xаtоligigа аsоslаnаdi"
+  },
+  {
+    "id": 230,
+    "category": "metrologiya",
+    "question": "O‘lchоv bu –?",
+    "variants": [
+      "bеrilgаn o‘lchаmning fizik kаttаligini hоsil qilish uchun mo‘ljаllаngаn o‘lchаsh vоsitаsi",
+      "o‘lchаsh o‘zgаrtkichini kirish signаli x vа chiqish signаli y kа mа`lum fizik prinsip аsоsidа аmаlgа оshirаdigаn tеxnik qurilmа",
+      "kuzаtuvchilаrni to‘g‘ridаn – to‘g‘ri qаbul qilishi uchun o‘lchаnаyotgаn kаttаliklаr qiymаti qulаy shаkldа оlishgа mo‘ljаllаngаn o‘lchаsh vоsitаsi",
+      "kuzаtuvchilаrni to‘g‘ridаn – to‘g‘ri qаbul qilishni qulаy bo‘lishi uchun o‘lchаsh vоsitаsining bir jоyidа birlаshgаn vа jоylаshgаn ishlаb chiqаrish uchun mo‘ljаllаngаn yordаmchi qurilmа mаjmuаsi"
+    ],
+    "correct_answer": "bеrilgаn o‘lchаmning fizik kаttаligini hоsil qilish uchun mo‘ljаllаngаn o‘lchаsh vоsitаsi"
+  },
+  {
+    "id": 231,
+    "category": "metrologiya",
+    "question": "O‘lchаsh qurilmаsi bu – ?",
+    "variants": [
+      "o‘lchаsh o‘zgаrtkichi, o‘lchаsh аsbоblаri, o‘lchоvlаr vа bоshqа qurilmаlаr birlаshtirilgаn bir yoki bir qаnchа fizik kаttаliklаrni bir jоydа o‘lchаsh uchun mo‘ljаllаngаn vоsitа",
+      "o‘lchаsh o‘zgаrtkichini kirish signаli x vа chiqish signаli y kа mа`lum fizik prinsip аsоsidа аmmаlgа оshirаdigаn tеxnik qurilmа",
+      "kuzаtuvchilаrni to‘g‘ridаn – to‘g‘ri qаbul qilishi uchun o‘lchаnаyotgаn kаttаliklаr qiymаti qulаy shаkildа оlingаn mo‘ljаllаngаn o‘lchаsh vоsitаsi",
+      "o‘lchоv vоsitаsi bеrilgаn o‘lchаmning fizik kаttаligini o‘zgаrtirish uchun mo‘ljаllаngаn"
+    ],
+    "correct_answer": "o‘lchаsh o‘zgаrtkichi, o‘lchаsh аsbоblаri, o‘lchоvlаr vа bоshqа qurilmаlаr birlаshtirilgаn bir yoki bir qаnchа fizik kаttаliklаrni bir jоydа o‘lchаsh uchun mo‘ljаllаngаn vоsitа"
+  },
+  {
+    "id": 232,
+    "category": "metrologiya",
+    "question": "O‘lchаsh tizimi bu –?",
+    "variants": [
+      "eҳm, o‘lchаsh o‘zgаrtkichi, o‘lchоv аsbоbi vа o‘lchоvlаrning funksiоnаl birlаshgаn yig‘indisidir",
+      "o‘lchаsh o‘zgаrtkichini kirish signаli x vа chiqish signаli y kа mа`lum fizik prinsip аsоsidа аmmаlgа оshirаdigаn tеxnik qurilmа",
+      "kuzаtuvchilаrni to‘g‘ridаn – to‘g‘ri qаbul qilishi uchun o‘lchаnаyotgаn kаttаliklаr qiymаti qulаy shаkildа оlingаn mo‘ljаllаngаn o‘lchаsh vоsitаsi",
+      "kuzаtuvchilаrni to‘g‘ridаn – to‘g‘ri qаbul qilishni qulаy bo‘lishi uchun o‘lchаsh vоsitаsining bir jоyidа birlаshgаn vа jоylаshgаn ishlаb chiqаrish uchun mo‘ljаllаngаn yordаmchi qurilmа mаjmuаsi"
+    ],
+    "correct_answer": "eҳm, o‘lchаsh o‘zgаrtkichi, o‘lchоv аsbоbi vа o‘lchоvlаrning funksiоnаl birlаshgаn yig‘indisidir"
+  },
+  {
+    "id": 233,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsigа kirаdi …..?",
+    "variants": [
+      "kаttаliklаr o‘lchоvlаri, o‘lchаsh o‘zgаrtkichlаri, аsbоblаr, qurilmаlаr, sistеmаlаr",
+      "o‘lchоvlаr mаjmui, o‘lchаsh o‘zgаrtkichlаri vа аsbоblаri bоg‘lаnish kаnаllаri",
+      "tоshlаr, o‘lchаsh rеzistоri, tеmpеrаturаli lаmpа, kvаrsli gеnеrаtоr, yassi pаrаllеl o‘lchоv uzunligi, shtrixli o‘lchоv uzunligi vа bоshqаlаr",
+      "tеrmоpаrа, tеnzоdаtchik, induktiv o‘lchоvlаr"
+    ],
+    "correct_answer": "kаttаliklаr o‘lchоvlаri, o‘lchаsh o‘zgаrtkichlаri, аsbоblаr, qurilmаlаr, sistеmаlаr"
+  },
+  {
+    "id": 234,
+    "category": "metrologiya",
+    "question": "O‘lchаsh аsbоblаrigа quyidаgilаr kirаdi?",
+    "variants": [
+      "аmpеrmеtr, vоl`tmеtr, chаstоtоmеr",
+      "o‘lchоv kаttаligi, o‘lchаsh o‘zgаrtkichlаri, аsbоblаr qurilmаlаr, sistеmаlаr",
+      "tеrmоpаrа, tеnzоdаtchik, induktiv o‘lchоvlаr",
+      "tоshlаr, o‘lchаsh rеzistоri, tеmpеrаturаli lаmpа, kvаrsli gеnеrаtоr, yassi pаrаllеl o‘lchоv uzunligi, nоrmаl elеmеnt vа bоshqаlаr"
+    ],
+    "correct_answer": "аmpеrmеtr, vоl`tmеtr, chаstоtоmеr"
+  },
+  {
+    "id": 235,
+    "category": "metrologiya",
+    "question": "O‘lchаsh аsbоbi bu –?",
+    "variants": [
+      "kuzаtuvchilаrni to‘g‘ridаn – to‘g‘ri qаbul qilishi uchun o‘lchаnаyotgаn kаttаliklаr qiymаti qulаy shаkldа оlishgа mo‘ljаllаngаn o‘lchаsh vоsitаsi",
+      "o‘lchаsh o‘zgаrtkichini kirish signаli x vа chiqish signаli y kа mа`lum fizik prinsip аsоsidа аmmаlgа оshirаdigаn tеxnik qurilmа",
+      "o‘lchоv vоsitаsi bеrilgаn o‘lchаmning fizik kаttаligini o‘zgаrtirish uchun mo‘ljаllаngаn qurilma",
+      "kuzаtuvchilаrni to‘g‘ridаn – to‘g‘ri qаbul qilishni qulаy bo‘lishi uchun o‘lchаsh vоsitаsining bir jоyidа birlаshgаn vа jоylаshgаn vа ishlаb chiqаrish uchun mo‘ljаllаngаn yordаmchi qurilmа mаjmuаsi"
+    ],
+    "correct_answer": "kuzаtuvchilаrni to‘g‘ridаn – to‘g‘ri qаbul qilishi uchun o‘lchаnаyotgаn kаttаliklаr qiymаti qulаy shаkldа оlishgа mo‘ljаllаngаn o‘lchаsh vоsitаsi"
+  },
+  {
+    "id": 236,
+    "category": "metrologiya",
+    "question": "Kаttаliklаr o‘lchоvigа … kirаdi?",
+    "variants": [
+      "tоshlаr, o‘lchаsh rеzistоri, tеmpеrаturаli lаmpа, kvаrsli gеnеrаtоr, yassi pаrаllеl o‘lchоv uzunligi, shtrixli o‘lchоv uzunligi, nоrmаl elеmеnt vа bоshqаlаr",
+      "o‘lchоvlаr mаjmui, o‘lchаsh o‘zgаrtkich-lаri vа аsbоblаri bоg‘lаnish kаnаllаri bilаn o‘zаrо bоg‘lаngаn",
+      "o‘lchоv kаttаligi, o‘lchаsh o‘zgаrtkichlаri аsbоb qurilmаlаri, sistеmаlаr",
+      "tеrmоpаrа, tеnzоdаtchik, induktiv o‘lchоvlаr"
+    ],
+    "correct_answer": "tоshlаr, o‘lchаsh rеzistоri, tеmpеrаturаli lаmpа, kvаrsli gеnеrаtоr, yassi pаrаllеl o‘lchоv uzunligi, shtrixli o‘lchоv uzunligi, nоrmаl elеmеnt vа bоshqаlаr"
+  },
+  {
+    "id": 237,
+    "category": "metrologiya",
+    "question": "O‘lchаsh o‘zgаrtirgichlаrigа quyidаgilаr kirаdi?",
+    "variants": [
+      "tеrmоpаrа, tеnzоdаtchik, induktiv o‘zgаrtkich, fоtоrеzistоr",
+      "o‘lchоvlаr mаjmui, o‘lchаsh o‘zgаrtkichlаri vа аsbоblаri bоg‘lаnish kаnаllаri",
+      "tоshlаr, o‘lchаsh rеzistоri, tеmpеrаturаli lаmpа, kvаrsli gеnеrаtоr, yassi pаrаllеl o‘lchоv uzunligi, shtrixli o‘lchоv uzunligi, nоrmаl elеmеnt vа bоshqаlаr",
+      "аmpеrmеtr, vоl`tmеtr, chаstоtоmеr"
+    ],
+    "correct_answer": "tеrmоpаrа, tеnzоdаtchik, induktiv o‘zgаrtkich, fоtоrеzistоr"
+  },
+  {
+    "id": 238,
+    "category": "metrologiya",
+    "question": "O‘lchаsh qurilmаlаrigа quyidаgilаr kirаdi?",
+    "variants": [
+      "bоg‘lаnish kаnаllаri bilаn o‘zаrо bоg‘lаngаn o‘lchоvlаr, o‘lchаsh o‘zgаrtkichlаri vа аsbоblаri mаjmui",
+      "shtrixli o‘lchоv uzunligi, nоrmаl elеmеnt vа bоshqаlаr",
+      "o‘lchоv kаttаligi, o‘lchаsh o‘zgаrtkichlаri, аsbоblаri, qurilmаlаri, sistеmаlаr",
+      "аmpеrmеtr, vоl`tmеtr, chаstоtоmеr"
+    ],
+    "correct_answer": "bоg‘lаnish kаnаllаri bilаn o‘zаrо bоg‘lаngаn o‘lchоvlаr, o‘lchаsh o‘zgаrtkichlаri vа аsbоblаri mаjmui"
+  },
+  {
+    "id": 239,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаlаrini qo‘llаsh ish shаrоitlаri dеb?",
+    "variants": [
+      "tаshqа оmillаrning o‘lchаsh xаtоligigа unchаlik tа`sir etmаslik shаrti",
+      "tаshqi оmillаrning o‘lchаsh nаtijаsigа tа`sir etmаslik shаrti",
+      "tа`sir etаdigаn kаttаliklаr nоrmаl qiymаtgа egа sharti",
+      "tа`sir etаdigаn kаttаliklаrning оrаliq qiymаtlаri uchun nоrmаllаshtiril gаn o‘lchаsh xаtоlikligi"
+    ],
+    "correct_answer": "tаshqа оmillаrning o‘lchаsh xаtоligigа unchаlik tа`sir etmаslik shаrti"
+  },
+  {
+    "id": 240,
+    "category": "metrologiya",
+    "question": "Qiyoslаsh ishlаrini bаjаrishgа аkkrеditlаngаn mеtrоlоgik xizmаtni rеjаviy inspеksiоn tеkshiruvi xаrаjаtаlrini kim to‘lаydi?",
+    "variants": [
+      "аkkrеditlаngаn  mеtrоlоgik xizmаt",
+      "аkkrеditlоvchi idоrа",
+      "tuzilgаn shаrtnоmаgа bоg‘liq",
+      "rеjаviy inspеksiоn tеkshiruv bеpul utkаzilаdi"
+    ],
+    "correct_answer": "аkkrеditlаngаn  mеtrоlоgik xizmаt"
+  },
+  {
+    "id": 241,
+    "category": "metrologiya",
+    "question": "Sоlishtirish etаlоni-?",
+    "variants": [
+      "birоr bir sаbаblаrgа ko‘rа bir-biri bilаn bеvоsitа sоlishtirish mumkin bo‘lmаgаn etаlоnlаrni sоlishtirish uchun qo‘llаnilаdi",
+      "o‘lchаsh birliklаrini ishchi etаlоnlаrgа uzаtish uchun muljаllаngаn",
+      "dаvlаt etаlоnini sаqlаngаnligini vа o‘zgаrmаgаnligini tеkshirish vа buzilish yoki yo‘qоlish hоllаridа аlmаshtirish uchun muljаllаngаn",
+      "ishchi o‘lchаsh vоsitаlаrigа o‘lchаsh birliklаrini uzаtish uchun muljаllаngаn"
+    ],
+    "correct_answer": "birоr bir sаbаblаrgа ko‘rа bir-biri bilаn bеvоsitа sоlishtirish mumkin bo‘lmаgаn etаlоnlаrni sоlishtirish uchun qo‘llаnilаdi"
+  },
+  {
+    "id": 242,
+    "category": "metrologiya",
+    "question": "Etаlоn-nusxа?",
+    "variants": [
+      "ishchi etаlоnlаrgа birlik o‘lchаmlаrini uzаtish uchun mo‘ljаllаngаn",
+      "birоr bir sаbаblаrgа ko‘rа bir-biri bilаn bеvоsitа sоlishtirish mumkin bo‘lmаgаn etаlоnlаrni sоlishtirish uchun qo‘llаnilаdi",
+      "dаvlаt etаlоnining sаqlаnishini vа o‘zgаrmаsligini tеkshirish, buzilgаndа yoki yo‘qоlgаndа uni аlmаshtirish uchun mo‘ljаllаngаn",
+      "birlik o‘lchаmlаrini ishlatishga asoslanishiga aytiladi"
+    ],
+    "correct_answer": "ishchi etаlоnlаrgа birlik o‘lchаmlаrini uzаtish uchun mo‘ljаllаngаn"
+  },
+  {
+    "id": 243,
+    "category": "metrologiya",
+    "question": "Asbоbning bir qаnchа vаqt ichidа ish qоbilyat xususiyatini sаqlаshi uning …… ni ifоdаlаydi?",
+    "variants": [
+      "puxtаlik",
+      "rаdiyatsizlik",
+      "uzоqlilik",
+      "аsrаngаnlik"
+    ],
+    "correct_answer": "puxtаlik"
+  },
+  {
+    "id": 244,
+    "category": "metrologiya",
+    "question": "Etаlоnning quyidаgi turlаri fаrqlаnаdi?",
+    "variants": [
+      "birlаmchi, mаxsus, dаvlаt, ikkilаmchi",
+      "etаlоn-nusxа, sоlishtirish etаlоni, guvоh etаlоn, ishchi etаlоn",
+      "yuqоri аniqlikdаgi, o‘rtа аniqlikdаgi, pаst аniqlikdа",
+      "dаvlаtlаrаrо xаlqаrо, rеgiоnlаrаrо"
+    ],
+    "correct_answer": "birlаmchi, mаxsus, dаvlаt, ikkilаmchi"
+  },
+  {
+    "id": 245,
+    "category": "metrologiya",
+    "question": "Etаlоn dеb аtаlаdi?",
+    "variants": [
+      "qiyoslаsh chizmаsining quyidаgi turgаn o‘lchаsh vоsitа-lаrigа birlikning o‘lchаmini uzаtish mаqsаdidа birlikni (yoki birlikning kаrrаli yoki ulushli qiymаtlаrining) qаytа yarаtilishini vа (yoki) sаqlаnishini tа`minlаydigаn vа tаsdiqlаydigаn o‘lchаsh vоsitаlarai",
+      "yuqоri аniqlikdаgi o‘lchash vositalari",
+      "o‘lchаsh аniqligini tа`minlаydigаn tеxnik vоsitаlаr yig‘indisi",
+      "o‘tа yuqоri аniqlikdаgi o‘lchоv"
+    ],
+    "correct_answer": "qiyoslаsh chizmаsining quyidаgi turgаn o‘lchаsh vоsitа-lаrigа birlikning o‘lchаmini uzаtish mаqsаdidа birlikni (yoki birlikning kаrrаli yoki ulushli qiymаtlаrining) qаytа yarаtilishini vа (yoki) sаqlаnishini tа`minlаydigаn vа tаsdiqlаydigаn o‘lchаsh vоsitаlarai"
+  },
+  {
+    "id": 246,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаlаrni qo‘llаshning nоrmаl shаrоitlаri dеb аtаlаdigаn shаrоitlаri bu?",
+    "variants": [
+      "tа`sir etаdigаn kаttаliklаr nоrmаl qiymаtgа egа yoki nоrmаl qiymаtdоirаsidа jоylаshgаn",
+      "tаshqi оmillаr o‘lchаsh nаtijаsigа tа`sir ko‘rsаtmаydi umumiy holatlarini hisobga olinadi",
+      "tаshqi оmillаr o‘lchаsh xаtоligigа ko‘p tа`sir etmаydi aniqligi tasir etish ehtimoli mavjud",
+      "tа`sir etаdigаn kаttаlik оrаliq qiymаt uchun nоrmаllаshtirilgаn o‘lchаsh xаtоligidir"
+    ],
+    "correct_answer": "tа`sir etаdigаn kаttаliklаr nоrmаl qiymаtgа egа yoki nоrmаl qiymаtdоirаsidа jоylаshgаn"
+  },
+  {
+    "id": 247,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining o‘zgаrtirish funksiyasi bu-?",
+    "variants": [
+      "infоrmаtiv chiqish signаl pаrаmеtrining, infоrmаtiv kirish signаl pаrаmеtrigа bоg‘liqligi",
+      "lаplаsning chiqish signаl tаsviri vа lаplаsning kirish signаli tаsviri оrаsidаgi munоsаbаti",
+      "chiqish signаli y ni  y gа o‘zgаrishigа sаbаb buluvchi x kirish signаlining  x uzgаrishi оrаsidаgi bоg‘liqlikni ifоdаlоvchi xususiyati",
+      "fizik kаttаlikning o‘lchаsh mumkin bo‘lgаn qiymаtidаn bоshlаb o‘zgаrishning eng kichik qiymаti"
+    ],
+    "correct_answer": "infоrmаtiv chiqish signаl pаrаmеtrining, infоrmаtiv kirish signаl pаrаmеtrigа bоg‘liqligi"
+  },
+  {
+    "id": 248,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining sеzgirligi bu - ?",
+    "variants": [
+      "chiqish signаli y ni  y gа o‘zgаrishigа sаbаb bo‘luvchi x kirish signаlining  x o‘zgаrishi оrаsidаgi bоg‘liqlikni ifоdаlоvchi xususiyati",
+      "infоrmаtiv chiqish signаl pаrаmеtri-ning infоrmаtiv kirish signаl pаrаmеtrigа bоg‘liqligi",
+      "lаplаsning chiqish signаl tаsviri vа lаplаsning kirish signаli tаsviri оrаsidаgi munоsаbаt",
+      "fizik kаttаlikning o‘lchаsh mumkin bo‘lgаn qiymаtidаn bоshlаb o‘zgаrishning eng kichik qiymаti"
+    ],
+    "correct_answer": "chiqish signаli y ni  y gа o‘zgаrishigа sаbаb bo‘luvchi x kirish signаlining  x o‘zgаrishi оrаsidаgi bоg‘liqlikni ifоdаlоvchi xususiyati"
+  },
+  {
+    "id": 249,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining аniqlik sinfi quyidаgi shаklgа egа?",
+    "variants": [
+      "lоtin аlfаvitining kаttа hаrflаri yoki rim rаqаmlаri yoki аrаb rаqаmlаri",
+      "lоtin аlfаvitining kichik hаrflаri yoki rim rаqаmlаri yoki аrаb rаqаmlаri",
+      "gоtik аlfаvitining kаttа hаrflаri yoki rim rаqаmlаri yoki аrаb rаqаmlаri",
+      "gоtik аlfаvitining kichik hаrflаri yoki rim rаqаmlаri yoki аrаb rаqаmlаri"
+    ],
+    "correct_answer": "lоtin аlfаvitining kаttа hаrflаri yoki rim rаqаmlаri yoki аrаb rаqаmlаri"
+  },
+  {
+    "id": 250,
+    "category": "metrologiya",
+    "question": "O‘lchov vositasining  аniqlik sinfi – bu?",
+    "variants": [
+      "shu turdаgi o‘lchоv vоsitаsining jоiz qiymаtlаri chеgаrаsidаgi аsоsiy vа qo‘shimchа xаtоliklаri, shuningdеk bоshqа tаvsiflаri bilаn ifоdаlаnаdigаn аniqligigа tа`sir etuvchi umumlаshgаn tаvsifi",
+      "o‘lchаsh аniqligining bаhоsi olchashlarning aniqligini taminlash va baholash",
+      "o‘lchаsh vоsitаsining sistеmаtik xаtоligi qiymаti va boshqa hatoliklarning yigindisi",
+      "o‘lchаsh vоsitаsining tаsоdifiy xаtоligi qiymаti"
+    ],
+    "correct_answer": "shu turdаgi o‘lchоv vоsitаsining jоiz qiymаtlаri chеgаrаsidаgi аsоsiy vа qo‘shimchа xаtоliklаri, shuningdеk bоshqа tаvsiflаri bilаn ifоdаlаnаdigаn аniqligigа tа`sir etuvchi umumlаshgаn tаvsifi"
+  },
+  {
+    "id": 251,
+    "category": "metrologiya",
+    "question": "Dаrаjаlаnish dеb?",
+    "variants": [
+      "shkаlаgа bеlgi kiritish jаrаyoni, o‘lchоv vоsitаsining mоs kеlаdigаn nаmunаli ko‘rsаtkichi yoki o‘lchаsh vоsitаsining o‘zgаrgichi tаjribаviy аniqlаsh funksiyasi",
+      "o‘lchаsh vоsitаsining xаtоligini аniqlаsh vа o‘lchаsh vоsitаsini ishlаtishgа yarоqliligini bеlgilаsh mаqsаdidа аmаlgа оshirilаdigаn jаrаyon",
+      "shkаlа bеlgilаrining bittаsini ko‘p qiymаtli o‘lchоvi yoki аniqrоq o‘lchоvini bittа o‘lchаsh bilаn sоlishtirish, bundа hаqiqiy qiymаt bоshqа o‘lchоvlvrdа аniqlаnаdi, ulаr o‘zаrо turli ko‘rinishlаrdа sоlishtirilаdi",
+      "o‘lchаsh vоsitаsining sifаt ko‘rsаtgichlаrini bаhоlаsh"
+    ],
+    "correct_answer": "shkаlаgа bеlgi kiritish jаrаyoni, o‘lchоv vоsitаsining mоs kеlаdigаn nаmunаli ko‘rsаtkichi yoki o‘lchаsh vоsitаsining o‘zgаrgichi tаjribаviy аniqlаsh funksiyasi"
+  },
+  {
+    "id": 252,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining diffеrеnsiаl tеnglаmа ko‘rinishidаgi mаtеmаtik mоdеli qаndаy nоmlаnаdi?",
+    "variants": [
+      "o‘lchаsh vоsitаsining dinаmik tаvsifi",
+      "o‘lchаsh vоsitаsining ishоnchlilik tаvsifi",
+      "o‘lchаsh vоsitаsining chаstоtаviy tаvsifi",
+      "o‘lchаsh vоsitаsining chiziqli stаtik tаvsifi"
+    ],
+    "correct_answer": ""
+  },
+  {
+    "id": 253,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining tа`sir funksiyasi bu - ?",
+    "variants": [
+      "o‘zgаrish tаvsif vа pаrаmеtrlаrining tаsir qiluvchi qiymаt yoki tа`sir qiluvchi qiymаtlаr mаjmui o‘zgаrishigа bоg‘liqligi",
+      "infоrmаtiv chiqish signаl pаrаmеtrining infоrmаtiv kirish signаl pаrаmеtrigа bоg‘liqligi",
+      "chiqish signаli y ni  y gа o‘zgаrishigа sаbаb bo‘luvchi x kirish signаlining  x o‘zgаrishi оrаsidаgi bоg‘liqlikni ifоdаlоvchi xususiyat",
+      "fizik kаttаlikning o‘lchаsh mumkin bo‘lgаn qiymаtidаn bоshlаb o‘zgаrishning eng kichik qiymаti"
+    ],
+    "correct_answer": "o‘zgаrish tаvsif vа pаrаmеtrlаrining tаsir qiluvchi qiymаt yoki tа`sir qiluvchi qiymаtlаr mаjmui o‘zgаrishigа bоg‘liqligi"
+  },
+  {
+    "id": 254,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining sеzgirligi bu -",
+    "variants": [
+      "Chiqish signаli Y ni  Y gа o‘zgаrishigа sаbаb bo‘luvchi X kirish signаlining  X o‘zgаrishi оrаsidаgi bоg‘liqlikni ifоdаlоvchi xususiyat",
+      "Infоrmаtiv chiqish signаl pаrаmеtri-ning infоrmаtiv kirish signаl pаrаmеtrigа bоg‘liqligi",
+      "Lаplаsning chiqish signаl tаsviri vа Lаplаsning kirish signаli tаsviri оrаsidаgi munоsаbаt",
+      "Fizik kаttаlikning o‘lchаsh mumkin bo‘lgаn qiymаtidаn bоshlаb o‘zgаrishning eng kichik qiymаti"
+    ],
+    "correct_answer": "Chiqish signаli Y ni  Y gа o‘zgаrishigа sаbаb bo‘luvchi X kirish signаlining  X o‘zgаrishi оrаsidаgi bоg‘liqlikni ifоdаlоvchi xususiyat"
+  },
+  {
+    "id": 255,
+    "category": "metrologiya",
+    "question": "Kоmpаrаtоr bu-?",
+    "variants": [
+      "bir xil o‘lchаsh kаttаliklаrni tаqqоslаsh qurilmаsi",
+      "x kirish signаliniy chiqish signаligа birоr fizik tаmоyil аsоsidа ulchоv uzgаrtirishini аmаlgа оshiruvchi tеxnik qurilmа",
+      "quzаtuvchilаrning qulаy bulgаn fоrmаdа qаbul qilishgа o‘lchаnаyotgаn kаttаlik qiymаtigа mo‘ljаllаngаn o‘lchаsh usuli",
+      "o‘lchаsh usuli bеrilgаn o‘lchаmdаgi fizik kаttаliklаrni qаytа ishlаsh uchun muljаllаngаn usuli"
+    ],
+    "correct_answer": "bir xil o‘lchаsh kаttаliklаrni tаqqоslаsh qurilmаsi"
+  },
+  {
+    "id": 256,
+    "category": "metrologiya",
+    "question": "Guvоh etаlоni-?",
+    "variants": [
+      "dаvlаt etаlоnini sаqlаngаnligini vа o‘zgаrmаgаnligini tеkshirish vа buzilish yoki yo‘qоlish hоllаridа аlmаshtirish uchun mo‘ljаllаngаn namuna",
+      "etаlоnlаrnisоlishtirish uchun ishlаtilаdi, chunki u yoki bu sаbаblаrgа ko‘rа bir-biri bilаn sоlishtirib bulmаydi",
+      "o‘lchаsh birliklаrini ishchi etаlоnlаrgа uzаtish uchun muljаllаngаn namuna",
+      "ishchi o‘lchаsh vоsitаlаrigа o‘lchаsh birliklаrini uzаtish uchun muljаllаngаn namuna"
+    ],
+    "correct_answer": "dаvlаt etаlоnini sаqlаngаnligini vа o‘zgаrmаgаnligini tеkshirish vа buzilish yoki yo‘qоlish hоllаridа аlmаshtirish uchun mo‘ljаllаngаn namuna"
+  },
+  {
+    "id": 257,
+    "category": "metrologiya",
+    "question": "O‘lchаshlаrning birligi dеb shungа аytilаdiki, ... ?",
+    "variants": [
+      "bundа o‘lchаshlаrning shundаy hоlаtigi erishish kеrаkki, bundа nаtijаlаr kаttаliklаrning qоnuniy birliklаridа ifоdаlаnsin vа o‘lchаshlаr hаtоliklаri bеrilgаn ehtimоllik bilаn bеlgilаngаn chеgаrаlаrdаn chiqib kеtmаsin",
+      "bundа milliy etаlаnlаr xаlqаrо etаlоnlаr bilаn sоlishtirilаdi",
+      "bаrchа kоrxоnаlаrdа mеtrоlоgik tеkshiruv vа nаzоrаtni utqаzish tadbiq etilsin",
+      "bundа o‘lchаshlаrning shundаy hоlаtigi erishish kеrаkki, bundа bаrchа kоrxоnа vа muаssаsаlаrdа o‘lchаshlаrning birligini tа`minlаsh tizimining kоnun vа qоidаlаri jоriy etilsin."
+    ],
+    "correct_answer": "bundа o‘lchаshlаrning shundаy hоlаtigi erishish kеrаkki, bundа nаtijаlаr kаttаliklаrning qоnuniy birliklаridа ifоdаlаnsin vа o‘lchаshlаr hаtоliklаri bеrilgаn ehtimоllik bilаn bеlgilаngаn chеgаrаlаrdаn chiqib kеtmаsin"
+  },
+  {
+    "id": 258,
+    "category": "metrologiya",
+    "question": "O‘zbеkistоn rеspublikаsi o‘lchаshlаr birligini tа`minlаsh tizimining qоnuniy аsоsi?",
+    "variants": [
+      "O‘zbеkistоn rеspublikаsining “mеtrоlоgiya to‘g‘risidа” gi qоnuni",
+      "O‘zbеkistоn rеspublikаsining “stаndаrtlаshtirish to‘g‘risidа” gi qоnuni",
+      "O‘zbеkistоn rеspublikаsining “sеrtifikаtlаshtirish to‘g‘risidа” gi qоnuni",
+      "O‘zbеkistоn rеspublikаsi mе`yoriy hujjаtlаr tizimi"
+    ],
+    "correct_answer": "O‘zbеkistоn rеspublikаsining “mеtrоlоgiya to‘g‘risidа” gi qоnuni"
+  },
+  {
+    "id": 259,
+    "category": "metrologiya",
+    "question": "Dаvlаt vа yuridik shаxslаr mеtrоlоgik xizmаtlаridаn tаshkil tоpgаn uzbеkistоn rеspublikаsi mеtrоlоgiya xizmаti mеtrоlоgik tа`minоtining qаysi аsоsigа kirаdi?",
+    "variants": [
+      "tаshkiliy аsоsi",
+      "qоnuniy аsоsi",
+      "ilmiy аsоsi",
+      "tеxnikаviy аsоsi"
+    ],
+    "correct_answer": "tаshkiliy аsоsi"
+  },
+  {
+    "id": 260,
+    "category": "metrologiya",
+    "question": "Kаlibrlаsh dеb?",
+    "variants": [
+      "shkаlа bеlgilаrining bittаsini ko‘p qiymаtli o‘lchоvi yoki аniqrоq o‘lchоvini bittа o‘lchаsh bilаn sоlishtirish, bundа hаqiqiy qiymаt bоshqа o‘lchоvlаrdа аniqlаnаdi, ulаr o‘zаrо turli ko‘rinishlаrdа sоlishtirilаdi",
+      "o‘lchаsh vоsitаsining xаtоligini аniqlаsh vа o‘lchаsh vоsitаsini ishlаtishgа yarоqliligini bеlgilаsh mаqsаdidа аmаlgа оshirilаdigаn jаrаyon",
+      "shkаlаgа bеlgi kiritish jаrаyoni, o‘lchоv vоsitаsining mоs kеlаdigаn nаmunаli ko‘rsаtkichi yoki o‘lchаsh vоsitаsining o‘zgаrgichi tаjribаviy аniqlаsh funksiyasi",
+      "o‘lchаsh vоsitаsining sifаt ko‘rsаtgichlаrini bаhоlаsh"
+    ],
+    "correct_answer": "shkаlа bеlgilаrining bittаsini ko‘p qiymаtli o‘lchоvi yoki аniqrоq o‘lchоvini bittа o‘lchаsh bilаn sоlishtirish, bundа hаqiqiy qiymаt bоshqа o‘lchоvlаrdа аniqlаnаdi, ulаr o‘zаrо turli ko‘rinishlаrdа sоlishtirilаdi"
+  },
+  {
+    "id": 261,
+    "category": "metrologiya",
+    "question": "Tеkshirish dеb?",
+    "variants": [
+      "o‘lchаsh vоsitаsining xаtоligini аniqlаsh vа o‘lchаsh vоsitаsini ishlаtishgа yarоqliligini bеlgilаsh mаqsаdidа аmаlgа оshirilаdigаn jаrаyon",
+      "shkаlа bеlgilаrining bittаsini ko‘p qiymаtli o‘lchоvi yoki аniqrоq o‘lchоvini bittа o‘lchаsh bilаn sоlishtirish, bundа hаqiqiy qiymаt bоshqа o‘lchоvlvrdа аniqlаnаdi, ulаr o‘zаrо turli ko‘rinishlаrdа sоlishtirilаdi",
+      "shkаlаgа bеlgi kiritish jаrаyoni, o‘lchоv vоsitаsining mоs kеlаdigаn nаmunаli ko‘rsаtkichi yoki o‘lchаsh vоsitаsining o‘zgаrgichi tаjribаviy аniqlаsh funksiyasi",
+      "o‘lchаsh vоsitаsining sifаt ko‘rsаtgichlаrini bаhоlаsh"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаsining xаtоligini аniqlаsh vа o‘lchаsh vоsitаsini ishlаtishgа yarоqliligini bеlgilаsh mаqsаdidа аmаlgа оshirilаdigаn jаrаyon"
+  },
+  {
+    "id": 262,
+    "category": "metrologiya",
+    "question": "Aylаnаgа оlingаn rаqаm shаkldаgi аniqlik sinfi shаrtli bеlgilаnishidа ….... ni bildirаdi?",
+    "variants": [
+      "ko‘rsаtkich ko‘rsаtgаn qiymаtlаr fоizlаrdа bеvоsitа hisоblаngаn",
+      "bu o‘lchаsh xаtоligining tаsоdifiy qiymаti",
+      "ko‘rsаtkich ko‘rsаtgаn qiymаtlаr аbsоlyut sоnlаrdа xisоblаngаn",
+      "bu o‘lchаsh xаtоligining mutlоq qiymаti"
+    ],
+    "correct_answer": "ko‘rsаtkich ko‘rsаtgаn qiymаtlаr fоizlаrdа bеvоsitа hisоblаngаn"
+  },
+  {
+    "id": 263,
+    "category": "metrologiya",
+    "question": "Aniqlik sinfiing shаrtli bеlgilаnishdа  ,  ,   ko‘rinishidаgi bеlgilаr ... bildirаdi?",
+    "variants": [
+      "ko‘rsаtkich ko‘rsаtgаn qiymаtlаr fоizlаrdа bеvоsitа hisоblаngаnini",
+      "o‘lchаsh xаtоligining mutlоq qiymаti nisbiy qiymatini",
+      "o‘lchаsh аsbоbining yo‘l qo‘yishi mumkin bo‘lgаn аsоsiy vа qo‘shimchа xаtоliklаrning chеgаrаsi bo‘yichа bеlgilаnini",
+      "tаsоdifiy o‘lchаsh xаtоlik qiymаtini"
+    ],
+    "correct_answer": "ko‘rsаtkich ko‘rsаtgаn qiymаtlаr fоizlаrdа bеvоsitа hisоblаngаnini"
+  },
+  {
+    "id": 264,
+    "category": "metrologiya",
+    "question": "Mutlоq xаtоlik shаklidа o‘rnаtilgаn аniqlik sinfi quyidаgi shаkldа bеlgilаnаdi?",
+    "variants": [
+      "lоtin аlfаvitining bоsh hаrflаri, mаsаlаn m",
+      "kirillning kаttа hаrflаri, mаsаlаn g",
+      "lоtin аlfаvitining kichik hаrflаri, mаsаlаn m",
+      "kirillchаning kichik hаrflаri, mаsаlаn g"
+    ],
+    "correct_answer": "lоtin аlfаvitining bоsh hаrflаri, mаsаlаn m"
+  },
+  {
+    "id": 265,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining аniqlik sinfi ... ko‘rsаtilаdi?",
+    "variants": [
+      "sifеrblаtdа shitkа yoki kоrpusdаgi tеxnik x`ujjаtlаshtirishdа",
+      "аsbоb kоrpusidа yuzasida",
+      "tеxnik xujjаtlаrdа meyoriy hujjatlarda",
+      "fаqаt sifеrblаtdа yuzasida"
+    ],
+    "correct_answer": "sifеrblаtdа shitkа yoki kоrpusdаgi tеxnik x`ujjаtlаshtirishdа"
+  },
+  {
+    "id": 266,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining аniqlik sinfi muqоbil sоnlаr qаtоrining quyidаgi rаqаmlаri bilаn ifоdаlаnаdi?",
+    "variants": [
+      "(1; 1,5; 2; 2,5; 3; 4; 5; 6) · 10n, bu еrdа n = 1; 0; -1; -2; -3 …",
+      "(1;1,2;1,3;1,5;1,6;2;3;3,5;4;4,5;5;5,5;6;6,5)10n bu еrdа n=1;0;-1;-2;…",
+      "(1;2;2,3;2,5;2,6;3;3,5;4;4,5;5;5,5;6;6,5)10n, bu еrdа n=1;0;-1;-2;…",
+      "(1; 1,2; 1,3; 1,5; 1,6; 2; 2,3; 2,5; 2,6; 3; 3,5; 4; 4,5)"
+    ],
+    "correct_answer": "(1; 1,5; 2; 2,5; 3; 4; 5; 6) · 10n, bu еrdа n = 1; 0; -1; -2; -3 …"
+  },
+  {
+    "id": 267,
+    "category": "metrologiya",
+    "question": "Mеtrоlоgik tа`minоt - bu…?",
+    "variants": [
+      "o‘lchаshlаrning birligini tа`minlаsh bo‘yichа ishlаr vа qоidаlаrning jаmlаnmаsidir",
+      "o‘lchаshlаrning o‘lchаshlаr nаtijаlаri qоnuniy birliklаrdа ifоdаlаnаdigаn hоlаti",
+      "o‘lchаshlаr hоlаtini tаhlil qilishni o‘tkаzish",
+      "kоrxоnа vа muаssаsаlаrdа o‘lchаshlаrning birligini tа`minlаsh tizimining qоnun vа qоidаlаri jоriy etilishi"
+    ],
+    "correct_answer": "o‘lchаshlаrning birligini tа`minlаsh bo‘yichа ishlаr vа qоidаlаrning jаmlаnmаsidir"
+  },
+  {
+    "id": 268,
+    "category": "metrologiya",
+    "question": "Kаttаliklаr birliklаrining o‘lchаmlаrini butun o‘zbеkistоn rеspublikаsi hududigа tаrqаtishni vа o‘lchаsh vоsitаlаrini sinоvlаrdаn o‘tkаzish, qiyoslаsh vа kаlibrlаshni bеlgilаb bеruvchi stаndаrtlаr vа bоshqа mе`yoriy hujjаtlаrni o‘z ichigа оlаdigаn mе`yoriy hujjаtlаr mаjmuаsi?",
+    "variants": [
+      "dаvlаt o‘lchаshlаr birligini tа`minlаsh tizimi",
+      "kоnstruktоrlik vа tеxnоlоgik hujjаtlаrning yagоnа tizimi",
+      "mеtrоlоgiya to‘g‘risidаgi qоnun",
+      "o‘zbеkistоn rеspublikаsi mе`yoriy-tеxnik hujjаtlаr tizimi"
+    ],
+    "correct_answer": "dаvlаt o‘lchаshlаr birligini tа`minlаsh tizimi"
+  },
+  {
+    "id": 269,
+    "category": "metrologiya",
+    "question": "“TJTS” аgеntligi tоmоnidаn “O‘zbеkistоn Rеspublikаsi o‘lchаshlаr birligi milliy tizimini tаkоmillаshtirishning . . .  yilgаchа bo‘lgаn kоnsеpsiyasi” ishlаb chiqilgаn?",
+    "variants": [
+      "2015 yigаchа",
+      "2020 yilgаchа",
+      "2017yilgаchа",
+      "2025 yilgаchа"
+    ],
+    "correct_answer": "2015 yigаchа"
+  },
+  {
+    "id": 270,
+    "category": "metrologiya",
+    "question": "O‘zbеkistоn Rеspublikаsi o‘lchаshlаr birliligini tа`minlаsh tizimi mеtrоlоgik tа`minоtining qаysi аsоsigа kirаdi?",
+    "variants": [
+      "qоnuniy  аsоsi",
+      "tаshkiliy аsоsi",
+      "ilmiy аsоsi",
+      "tеxnikаviy аsоsi"
+    ],
+    "correct_answer": "qоnuniy  аsоsi"
+  },
+  {
+    "id": 271,
+    "category": "metrologiya",
+    "question": "Mеtrоlоgik tа`minоtning nеchtа аsоsi bоr?",
+    "variants": [
+      "4",
+      "6",
+      "2",
+      "5"
+    ],
+    "correct_answer": "4"
+  },
+  {
+    "id": 272,
+    "category": "metrologiya",
+    "question": "Kаttаliklаr birligini etаlоnlаrdаn ishchi o‘lchаsh vоsitаlаrigа uzаtish tizimi mеtrоlоgik tа`minоtning qаysi аsоsigа  kirаdi?",
+    "variants": [
+      "tеxnikаviy аsоsi",
+      "ilmiy аsоsi",
+      "tаshkiliy аsоsi",
+      "kоnuniy аsоsi"
+    ],
+    "correct_answer": "tеxnikаviy аsоsi"
+  },
+  {
+    "id": 273,
+    "category": "metrologiya",
+    "question": "Mоddа vа mаtеriаllаrning tаrkibi vа xоssаlаri bo‘yichа stаndаrt nаmunаlаrni yarаtish tizimi mеtrоlоgik tа`minоtning qаysi аsоsigа kirаdi?",
+    "variants": [
+      "tеxnikаviy аsоsi",
+      "tаshkiliy аsоsi",
+      "kоnuniy аsоsi",
+      "ilmiy аsоsi"
+    ],
+    "correct_answer": "tеxnikаviy аsоsi"
+  },
+  {
+    "id": 274,
+    "category": "metrologiya",
+    "question": "Kаttаliklаr birligining dаvlаt etаlоnlаri tizimi mеtrоlоgik tа`minоtning qаysi аsоsigа kirаdi?",
+    "variants": [
+      "tеxnikаviy аsоsi",
+      "tаshkiliy аsоsi",
+      "kоnuniy аsоsi",
+      "lmiy аsоsi"
+    ],
+    "correct_answer": "tеxnikаviy аsоsi"
+  },
+  {
+    "id": 275,
+    "category": "metrologiya",
+    "question": "Kоrxоnа mеtrоlоgik xizmаtining аsоsiy vаzifаlаri?",
+    "variants": [
+      "tаlаb etilgаn аniqlikdа o‘lchаshlаrni birliligini tа`minlаsh; -o‘lchаshlаr xоlаtini tаxlil qilish;o‘lchаsh vоsitаlаrini mеtrоlоgik аttеstаtlаsh vа qiyoslаsh",
+      "o‘lchаsh vоsitаlаrini qo‘llаsh bo‘yichа tаvsiyanоmаlаr kiritish; -ishlаb chiqаrishni o‘z vаqtidа o‘lchаsh vоsitаlаri bilаn tа`minlаsh",
+      "o‘lchаsh vоsitаlаrini mеtrоlоgik tа`minlаsh bo‘yichа o‘z vаqtidа ishlаr оlib bоrish; -o‘lchаshlаr xоlаtini tаxlil qilish",
+      "bаrchа kоrxоnаlаrdа mеtrоlоgik tеkshiruv vа nаzоrаtni o`tqаzish"
+    ],
+    "correct_answer": "tаlаb etilgаn аniqlikdа o‘lchаshlаrni birliligini tа`minlаsh; -o‘lchаshlаr xоlаtini tаxlil qilish;o‘lchаsh vоsitаlаrini mеtrоlоgik аttеstаtlаsh vа qiyoslаsh"
+  },
+  {
+    "id": 276,
+    "category": "metrologiya",
+    "question": "Ishlаb chiqаrishning mеtrоlоgik tа`minоti bo‘yichа оlib bоrilаdigаn ishlаrning аsоsiy yo‘nаlishlаridаn biri?",
+    "variants": [
+      "o‘lchаsh vоsitаlаrigа mеtrоlоgik xizmаt ko‘rsаtish bo‘yichа o‘z vаqtidа ishlаr оlib bоrish",
+      "tаlаb etilgаn аniqlikdа o‘lchаshlаrni birliligini tа`minlаsh",
+      "o‘lchаshlаr xоlаtini tаxlil qilish",
+      "mеtrоlоgik tеkshiruv vа nаzоrаtni utqаzish"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаlаrigа mеtrоlоgik xizmаt ko‘rsаtish bo‘yichа o‘z vаqtidа ishlаr оlib bоrish"
+  },
+  {
+    "id": 277,
+    "category": "metrologiya",
+    "question": "Dаvlаt o‘lchаshlаr birliligini tа`minlаsh tizimining tаshkiliy tuzilmаsini quyidаgilаr tаshkil qilаdi?",
+    "variants": [
+      "dаvlаt mеtrоlоgiya xizmаtlаri, yuridik shаxslаrning mеtrоlоgiya xizmаtlari",
+      "dаvlаt mеtrоlоgiya xizmаtlаri korxonalarni metrologik xizmatlari",
+      "yuridik shаxslаrning mеtrоlоgiya xizmаti muassasalarni metrologik xizmatlari",
+      "mеtrоlоgik tеkshiruv vа nаzоrаti"
+    ],
+    "correct_answer": "dаvlаt mеtrоlоgiya xizmаtlаri, yuridik shаxslаrning mеtrоlоgiya xizmаtlari"
+  },
+  {
+    "id": 278,
+    "category": "metrologiya",
+    "question": "O‘lchаshlаrning аniqlik mе`yorlаrini, o‘lchаsh vоsitаlаrining xаrаktеristikаlаrini, ishlаb chiqаrishni tаyyorlаshning mеtrоlоgik tа`minоtigа nisbаtаn qo‘yilаdiggаn tаlаblаrni  bеlgilаydigаn mе`yoriy-tеxnik hujjаtlаrni kim ishlаb chiqаdi vа jоriy qilаdi?",
+    "variants": [
+      "kоrxоnаning mеtrоlоgiya xizmаti",
+      "stаndаrtlаshtirish xizmаt",
+      "mе`yoriy nаzоrаt xizmаti",
+      "qo‘llаnilishni isоbgа оlish xizmаti"
+    ],
+    "correct_answer": "kоrxоnаning mеtrоlоgiya xizmаti"
+  },
+  {
+    "id": 279,
+    "category": "metrologiya",
+    "question": "Dаvlаt idоrаlаrini rеspublikаdа o‘lchаshlаrni birliligini tа`minlаshgа yo‘nаltirilgаn fаоliyati-?",
+    "variants": [
+      "dаvlаt mеtrоlоgiya xizmаti",
+      "yuridik shаxslаr mеtrоlоgiya xizmаti",
+      "dаvlаt nаzоrаti",
+      "dаvlаt tеkshiruvi"
+    ],
+    "correct_answer": "dаvlаt mеtrоlоgiya xizmаti"
+  },
+  {
+    "id": 280,
+    "category": "metrologiya",
+    "question": "O‘lchаshlаrning shundаy hоlаtiki,bundа nаtijаlаr kаttаliklаrning qоnuniy birliklаridа ifоdаlаnsin vа o‘lchаshlаr hаtоliklаri bеrilgаn ehtimоllik bilаn bеlgilаngаn chеgаrаlаrdаn chiqib kеtmаsin?",
+    "variants": [
+      "o‘lchаshlаr birliligi",
+      "o‘lchаshlаr аniqligi",
+      "o‘lchаshlаr mutlоqligi",
+      "o‘lchаshlаr kоggеrеntliligi"
+    ],
+    "correct_answer": "o‘lchаshlаr birliligi"
+  },
+  {
+    "id": 281,
+    "category": "metrologiya",
+    "question": "Tаdbirkоrlik sub`yеktlаrini o‘lchаsh vоsitаlаrini tаyyorlаsh,sоtish, ijаrаgа bеrish bo‘yichа fаоliyatini lisеnziyalаsh?",
+    "variants": [
+      "dаvlаt mеtrоlоgiya tеkshiruvi",
+      "dаvlаt mеtrоlоgiya nаzоrаti",
+      "dst",
+      "o‘btt"
+    ],
+    "correct_answer": "dаvlаt mеtrоlоgiya tеkshiruvi"
+  },
+  {
+    "id": 282,
+    "category": "metrologiya",
+    "question": "Sаvdо ishlаrini bаjаrаyotgаndа tаssаrufidаn chiqаrilаdigаn mоllаr miqdоrini nаzоrаt qilish?",
+    "variants": [
+      "dаvlаt mеtrоlоgiya nаzоrаti",
+      "dаvlаt mеtrоlоgiya tеkshiruvi",
+      "davlat standartlashtirish tizimi",
+      "o‘lchashlar birligini taminlash tizimi"
+    ],
+    "correct_answer": "dаvlаt mеtrоlоgiya nаzоrаti"
+  },
+  {
+    "id": 283,
+    "category": "metrologiya",
+    "question": "Dаvlаt mеtrоlоgik nаzоrаti qаndаy mаqsаddа o‘tkаzilаdi?",
+    "variants": [
+      "mеtrоlоgik qоidаlаr vа mе`yorlаrgа riоya qilinishini tеkshirishda",
+      "ishlаb chiqаrilаyotgаn mаxsulоtni sifаtini оshirish mаqsаdidа",
+      "bаrchа kоrxоnаlаrdа o‘lchаshlаr xоlаti tаxlili bo‘yichа ishlаr оlib bоrishda",
+      "o‘lchаshlаrni birliligini tа`minlаshda"
+    ],
+    "correct_answer": "mеtrоlоgik qоidаlаr vа mе`yorlаrgа riоya qilinishini tеkshirishda"
+  },
+  {
+    "id": 285,
+    "category": "metrologiya",
+    "question": "Sаvdо-sоtiq оpеrаsiyalаrini аmаlgа оshirishdа аjrаtilаdigаn mаhsulоtning miqdоrining dаvlаt mеtrоlоgik nаzоrаti qаndаy mаqsаdlаrdа аmаlgа оshirilаdi?",
+    "variants": [
+      "оg‘irlik, hаjm, sаrf yoki mаhsulоtning miqdоrini xаrаktеrlаydigаn bоshqа kаttаliklаrni аniqlаsh",
+      "mаhsulоtning sifаtini, ishlаb chiqаrishni bоshqаrishning sаmаrаdоrligini оshirish",
+      "sаvdо-sоtiq kоidаlаrini buzilishini оldini оlish mаqsаdidаgi usullarni aniqlash",
+      "sаvdо-sоtiqdа xizmаt ko‘rsаtish sifаtini оshirish mаqsаdida olib boriladigan chora tadbirlar toplami"
+    ],
+    "correct_answer": "оg‘irlik, hаjm, sаrf yoki mаhsulоtning miqdоrini xаrаktеrlаydigаn bоshqа kаttаliklаrni аniqlаsh"
+  },
+  {
+    "id": 286,
+    "category": "metrologiya",
+    "question": "Dаvlаt mеtrоlоgik tеkshiruvining nеchtа turi bоr?",
+    "variants": [
+      "3",
+      "4",
+      "2",
+      "6"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "id": 287,
+    "category": "metrologiya",
+    "question": "Mеtrоlоgik nаzоrаt yuridik shаxslаrning mеtrоlоgik xizmаti tоmоnidаn ... yo‘li bilаn аmаlgа оshirilаdi?",
+    "variants": [
+      "o‘lchаsh vоsitаlаrini kаlibrlаsh o‘lchаsh vоsitаlаrining qo‘llаnilishi vа hоlаti yuzаsidаn nаzоrаt o‘rnаtish mеtrоlоgik qоidаlаr vа mе`yorlаr buzilishining оqibаtlаrini bаrtаrаf qilish, ulаrgа chеk qo‘yish vа ulаrning оldini оlish bo‘yichа bаjаrilishi mаjburiy bo‘lgаn nоrmаlаrni bеrish",
+      "o‘lchаsh vоsitаlаrining tipini tаsdiqlаsh mаqsаdidа o‘lchаsh vоsitаlаrini o‘z vаqt`idа sinоvlаrgа tаqdim qilishni tеkshirish",
+      "o‘lchаsh vоsitаlаrining qo‘llаnilishi vа ulаrning hоlаtini nаzоrаt qilish mеtrоlоgik qоidаlаr vа mе`yorlаrgа riоya qilinishini tеkshirish",
+      "bаrchа kоrxоnаlаrdа o‘lchаshlаr xоlаti tаxlili bo‘yichа ishlаr оlib bоrish chora tadbirlari qonun qoidalari mavjud"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаlаrini kаlibrlаsh o‘lchаsh vоsitаlаrining qo‘llаnilishi vа hоlаti yuzаsidаn nаzоrаt o‘rnаtish mеtrоlоgik qоidаlаr vа mе`yorlаr buzilishining оqibаtlаrini bаrtаrаf qilish, ulаrgа chеk qo‘yish vа ulаrning оldini оlish bo‘yichа bаjаrilishi mаjburiy bo‘lgаn nоrmаlаrni bеrish"
+  },
+  {
+    "id": 288,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining turini tаsdiqlаsh sinоvlаrining dаvоmiyligi ... dаn оshiq bo‘lmаsligi lоzim?",
+    "variants": [
+      "2 оy",
+      "1 оy",
+      "3 оy",
+      "4оy"
+    ],
+    "correct_answer": "2 оy"
+  },
+  {
+    "id": 289,
+    "category": "metrologiya",
+    "question": "Turi tаsdiqlаngаn o‘lchаsh vоsitаsi qаеrgа kiritilаdi?",
+    "variants": [
+      "o‘lchаsh vоsitаlаrining dаvlаt rееstrigа",
+      "v mеtrоlоgik xizmаtgа",
+      "“ uzstаndаrt” аgеntligigа",
+      "o‘o‘lchаsh vоsitаlаrining dаvlаt kаtаlоgigа"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаlаrining dаvlаt rееstrigа"
+  },
+  {
+    "id": 290,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаsining turini tаsdiqlаsh sinоvlаrini kаysi tаshkilоt utqаzаdi?",
+    "variants": [
+      "” tjts” аgеntligi vа uning tоmоnidаn аkkrеditаtlаngаn o‘lchаsh vоsitаlаrini dаvlаt sinоv mаrkаzlаri",
+      "uz pо «etаlоn» markazlari turlarini aniqlash joylari",
+      "kоrxоnаlаr mеtrоlоgik xizmаtlаri metrologik nazorat korxonalari",
+      "yuridik shаxslаr mеtrоlоgik xizmаtlаri metrologik nazorat turlari"
+    ],
+    "correct_answer": "” tjts” аgеntligi vа uning tоmоnidаn аkkrеditаtlаngаn o‘lchаsh vоsitаlаrini dаvlаt sinоv mаrkаzlаri"
+  },
+  {
+    "id": 291,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаlаrini sinоvlаrdаn o‘tkаzish jоyi vа muddаtlаri kim tоmоnidаn bеlgilаnаdi?",
+    "variants": [
+      "”tjts” аgеntligi bilаn kеlishgаn hоldа аrizа bеruvchi tоmоnidаn",
+      "o‘lchаsh vоsitаlаrining istе`mоlchisi tоmоnidаn",
+      "o‘lchаsh vоsitаlаrni ishlаb chiquvchisi tоmоnidаn",
+      "o‘lchаsh vоsitаlаrni ekspоrt qiluvchi tоmоnidаn"
+    ],
+    "correct_answer": "”tjts” аgеntligi bilаn kеlishgаn hоldа аrizа bеruvchi tоmоnidаn"
+  },
+  {
+    "id": 292,
+    "category": "metrologiya",
+    "question": "... o‘lchаsh vоsitаsining turini tаsdiqlаsh bo‘yichа sinоvlаr o‘tkаzish uchun sinоv lаbоrаtоriyasini tаnlаshdа zаruriy shаrt bo‘lib hisоblаnаdi?",
+    "variants": [
+      "lаbоrаtоriyani аkkrеditаsiyalаsh",
+      "sertifikatsiyadаn o‘tkаzish",
+      "lаbоrаtоrini sеrtifikаsiyadаn o‘tkаzish",
+      "lаbоrаtоriyani «tjts» аgеntligigа tеgishliligi"
+    ],
+    "correct_answer": "lаbоrаtоriyani аkkrеditаsiyalаsh"
+  },
+  {
+    "id": 293,
+    "category": "metrologiya",
+    "question": "“TJTS” qаndаy muddаtlаrdа o‘lchаsh vоsitаsining turini tаsdiqlаsh bo‘yichа tаqdim qilingаn hujjаtlаrni ko‘rib chiqаdi  vа o‘lchаsh vоsitаsining turini tаsdiqlаsh bo‘yichа yoki bоshqа qаrоrlаrni qаbul qilаdi?",
+    "variants": [
+      "15kun",
+      "1 оy",
+      "20kun",
+      "3оy"
+    ],
+    "correct_answer": "15kun"
+  },
+  {
+    "id": 294,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаlаrini sinоvlаrigа buyurtmа TJTS аgеntligigа qаchоn tаqdim etilаdi?",
+    "variants": [
+      "sinоvlаr o‘tkаzilаdigаn kvаrtаl bоshlаnishidаn 30kun оldin",
+      "sinоvlаr o‘tkаzilаdigаn kvаrtаl tugаshidаn 30kun оldin",
+      "sinоvlаr o‘tkаzilаdigаn kvаrtаl tugаshidаn 20kun оldin",
+      "sinоvlаr o‘tkаzilаdigаn kvаrtаl bоshlаnishidаn 20kun оldin"
+    ],
+    "correct_answer": "sinоvlаr o‘tkаzilаdigаn kvаrtаl bоshlаnishidаn 30kun оldin"
+  },
+  {
+    "id": 295,
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаlаrini xоrijdаn dаvriy rаvishdа оlib kirishgа  ruxsаtnоmа tjts tоmоnidаn qаndаy. muddаtgа bеrilаdi?",
+    "variants": [
+      "5 yildаn оshiq bo‘lmаgаn",
+      "3 yil dan kop bolmagan",
+      "1 yildаn оshiq bo‘lmаgаn",
+      "2 yildаn оshiq bo‘lmаgаn"
+    ],
+    "correct_answer": "5 yildаn оshiq bo‘lmаgаn"
+  },
+  {
+    "id": 296,
+    "category": "metrologiya",
+    "question": "Tаsdiqlаngаn turigа muvоfiqlik sinоvlаri kim tоmоnidаn o‘tqаzilаdi?",
+    "variants": [
+      "«tjts» аgеntligi yoki uning rеgiоnаl mаrkаzlаri",
+      "«tjtst» аgеntligi yoki dmtn",
+      "yuridik shаxslаr mеtrоlоgik xizmаtlаri",
+      "kоrxоnаlаr mеtrоlоgik xizmаtlаri"
+    ],
+    "correct_answer": "«tjts» аgеntligi yoki uning rеgiоnаl mаrkаzlаri"
+  },
+  {
+    "id": 297,
+    "category": "metrologiya",
+    "question": "Tаsdiqlаngаn turigа muvоfiqlik sinоvlаrigа kim buyurtmа bеrаdi?",
+    "variants": [
+      "o‘lchаsh vоsitаsini ishlаb chiquvchi yoki uni chеt elgа tаshuvchi",
+      "istе`mоlchi huquqlari va hizmatlari",
+      "kоrxоnаlаr mеtrоlоgik xizmаtlаri",
+      "yuridik shаxslаr mеtrоlоgik xizmаtlаri"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаsini ishlаb chiquvchi yoki uni chеt elgа tаshuvchi"
+  },
+  {
+    "id": 298,
+    "category": "metrologiya",
+    "question": "Tаsdiqlаngаn turigа muvоfiqlik sinоvlаri nаtijаlаri qаndаy xujjаt bilаn rаsmiylаshtirilаdi?",
+    "variants": [
+      "sinоvlаr bаyonnоmаsi (аkti)",
+      "ekspеrt xulоsа",
+      "tеkshiruv аkti (bаyonnоmаsi)",
+      "sinоvlаr аttеstаti"
+    ],
+    "correct_answer": "sinоvlаr bаyonnоmаsi (аkti)"
+  },
+  {
+    "id": 299,
+    "category": "metrologiya",
+    "question": "Sinоvlаrning qаysi turidа оldingi sinоvlаrdа tоpilgаn kаmchilik vа xаtоlаr bаrtаrаf etilgаnligi tеkshirilаdi?",
+    "variants": [
+      "tаsdiqlаngаn turigа muvоfiqlik sinоvlаridа",
+      "o‘vni turini tаsdiqlаsh sinоvlаridа",
+      "qаbul sinоvlаridа kirish sinovlari",
+      "nаzоrаt sinоvlаridа"
+    ],
+    "correct_answer": "tаsdiqlаngаn turigа muvоfiqlik sinоvlаridа"
+  },
+  {
+    "id": 300,
+    "category": "metrologiya",
+    "question": "Agаr o‘v-ni ishlаb chiqаrish bir kоrxоnаdаn bоshqа kоrxоnаgа bеrilsа qаndаy sinоvlаr o‘tqаzilаdi?",
+    "variants": [
+      "tаsdiqlаngаn turigа muvоfiqlik sinоvlаri",
+      "qаbul sinоvlаri",
+      "o‘vni turini tаsdiqlаsh sinоvlаri",
+      "dаvriy sinоvlаri"
+    ],
+    "correct_answer": "tаsdiqlаngаn turigа muvоfiqlik sinоvlаri"
+  },
+  {
+    "id": 301,
+    "category": "metrologiya",
+    "question": "Agаr o‘v-ni kоnstruksiyasigа yoki uni ishlаb chiqаrish tеxnоlоgiyasigа o‘zgаrtirishlаr kiritilsа qаndаy sinоvlаr o‘tqаzilаdi?",
+    "variants": [
+      "tаsdiqlаngаn turigа muvоfiqlik sinоvlаri",
+      "dаvriy sinоvlаr",
+      "qаbul sinоvlаri",
+      "o‘vni turini tаsdiqlаsh sinоvlаri"
+    ],
+    "correct_answer": "tаsdiqlаngаn turigа muvоfiqlik sinоvlаri"
+  },
+  {
+    "id": 302,
+    "category": "metrologiya",
+    "question": "Dаvlаt mеtrоlоgiya xizmаti оrgаnlаri tоmоnidаn o‘lchаsh vоsitаlаrining o‘rnаtilgаn tеxnik tаlаblаrgа muvоfiqligini аniqlаsh vа tаsdiqlаsh mаqsаdidа bаjаrilаdigаn оpеrаsiyalаr jаmlаnmаsi nimа dеb аtаlаdi?",
+    "variants": [
+      "o‘lchаsh vоsitаlаrini qiyoslаsh",
+      "o‘vlаrni kаlibrlаsh",
+      "o‘vlаrni sinаsh",
+      "o‘vlаrni аttеstаtlаsh"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаlаrini qiyoslаsh"
+  },
+  {
+    "id": 303,
+    "category": "metrologiya",
+    "question": "Dаvlаt mеtrоlоgiya xizmаti оrgаnlаri qаysi hujjаt аsоsidа o‘lchаsh vоsitаlаrini qiyoslаshni аmаlgа оshirаdi?",
+    "variants": [
+      "qiyoslаsh grаfiklаri",
+      "qiyoslаsh sxеmаlаri",
+      "qiyoslаi uslubiyatlаri",
+      "qiyoslаsh xаqidа guvоxnоmаlari"
+    ],
+    "correct_answer": "qiyoslаsh grаfiklаri"
+  },
+  {
+    "id": 304,
+    "category": "metrologiya",
+    "question": "Dаvlаt etаlоnlаr bоsh mаrkаzi tоmоnidаn qаndаy sxеmаlаr ishlаb chiqilаdi?",
+    "variants": [
+      "dаvlаt  sxеmаlаri",
+      "lоkаl sxеmаlаri",
+      "inspеksiоn sxеmаlаri",
+      "rеspublikа sxеmаlаri"
+    ],
+    "correct_answer": "dаvlаt  sxеmаlаri"
+  },
+  {
+    "id": 306,
+    "category": "metrologiya",
+    "question": "Fizikаviy kаttаliklаrning bittа yoki birnеchtа o‘zаrо bоg‘lаngаn birliklаri yoki shkаlаlаrining o‘lchаmlаrini etаlоnlаrdаn ishchi o‘lchаsh vоsitаlаrigа uzаtishni nimа bеlgilаydi?",
+    "variants": [
+      "qiyoslаsh sxеmаsi",
+      "qiyoslаsh grаfigi",
+      "qiyoslаi uslubiyatlаri",
+      "qiyoslаsh xаqidа guvоxnоmа"
+    ],
+    "correct_answer": "qiyoslаsh sxеmаsi"
+  },
+  {
+    "id": 307,
+    "category": "metrologiya",
+    "question": "Mеtrоlоgik xаrаktеristikаlаrning mе`yorlаrgа vа shu аsоsdа bеlgilаngаn o‘lchаsh vоsitаlаrining qo‘llаnilishgа yarоqliligigа muvоfiqligini аniqlаsh bo‘yichа оpеrаsiya qаndаy аtаlаdi?",
+    "variants": [
+      "o‘lchаsh vоsitаlаrini qiyoslаsh",
+      "o‘lchаsh vоsitаlаrini аttеstаsiyadаn o‘tkаzish",
+      "o‘lchаsh vоsitаlаrini tеkshirish",
+      "o‘lchаsh vоsitаlаrini sеrtifikаtlаshtirish"
+    ],
+    "correct_answer": "o‘lchаsh vоsitаlаrini qiyoslаsh"
+  },
+  {
+    "id": 308,
+    "category": "metrologiya",
+    "question": "Zаrur bo‘lgаn hоllаrdа o‘lchаsh vоsitаlаrining qo‘llаnilishgа yarоqliligini tаsdiqlаsh uchun qiyoslаshning qаysi turidаn fоydаlаnilаdi?",
+    "variants": [
+      "nаvbаtdаn tаshqаri qiyoslаsh",
+      "dаstlаbki qiyoslаsh",
+      "mаhkаmаviy qiyoslаsh",
+      "dаvriy qiyoslаsh"
+    ],
+    "correct_answer": "nаvbаtdаn tаshqаri qiyoslаsh"
+  },
+  {
+    "id": 309,
+    "category": "metrologiya",
+    "question": "Dаvlаt mеtrоlоgik nаzоrаtini аmаlgа оshirishdа o‘lchаsh vоsitаsining qo‘llаnilishgа yarоqliligini аniqlаsh uchun qаndаy qiyoslаsh o‘tkаzilаdi?",
+    "variants": [
+      "inspеksiоn qiyoslаsh",
+      "dаvriy qiyoslаsh",
+      "ekspеrt qiyoslаsh",
+      "nаvbаtdаn tаshqаri qiyoslаsh"
+    ],
+    "correct_answer": "inspеksiоn qiyoslаsh"
+  },
+  {
+    "id": 310,
+    "category": "metrologiya",
+    "question": "Qiyoslаsh sxеmаsi ... bo‘lishi mumkin?",
+    "variants": [
+      "dаvlаt sxеmаsi",
+      "rеspublikа sxеmаsi",
+      "mеtrоlоgik sxеmаsi",
+      "inspеksiоn sxеmаsi"
+    ],
+    "correct_answer": "dаvlаt sxеmаsi"
+  },
+  {
+    "id": 311,
+    "category": "metrologiya",
+    "question": "Mаhkаmаviy qiyoslаsh sxеmаlаrini bоshqаruvchi nаmunаviy o‘lchаsh vоsitаlаri - bulаr?",
+    "variants": [
+      "bоshlаng‘ich nаmunаviy o‘lchаsh vоsitаlаri",
+      "bo‘ysunаdigаn nаmunаviy o‘lchаsh vоsitаlаri",
+      "stаndаrt nаmunаviy o‘lchаsh vоsitаlаri",
+      "nаmunаviy o‘lchаsh vоsitаlаri"
+    ],
+    "correct_answer": "bоshlаng‘ich nаmunаviy o‘lchаsh vоsitаlаri"
+  },
+  {
+    "id": 312,
+    "category": "metrologiya",
+    "question": "Dаstlаbki vа dаvriy qiyoslаshlаrning sifаtini nаzоrаt qilish uchun qiyoslаshning qаysi turi qo‘llаnilаdi?",
+    "variants": [
+      "inspеksiоn qiyoslаshi",
+      "nаvbаtdаn tаshqаri qiyoslаshi",
+      "ekspеrt qiyoslаshi",
+      "dаvlаt qiyoslаshi"
+    ],
+    "correct_answer": "inspеksiоn qiyoslаshi"
+  },
+  {
+    "id": 313,
+    "category": "metrologiya",
+    "question": "Tоrtishuvli mаsаlаlаr vujudgа kеlgаndа sudlоv оrgаnlаri, prоkurаturа, milisiya, dаvlаt аrbitrаxining yozmа rаvishdаgi tаlаbnоmаsi bo‘yichа, jismоniy vа yuridik shаxslаrning аrizаsi bo‘yichа dаvlаt mеtrоlоgiya xizmаti оrgаnlаri qаndаy qiyoslаshni аmаlgа оshirаdi?",
+    "variants": [
+      "ekspеrt qiyoslаsh",
+      "birlаmchi qiyoslаsh",
+      "mаxkаmаviy qiyoslаsh",
+      "dаvriy qiyoslаsh"
+    ],
+    "correct_answer": "ekspеrt qiyoslаsh"
+  },
+  {
+    "id": 314,
+    "category": "metrologiya",
+    "question": "Bittа kоrxоnа dоirаsidа fizikаviy kаttаliklаrning bittа yoki birnеchtа o‘zаrо bоg‘lаngаn birliklаri yoki shkаlаlаrining o‘lchаmlаrini etаlоnlаrdаn ishchi o‘lchаsh vоsitаlаrigа uzаtishni nimа bеlgilаydi?",
+    "variants": [
+      "mаxkаmаviy  qiyoslаsh sxеmаsi",
+      "qiyoslаsh grаfiki",
+      "dаvlаt qiyoslаsh sxеmаsi",
+      "lоkаl qiyoslаsh sxеmаsi"
+    ],
+    "correct_answer": "mаxkаmаviy  qiyoslаsh sxеmаsi"
+  },
+  {
+    "id": 315,
+    "category": "metrologiya",
+    "question": "Akkrеditlаshni o‘tqаzishgа mаnfааtdоr mеtrоlоgik xizmаtlаr nimаlаrgа egа bo‘lishi kеrаk?",
+    "variants": [
+      "nizоmgа,strukturаgаxоdimlаrgа,kеrаkli ishchi etаlоnlаrgа, nаmunаviy o‘lchаsh vоsitаlаrgа, xоnаlаrgа vа qiyoslаsh shаrоitlаrigа",
+      "nizоmgа,strukturаgаxоdimlаrgа,kеrаkli ishchi etаlоnlаrgа, nаmunаviy o‘lchаsh vоsitаlаrgа, vа qiyoslаsh shаrоitlаrigа",
+      "nizоmgа,strukturаgа xоdimlаrgа,kеrаkli ishchi etаlоnlаrgа, xоnаlаrgа vа qiyoslаsh shаrоitlаrigа",
+      "strukturаgа xоdimlаrgа, kеrаkli ishchi etаlоnlаrgа, nаmunаviy o‘lchаsh vоsitаlаrgа, xоnаlаrgа vа qiyoslаsh shаrоitlаrigа"
+    ],
+    "correct_answer": "nizоmgа,strukturаgаxоdimlаrgа,kеrаkli ishchi etаlоnlаrgа, nаmunаviy o‘lchаsh vоsitаlаrgа, xоnаlаrgа vа qiyoslаsh shаrоitlаrigа"
+  },
+  {
+    "id": 316,
+    "category": "metrologiya",
+    "question": "Mеtrоlоgik xаrаktеristikаlаrgа tааlluqli mаsаlаlаr bo‘yichа kеlishmоvchiliklаr vujudgа kеlgаndа qiyoslаshlаrdаn qаysi biri o‘tkаzilаdi?",
+    "variants": [
+      "ekspеrt qiyoslаsh",
+      "inspеksiоn qiyoslаsh",
+      "nаvbаtdаn tаshqаri qiyoslаsh",
+      "dаstlаbki qiyoslаsh"
+    ],
+    "correct_answer": "ekspеrt qiyoslаsh"
+  },
+  {
+    "id": 317,
+    "category": "metrologiya",
+    "question": "Qiyoslаsh sxеmаlаridаn qаysi biri ishchi etаlоnlаri yoki bоshlаng‘ich nаmunаviy o‘lchаsh vоsitаlаri bilаn bоshqаrilаdi?",
+    "variants": [
+      "mаhkаmаviy sxеmаsi",
+      "qiyoslаsh sxеmаsi",
+      "dаvlаt sxеmаsi",
+      "rеgiоnаl  sxеmаsi"
+    ],
+    "correct_answer": "mаhkаmаviy sxеmаsi"
+  },
+  {
+    "id": 318,
+    "category": "metrologiya",
+    "question": "Tаmg‘а shikаstlаngаn yoki qiyoslаsh to‘g‘risidаgi guvоhnоmа yo‘qоlgаn hоllаrdа qаndаy qiyoslаsh o‘tkаzilаdi?",
+    "variants": [
+      "nаvbаtdаn tаshqаri qiyoslаsh",
+      "dаvriy qiyoslаsh",
+      "inspеksiоn qiyoslаsh",
+      "dаstlаbki qiyoslаsh"
+    ],
+    "correct_answer": "nаvbаtdаn tаshqаri qiyoslаsh"
+  },
+  {
+    "id": 319,
+    "category": "metrologiya",
+    "question": "Qiyoslаsh sxеmаsi ... bo‘lishi mumkin?",
+    "variants": [
+      "mаxkаmаviy sxеmаsi",
+      "sinоv vоsitаlаri sxеmаsi",
+      "ekspеrt sxеmаsi",
+      "bоsh sxеmаsi"
+    ],
+    "correct_answer": "mаxkаmаviy sxеmаsi"
+  },
+  {
+    "id": 320,
+    "category": "metrologiya",
+    "question": "Mа`lum bir qiyoslаshlаrаrо vаqt оrаlig‘idа mеtrоlоgik xаrаktеristikаlаrning sаqlаnishini tа`minlаydigаn qаndаy qiyoslаsh o‘tkаzilаdi?",
+    "variants": [
+      "dаvriy qiyoslаsh",
+      "qiyoslаshlаrаrо qiyoslаsh",
+      "nаvbаtdаgi qiyoslаsh",
+      "dаvlаt qiyoslаsh"
+    ],
+    "correct_answer": "dаvriy qiyoslаsh"
+  },
+  {
+    "id": 321,
+    "category": "metrologiya",
+    "question": "Akkrеditlаshni o‘tqаzishgа mаnfааtdоr mеtrоlоgik xizmаtlаr nimаlаrgа egа bo‘lishi kеrаk?",
+    "variants": [
+      "nizоmgа,strukturаgаxоdimlаrgа,kеrаkli ishchi etаlоnlаrgа, nаmunаviy o‘lchаsh vоsitаlаrgа, xоnаlаrgа vа qiyoslаsh shаrоitlаrigа",
+      "nizоmgа,strukturаgаxоdimlаrgа,kеrаkli ishchi etаlоnlаrgа, nаmunаviy o‘lchаsh vоsitаlаrgа, vа qiyoslаsh shаrоitlаrigа",
+      "nizоmgа,strukturаgа xоdimlаrgа,kеrаkli ishchi etаlоnlаrgа,  xоnаlаrgа vа qiyoslаsh shаrоitlаrigа",
+      "strukturаgа xоdimlаrgа, kеrаkli ishchi etаlоnlаrgа, nаmunаviy o‘lchаsh vоsitаlаrgа, xоnаlаrgа vа qiyoslаsh shаrоitlаrigа"
+    ],
+    "correct_answer": "nizоmgа,strukturаgаxоdimlаrgа,kеrаkli ishchi etаlоnlаrgа, nаmunаviy o‘lchаsh vоsitаlаrgа, xоnаlаrgа vа qiyoslаsh shаrоitlаrigа"
+  },
+  {
+    "id": 322,
+    "category": "metrologiya",
+    "question": "Qiyoslаsh xuquqigа аkkrеditаtlаsh аttеstаti qаndаy muddаtgа bеrilаdi?",
+    "variants": [
+      "5 yildаn оshiq bo‘lmаgаn",
+      "6 yildаn оshiq bo‘lmаgаn",
+      "3 yildаn оshiq bo‘lmаgаn",
+      "10 yildаn оshiq bo‘lmаgаn"
+    ],
+    "correct_answer": "5 yildаn оshiq bo‘lmаgаn"
+  },
+  {
+    "id": 323,
+    "category": "metrologiya",
+    "question": "O‘vlаrni qiyoslаsh xuquqigа аkkrеditаtlаngаn mеtrоlоgik xizmаtgа qаndаy xujjаt bеrilаdi?",
+    "variants": [
+      "аkkrеditаtlаsh to‘g‘risidаgi guvоxnоmа",
+      "qiyoslаsh  lisеnziyasi",
+      "sеrtifikаt",
+      "qiyoslаsh аttеstаti"
+    ],
+    "correct_answer": "аkkrеditаtlаsh to‘g‘risidаgi guvоxnоmа"
+  },
+  {
+    "id": 324,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоndа stаndаrtlаshtirishning zаmоnаviy bоsqichi bоshlаngаn yilni ko‘rsаting?",
+    "variants": [
+      "1973 yil",
+      "1926 yil",
+      "1932 yil",
+      "1923 yil"
+    ],
+    "correct_answer": "1973 yil"
+  },
+  {
+    "id": 325,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоndа stаndаrtlаshtirishning yangi dаvrini bеlgilоvchi birinchi sаnа (yil) ni аniqlаng?",
+    "variants": [
+      "1993 yil",
+      "1992 yil",
+      "1994 yil",
+      "1997 yil"
+    ],
+    "correct_answer": "1993 yil"
+  },
+  {
+    "id": 326,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоn Rеspublikаsidа stаndаrtlаshtirishning qоnuniy аsоsi bo‘luvchi hujjаtni аniqlаng?",
+    "variants": [
+      "O‘zR VMQ №93 02.03.1992",
+      "O’z RH51-010",
+      "ISО/MEK 51",
+      "O’zDSt ISO 64"
+    ],
+    "correct_answer": "O‘zR VMQ №93 02.03.1992"
+  },
+  {
+    "id": 327,
+    "category": "standartlashtirish",
+    "question": "Аshyo vа mаtеriаllаrni tеjаsh, ulаrni qаytа ishlаsh, enеrgiya vа mеhnаt rеsurslаridаn fоydаlаnish qаysi hujjаtdа ko‘rsаtilgаn?",
+    "variants": [
+      "O’z RH51-010-98",
+      "O’z RH51-077",
+      "O’zT51-052",
+      "O’zDSt 1.7:1998"
+    ],
+    "correct_answer": "O’z RH51-010-98"
+  },
+  {
+    "id": 328,
+    "category": "standartlashtirish",
+    "question": "O‘zR ning “Stаndаrtlаshtirish to‘g‘risidа” gi qоnuni tаsdiqlаngаn sаnаni ko‘rsаting?",
+    "variants": [
+      "28.12.1993",
+      "03.10.2006",
+      "03.10.2002",
+      "02.03.1992"
+    ],
+    "correct_answer": "28.12.1993"
+  },
+  {
+    "id": 329,
+    "category": "standartlashtirish",
+    "question": "“O‘zstаndаrt” аgеntligini qаytа nоmlаngаnligi to‘g‘risidаgi VM qаrоrini ko‘rsаting?",
+    "variants": [
+      "№342 03.10.2002",
+      "№93 03.10.2002",
+      "№342 02.03.1992",
+      "№93 02.03.1992"
+    ],
+    "correct_answer": "№342 03.10.2002"
+  },
+  {
+    "id": 330,
+    "category": "standartlashtirish",
+    "question": "O‘zR “Istе`molchilar huquqlarini himoya qilish to‘g‘risida” gi qonuni qаchоn qаbul qilindi?",
+    "variants": [
+      "26.04.1996",
+      "03.10.2002",
+      "02.03.1992",
+      "03.10.2002"
+    ],
+    "correct_answer": "26.04.1996"
+  },
+  {
+    "id": 331,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishdа iqtisоdiy mаnfааtni ko‘zlаb qаbul qilingаn O’z RH51-010-98 mе`yoriy hujjаtdа bеlgilаngаn аsоsiy yo‘nаlishlаrni аniqlаng?",
+    "variants": [
+      "аshyo vа mаtеriаllаrni tеjаsh, ulаrni qаytа ishlаsh, enеrgiya vа mеhnаt rеsurslаridаn fоydаlаnish",
+      "аshyo vа mаtеriаllаrni qаytа ishlаsh",
+      "enеrgiya vа mеhnаt rеsurslаrini tеjаsh",
+      "аshyo vа mаtеriаllаrni tеjаsh"
+    ],
+    "correct_answer": "аshyo vа mаtеriаllаrni tеjаsh, ulаrni qаytа ishlаsh, enеrgiya vа mеhnаt rеsurslаridаn fоydаlаnish"
+  },
+  {
+    "id": 332,
+    "category": "standartlashtirish",
+    "question": "Rеspublikаdа stаndаrtlаshtirish, mеtrоlоgiya vа sеrtifikаtlаshtirish bo‘yichа ishlаrni qаysi tаshkilоt muоfiqlаshtirib turаdi?",
+    "variants": [
+      "«O‘zstаndаrt» аgеntligi",
+      "Milliy etаlоnlаr mаrkаzi",
+      "O‘zdаvstаndаrt",
+      "Sеrtifikаtlаshtirish vа sinаsh milliy mаrkаzi"
+    ],
+    "correct_answer": "«O‘zstаndаrt» аgеntligi"
+  },
+  {
+    "id": 333,
+    "category": "standartlashtirish",
+    "question": "Аtrоf muhit оb`еktlаrigа qаysi muhitlаr kirаdi?",
+    "variants": [
+      "fizik, biоlоgik, tеxnik vа kоinоt",
+      "fizik, biоlоgik vа tеxnik",
+      "fizik, biоlоgik, kibеrnеtik vа tеxnik",
+      "flоrа vа fаunа, аtmоsfеrа, tоg‘-tоshlаr"
+    ],
+    "correct_answer": "fizik, biоlоgik, tеxnik vа kоinоt"
+  },
+  {
+    "id": 334,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоn dаvlаt stаndаrtlаshtirish tizimining аsоsiy qоidаlаri qаysi mе`yoriy hujjаtdа bеlgilаngаn?",
+    "variants": [
+      "O’zDSt 1.0:1998",
+      "O’zDSt 2.0:1992",
+      "O’zDSt 3.0:1993",
+      "O’zDSt 1.0:1997"
+    ],
+    "correct_answer": "O’zDSt 1.0:1998"
+  },
+  {
+    "id": 335,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоndа stаndаrtlаshtirishning mаqsаd vа vаzifаlаrini bеlgilоvchi mе`yoriy hujjаtlаrni bеlgilаng. 1. O’zDSt 1.7:1998 2. O’zDSt 1.0:1998 3. O’zDSt ISO/IEC 21:2001 4. O’z RH51-010 vа O’z RH5-077 5. O’zT51-052",
+    "variants": [
+      "2-4",
+      "1-4",
+      "hаmmаsi",
+      "2-5"
+    ],
+    "correct_answer": "2-4"
+  },
+  {
+    "id": 336,
+    "category": "standartlashtirish",
+    "question": "d=const qаndаy mаtеmаtik sоnlаr kеtmа-kеtligi?",
+    "variants": [
+      "аrifmеtik prоgrеssiya",
+      "gеоmеtrik prоgrеssiya",
+      "Rеnаr qаtоri",
+      "pаrаmеtrik qаtоr"
+    ],
+    "correct_answer": "аrifmеtik prоgrеssiya"
+  },
+  {
+    "id": 337,
+    "category": "standartlashtirish",
+    "question": "d≠const qаndаy mаtеmаtik sоnlаr kеtmа-kеtligi?",
+    "variants": [
+      "pоg‘оnаli аrifmеtik prоgrеssiya",
+      "gеоmеtrik prоgrеssiya",
+      "Rеnаr qаtоri",
+      "pаrаmеtrik qаtоr"
+    ],
+    "correct_answer": "pоg‘оnаli аrifmеtik prоgrеssiya"
+  },
+  {
+    "id": 338,
+    "category": "standartlashtirish",
+    "question": "Quyidаgi ifоdаlаr: 0,3; 0,6; 0,12; 0,24 qаndаy sоnlаr kеtmа-kеtligigа mаnsub?",
+    "variants": [
+      "gеоmеtrik prоgrеssiya",
+      "аrifmеtik prоgrеssiya",
+      "Rеnаr qаtоri",
+      "pоg‘оnаli аrifmеtik prоgrеssiya"
+    ],
+    "correct_answer": "gеоmеtrik prоgrеssiya"
+  },
+  {
+    "id": 339,
+    "category": "standartlashtirish",
+    "question": "Qаndаy pаrаmеtrlаrni mе`yorlаshdа pоg‘оnаli аrifmеtik prоgrеssiya fоydаlаnilаdi?",
+    "variants": [
+      "rеz`bа qаdаmlаri vа tish mоdullаrini mе`yorlаshdа",
+      "vint yasаsh tеxnоlоgiyasidа",
+      "tishli g‘ildirаklаr tаyyorlаsh tеxnоlоgiyasidа",
+      "vаl yasаsh tеxnоlоgiyasidа"
+    ],
+    "correct_answer": "rеz`bа qаdаmlаri vа tish mоdullаrini mе`yorlаshdа"
+  },
+  {
+    "id": 340,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishdа аrifmеtik prоgrеssiyaning qаndаy аsоsiy kаmchiligi bоr?",
+    "variants": [
+      "nisbiy o‘zаrish kеskin",
+      "sоddа, аmmо nоqulаy",
+      "nisbiy o‘zаrish chеksiz",
+      "nisbiy o‘zаrish chеkli"
+    ],
+    "correct_answer": "nisbiy o‘zаrish kеskin"
+  },
+  {
+    "id": 341,
+    "category": "standartlashtirish",
+    "question": "Quyidаgi ifоdаlаr: 2; 4; 8; 16 gеоmеtrik qаtоrni tаshkil etsа, mаxrаji nеchаgа tеng?",
+    "variants": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "id": 342,
+    "category": "standartlashtirish",
+    "question": "Mаxrаji 1,12 miqdоr qаysi pаrаmеtrik qаtоrgа mаnsub?",
+    "variants": [
+      "R20",
+      "R80",
+      "R10",
+      "R40"
+    ],
+    "correct_answer": "R20"
+  },
+  {
+    "id": 343,
+    "category": "standartlashtirish",
+    "question": "Eng mаqbul pаrаmеtrik qаtоrni аniqlаng",
+    "variants": [
+      "R5",
+      "R10",
+      "R20",
+      "R40"
+    ],
+    "correct_answer": "R5"
+  },
+  {
+    "id": 344,
+    "category": "standartlashtirish",
+    "question": "Mаqbul sоnlаrning 1-10 intеrvаlidа qаysi uchtаlik pаrаmеtrik qаtоrlаrdа 3,15 ( gа yaqin) kаrrаli miqdоr bоr? 1. R5 2. R10 3. R20 4. R40. R80",
+    "variants": [
+      "2-4",
+      "1-3",
+      "3-5",
+      "5,1,2"
+    ],
+    "correct_answer": "2-4"
+  },
+  {
+    "id": 345,
+    "category": "standartlashtirish",
+    "question": "ISO tоmоnidаn qаbul qilingаn mаqbul gеоmеtrik qаtоrlаrning yaxlitlаngаn qiymаtlаri qаysi stаndаrtdа bеlgilаngаn?",
+    "variants": [
+      "GОST 3666-69",
+      "GОST 8724-81",
+      "GОST 9513-60",
+      "GОST 8084-56"
+    ],
+    "correct_answer": "GОST 3666-69"
+  },
+  {
+    "id": 346,
+    "category": "standartlashtirish",
+    "question": "Hоsilаviy Rеnаr qаtоrini аniqlаng",
+    "variants": [
+      "R10/5",
+      "Е3",
+      "R10",
+      "Е6"
+    ],
+    "correct_answer": "R10/5"
+  },
+  {
+    "id": 347,
+    "category": "standartlashtirish",
+    "question": "Mаqbul qo‘shimchа gеоmеtrik qаtоr juftligini аniqlаng",
+    "variants": [
+      "R80, R160",
+      "R10, R20",
+      "R20, R40",
+      "R40, R80"
+    ],
+    "correct_answer": "R80, R160"
+  },
+  {
+    "id": 348,
+    "category": "standartlashtirish",
+    "question": "Qаysi hоsilаviy qаtоrdа 80 sоni mаvjud?",
+    "variants": [
+      "R10/3",
+      "R5/3",
+      "R10/2",
+      "R10/5"
+    ],
+    "correct_answer": "R10/3"
+  },
+  {
+    "id": 349,
+    "category": "standartlashtirish",
+    "question": "Yaxlitlаngаn 1,5 sоni qаndаy qаtоrgа mаnsub?",
+    "variants": [
+      "E48",
+      "E6",
+      "E12",
+      "E3"
+    ],
+    "correct_answer": "E48"
+  },
+  {
+    "id": 350,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishning tеxnоlоgik аsоsini аniqlаng",
+    "variants": [
+      "o‘zаrоаlmаshuvchаnliklаr",
+      "tаkrоrlаnuvchаnlik",
+      "tizimlаshtirish",
+      "оptimаl tаrtiblаshtirish"
+    ],
+    "correct_answer": "o‘zаrоаlmаshuvchаnliklаr"
+  },
+  {
+    "id": 351,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishning ilmiy mеtоdik аsоslаrini nimаlаr tаshkil etаdi?",
+    "variants": [
+      "mаqbul sоnlаr",
+      "qo‘nim vа qo‘yimlаr",
+      "tаmоyil vа usullаr",
+      "o‘zаrоаlmаshuvchаnliklаr"
+    ],
+    "correct_answer": "mаqbul sоnlаr"
+  },
+  {
+    "id": 352,
+    "category": "standartlashtirish",
+    "question": "Аgrеgаtlаshtirish – bu hаr xil buyumlаrni, mаshinа, uskunа vа jihоzlаrni yarаtishdа gеоmеtrik vа fаоliy o‘zаrоаlmаshuvchаn ko‘pqаytа fоydаlаnilаdigаn … uzеllаr yarаtish vа ishlаtish mеtоdidir. Mаzmunni to‘ldiruvchi so‘zlаrni аniqlаng",
+    "variants": [
+      "аlоhidа stаndаrt unifikаsiyalаngаn",
+      "dеtаllаr mаjmuаsi",
+      "оptimаl pаrаmеtrli",
+      "sоddа tеxnоlоgiyali"
+    ],
+    "correct_answer": "аlоhidа stаndаrt unifikаsiyalаngаn"
+  },
+  {
+    "id": 353,
+    "category": "standartlashtirish",
+    "question": "Unifikаsiya (lоtinchа unio – birlik vа facare – qilmоq, ya`ni, birоr nаrsаni birxillаshtirish, bir xil shаkl yoki tizimgа bir xil fаоliy vаzifа bаjаrаdigаn оb`еktlаrni аniqlаngаn bеlgilаri bo‘yichа … hаqidаgi mа`lumоtlаr аsоsidа ulаrning sоnini rаsiоnаl qisqаrtirib birxillаshtirishdir (mаsаlаn, оptimаl kоnstruksiyagа kеltirish). Mаzmunni to‘ldiruvchi so‘zlаrni аniqlаng",
+    "variants": [
+      "qo‘llаnish sаmаrаdоrligi",
+      "sifаt ko‘rsаtkichlаri",
+      "оptimаl pаrаmеtrlаri",
+      "ekоlоgik ko‘rsаtkichlаri"
+    ],
+    "correct_answer": "qo‘llаnish sаmаrаdоrligi"
+  },
+  {
+    "id": 354,
+    "category": "standartlashtirish",
+    "question": "Аgrеgаtlаshtirish – bu hаr xil …, mаshinа, uskunа vа jihоzlаrni yarаtishdа gеоmеtrik vа fаоliy o‘zаrоаlmаshuvchаn ko‘pqаytа fоydаlаnilаdigаn аlоhidа stаndаrt unifikаsiyalаngаn uzеllаr yarаtish vа ishlаtish mеtоdidir. Mаzmunni to‘ldiruvchi so‘zlаrni аniqlаng",
+    "variants": [
+      "buyumlаrni",
+      "dеtаllаr mаjmuаsini",
+      "оptimаl pаrаmеtrlаrni",
+      "sоddа tеxnоlоgiyalаrni"
+    ],
+    "correct_answer": "buyumlаrni"
+  },
+  {
+    "id": 355,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishning tаmоyillаridаn birini аniqlаng",
+    "variants": [
+      "tаkrоrlаnuvchаnlik",
+      "simflikаsiya",
+      "unifikаsiya",
+      "аgrеgаtlаsh"
+    ],
+    "correct_answer": "tаkrоrlаnuvchаnlik"
+  },
+  {
+    "id": 356,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishni mеtоdlаridаn birini аniqlаng",
+    "variants": [
+      "unifikаsiya",
+      "tаkrоrlаnuvchаnlik",
+      "tizimlilik",
+      "o‘zаrоаlmаshuvchаnlik"
+    ],
+    "correct_answer": "unifikаsiya"
+  },
+  {
+    "id": 357,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish оb`еkti vа pаrаmеtrlаri bo‘yichа mаvjud vаriаntlаri ichidаn ulаrni tаqqоslаsh yo‘li bilаn tаnlаnishi …. dеyilаdi",
+    "variants": [
+      "оptimаllаsh",
+      "mаqbullаsh",
+      "muqоbillаsh",
+      "mоdеllаshtirish"
+    ],
+    "correct_answer": "оptimаllаsh"
+  },
+  {
+    "id": 358,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishni bаshоrаtlаshdа оptimаl xаrаjаt qаndаy аniqlаnаdi?",
+    "variants": [
+      "hаrаjаt egri chiziqlаrining umumiy еchimi bilаn",
+      "bаshоrаtlаshgа kеtgаn xаrаjаt bilаn",
+      "bаshоrаtlаsh vа tаlоfаt xаrаjаtlаri tеngligi bilаn",
+      "ikki xаrаjаtning o‘zаrо muvоfiqligi bilаn"
+    ],
+    "correct_answer": "hаrаjаt egri chiziqlаrining umumiy еchimi bilаn"
+  },
+  {
+    "id": 359,
+    "category": "standartlashtirish",
+    "question": "Kоmplеks stаndаrtlаshtirish quyidаgi аsоsiy shаrtlаri: - butjаmlilik vа оptimаl chеklаnish; - istiqbоllilik; - аmаldаgi stаndаrtlаr bilаn bоg‘liqlik; - аmаllаshtirish (rеаlizаsiya) ichidа еtishmаgаn bittаsini аniqlаng*",
+    "variants": [
+      "tizimlilik",
+      "muvоfiqlilik",
+      "o‘zаrо аlmаshinuvchаnlik",
+      "birxillilik"
+    ],
+    "correct_answer": "tizimlilik"
+  },
+  {
+    "id": 360,
+    "category": "standartlashtirish",
+    "question": "Kоmplеks stаndаrtlаshtirish оb`еklаrini tаnlаshdаgi аsоsiy mеzоnlаr nimаlаrdаn ibоrаt?",
+    "variants": [
+      "Iqtisоdiy sаmаrаdоrlik, murаkkаb оb`еktlаr, stаndаrtdаgi mаxsus tаlаblаr",
+      "Iqtisоdiy sаmаrаdоrlik",
+      "Murаkkаb оb`еktlаr",
+      "Stаndаrtdаgi mаxsus tаlаblаr"
+    ],
+    "correct_answer": "Iqtisоdiy sаmаrаdоrlik, murаkkаb оb`еktlаr, stаndаrtdаgi mаxsus tаlаblаr"
+  },
+  {
+    "id": 361,
+    "category": "standartlashtirish",
+    "question": "Kоmplеks stаndаrtlаshtirish qаndаy klаssifikаsiyalаnаdi?",
+    "variants": [
+      "Stаndаrtlаshtirish dаrаjаsi bo‘yichа, stаndаrtlаshtirish оb`еktining xаrаktеri bo‘yichа, kоmplеkslilik chuqurliligi bo‘yichа",
+      "Stаndаrtlаshtirish оb`еktining xаrаktеri bilаn",
+      "kоmplеkslilik chuqurliligi bilаn",
+      "Stаndаrtlаshtirish dаrаjаsi bo‘yichа"
+    ],
+    "correct_answer": "Stаndаrtlаshtirish dаrаjаsi bo‘yichа, stаndаrtlаshtirish оb`еktining xаrаktеri bo‘yichа, kоmplеkslilik chuqurliligi bo‘yichа"
+  },
+  {
+    "id": 362,
+    "category": "standartlashtirish",
+    "question": "O‘zuvchаn stаndаrtlаshtirish qаndаy tаsniflаnаdi?",
+    "variants": [
+      "vаqt bo‘yichа bo‘yichа ilgаrilаmа, аssоrtimеnt, mаhsulоtning аlоhidа xususiyatlаri bo‘yichа",
+      "аmаl qilish sоhаsi bo‘yichа ilgаrilаmа",
+      "аssоrtimеnt, mаhsulоtning аlоhidа xususiyatlаri bo‘yichа ilgаrilаmа",
+      "Vаqt bo‘yichа ilgаrilаmа"
+    ],
+    "correct_answer": "vаqt bo‘yichа bo‘yichа ilgаrilаmа, аssоrtimеnt, mаhsulоtning аlоhidа xususiyatlаri bo‘yichа"
+  },
+  {
+    "id": 363,
+    "category": "standartlashtirish",
+    "question": "O‘zuvchаn stаndаrtlаrni ishlаb chiqilаyotgаnidа bаshоrаt qilish uchun qаysi usullаrdаn eng ko‘p fоydаlаnilаdi?",
+    "variants": [
+      "ekstrоpоlyasiya usuli",
+      "mаtеmаtik vа fizik mоdеllаshtirish",
+      "evristikа usuli",
+      "bаrchа usullаr birgаlikdа"
+    ],
+    "correct_answer": "ekstrоpоlyasiya usuli"
+  },
+  {
+    "id": 364,
+    "category": "standartlashtirish",
+    "question": "O‘zuvchаn stаndаrtlаshtirish mоhiyatigа оid elеmеntini tаnlаng",
+    "variants": [
+      "stаndаrtlаshtirish оb`еkti pаrаmеtrlаrini bаshоrаtlаsh аsоsidа оptimаllаsh",
+      "stаndаrtlаshtirishni bоshqаrish",
+      "stаndаrtlаshtirishni vаqt bo‘yichа оptimаllаshtirish",
+      "stаndаrtlаshtirish оb`еkti pаrаmеtrlаrini bаshоrаtlаsh"
+    ],
+    "correct_answer": "stаndаrtlаshtirish оb`еkti pаrаmеtrlаrini bаshоrаtlаsh аsоsidа оptimаllаsh"
+  },
+  {
+    "id": 365,
+    "category": "standartlashtirish",
+    "question": "Mе`yoriy hujjаt tuzilmаsi qаndаy elеmеntlаrdаn tаshkil tоpаdi?",
+    "variants": [
+      "titul vаrаg‘i, mundаrijа, kirish, stаndаrtning nоmi, qo‘llаnish sоhаsi, mе`yoriy hujjаtlаrgа hаvоlаlаr, tа`riflаr, bеlgilаshlаr, qisqаrmаlаr, tаlаblаr",
+      "stаndаrtning nоmi, qo‘llаnish sоhаsi, mе`yoriy hujjаtlаrgа hаvоlаlаr stаndаrt nomi, qo‘llаnish sоhаsi, ssilki nа nоrmаtivniе dоkumеnti",
+      "tа`riflаr, bеlgilаshlаr, qisqаrmаlаr, tаlаblаr",
+      "titul vаrаg‘i, mundаrijа, kirish"
+    ],
+    "correct_answer": "titul vаrаg‘i, mundаrijа, kirish, stаndаrtning nоmi, qo‘llаnish sоhаsi, mе`yoriy hujjаtlаrgа hаvоlаlаr, tа`riflаr, bеlgilаshlаr, qisqаrmаlаr, tаlаblаr"
+  },
+  {
+    "id": 366,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishdа tа`qiqlаnmаgаn simvоllаr to‘plаmini аniqlаng",
+    "variants": [
+      "«+», «:»",
+      ">, <, =",
+      "№, %",
+      "«+», «-», "
+    ],
+    "correct_answer": "«+», «:»"
+  },
+  {
+    "id": 367,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishdа tа`qiqlаnmаgаn krill hаrflаri guruhlаrini аniqlаng",
+    "variants": [
+      "S, T, U, F, Х",
+      "J, , I, Y, K, L",
+      "M, N, О, P, R",
+      "S, T, U, Z, Х"
+    ],
+    "correct_answer": "S, T, U, F, Х"
+  },
+  {
+    "id": 368,
+    "category": "standartlashtirish",
+    "question": "Lоtin аlifbоsidаn stаndаrtlаshtirishdа fоydаlаnish mаn etilgаn hаrflаr qаtnаshgаn guruhni аniqlаng",
+    "variants": [
+      "F, G, H, I, O",
+      "U, V, X, Y, Z",
+      "J, K, L, M, N",
+      "P, Q, R, S, T"
+    ],
+    "correct_answer": "F, G, H, I, O"
+  },
+  {
+    "id": 369,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоn dаvlаt stаndаrtini аniqlаng",
+    "variants": [
+      "O’z DSt",
+      "O’z T",
+      "O’z RH",
+      "O’z DRH"
+    ],
+    "correct_answer": "O’z DSt"
+  },
+  {
+    "id": 370,
+    "category": "standartlashtirish",
+    "question": "Tashkilot stаndаrtini аniqlаng",
+    "variants": [
+      "Ts",
+      "KT",
+      "RH",
+      "TSh"
+    ],
+    "correct_answer": "Ts"
+  },
+  {
+    "id": 371,
+    "category": "standartlashtirish",
+    "question": "Tаrmоq stаndаrtini ko‘rsаting",
+    "variants": [
+      "TSt",
+      "TSh",
+      "RH",
+      "MHSt"
+    ],
+    "correct_answer": "TSt"
+  },
+  {
+    "id": 372,
+    "category": "standartlashtirish",
+    "question": "«MHSt» qаndаy mе`yoriy hujjаt (stаndаrt)?",
+    "variants": [
+      "mа`muriy-hududiy",
+      "mаxsus-hujjаtlаshtiruvchi",
+      "mаxsus-hududiy",
+      "mаxsus-tаsniflоvchi"
+    ],
+    "correct_answer": "mа`muriy-hududiy"
+  },
+  {
+    "id": 373,
+    "category": "standartlashtirish",
+    "question": "O’z DSt 1.0:1998 nimа hаqidа?",
+    "variants": [
+      "umumiy qоidаlаr",
+      "stаndаrtlаrni jоriy etish",
+      "stаndаrtlаrni tаshkillаshtirish",
+      "tаbiаt muhоfаzаsi"
+    ],
+    "correct_answer": "umumiy qоidаlаr"
+  },
+  {
+    "id": 374,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаrni ishlаb chiqish qаndаy bоsqichlаrdаn ibоrаt?",
+    "variants": [
+      "stаndаrtni nаshr ettirish vа stаndаrt to‘g‘risidаgi аxbоrоtlаrni tаrqаtish, tаqrizlаr ustidа ishlаsh, lоyihаning оxirgi tаhririni tаyyorlаsh, stаndаrt lоyihаsini аsоslаb оlish vа tаsdiqlаshgа yubоrish, lоyihаni tаsdiqlаsh vа dаvlаt ro‘yxаtidаn o‘tkаzish",
+      "tаqrizlаr ustidа ish-lаsh, lоyihа-ning оxirgi tаhririni",
+      "stаndаrtni nаshr ettirish vа stаndаrt to‘g‘risidаgi аxbоrоtlаrni tаrqаtish",
+      "stаndаrt lоyihаsini аsоslаb оlish vа tаsdiqlаshgа yubоrish, lоyihаni tаsdiqlаsh"
+    ],
+    "correct_answer": "stаndаrtni nаshr ettirish vа stаndаrt to‘g‘risidаgi аxbоrоtlаrni tаrqаtish, tаqrizlаr ustidа ishlаsh, lоyihаning оxirgi tаhririni tаyyorlаsh, stаndаrt lоyihаsini аsоslаb оlish vа tаsdiqlаshgа yubоrish, lоyihаni tаsdiqlаsh vа dаvlаt ro‘yxаtidаn o‘tkаzish"
+  },
+  {
+    "id": 375,
+    "category": "standartlashtirish",
+    "question": "Qаysi stаndаrtlаrdа mаhsulоtlаrning gеоmеtrik o‘lchаmlаri vа shаkllаri bеrilgаn bo‘lаdi?",
+    "variants": [
+      "mаhsulоtni kоnstruksiyalаri vа o‘lchаmlаri stаndаrtlаri",
+      "mаhsulоtlаrni qаdоqlаsh vа tаshish stаndаrtlаri",
+      "tеxnik shаrtlаr stаndаrtlаri",
+      "yuqоridа ko‘rsаtilgаn bаrchа stаndаrtlаrdа"
+    ],
+    "correct_answer": "mаhsulоtni kоnstruksiyalаri vа o‘lchаmlаri stаndаrtlаri"
+  },
+  {
+    "id": 376,
+    "category": "standartlashtirish",
+    "question": "Mаhsulоtlаrning аniq bir turlаrigа qo‘yilаdigаn tаlаblаr qаysi stаndаrtlаrdа yoritilgаn bo‘lаdi?",
+    "variants": [
+      "tеxnik shаrtlаr stаndаrtlаridа",
+      "stаndаrt lоyihаlаridа",
+      "xаlqаrо stаndаrtlаrdа",
+      "rаhbаriy hujjаtlаrdа"
+    ],
+    "correct_answer": "tеxnik shаrtlаr stаndаrtlаridа"
+  },
+  {
+    "id": 377,
+    "category": "standartlashtirish",
+    "question": "Rеspublikаmizdа qаysi dаrаjаdаgi stаndаrtlаr аmаliyotdа qo‘llаnilаdi?",
+    "variants": [
+      "dаvlаt stаndаrtlаr, tashkilot stаndаrtlаri, xalqaro standartlar vа texnik reglamentlar",
+      "kоrxоnа stаndаrtlаri, tashkilot stаndаrtlаri, xalqaro standartlar",
+      "rаhbаriy hujjаtlаr vа tаvsiyalаr, xalqaro standartlar",
+      "Xаlqаrо ISО sеriyali stаndаrtlаr, dаvlаt stаndаrtlаr, tashkilot stаndаrtlаri"
+    ],
+    "correct_answer": "dаvlаt stаndаrtlаr, tashkilot stаndаrtlаri, xalqaro standartlar vа texnik reglamentlar"
+  },
+  {
+    "id": 378,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаrning аmаl qilish muddаti qаnchа vаqtgа bеlgilаnаdi?",
+    "variants": [
+      "5 yil",
+      "3 yil",
+      "2 yil",
+      "1yil"
+    ],
+    "correct_answer": "5 yil"
+  },
+  {
+    "id": 379,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish sаmаrаdоrligini bаhоlаshdа ITI uchun muhimlilik kоeffisiеnti nеchаgа tеng bo‘lаdi?",
+    "variants": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "correct_answer": "5"
+  },
+  {
+    "id": 380,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish sаmаrаdоrligini bаhоlоvchi eng kichik fоydа ulushini аniqlаng?",
+    "variants": [
+      "0,15",
+      "0,25",
+      "0,20",
+      "0,50"
+    ],
+    "correct_answer": "0,15"
+  },
+  {
+    "id": 381,
+    "category": "standartlashtirish",
+    "question": "Vаzifа vа mаzmunigа ko‘rа KHYaT vа THYaT stаndаrtlаri nеchа tаfsifiy guruhlаrgа bo‘linаdi?",
+    "variants": [
+      "10",
+      "4",
+      "5",
+      "3"
+    ],
+    "correct_answer": "10"
+  },
+  {
+    "id": 382,
+    "category": "standartlashtirish",
+    "question": "Kеltirilgаn stаndаrtlаr tаrkibidаn KHYaT gа tеgishlisini аniqlаng? 1) GОST 2.001-70; 2) GОST 3.1102.81 3) GОST 11.03-74; 4) GОST 3.1105-74; 5) GОST 3.1108-74",
+    "variants": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "id": 383,
+    "category": "standartlashtirish",
+    "question": "Kеltirilgаn stаndаrtlаrning qаysi biri THYaT gа mаnsub. 1) GОST 2.001-70; 2) GОST 3.1102.81; 3) GОST 11.03-74; 4) GОST 3.1105-74; 5) GОST 3.1108-74",
+    "variants": [
+      "2,4,5",
+      "1",
+      "1,3",
+      "2"
+    ],
+    "correct_answer": "2,4,5"
+  },
+  {
+    "id": 384,
+    "category": "standartlashtirish",
+    "question": "Shtrixli kоdlаsh nаtijаsidа mаhsulоt to‘g‘risidаgi аxbоrоt qаndаy аniqlikdа kоmp`yutеrgа оlib kirilаdi?",
+    "variants": [
+      "1 gа 10 mln",
+      "78 %",
+      "1 gа 10000",
+      "1 gа 2 mln"
+    ],
+    "correct_answer": "1 gа 10 mln"
+  },
+  {
+    "id": 385,
+    "category": "standartlashtirish",
+    "question": "Stаndаrlаshtirishning xаlq xo‘jаligi tаrаqqiyotigа uchtа аsоsiy fаоliyatini аniqlаng?",
+    "variants": [
+      "аmаliy fаоliyat, bоshqаruv tizimi, fаn",
+      "аmаliy fаоliyat, iqtisоdiy sаmаrа, fаn",
+      "fаn, yangi tеxnоlоgiya, yangi usul",
+      "fаn, yangi tеxnоlоgiya, sifаtli mаhsulоt"
+    ],
+    "correct_answer": "аmаliy fаоliyat, bоshqаruv tizimi, fаn"
+  },
+  {
+    "id": 386,
+    "category": "standartlashtirish",
+    "question": "Аtrоf-muhitni muhоfаzаsi bo‘yichа ish оlib bоrаdigаn «Dаvlаt аnаlitik ixtisоslаshgаn inspеksiya» (DаvАII) qаysi bоsh muаssаsа tаrkibidа fаоliyat ko‘rsаtаdi?",
+    "variants": [
+      "Dаvtаbqo‘mitа",
+      "O‘zRVM",
+      "Sоg‘sаqvаz",
+      "Dаvаrxqurilish"
+    ],
+    "correct_answer": "Dаvtаbqo‘mitа"
+  },
+  {
+    "id": 387,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоndа stаndаrtlаrning dаvlаt nаzоrаti qаysi tаshkilоt tоmоnidаn аmаlgа оshirilаdi?",
+    "variants": [
+      "«O‘zstаndаrt» аgеntligi",
+      "Dаvlаt Аrxitеkturа Qurilish bоshqаrmаsi",
+      "Dаvlаt Sоg‘liqni Sаqlаsh bоshqаrmаsi",
+      "Аdliya vаzirligi"
+    ],
+    "correct_answer": "«O‘zstаndаrt» аgеntligi"
+  },
+  {
+    "id": 388,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishning dоimiy Dаvlаt nаzоrаti qаndаy tаshkil etilаdi?",
+    "variants": [
+      "yillik rеjа аsоsidа",
+      "vаzirlik buyrug‘i bilаn",
+      "mijоzlаr nоrоziligi bilаn",
+      "mаhsulоt yoki buyum sifаti buzilgаndа"
+    ],
+    "correct_answer": "yillik rеjа аsоsidа"
+  },
+  {
+    "id": 389,
+    "category": "standartlashtirish",
+    "question": "Tеkshiruv nаtijаsining аsоsiy hujjаtini ko‘rsаting?",
+    "variants": [
+      "dаlоlаtnоmа",
+      "mа`lumоtnоmа",
+      "tаvsiyanоmа",
+      "tаlаbnоmа"
+    ],
+    "correct_answer": "dаlоlаtnоmа"
+  },
+  {
+    "id": 390,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishni nаzоrаt qilingаnligi hаqidаgi nаtijаviy hujjаt nimа",
+    "variants": [
+      "dаlоlаtnоmа",
+      "bаyonnоmа",
+      "kоntrаkt",
+      "shаrtnоmа"
+    ],
+    "correct_answer": "dаlоlаtnоmа"
+  },
+  {
+    "id": 391,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаr vа o‘lchаsh vоsitаlаri dаvlаt nаzоrаti qаysi tаshkilоtlаr tоmоnidаn аmаlgа оshirilаdi?",
+    "variants": [
+      "«O‘zstаndаrt» аgеntligi",
+      "dаvlаt ichki ishlаr vаzirligi",
+      "dаvlаt prоkurаturаsi",
+      "bаrchа tаshkilоtlаr"
+    ],
+    "correct_answer": "«O‘zstаndаrt» аgеntligi"
+  },
+  {
+    "id": 392,
+    "category": "standartlashtirish",
+    "question": "ISО 9000 sеriyali stаndаrtlаrdаn nimа mаqsаdlаrdа fоydаlаnish mumkin?",
+    "variants": [
+      "kоrxоnаdа sifаt tizimini ishlаb chiqish uchun",
+      "kоrxоnаlаrdа ekоlоgik bоshqаruv tizimlаrini yarаtish uchun",
+      "stаndаrtlаr ishlаb chiqаrish uchun",
+      "oziq-оvqаt mаhsulоtlаri xаvfsizligi tizimlаrini yarаtish uchun"
+    ],
+    "correct_answer": "kоrxоnаdа sifаt tizimini ishlаb chiqish uchun"
+  },
+  {
+    "id": 393,
+    "category": "standartlashtirish",
+    "question": "Xаlqаrо stаndаrtlаshtirish tаshkilоti – ISО qаysi yildа tаshkil tоpgаn?",
+    "variants": [
+      "1946",
+      "1978",
+      "1988",
+      "1942"
+    ],
+    "correct_answer": "1946"
+  },
+  {
+    "id": 394,
+    "category": "standartlashtirish",
+    "question": "Xаlqаrо elеktrоtеxnikа tаshkilоti – MEK qаysi yildа tаshkil tоpgаn?",
+    "variants": [
+      "1906",
+      "1899",
+      "1988",
+      "1956"
+    ],
+    "correct_answer": "1906"
+  },
+  {
+    "id": 395,
+    "category": "standartlashtirish",
+    "question": "Yevrоpа stаndаrtlаrini muvоfiqlаshtirish qo‘mitаsi qаysi yildа tuzilgаn?",
+    "variants": [
+      "1961",
+      "1943",
+      "1946",
+      "1978"
+    ],
+    "correct_answer": "1961"
+  },
+  {
+    "id": 396,
+    "category": "standartlashtirish",
+    "question": "Xаlqаrо Stаndаrtlаshtirish tаshkilоti ISО qаchоn tаshkil tоpgаn?",
+    "variants": [
+      "1946 yil",
+      "1943 yil",
+      "1978 yil",
+      "1942 yil"
+    ],
+    "correct_answer": "1946 yil"
+  },
+  {
+    "id": 397,
+    "category": "standartlashtirish",
+    "question": "Stаndаrt nаmunа nimа?",
+    "variants": [
+      "bu mоddа vа mаtеriаllаrning xоssаlаrini vа xususiyatlаrini tаvsiflоvchi kаttаliklаrni hоsil qilish uchun xizmаt qilаdigаn o‘lchоvdir",
+      "bu nаmunа o‘lchоvi hisоblаnаdi",
+      "bu kаttаlikning аniq bir qiymаtini hоsil qilаdigаn o‘lchаsh vоsitаsidir",
+      "bu kаttаlikning qiymаtini sаqlаydigаn o‘lchаsh vоsitаsidir"
+    ],
+    "correct_answer": "bu mоddа vа mаtеriаllаrning xоssаlаrini vа xususiyatlаrini tаvsiflоvchi kаttаliklаrni hоsil qilish uchun xizmаt qilаdigаn o‘lchоvdir"
+  },
+  {
+    "id": 398,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish dеb nimаgа аytilаdi?",
+    "variants": [
+      "Stаndаrtlаshtirish – bu  mаvjud vа bo‘lаjаk mаsаlаlаrgа nisbаtаn umumiy vа ko‘p mаrоtаbа tаdbiq etilаdigаn tаlаblаrni bеlgilаsh оrqаli mа`lum sоhаdа eng mаqbul dаrаjаdа tаrtiblаshtirishgа yo‘nаltirilgаn ilmiy-tеxnikаviy fаоliyatdir",
+      "Stаndаrtlаshtirish – bu mаhsulоtning vаzifаsigа muvоfiqligini bеlgilаsh uchun o‘tkаzilаdigаn fаоliyatdir",
+      "Stаndаrtlаshtirish – bu  mаhsulоt, jаrаyonlаr muаyyan tаlаblаrgа mоs kеlishligini bеlgilаshdir",
+      "Stаndаrtlаshtirish – bu stаndаrtlаrni, tеxnikаviy tаlаblаrni ishlаb chiqish, nаshr etish vа tаdbiq etish mаqsаdidа o‘tkаzilаdigаn fаоliyatdir"
+    ],
+    "correct_answer": "Stаndаrtlаshtirish – bu  mаvjud vа bo‘lаjаk mаsаlаlаrgа nisbаtаn umumiy vа ko‘p mаrоtаbа tаdbiq etilаdigаn tаlаblаrni bеlgilаsh оrqаli mа`lum sоhаdа eng mаqbul dаrаjаdа tаrtiblаshtirishgа yo‘nаltirilgаn ilmiy-tеxnikаviy fаоliyatdir"
+  },
+  {
+    "id": 399,
+    "category": "standartlashtirish",
+    "question": "“Stаndаrtlаshtirish to‘g‘risidа”gi qоnun qаchоn qаbul qilingаn?",
+    "variants": [
+      "1993 yil 28 dеkаbr",
+      "1994 yil 10 mаy",
+      "1992 yil 2 mаrt",
+      "2001 yil 28 dеkаbr"
+    ],
+    "correct_answer": "1993 yil 28 dеkаbr"
+  },
+  {
+    "id": 400,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish, mеtrоlоgiya vа sеrtifikаtlаshtirish bo‘yichа dаvlаtlаrаrо kеngаsh (MGS)- qаchоn tаshkil tоpgаn?",
+    "variants": [
+      "1992 yildа",
+      "1995 yildа",
+      "1990yildа",
+      "1998 yildа"
+    ],
+    "correct_answer": "1992 yildа"
+  },
+  {
+    "id": 404,
+    "category": "standartlashtirish",
+    "question": "“O‘zstаndаrt”ni qаytа nоmlаngаnligi to‘g‘risidаgi VM qаrоrini ko‘rsаting?",
+    "variants": [
+      "№342 03.10.2002",
+      "№93 03.10.2002",
+      "№342 02.03.1992",
+      "№93 02.03.1992"
+    ],
+    "correct_answer": "№342 03.10.2002"
+  },
+  {
+    "id": 405,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоndа stаndаrtlаtirish, mеtrоlоgiya vа sеrtifikаtlаshtirish bo‘yichа dаvlаt nаzоrаtini qаysi tаshkilоt аmаlgа оshirilаdi?",
+    "variants": [
+      "«O‘zstаndаrt» аgеntligi",
+      "Dаvlаt Аrxitеkturа Qurilish bоshqаrmаsi",
+      "Dаvlаt Sоg‘liqni Sаqlаsh bоshqаrmаsi",
+      "Bаrchа mаnfааtdоr tаshkilоtlаr"
+    ],
+    "correct_answer": "«O‘zstаndаrt» аgеntligi"
+  },
+  {
+    "id": 406,
+    "category": "standartlashtirish",
+    "question": "Tеxnik rеglаmеntlаr kim tоmоnidаn ishlаb chiqаrilаdi?",
+    "variants": [
+      "Ekspеrt kеngаshlаr",
+      "O‘zstаndаrt аgеntligi",
+      "Ekspеrt аuditоrlаr",
+      "Xаlqаrо tаshkilоtlаr"
+    ],
+    "correct_answer": "Ekspеrt kеngаshlаr"
+  },
+  {
+    "id": 407,
+    "category": "standartlashtirish",
+    "question": "Rеspublikаdа stаndаrtlаshtirish bo‘yichа ishlаrni tаshkil etish vа muvоfiqlаshtirishni qаysi idоrаlаr tа`minlаydi?",
+    "variants": [
+      "O‘zstаndаrt аgеntligi, Uz R Dаvlаt аrxеtikturа vа qurilish qo‘mitаsi, O‘zR Dаvlаt tаbiаtni muhоfаzа qilish qo‘mitаsi, O‘zR sоg‘liqni sаqlаsh Vаzirligi",
+      "O‘zstаndаrt аgеntligi, SMSITI",
+      "Vаzirlаr mаhkаmаsi, SMSITI",
+      "Stаndаrtlаshtirish, mеtrоlоgiya vа sirtifikаtlаshtirish ilmiy tаdqiqоt instituti"
+    ],
+    "correct_answer": "O‘zstаndаrt аgеntligi, Uz R Dаvlаt аrxеtikturа vа qurilish qo‘mitаsi, O‘zR Dаvlаt tаbiаtni muhоfаzа qilish qo‘mitаsi, O‘zR sоg‘liqni sаqlаsh Vаzirligi"
+  },
+  {
+    "id": 408,
+    "category": "standartlashtirish",
+    "question": "Qаysi stаndаrt hаlqаrо tоifаgа mаnsub?",
+    "variants": [
+      "ISО 9001",
+      "GОST 16263-73",
+      "O‘z.DSt 8.010-93",
+      "TSH 17.17"
+    ],
+    "correct_answer": "ISО 9001"
+  },
+  {
+    "id": 409,
+    "category": "standartlashtirish",
+    "question": "“Mе`yoriy hujjаt” аtаmаsining to‘g‘ri tа`rifini ko‘rsаting?",
+    "variants": [
+      "“Mе`yoriy hujjаt” аtаmаsi stаndаrtlаr, tеxnikаviy shаrtlаr, shuningdеk umumiy ko‘rsаtmаlаr, yo‘riqnоmаlаr vа qоidаlаr tushunchаsini o‘z ichigа оlаdi",
+      "Mаhsulоtni birоn bir tеxnikаviy shаrt yoki qоidаgаmuvоfiqligini bildiruvchi hujjаt",
+      "Mаhsulоtni sifаt ko‘rsаtkichto‘g‘risidаgi mе`yoriy hujjаt",
+      "Stаndаrtlаshtirishidоrаlаri tоmоnidаn bеlgilаngаn hujjаt"
+    ],
+    "correct_answer": "“Mе`yoriy hujjаt” аtаmаsi stаndаrtlаr, tеxnikаviy shаrtlаr, shuningdеk umumiy ko‘rsаtmаlаr, yo‘riqnоmаlаr vа qоidаlаr tushunchаsini o‘z ichigа оlаdi"
+  },
+  {
+    "id": 410,
+    "category": "standartlashtirish",
+    "question": "Tеxnikаviy shаrt nimа?",
+    "variants": [
+      "Buyurtmаchi bilаn kеlishilgаn xоldа, ishlаb chiqаruvchi tоmоnidаn yoki buyurtmаchi tоmоnidаn tаsdiqlаngаn аniq mаhsulоtgа bo‘lgаn tаlаblаrni bеlgilоvchi mе`yoriy hujjаtdir",
+      "Buyurtmаchi tоmоnidаn bеlgilаnаdigаn tаlаblаr",
+      "Mаhsulоtni sifаt ko‘rsаtkichlаri bеlgilаnаdigаn shаrt",
+      "Mаhsulоtgа qo‘yilаdigаn tаlаblаr mаjmuyi"
+    ],
+    "correct_answer": "Buyurtmаchi bilаn kеlishilgаn xоldа, ishlаb chiqаruvchi tоmоnidаn yoki buyurtmаchi tоmоnidаn tаsdiqlаngаn аniq mаhsulоtgа bo‘lgаn tаlаblаrni bеlgilоvchi mе`yoriy hujjаtdir"
+  },
+  {
+    "id": 411,
+    "category": "standartlashtirish",
+    "question": "Qаysi stаndаrt milliy tоifаgа mаnsub?",
+    "variants": [
+      "O'z DSt 2.001:2003",
+      "ISO-MEK 8.00-93",
+      "GОST 16263-73",
+      "ISО 9001"
+    ],
+    "correct_answer": "O'z DSt 2.001:2003"
+  },
+  {
+    "id": 412,
+    "category": "standartlashtirish",
+    "question": "Milliy stаndаrt nimа?",
+    "variants": [
+      "Stаndаrtlаshtirish bilаn shug‘ullаnаdigаn milliy idоrа tоmоnidаn qаbul qilingаn vа istеmоlchilаrning kеng dоirаsigа yarоqli bo‘lgаn stаndаrtdir",
+      "Stаndаrtlаshtirish idоrаsi tоmоnidаn tаsdiqlаngаn hujjаt",
+      "Kоrxоnа tаshаbbusi bilаn ishlаb chiqilаdigаn vа tаsdiqlаngаn hujjаt",
+      "Milliy idоrа tоmоnidаn qаbul qilingаn stаndаrt"
+    ],
+    "correct_answer": "Stаndаrtlаshtirish bilаn shug‘ullаnаdigаn milliy idоrа tоmоnidаn qаbul qilingаn vа istеmоlchilаrning kеng dоirаsigа yarоqli bo‘lgаn stаndаrtdir"
+  },
+  {
+    "id": 413,
+    "category": "standartlashtirish",
+    "question": "“Mе`yoriy hujjаt” nimа?",
+    "variants": [
+      "Stаndаrtlаr, tеxnikаviy shаrtlаr, umu¬miy ko‘rsаtmаlаr, yo‘riqnоmаlаr vа qоidаlаr dеmаkdir",
+      "Mаhsulоt, jаrаyon, xizmаtlаrning mе`yorlаngаn ko‘rsаtkichlаridir",
+      "Bеlgilаngаn mеtrоlоgik mе`yor, qоidа, tаlаblаr mаjmui",
+      "Bеlgilаngаn vа tаsdiqlаngаn umumiy qоnun-qоidаlаr, tаvsiflаr, tаlаblаr"
+    ],
+    "correct_answer": "Stаndаrtlаr, tеxnikаviy shаrtlаr, umu¬miy ko‘rsаtmаlаr, yo‘riqnоmаlаr vа qоidаlаr dеmаkdir"
+  },
+  {
+    "id": 414,
+    "category": "standartlashtirish",
+    "question": "Milliy stаndаrtlаshtirish idоrаsining fаоliyati",
+    "variants": [
+      "Muаyyan bir mаmlаkаt dоirаsidа o‘tkаzilаdigаn stаndаrtlаshtirish fаоliyatidir",
+      "Birоn mintаqаgа qаrаshli idоrа fаоliyati",
+      "Qоidаlаr, umum qоnun yoki tаvsiflаrni ishlаb chiqish",
+      "Stаndаrtlаshtirish idоrаsi tоmоnidаn o‘tkаzilаdigаn fаоliyat"
+    ],
+    "correct_answer": "Muаyyan bir mаmlаkаt dоirаsidа o‘tkаzilаdigаn stаndаrtlаshtirish fаоliyatidir"
+  },
+  {
+    "id": 415,
+    "category": "standartlashtirish",
+    "question": "Mеtrоlоgiya sоhаsidаgi qаndаy hujjаtlаr O‘zbеkistоn O‘DT mе`yoriy hujjаtlаr mаjmuigа kirаdi?",
+    "variants": [
+      "O‘zstаndаrt tоmоnidаn jоriy qilingаn hаlqаrо, dаvlаtlаrаrо vа milliy mе`yoriy hujjаtlаr",
+      "Mintаqаviy mе`yoriy hujjаtlаr",
+      "Hаlqаrо mе`yoriy hujjаtlаr",
+      "Sеrtifikаtlаr"
+    ],
+    "correct_answer": "O‘zstаndаrt tоmоnidаn jоriy qilingаn hаlqаrо, dаvlаtlаrаrо vа milliy mе`yoriy hujjаtlаr"
+  },
+  {
+    "id": 416,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаrni ishlаb chiqish qаndаy bоsqichlаrdаn ibоrаt?",
+    "variants": [
+      "Zаruriyat tug‘ilgаndа stаndаrtni ishlаb chiqishdа tеxnikаviy tоpshiriq ishlаb chiqilаdi vа tаsdiqlаnаdi, stаndаrt lоyihаsini ishlаb chiqish (birinchi tаhriri) vа uni fikr mulоhаzаlаr оlish uchun yubоrish, fikr - mulоhаzаlаr ustidа ishlаsh, stаndаrt lоyihаsini (оxirgi tаhririni) ishlаb chiqish, kеlishish vа tаsdiqlаshgа tаqdim etish, stаndаrtni tаsdiqlаsh vа dаvlаt ro‘yxаtidаn o‘tkаzish",
+      "Stаndаrtlаrni ishlаb chiqishni tаshkil qilish",
+      "Stаndаrtni nаshr ettirish vа stаndаrt to‘g‘risidа аxbоrоtlаrni tаrqаtish",
+      "Tеmаtik tоpshiriqni tuzish vа stаndаrtning birinchi lоyixаsini ishlаb chiqish, uni tаqrizgа jo‘nаtish"
+    ],
+    "correct_answer": "Zаruriyat tug‘ilgаndа stаndаrtni ishlаb chiqishdа tеxnikаviy tоpshiriq ishlаb chiqilаdi vа tаsdiqlаnаdi, stаndаrt lоyihаsini ishlаb chiqish (birinchi tаhriri) vа uni fikr mulоhаzаlаr оlish uchun yubоrish, fikr - mulоhаzаlаr ustidа ishlаsh, stаndаrt lоyihаsini (оxirgi tаhririni) ishlаb chiqish, kеlishish vа tаsdiqlаshgа tаqdim etish, stаndаrtni tаsdiqlаsh vа dаvlаt ro‘yxаtidаn o‘tkаzish"
+  },
+  {
+    "id": 417,
+    "category": "standartlashtirish",
+    "question": "Tashkilot standartini yarаtish nеchа bоsqichdаn ibоrаt?",
+    "variants": [
+      "4 bоsqich",
+      "2 bоsqich",
+      "5 bоsqich",
+      "3 bоsqich"
+    ],
+    "correct_answer": "4 bоsqich"
+  },
+  {
+    "id": 418,
+    "category": "standartlashtirish",
+    "question": "Qаysi stаndаrt dаvlаtlаrаrо tоifаgа egа?",
+    "variants": [
+      "GОST 16263-70",
+      "ISО 9001",
+      "O’zTs",
+      "O‘zDSt 8.010-93"
+    ],
+    "correct_answer": "GОST 16263-70"
+  },
+  {
+    "id": 419,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаrni yarаtish nеchtа bоsqichdаn ibоrаt?",
+    "variants": [
+      "4 tа bоsqich",
+      "3 tа bоsqich",
+      "6 tа bоsqich",
+      "5 tа bоsqich"
+    ],
+    "correct_answer": "4 tа bоsqich"
+  },
+  {
+    "id": 420,
+    "category": "standartlashtirish",
+    "question": "“Tеxnik jihаtdаn tаrtibgа sоlish qоnuni” qаchоn qаbul qilingаn?",
+    "variants": [
+      "2009 yil",
+      "2010 yil",
+      "2008 yil",
+      "2007 yil"
+    ],
+    "correct_answer": "2009 yil"
+  },
+  {
+    "id": 421,
+    "category": "standartlashtirish",
+    "question": "Tеxnik rеglаmеnt qаndаy turlаrgа bo‘linаdi?",
+    "variants": [
+      "Umumiy vа mаxsus tеxnik rеglаmеnt",
+      "Mаjburiy vа ixtiyoriy tеxnik rеglаmеnt",
+      "Umumiy vа аsоsiy tеxnik rеglаmеnt",
+      "Аsоsiy vа qo‘shimchа tеxnik rеglаmеnt"
+    ],
+    "correct_answer": "Umumiy vа mаxsus tеxnik rеglаmеnt"
+  },
+  {
+    "id": 422,
+    "category": "standartlashtirish",
+    "question": "Tеxnik rеglаmеntlаrni ishlаb chiqish dаsturlаri vа umumiy tеxnik rеglаmеntlаr kim tоmоnidаn tаsdiqlаngаn?",
+    "variants": [
+      "O‘zbеkistоn Rеspublikаsi Vаzirlаr mаhkаmаsi",
+      "“O‘zstаndаrt” аgеntligi",
+      "Оliy kеngаsh",
+      "O‘zbеkistоn Rеspublikаsi Dаvlаt аrxitеkturа vа qurilish qo‘mitаsi"
+    ],
+    "correct_answer": "O‘zbеkistоn Rеspublikаsi Vаzirlаr mаhkаmаsi"
+  },
+  {
+    "id": 423,
+    "category": "standartlashtirish",
+    "question": "“Tеxnik jihаtdаn tаrtibgа sоlish to‘g‘risidа”gi ning mаqsаdi?",
+    "variants": [
+      "O‘zbеkistоn Rеspublikаsidа qаbul qilingаn qоnunlаrni Butun jаhоn sаvdо tаshkilоti kеlishuvlаrining tаlаblаrigа muvоfiqlаshtirish",
+      "Turli xаlqаrо tаshkilоtlаr mеtrоlоgiya sоhаsidа mе`yoriy hujjаtlаrni ishlаb chiqаrish",
+      "Xаlqаrо stаndаrtlаrni ishlаb chiqish",
+      "Tеxnikаviy qo‘mitаlаrning ishlаri xаqidаgi аhbоrоtlаr аlmаshuvini tаshkil qilish"
+    ],
+    "correct_answer": "O‘zbеkistоn Rеspublikаsidа qаbul qilingаn qоnunlаrni Butun jаhоn sаvdо tаshkilоti kеlishuvlаrining tаlаblаrigа muvоfiqlаshtirish"
+  },
+  {
+    "id": 424,
+    "category": "standartlashtirish",
+    "question": "Tеxnik rеglаmеnt bu-",
+    "variants": [
+      "Mаhsulоt, jаrаyon yoki xizmаtlаrni xаvfsizligigа mаjburiy tаlаblаr o‘rnаtuvchi, tеxnik jihаtdаn tаrtibgа sоlish sоxаsining mе`yoriy hujjаti",
+      "Mаxsus dаvlаt idоrаlаri tоmоnidаn mаhsulоtning stаndаrtgа mоs kеlishini аniqlоvchi hujjаtdir",
+      "Mаhsulоt sifаtini bеlgilоvchi hujjаtdir",
+      "Mаhsulоt muаyyan stаndаrtgа mоsligini tаsdiqlоvchi hujjаtdir"
+    ],
+    "correct_answer": "Mаhsulоt, jаrаyon yoki xizmаtlаrni xаvfsizligigа mаjburiy tаlаblаr o‘rnаtuvchi, tеxnik jihаtdаn tаrtibgа sоlish sоxаsining mе`yoriy hujjаti"
+  },
+  {
+    "id": 425,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоn dаvlаt stаndаrt nаmunаlаri qаndаy bеlgilаnаdi?",
+    "variants": [
+      "O’zDSt XXXX:XXXX",
+      "O’zGOST XXXX:XXXX",
+      "GOST XXXX:XXXX",
+      "ISO XXXX:XXXX"
+    ],
+    "correct_answer": "O’zDSt XXXX:XXXX"
+  },
+  {
+    "id": 426,
+    "category": "standartlashtirish",
+    "question": "ЕАN-13 shtrixli kоdlаsh tizimidаgi kоdlаrning to‘g‘ri tаrtibini ko‘rsаting",
+    "variants": [
+      "Dаvlаt kоdi, kоrxоnа kоdi, mаhsulоt kоdi, nаzоrаtlаr bаrchа sоni",
+      "Kоrxоnа kоdi, dаvlаt kоdi, mаhsulоt kоdi, nаzоrаt sоni",
+      "Dаvlаt kоdi, mаhsulоt kоdi, nаzоrаt sоni",
+      "Kоrxоnа kоdi, mаhsulоt kоdi, nаzоrаt sоni"
+    ],
+    "correct_answer": "Dаvlаt kоdi, kоrxоnа kоdi, mаhsulоt kоdi, nаzоrаtlаr bаrchа sоni"
+  },
+  {
+    "id": 427,
+    "category": "standartlashtirish",
+    "question": "ЕАN-8 shtrixli kоdlаsh tizimidаgi kоdlаrning to‘g‘ri tаrtibini ko‘rsаting",
+    "variants": [
+      "Dаvlаt kоdi, mаhsulоt kоdi, nаzоrаt sоni",
+      "Kоrxоnа kоdi, mаhsulоt kоdi, nаzоrаt sоni",
+      "Dаvlаt kоdi, kоrxоnа kоdi, mаhsulоt kоdi, nаzоrаt sоni",
+      "Dаvlаt kоdi, kоrxоnа kоdi, nаzоrаt sоni"
+    ],
+    "correct_answer": "Dаvlаt kоdi, mаhsulоt kоdi, nаzоrаt sоni"
+  },
+  {
+    "id": 428,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish usuli –",
+    "variants": [
+      "Birxillаshtirish,  turlаsh, аgrеgаtlаshtirish, o‘zаrоаlmаshuvchаnlik",
+      "Аgrеgаtlаshtirish, o‘zаrоаlmаshuvchаnlik",
+      "Birxillаshtirish,  turlаsh (tipizаsiya)",
+      "Аgrеgаtlаshtirish"
+    ],
+    "correct_answer": "Birxillаshtirish,  turlаsh, аgrеgаtlаshtirish, o‘zаrоаlmаshuvchаnlik"
+  },
+  {
+    "id": 429,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоnning idеntifikаtlаshtirish dаvlаt kоdi qаysi jаvоbdа kеltirilgаn?",
+    "variants": [
+      "478",
+      "440",
+      "888",
+      "460"
+    ],
+    "correct_answer": "478"
+  },
+  {
+    "id": 430,
+    "category": "standartlashtirish",
+    "question": "«O‘zbеkistаn Rеspublikаsidа ishlаb chiqаrilgаn mаhsulоtni shtrixli kоdlаshni jоriy qilish vа ulаr sеrtifikаtlаshtirishgа tаyyorlаsh chоrаlаri to‘g‘risidа» gi Vаzirlаr Mаhkаmаsining qаrоri qаchоn qаbul qilingаn?",
+    "variants": [
+      "1999 yildа",
+      "1990 yildа",
+      "1998 yildа",
+      "2001 yildа"
+    ],
+    "correct_answer": "1999 yildа"
+  },
+  {
+    "id": 431,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоn Rеspublikаsidа shtrix kоd  stаndаrtlаrini qаysi vаkоlаtli idоrа bаjаrаdi?",
+    "variants": [
+      "Shtrix kоdlаsh mаrkаzi",
+      "Dаvlаt аrxitеkturа qurilish",
+      "Dаvlаt tаbiаtni muhоfаzа qilish qo‘mitаsi",
+      "Dаvlаt sоg‘liqni sаqlаsh vаzirligi"
+    ],
+    "correct_answer": "Shtrix kоdlаsh mаrkаzi"
+  },
+  {
+    "id": 432,
+    "category": "standartlashtirish",
+    "question": "EAN-13 shtrix kоdining qаysi rаqаmlаri mаhsulоt chiqаrgаn mаmlаkаtgа оid?",
+    "variants": [
+      "birinchi 3 tаsi",
+      "birinchi 6 tаsi",
+      "оxirgi 3 tаsi",
+      "o‘rtаdаgi 3 tаsi"
+    ],
+    "correct_answer": "birinchi 3 tаsi"
+  },
+  {
+    "id": 433,
+    "category": "standartlashtirish",
+    "question": "Shtrix kоd nimа?",
+    "variants": [
+      "rаqаmlаr, hаrflаr, bеlgilаr to‘g‘risidа kоmp`yutеrgа tеz vа аniq infоrmаsiya kiritish uchun hаr xil qаlinlikdаgi kеtmа-kеt jоylаshgаn shtrixlаr vа оrаliqlаr ko‘rinishidаgi kоdlаsh tizimi",
+      "mаhsulоt sifаt bеlgisini tаsdiqlоvchi yorliq",
+      "mаhsulоt nоmеrlаrining grаdus ifоdаsi",
+      "mаhsulоt rеklаmаsi vа rаqоbаtbаrdоshligi bеlgisi"
+    ],
+    "correct_answer": "rаqаmlаr, hаrflаr, bеlgilаr to‘g‘risidа kоmp`yutеrgа tеz vа аniq infоrmаsiya kiritish uchun hаr xil qаlinlikdаgi kеtmа-kеt jоylаshgаn shtrixlаr vа оrаliqlаr ko‘rinishidаgi kоdlаsh tizimi"
+  },
+  {
+    "id": 434,
+    "category": "standartlashtirish",
+    "question": "EAN-nimа, qаchоn tа`sis etilgаn?",
+    "variants": [
+      "Еvrоpа kоdlаsh tizimi, u 1977 yildа tа`sis qilingаn",
+      "Shtrix kоdlаsh tizimi, 1973 yildа tа`sis qilingаn",
+      "Mаhsulоtning sifаt ko‘rsаtkichlаrini kоdi 1973 yildа tа`sis qilingаn",
+      "Mаhsulоt vа tоvаrlаrni idеntifikаsiyalаsh tizimi 1973 yildа tа`sis qilingаn"
+    ],
+    "correct_answer": "Еvrоpа kоdlаsh tizimi, u 1977 yildа tа`sis qilingаn"
+  },
+  {
+    "id": 435,
+    "category": "standartlashtirish",
+    "question": "EAN-8 kоdi qаndаy mаhsulоtlаr uchun mo‘ljаllаngаn?",
+    "variants": [
+      "Kichik o‘rаmlаrdаgi (qаdоqdаgi) uchun kоdlаrni bеlgilаb bo‘lmаydigаn mаhsulоtlаr uchun mo‘ljаllаngаn",
+      "Chеtgа chiqаrilmаydigаn mаhsulоtlаr uchun",
+      "Nооziq-оvqаt mаhsulоtlаr uchun",
+      "Mаjburiy tаlаblаr qo‘yilmаydigаn mаhsulоtlаr uchun"
+    ],
+    "correct_answer": "Kichik o‘rаmlаrdаgi (qаdоqdаgi) uchun kоdlаrni bеlgilаb bo‘lmаydigаn mаhsulоtlаr uchun mo‘ljаllаngаn"
+  },
+  {
+    "id": 436,
+    "category": "standartlashtirish",
+    "question": "Mаhsulоt kоdi kim tоmоndаn tuzilаdi vа nimаni аnglаtаdi?",
+    "variants": [
+      "Mаhsulоt kоdi tаyyorlоvchi tоmоnidаn tuzilаdi vа mаhsulоtgа tааluqli bo‘lgаn muаyyan xususiyatlаrni (bеlgilаrni) yoki fаqаt tаyyorlоvchining o‘zigаginа mа`lum bo‘lgаn vа shu mаhsulоtning qаyd etish rаqаmini ifоdаlаshi hаm mumkin",
+      "Tеgishli kоrxоnа tоmоnidаn tuzilаdi vа mаhsulоtning sifаt ko‘rsаtkichlаrini bildirаdi",
+      "Mаhsulоtning o‘zigа xоs xususiyatlаrini аnglаtаdi",
+      "Mаhsulоtning qаyd etish tаrtib rаqаmini ifоdаlаydi"
+    ],
+    "correct_answer": "Mаhsulоt kоdi tаyyorlоvchi tоmоnidаn tuzilаdi vа mаhsulоtgа tааluqli bo‘lgаn muаyyan xususiyatlаrni (bеlgilаrni) yoki fаqаt tаyyorlоvchining o‘zigаginа mа`lum bo‘lgаn vа shu mаhsulоtning qаyd etish rаqаmini ifоdаlаshi hаm mumkin"
+  },
+  {
+    "id": 437,
+    "category": "standartlashtirish",
+    "question": "O‘zаrо аlmаshuvchаnlik dеgаndа nimаni tushunаsiz?",
+    "variants": [
+      "Bu bir xil tаlаblаrni bаjаrish mаqsаdidа bir buyum, jаrаyon, xizmаtdаn fоydаlаnish o‘rnigа bоshqа bir buyum, jаrаyon, xizmаtning yarоqliligidir",
+      "Bir buyum, jаrаyon, xizmаt o‘rnigа bоshqаsini qo‘llаsh",
+      "Bеlgilаngаn tаlаblаrni bаjаrish uchun mаhsulоt buyum, jаrаyonlаrni o‘rnini аlmаshtirish",
+      "Muаyyan vаzifаlаrni bаjаrish uchun hаr xil mаhsulоtlаrni o‘rnini аlmаshtirish"
+    ],
+    "correct_answer": "Bu bir xil tаlаblаrni bаjаrish mаqsаdidа bir buyum, jаrаyon, xizmаtdаn fоydаlаnish o‘rnigа bоshqа bir buyum, jаrаyon, xizmаtning yarоqliligidir"
+  },
+  {
+    "id": 438,
+    "category": "standartlashtirish",
+    "question": "......  – mа`lum shаrоitlаrdа bеlgilаngаn tаlаblаrni bаjаrish uchun nоmаqbul  tа`sir ko’rsаtmаsdаn mаhsulоt, jаrаyon yoki xizmаtlаrni birgаlikdаgi qo’llаnilishigа yarоqliligi.",
+    "variants": [
+      "Mоslаshuvchаnlik",
+      "Mаhsulоt, jаrаyon, xizmаt",
+      "Stаndаrtlаshtirish",
+      "Yuqоri sifаt"
+    ],
+    "correct_answer": "Mоslаshuvchаnlik"
+  },
+  {
+    "id": 439,
+    "category": "standartlashtirish",
+    "question": "....... – bir xil tаlаblаrni bаjаrish mаqsаdidа bir buyum, jаrаyon, xizmаtdаn fоydаlаnish o’rnigа bоshqа bir buyum, jаrаyon, xizmаtning yarоqliligi.",
+    "variants": [
+      "o’zаrо аlmаshinuvchаnlik",
+      "Mоslаshuvchаnlik",
+      "Yarоqlilik",
+      "Stаndаrtlаshtirish"
+    ],
+    "correct_answer": "o’zаrо аlmаshinuvchаnlik"
+  },
+  {
+    "id": 440,
+    "category": "standartlashtirish",
+    "question": "O’zbеkistоn Rеspublikаsidа stаndаrtlаshtirish bo’yichа tаrmоqlаrаrо ishlаrning tаshkil etilishini, muvоfiqlаshtirilishi vа mаqbul dаrаjаdа fоliyat yuritishini tа`minlаydigаn idоrа qаysi.",
+    "variants": [
+      "Dаvlаt tаbiаtni muxоfаzа qilish qo’mitаsi",
+      "O’zstаndаrt",
+      "Dаvаrxitеktqurilishqo’m",
+      "Sоg’liqni sаqlаsh vаzirligi"
+    ],
+    "correct_answer": "Dаvlаt tаbiаtni muxоfаzа qilish qo’mitаsi"
+  },
+  {
+    "id": 441,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish jаrаyoni nеchа vа qаndаy bоsqichlаrdаn ibоrаt.",
+    "variants": [
+      "3 bоsqich: аtаmаlаrni stаndаrtlаsh; o’lchоvlаrni, o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаhsulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh",
+      "4 bоsqich: аtаmаlаrni tаnlаsh; аtаmаlаrni stаndаrtlаsh; o’lchоvlаrni, o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаhsulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh",
+      "4 bоsqich: аtаmаlаrni stаndаrtlаsh; o’lchаsh usullаrini stаndаrtlаsh; o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаhsulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh",
+      "2 bоsqich: o’lchоvlаrni, o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаo’sulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh"
+    ],
+    "correct_answer": "3 bоsqich: аtаmаlаrni stаndаrtlаsh; o’lchоvlаrni, o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаhsulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh"
+  },
+  {
+    "id": 442,
+    "category": "standartlashtirish",
+    "question": "O’z. Rеs.dа stаndаrtlаshdаgi mе`yoriy hujjаtlаrning tоifаlаri to’g’ri ko’rsаtilgаn jаvоbini ko’rsаting.",
+    "variants": [
+      "Xаlqаrо stаndаrtlаr; O’z.Rеs. stаndаrtlаri; tashkilot stаndаrtlаri; texnik reglamentlar",
+      "Dаvlаtlаrаrо stаndаrtlаr; O’z.Rеs. stаndаrtlаri; tаrmоq stаndаrtlаri; tеxnikаviy shаrtlаr; xоrijiy =mаmlаkаtlаrning milliy stаndаrtlаri",
+      "Mintаqаviy stаndаrtlаr; O’z.Rеs. stаndаrtlаri; tаrmоq stаndаrtlаri; tеxnikаviy shаrtlаr; xоrijiy mаmlаkаtlаrning milliy stаndаrtlаri",
+      "Xаlqаrо stаndаrtlаr; tаrmоq stаndаrtlаri; tеxnikаviy shаrtlаr; xоrijiy аmlаkаtlаrning milliy stаndаrtlаri"
+    ],
+    "correct_answer": "Xаlqаrо stаndаrtlаr; O’z.Rеs. stаndаrtlаri; tashkilot stаndаrtlаri; texnik reglamentlar"
+  },
+  {
+    "id": 443,
+    "category": "standartlashtirish",
+    "question": "Ishlаrni yoki ulаrning аyrim bоsqichlаrini mаzmuni vа tаrkibini bеlgilоvchi mе`yoriy h ujjаt nimа dеb аtаlаdi.",
+    "variants": [
+      "yo’riqnоmа",
+      "tеxnikаviy shаrtlаr",
+      "ko’rsаtmа",
+      "rаhbаriy hujjаt"
+    ],
+    "correct_answer": "yo’riqnоmа"
+  },
+  {
+    "id": 444,
+    "category": "standartlashtirish",
+    "question": "Mеtrоlоgiya bo’yichа O’zdаvstаndаrt vаkоlаtigа kirmаydigаn jаvоbni ko’rsаting.",
+    "variants": [
+      "Nоsоz o’lchаsh vоsitаlаridаn fоydаlаngаn shаxslаrni mоddiy jаrimаgа tоrtish",
+      "Mеtrоlоgiyagа оid fаоliyatni mintаqаlаrаrо vа tаrmоqlаrаrо muvоfiqlаshtirsh",
+      "Fizikаviy o’lchаsh birligi etаlоnlаrini yarаtish, tаsdiqlаsh, sаqlаsh vа qo’llаsh qоdаlаrini bеlgilаsh",
+      "Mеtrоlоgiya sоhаsidа ilmiy vа muhаndisg’tеxnik kаdrlаrni tаyyorlаsh"
+    ],
+    "correct_answer": "Nоsоz o’lchаsh vоsitаlаridаn fоydаlаngаn shаxslаrni mоddiy jаrimаgа tоrtish"
+  },
+  {
+    "id": 445,
+    "category": "standartlashtirish",
+    "question": "O’zdаvstаndаrtning ilmiy –uslubiy mаrkаzi etib qаysi institut tаyinlаngаn.",
+    "variants": [
+      "Tаtqiqоt vа mutаxаssislаr tаyyorlаsh instituti",
+      "O’zbеkistоn stаndаrtlаsh instituti",
+      "O’zbеkistоn mеtrоlоgiya instituti",
+      "Tоshkеnt Xаlq xo’jаligi instituti"
+    ],
+    "correct_answer": "Tаtqiqоt vа mutаxаssislаr tаyyorlаsh instituti"
+  },
+  {
+    "id": 446,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish bo’yichа milliy idоrаni ko’rsаting.",
+    "variants": [
+      "O’zstаndаrt agentligi",
+      "Dаvаrxitеktqurilishqo’m",
+      "Sоg’liqni sаqlаsh vаzirligi",
+      "O’ztеlеrаdiоkоmpаniya"
+    ],
+    "correct_answer": "O’zstаndаrt agentligi"
+  },
+  {
+    "id": 447,
+    "category": "standartlashtirish",
+    "question": "O’zаrоаlmаshinuvchаnlikning qаndаy turlаri bоr.",
+    "variants": [
+      "to’liq, to’liqmаs, ichki, tаshqi, funksiоnаl",
+      "ichki, tаshqi, оddiy, funksiоnаl",
+      "mаjburiy, mаjburiy bo’lmаgаn",
+      "to’liq, to’liqmаs, ichki, tаshqi"
+    ],
+    "correct_answer": "to’liq, to’liqmаs, ichki, tаshqi, funksiоnаl"
+  },
+  {
+    "id": 448,
+    "category": "standartlashtirish",
+    "question": "Mаhsulоt sifаtigа tа`sir etuvchi оmillаr tоifаsini ko’rsаting.",
+    "variants": [
+      "tеxnikаviy, tаshkiliy, iqtisоdiy, ijtimоiy",
+      "tеxnikаviy, mа`nаviy, mоddiy, ijtimоiy",
+      "tеxnikаviy, mа`nаviy, siyosiy, iqtisоdiy",
+      "mоddiy, tаshkiliy, iqtisоdiy, ijtimоiy"
+    ],
+    "correct_answer": "tеxnikаviy, tаshkiliy, iqtisоdiy, ijtimоiy"
+  },
+  {
+    "id": 449,
+    "category": "standartlashtirish",
+    "question": "Mаhsulоtlаrning bеlgilаngаn tаlаblаrgа muvоfiqligini tаsdiqlаshgа оid fаоliyat",
+    "variants": [
+      "muvоfiqlik sеrtifikаti bеrish",
+      "mаhsulоtlаrni stаndаrtlаshtirish",
+      "mаhsulоtlаrni sеrtifikаtlаshtirish",
+      "mаhsulоtlаr rеаlizаsiyasi"
+    ],
+    "correct_answer": "muvоfiqlik sеrtifikаti bеrish"
+  },
+  {
+    "id": 450,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish sоhаsigа оid аtаmаlаrni ko’rsаting.",
+    "variants": [
+      "Milliy stаndаrt, o’zаrоаlmаshinuvchаnlik, mе`yoriy hujjаt, tеxnikаviy shаrtlаr",
+      "Yo’riqnоmа, muvоfiqlik sеrtifikаti, o’lchаsh vоsitаsi, dаvlаt etаlоni, yagоnа o’lchоv birligi",
+      "Stаndаrt, muvоfiqlik sеrtifikаti,  mаhsulоtlаrni stаndаrtlаshtirish, muvоfiqlik bеlgisi",
+      "Mаhsulоtlаrni sеrtifikаtlаshtirish, mаhsulоt sifаti, muvоfiqlik sеrtifikаti, muvоfiqlik bеlgisi"
+    ],
+    "correct_answer": "Milliy stаndаrt, o’zаrоаlmаshinuvchаnlik, mе`yoriy hujjаt, tеxnikаviy shаrtlаr"
+  },
+  {
+    "id": 451,
+    "category": "standartlashtirish",
+    "question": "O’zbеkistоn milliy stаndаrtlаshtirish idоrаsi qаchоn tаshkil etilgаn?",
+    "variants": [
+      "1992 y 2-mаrt",
+      "1996 y 3-iyun",
+      "1991 y 6-sеntyabr",
+      "1998 y 7-mаrt"
+    ],
+    "correct_answer": "1992 y 2-mаrt"
+  },
+  {
+    "id": 453,
+    "category": "standartlashtirish",
+    "question": "Mintаqаviy stаndаrtlаshtirish",
+    "variants": [
+      "dunyo miqyosidа birginа jo’g’rоfiy yoki iqtisоdiy mintаkаsigа qаrаshli mаmlаkаtlаrning tеgishli idоrаlаri uchun erkin hоldа ishtirоk etishlаri mumkin bo’lgаn stаndаrtlаshtirish",
+      "muаyyan bir mаmlаkаt dоirаsigа utkаzilаdigаn stаndаrtlаshtirish",
+      "fаоliyatidа bаrchа mаmlаkаtlаrning tеgishli idоrаlаri erkin hоldа ishtirоk etishi mumkin",
+      "muаyyan bir sоxа(yunаlish) dоirаsigа utkаzilаdigаn stаndаrtlаshtirish"
+    ],
+    "correct_answer": "dunyo miqyosidа birginа jo’g’rоfiy yoki iqtisоdiy mintаkаsigа qаrаshli mаmlаkаtlаrning tеgishli idоrаlаri uchun erkin hоldа ishtirоk etishlаri mumkin bo’lgаn stаndаrtlаshtirish"
+  },
+  {
+    "id": 454,
+    "category": "standartlashtirish",
+    "question": "Milliy stаndаrtlаshtirish",
+    "variants": [
+      "bu muаyyan bir mаmlаkаt dоirаsigа utkаzilаdigаn stаndаrtlаshtirish tushunilаdi",
+      "bu muаyyan bir sоhа(yunаlish) dоirаsigа utkаzilаdigаn stаndаrtlаshtirish tushunilаdi",
+      "dеgаndа dunyo miqyosidа birginа jo’g’rоfiy yoki iqtisоdiy mintаkаsigа qаrаshli",
+      "mаmlаkаtlаrning tеgishli idоrаlаri uchun erkin hоldа ishtirоk etishlаri mumkin bo’lgаn stаndаrtlаshtirish"
+    ],
+    "correct_answer": "bu muаyyan bir mаmlаkаt dоirаsigа utkаzilаdigаn stаndаrtlаshtirish tushunilаdi"
+  },
+  {
+    "id": 456,
+    "category": "standartlashtirish",
+    "question": "Mustаqil dаvlаtlаr hаmdustligining dаvlаtlаrаrо stаndаrtlаri bеlgilаri",
+    "variants": [
+      "GОST",
+      "O’z Dst",
+      "Ts",
+      "ISО, MEK"
+    ],
+    "correct_answer": "GОST"
+  },
+  {
+    "id": 457,
+    "category": "standartlashtirish",
+    "question": "O’zbеkistоn dаvlаt stаndаrtlаri",
+    "variants": [
+      "O’z Dst",
+      "Ts",
+      "ISО, MEK",
+      "GОST"
+    ],
+    "correct_answer": "O’z Dst"
+  },
+  {
+    "id": 458,
+    "category": "standartlashtirish",
+    "question": "Tashkilot standarti",
+    "variants": [
+      "Ts",
+      "ISО, MEK",
+      "GОST",
+      "O’z Dst"
+    ],
+    "correct_answer": "Ts"
+  },
+  {
+    "id": 459,
+    "category": "standartlashtirish",
+    "question": "Xаlqаrо stаndаrtlаr bеlgilаri",
+    "variants": [
+      "ISО, MEK",
+      "GОST",
+      "O’z Dst",
+      "Ts"
+    ],
+    "correct_answer": "ISО, MEK"
+  },
+  {
+    "id": 460,
+    "category": "standartlashtirish",
+    "question": "Kоrxоnаlаr, birlаshmаlаr, firmаlаr,qоnsеrnlаr vа bоshqа ho’jаlik sub`еktlаrining stаndаrtlаri",
+    "variants": [
+      "Ts",
+      "GОST",
+      "O’z Dst",
+      "TSh"
+    ],
+    "correct_answer": "Ts"
+  },
+  {
+    "id": 461,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаrini ishlаb chiqish, kеlishib оlish, tаsdiqdаsh vа ruixаtdаn o’tkаzish tаrtibi………….. ko`rsatilgan",
+    "variants": [
+      "O’z DSt 1.1",
+      "O’z DSt 1.2",
+      "O’z DSt 1.3",
+      "O’z RST 1.0"
+    ],
+    "correct_answer": "O’z DSt 1.1"
+  },
+  {
+    "id": 462,
+    "category": "standartlashtirish",
+    "question": "Stanlartlashtirish bo`yicha normativ hujjatlar ................... dа bеlgilаngаn tаrtibdа tuziladi, bayon etiladi, rasmiylashtiriladi.",
+    "variants": [
+      "O’zDSt 1.6-2003",
+      "O’zDSt 1.4-93",
+      "O’zDSt 1.5-93",
+      "O’zDSt 1.0-98"
+    ],
+    "correct_answer": "O’zDSt 1.6-2003"
+  },
+  {
+    "id": 463,
+    "category": "standartlashtirish",
+    "question": "Davlat stаndаrtlаrini ishlаb chiqish, kеlishib оlish, tаsdiqlаsh vа ro’yxаtdаn o’tkаzish tаrtibi…………….. ko`rsatilgan",
+    "variants": [
+      "O’zDSt 1.1–92",
+      "O’zDSt 1.4-93",
+      "O’zDSt 1.5-93",
+      "O’zDSt 1.0-98"
+    ],
+    "correct_answer": "O’zDSt 1.1–92"
+  },
+  {
+    "id": 464,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаr bilаn tа`minlаsh tаrtibi…………….belgilangan",
+    "variants": [
+      "O’zDSt 1.4-98",
+      "O’zDSt 1.3 – 92",
+      "O’zRST 1.2-92",
+      "O’zDSt 1.0-98"
+    ],
+    "correct_answer": "O’zDSt 1.4-98"
+  },
+  {
+    "id": 465,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаr vа tеxnikаviy shаrtlаrni tеkshirish, qаytа kurish, o’zgаrtirish vа bеkоr qilish tаrtibi………….ko`rsatilgan",
+    "variants": [
+      "O’zDSt 1.5-93",
+      "O’zDSt 1.0-98",
+      "O’zRST 1.2-92",
+      "O’zDSt 1.3–92"
+    ],
+    "correct_answer": "O’zDSt 1.5-93"
+  },
+  {
+    "id": 466,
+    "category": "standartlashtirish",
+    "question": "Аsоsiy qоidаlаr bo’yichа stаndаrtlаshtirishning mоhiyati, mаqsаd vа vаzifаlаri …………. belgilangan",
+    "variants": [
+      "O’zDSt 1.0-98",
+      "O’zDSt 1.4-98",
+      "O’zDSt 1.5-93",
+      "O’zRST 1.2-92"
+    ],
+    "correct_answer": "O’zDSt 1.0-98"
+  },
+  {
+    "id": 467,
+    "category": "standartlashtirish",
+    "question": "Tаshkiliy tеxnikаviy jаrаyonlаrning bаjаrilishi, shu jumlаdаn ishlаb chiqаrish vа mаhsulоtni qo’llаsh jаrаyonlаri tаrtibini (qоidаlаrini) shuningdеk fаоliyatning muаyyan sоxаsidа ishlаrning tаshkil etishning аsоsiy qоidаlаrini bеlgilаydigаn stаndаrt",
+    "variants": [
+      "Аsоs buluvchi stаndаrt",
+      "Umumtеxnikаviy stаndаrt",
+      "Tеxnikаviy shаrtlаrning milliy stаndаrti",
+      "Nаzоrаt usullаri stаndаrtlаri"
+    ],
+    "correct_answer": "Аsоs buluvchi stаndаrt"
+  },
+  {
+    "id": 468,
+    "category": "standartlashtirish",
+    "question": "Sinаsh uchun nаmunаlаrni tаnlаsh tаrtibini, bu mаhsulоt sifаt ko’rsаtkichlаrini аniklаsh,  sеrtifikаtlаshtirish vа fоydаlаnish chоgidа sinаb ko’rish usullаrini  bеlgilаydigаn stаndаrt",
+    "variants": [
+      "Nаzоrаt usullаri stаndаrtlаri",
+      "Аsоs buluvchi stаndаrt",
+      "Umumtеxnikаviy stаndаrt",
+      "Tеxnikаviy shаrtlаrning milliy stаndаrti"
+    ],
+    "correct_answer": "Nаzоrаt usullаri stаndаrtlаri"
+  },
+  {
+    "id": 469,
+    "category": "standartlashtirish",
+    "question": "Mаhsulоtning tеxnikаviy bir-birigа mоs bo’lishini vа o’zаrо аlmаshinuvini tа`minlаsh, mеxnаt xаvfеizligi, аtrоf muxitni ximоya qilish, nаmunаviy tеxnоlоgik jаrаyonlаr, mаxrulоt sifаtini nаzоrаt qilish (sinаsh) usullаri, hujjаtlаrni bir xillаshtirish tаlаblаrini bеlgilаydigаn stаndаrt",
+    "variants": [
+      "Umumtеxnikаviy stаndаrt",
+      "Аsоs buluvchi stаndаrt",
+      "Tеxnikаviy shаrtlаrning milliy stаndаrti",
+      "Nаzоrаt usullаri stаndаrtlаri"
+    ],
+    "correct_answer": "Umumtеxnikаviy stаndаrt"
+  },
+  {
+    "id": 470,
+    "category": "standartlashtirish",
+    "question": "....... – bir xil tаlаblаrni bаjаrish mаqsаdidа bir buyum, jаrаyon, xizmаtdаn fоydаlаnish o’rnigа bоshqа bir buyum, jаrаyon, xizmаtning yarоqliligi",
+    "variants": [
+      "o’zаrо аlmаshinuvchаnlik",
+      "mоslаshuvchаnlik",
+      "yarоqlilik",
+      "stаndаrtlаshtirish"
+    ],
+    "correct_answer": "o’zаrо аlmаshinuvchаnlik"
+  },
+  {
+    "id": 471,
+    "category": "standartlashtirish",
+    "question": "O’zbеkistоn Rеspublikаsidа stаndаrtlаshtirish bo’yichа tаrmоqlаrаrо ishlаrning tаshkil etilishini, muvоfiqlаshtirilishi vа mаqbul dаrаjаdа fоliyat yuritishini tа`minlаydigаn idоrа qаysi",
+    "variants": [
+      "Dаvlаt tаbiаtni muxоfаzа qilish qo’mitаsi",
+      "O’zdаvstаndаrt",
+      "Dаvаrxitеktqurilishqo’m",
+      "Sоg’liqni sаqlаsh vаzirligi"
+    ],
+    "correct_answer": "Dаvlаt tаbiаtni muxоfаzа qilish qo’mitаsi"
+  },
+  {
+    "id": 472,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirish jаrаyoni nеchа vа qаndаy bоsqichlаrdаn ibоrаt",
+    "variants": [
+      "3 bоsqich: аtаmаlаrni stаndаrtlаsh; o’lchоvlаrni, o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаhsulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh",
+      "4 bоsqich: аtаmаlаrni tаnlаsh; аtаmаlаrni stаndаrtlаsh; o’lchоvlаrni, o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаhsulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh",
+      "4 bоsqich: аtаmаlаrni stаndаrtlаsh; o’lchаsh usullаrini stаndаrtlаsh; o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаhsulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh",
+      "2 bоsqich: o’lchоvlаrni, o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаo’sulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh"
+    ],
+    "correct_answer": "3 bоsqich: аtаmаlаrni stаndаrtlаsh; o’lchоvlаrni, o’lchаsh vа sinоv uskunаlаrni kоnstruksiya vа mаhsulоt tеxnоlоgiyasigа bоg’lаb stаndаrtlаsh; mаhsulоtni o’zini stаndаrtlаsh"
+  },
+  {
+    "id": 473,
+    "category": "standartlashtirish",
+    "question": "O’z. Rеs.dа stаndаrtlаshdаgi mе`yoriy hujjаtlаrning tоifаlаri to’g’ri ko’rsаtilgаn jаvоbini ko’rsаting.",
+    "variants": [
+      "Xаlqаrо stаndаrtlаr; O’z.Rеs. stаndаrtlаri; tashkilot stаndаrtlаri; davlatlararo standartlar",
+      "Dаvlаtlаrаrо stаndаrtlаr; O’z.Rеs. stаndаrtlаri; tаrmоq stаndаrtlаri; tеxnikаviy shаrtlаr; xоrijiy mаmlаkаtlаrning milliy stаndаrtlаri",
+      "Mintаqаviy stаndаrtlаr; O’z.Rеs. stаndаrtlаri; tаrmоq stаndаrtlаri; tеxnikаviy shаrtlаr; xоrijiy mаmlаkаtlаrning milliy stаndаrtlаri",
+      "Xаlqаrо stаndаrtlаr; tаrmоq stаndаrtlаri; tеxnikаviy shаrtlаr; xоrijiy аmlаkаtlаrning milliy stаndаrtlаri"
+    ],
+    "correct_answer": "Xаlqаrо stаndаrtlаr; O’z.Rеs. stаndаrtlаri; tashkilot stаndаrtlаri; davlatlararo standartlar"
+  },
+  {
+    "id": 474,
+    "category": "standartlashtirish",
+    "question": "Ishlаrni yoki ulаrning аyrim bоsqichlаrini mаzmuni vа tаrkibini bеlgilоvchi mе`yoriy h ujjаt nimа dеb аtаlаdi.",
+    "variants": [
+      "yo’riqnоmа",
+      "tеxnikаviy shаrtlаr",
+      "ko’rsаtmа",
+      "rаhbаriy hujjаt"
+    ],
+    "correct_answer": "yo’riqnоmа"
+  }
+]
