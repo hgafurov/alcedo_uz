@@ -1,3 +1,100 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALCEDO.UZ - Imtihon</title>
+    <style>
+        body { background-color: #0F0F2F; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 16px; box-sizing: border-box; }
+        .container { background-color: #0F0F2F; padding: 16px; max-width: 450px; width: 100%; text-align: center; }
+        
+        /* 🔢 Savollar raqamlari paneli (Gorizontal skrol) */
+        .indicators-wrapper { width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px; padding-bottom: 8px; scroll-behavior: smooth; }
+        .indicators-wrapper::-webkit-scrollbar { height: 4px; }
+        .indicators-wrapper::-webkit-scrollbar-thumb { background: #2196F3; border-radius: 4px; }
+        .ind-btn { display: inline-block; width: 40px; height: 40px; line-height: 38px; background-color: #1F1F42; border: 2px solid #2A2A5A; border-radius: 8px; color: #9E9E9E; font-weight: bold; margin-right: 8px; text-align: center; box-sizing: border-box; font-size: 15px; }
+        .ind-btn.active { background-color: #2196F3; border-color: #2196F3; color: white; box-shadow: 0 0 10px rgba(33, 150, 243, 0.5); }
+        .ind-btn.solved-correct { background-color: #4CAF50; border-color: #4CAF50; color: white; }
+        .ind-btn.solved-wrong { background-color: #F44336; border-color: #F44336; color: white; }
+
+        .timer { color: #FF5722; font-size: 22px; font-weight: bold; margin-bottom: 4px; }
+        .progress { color: #9E9E9E; font-size: 13px; font-weight: bold; margin-bottom: 24px; text-transform: uppercase; letter-spacing: 1px; }
+        .question { font-size: 20px; font-weight: bold; margin-bottom: 32px; line-height: 1.4; text-align: center; padding: 0 10px; }
+        
+        /* 🔘 Variantlar guruhi (Rasmdagi kabi chapda dumaloq) */
+        .options-group { text-align: left; margin-bottom: 32px; }
+        .option-label { display: flex; align-items: center; background-color: transparent; padding: 14px 10px; margin-bottom: 12px; border-radius: 8px; cursor: pointer; transition: 0.2s; font-size: 15px; line-height: 1.4; }
+        
+        /* Haqiqiy radio tugmani yashirib, custom dumaloq shakl yasaymiz */
+        .option-label input { display: none; }
+        .custom-radio { min-width: 20px; height: 20px; border: 2px solid #2196F3; border-radius: 50%; margin-right: 14px; display: inline-block; position: relative; box-sizing: border-box; }
+        .option-label input:checked + .custom-radio::after { content: ""; width: 10px; height: 10px; background-color: #2196F3; border-radius: 50%; position: absolute; top: 3px; left: 3px; }
+        
+        /* 🎨 To'g'ri va xato ranglar dizayni */
+        .option-label.correct { color: #4CAF50 !important; font-weight: bold; }
+        .option-label.correct .custom-radio { border-color: #4CAF50 !important; }
+        .option-label.correct input:checked + .custom-radio::after { background-color: #4CAF50 !important; }
+        
+        .option-label.wrong { color: #F44336 !important; font-weight: bold; }
+        .option-label.wrong .custom-radio { border-color: #F44336 !important; }
+        .option-label.wrong input:checked + .custom-radio::after { background-color: #F44336 !important; }
+        
+        .disabled { pointer-events: none; opacity: 0.9; }
+
+        /* 🟦 Tugmalar */
+        button { width: 100%; padding: 14px; background-color: #2196F3; color: white; border: none; border-radius: 4px; font-weight: bold; font-size: 16px; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; }
+        .btn-finish { background-color: #E53935; margin-top: 14px; }
+        .hidden { display: none !important; }
+        
+        /* 📜 Sertifikat */
+        .cert-box { border: 4px double #FFD700; background-color: #151535; padding: 24px; border-radius: 4px; margin-bottom: 32px; }
+        .cert-title { color: #FFD700; font-size: 22px; font-weight: bold; margin: 16px 0; letter-spacing: 2px; }
+        .cert-name { font-size: 24px; font-weight: bold; color: #FFFFFF; margin: 12px 0; border-bottom: 1px solid #333; padding-bottom: 8px; }
+        .cert-status { font-size: 22px; font-weight: bold; padding: 10px; border: 2px solid; display: inline-block; margin: 16px 0; }
+        .pass-color { color: #4CAF50; border-color: #4CAF50; }
+        .fail-color { color: #F44336; border-color: #F44336; }
+    </style>
+</head>
+<body>
+
+    <!-- ✏️ TEST SAVOLLARI OYNASI -->
+    <div id="quizContainer" class="container">
+        
+        <!-- 🔢 Savollar indikatorlari bloki -->
+        <div id="indicatorsBox" class="indicators-wrapper"></div>
+
+        <div id="timerTv" class="timer">Vaqt: 00:00</div>
+        <div id="quizCountTv" class="progress">SAVOL: 1/20</div>
+        <div id="questionTv" class="question">Savollar yuklanmoqda...</div>
+        
+        <div id="optionsGroup" class="options-group">
+            <label class="option-label" id="lbl1"><input type="radio" name="quiz_opt" value="0"><span class="custom-radio"></span><span id="opt1"></span></label>
+            <label class="option-label" id="lbl2"><input type="radio" name="quiz_opt" value="1"><span class="custom-radio"></span><span id="opt2"></span></label>
+            <label class="option-label" id="lbl3"><input type="radio" name="quiz_opt" value="2"><span class="custom-radio"></span><span id="opt3"></span></label>
+            <label class="option-label" id="lbl4"><input type="radio" name="quiz_opt" value="3"><span class="custom-radio"></span><span id="opt4"></span></label>
+        </div>
+        
+        <button id="nextBtn">TEKSHIRISH ➔</button>
+        <button id="finishEarlyBtn" class="btn-finish">IMTIHONNI YAKUNLASH</button>
+    </div>
+
+    <!-- 📊 NATIJA VA SERTIFIKAT OYNASI -->
+    <div id="resultContainer" class="container hidden">
+        <div class="cert-box">
+            <h2 style="color: #2196F3; margin: 0;">ALCEDO.UZ</h2>
+            <div id="certTitle" class="cert-title">RASMIY SERTIFIKAT</div>
+            <div style="color: #9E9E9E; font-size: 14px;">Ushbu hujjat egasi:</div>
+            <div id="resName" class="cert-name">Ism Familiya</div>
+            <p id="resDescription" style="font-size: 14px; color: #E0E0E0; line-height: 1.4; padding: 0 10px;">Imtihondan muvaffaqiyatli o'tdi.</p>
+            <div id="resExamStatus" class="cert-status pass-color">IMTIHONDAN O'TDI</div>
+            <div id="resScore" style="font-size: 18px; font-weight: bold; margin-top: 10px;">To'plangan ball: 0 / 20</div>
+            <div id="resPercent" style="font-size: 14px; color: #9E9E9E; margin-top: 4px;">Foiz: 0%</div>
+        </div>
+        <button id="restartBtn" style="margin-bottom: 12px;">🔄 QAYTA URINISH</button>
+        <button id="homeBtn" style="background-color: #33334E;">🏠 BOSH SAHIFA</button>
+    </div>
+
+    <script>
         const jsonUrl = "https://githubusercontent.com";
         const urlParams = new URLSearchParams(window.location.search);
         const userName = urlParams.get('user') || 'Foydalanuvchi';
@@ -29,6 +126,7 @@
                 }
                 initQuiz();
             } catch (error) {
+                console.error(error);
                 let cachedData = localStorage.getItem("OFFLINE_QUIZ_BAZA");
                 if (cachedData) { allQuestions = JSON.parse(cachedData); initQuiz(); }
                 else { document.getElementById("questionTv").innerText = "Xatolik yuz berdi!"; }
@@ -60,42 +158,6 @@
                 selectedQuestionsList = unviewedQuestions.slice(0, maxQuestions);
 
                 selectedQuestionsList.forEach(q => { if(q.id) viewedIds.push(q.id); });
-                localStorage.setItem(viewedKey, JSON.stringify(viewedIds));
-            } else {
-                let savedIndexKey = "LAST_INDEX_" + selectedCategory;
-                let lastIndex = parseInt(localStorage.getItem(savedIndexKey) || "0");
-                if (lastIndex >= filtered.length) lastIndex = 0;
-
-                let tempQuestions = [];
-                let idx = lastIndex;
-                for (let i = 0; i < Math.min(filtered.length, maxQuestions); i++) {
-                    if (idx >= filtered.length) idx = 0;
-                    tempQuestions.push(filtered[idx]);
-                    idx++;
-                }
-                localStorage.setItem(savedIndexKey, idx);
-                selectedQuestionsList = tempQuestions;
-            }
-
-            // 🎯 Savollar soni bazadan kelgan hajmga qarab qat'iy belgilandi
-            totalQuestionsCount = selectedQuestionsList.length;
-            
-            // 🔢 Raqamli indikatorlar aynan savollar soniga moslab yaratiladi
-            const indBox = document.getElementById("indicatorsBox");
-            indBox.innerHTML = "";
-            answeredTracker = new Array(totalQuestionsCount).fill(null);
-            for (let i = 1; i <= totalQuestionsCount; i++) {
-                let btn = document.createElement("span");
-                btn.className = "ind-btn";
-                btn.id = "indBtn_" + i;
-                btn.innerText = i;
-                indBox.appendChild(btn);
-            }
-
-            startTimer();
-            displayQuestion();
-        }
-
         function startTimer() {
             clearInterval(timerInterval);
             timerInterval = setInterval(() => {
@@ -111,6 +173,7 @@
                 document.getElementById("timerTv").innerText = `Vaqt: ${mins < 10 ? '0':''}${mins}:${secs < 10 ? '0':''}${secs}`;
             }, 1000);
         }
+
         function displayQuestion() {
             if (selectedQuestionsList.length === 0) {
                 finishQuiz();
@@ -127,6 +190,7 @@
             document.getElementById("optionsGroup").classList.remove("disabled");
 
             currentQuiz = selectedQuestionsList[0];
+            
             let currentProgress = totalQuestionsCount - selectedQuestionsList.length + 1;
             document.getElementById("quizCountTv").innerText = `SAVOL: ${currentProgress}/${totalQuestionsCount}`;
             document.getElementById("questionTv").innerText = currentQuiz.question;
@@ -257,4 +321,6 @@
         };
 
         fetchQuestions();
-
+    </script>
+</body>
+</html>
