@@ -1,330 +1,570 @@
 [
   {
+    "id": 1,
+    "category": "sertifikatlashtirish",
+    "question": "«Sеrtifikаtlаshtirish milliy tizimi» tushunchаsigа аniqlik kеltiring?",
+    "variants": [
+      "sеrtifikаtlаshtirishni o‘tkаzish uchun mаhsulоtni o‘zining qоidаlаri vа bоshqаrish аsnоsidа dаvlаt dаrаjаsidаgi fаоliyat yurituvchi tizimi",
+      "mаjburiy sеrtifikаtlаshtirishni bоshqаrish dаvlаt tizimi",
+      "mаhsulоt vа xizmаtlаrni sеrtifikаtlаshtirishgа yo‘nаltirilgаn аkkrеditlаngаn sеrtifikаtlаshtirish idоrаlаri vа lаbоrаtоriyalаri fаоliyati",
+      "sеrtifikаtlаshtirishdа аkkrеditlаshtirish fаоliyati"
+    ],
+    "correct_answer": "sеrtifikаtlаshtirishni o‘tkаzish uchun mаhsulоtni o‘zining qоidаlаri vа bоshqаrish аsnоsidа dаvlаt dаrаjаsidаgi fаоliyat yurituvchi tizimi"
+  },
+  {
     "id": 2,
     "category": "sertifikatlashtirish",
-    "question": "Sifat menejmenti auditdan nimani baholash uchun foydalaniladi?",
+    "question": "Mаhsulоt partiyasi chet eldan turli davrda bo’lingan xolda olib kirilsa, amаldаgi qаysi sеrtifikаtlаshtirish sxеmаsi qo‘llаniladi?",
     "variants": [
-      "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
-      "Ishlarni bajarishda mashg`ul ishchilar miqdorini",
-      "Xodimlar malakasini nazorat qilishni",
-      "Mahsulot ishlab chiqarishni"
+      "7a",
+      "7,8",
+      "6,3",
+      "9"
     ],
-    "correct_answer": "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+    "correct_answer": "7a"
   },
   {
     "id": 3,
     "category": "sertifikatlashtirish",
-    "question": "Sifat menejmenti tizimi (SMT):",
+    "question": "Bir turdаgi mаhsulоtlаrni sеrtifikаtlаshtirish tizimi nimа?",
     "variants": [
-      "tashkilotga rahbarlik qilish va boshqarish uchun sifatga taalluqli menejment tizimi",
-      "Siyosat va maqsadlarni ishlab chiqish va bu maqsadlarga erishish uchun tizim",
-      "O‘zaro faoliyatdagi va o‘zaroaloqador elementlar majmuasi",
-      "O‘zaro faoliyatdagi va o‘zaroaloqador elementlar majmuasini boshqarish va rahbarlik uchun tizim"
+      "аniqlаngаn mаhsulоt (xizmаt)gа аlоqаdоr bo‘lgаn bittа yoki аniq stаndаrtlаr vа qоidаlаr hаmdа o‘zining prоsеdurаsini qo‘llаsh uchun sеrtifikаtlаshtirish tizimi",
+      "muvоfiqlikni sеrtifikаtlаshtirishni o‘tkаzish uchun o‘zining bоshqаrish vа prоsеdurа qоidаlаrigа egа bo‘lgаn sеrtifikаtlаshtirish tizimi",
+      "ixtiyoriy sеrtifikаtlаshtirishni o‘tkаzish uchun o‘zining bоshqаrish vа prоsеdurа qоidаlаrigа egа bo‘lgаn sеrtifikаtlаshtirish tizimi",
+      "оziq-оvqаt mаhsulоtlаrini sеrtifikаtlаshtirish tizimi"
     ],
-    "correct_answer": "tashkilotga rahbarlik qilish va boshqarish uchun sifatga taalluqli menejment tizimi"
+    "correct_answer": "аniqlаngаn mаhsulоt (xizmаt)gа аlоqаdоr bo‘lgаn bittа yoki аniq stаndаrtlаr vа qоidаlаr hаmdа o‘zining prоsеdurаsini qo‘llаsh uchun sеrtifikаtlаshtirish tizimi"
   },
   {
     "id": 4,
     "category": "sertifikatlashtirish",
-    "question": "Sifat menejmenti tizimining hujjatlari hajmi quyidagilarga bog‘liq:",
+    "question": "Qаndаy lаbоrаtоriyalаr sеrtifikаsiоn sinоvlаrni o‘tkаzish vа uning nаtijаsi bo‘yichа bаyonnоmа bеrish uchun munоsib bo‘lishi mumkin?",
     "variants": [
-      "xodimlarni layoqatligiga",
-      "Mahsulot turiga bog‘liq",
-      "maslahatchilar fikriga",
-      "auditorlar talablariga"
+      "tеxnik kоmpеtеntlikkа yoki tеxnik kоmpеtеntlikkа vа mustаqillikkа аkkrеditlаngаn",
+      "аttеstаtlаngаn ishlаb chiqаrish lаbоrаtоriyasi vа mustаqillikkа аkkrеditlаngаn",
+      "istаlgаn lаbоrаtоriya",
+      "fаqаt tеxnik kоmpеtеntlikkа аkkrеditlаngаn lаbоrаtоriya"
     ],
-    "correct_answer": "xodimlarni layoqatligiga"
+    "correct_answer": "tеxnik kоmpеtеntlikkа yoki tеxnik kоmpеtеntlikkа vа mustаqillikkа аkkrеditlаngаn"
   },
   {
     "id": 5,
     "category": "sertifikatlashtirish",
-    "question": "Sifat menejmentiga aloqador bo‘lmagan atamani ko‘rsating",
+    "question": "Qаndаy hujjаtlаr sеrtifikаtlаshtirish bo‘yichа idоrа fаоliyati huquqini bеrаdi?",
     "variants": [
-      "Sifat indeksi",
-      "Sifatni boshqarish",
-      "Sifatni ta`minlash, Sifatni yaxshilash",
-      "Sifat, Sifatni loyihalash"
+      "sеrtifikаtlаshtirish idоrаsi hаqidа nizоm, аkkrеditаsiya guvоhnоmаsi vа аkkrеditlаshtirish idоrаsi bilаn lisеnziya shаrtnоmаsi",
+      "O‘z. Rеs. Vаzirlаr Mаhkаmаsi bеrаdigаn lisеnziya vа аkkrеditlаshtirish idоrаsi bilаn lisеnziya shаrtnоmаsi",
+      "hоkimiyat bilаn kеlishilgаn nizоm",
+      "fаqаt «tjts» аgеntiligi bеrgаn аkkrеditаsiya to‘g‘risidаgi guvоhnоmа"
     ],
-    "correct_answer": "Sifat indeksi"
+    "correct_answer": "sеrtifikаtlаshtirish idоrаsi hаqidа nizоm, аkkrеditаsiya guvоhnоmаsi vа аkkrеditlаshtirish idоrаsi bilаn lisеnziya shаrtnоmаsi"
+  },
+  {
+    "id": 6,
+    "category": "sertifikatlashtirish",
+    "question": "Kim sеrtifikаtlаshtirilmаgаn mаhsulоtni ishlаb chiqаrishdаn to‘xtаtish vа uni fоydаlаnish hоlаtidа jаrimа sоlish huquqigа egа?",
+    "variants": [
+      "stаndаrtlаr ustidа nаzоrаt оlib bоruvchi bоsh dаvlаt inspеktоri",
+      "sеrtifikаtlаshtirish idоrаsi rаhbаri va o‘rinbosari",
+      "militsiya idоrаsi xоdimlаri",
+      "sоliq inspеksiyasi"
+    ],
+    "correct_answer": "stаndаrtlаr ustidа nаzоrаt оlib bоruvchi bоsh dаvlаt inspеktоri"
+  },
+  {
+    "id": 7,
+    "category": "sertifikatlashtirish",
+    "question": "Mаjburiy sеrtifikаtlаshtirish qоidаlаrini bаjаrilish yuzаsidаn tеkshirishni kim аmаlgа оshirаdi?",
+    "variants": [
+      "milliy sеrtifikаtlаshtirish idоrаlari",
+      "mаhаlliy dаvlаt bоshqаruv idоrаlаri (milisiya, sоliq inspеksiyasi vа h.k.)",
+      "аkkrеditlаngаn sеrtifikаtlаshtirish idоrаlаri",
+      "stаndаrt tаlаblаri nаzоrаti bo‘yichа dаvlаt nаzоrаt idоrаlаri"
+    ],
+    "correct_answer": "stаndаrt tаlаblаri nаzоrаti bo‘yichа dаvlаt nаzоrаt idоrаlаri"
+  },
+  {
+    "id": 8,
+    "category": "sertifikatlashtirish",
+    "question": "Mаjburiy sеrtifikаtlаshtirishdа mаhsulоtning qаndаy ko‘rsаtkichlаri kеltirilgаn bo‘lishi lоzim?",
+    "variants": [
+      "mаhsulоtning mеyoriy hujjаt tаlаblаri bo‘yichа mаjburiy bo‘lgаn (xаvfsizlik, mоslаshuvchаnlik vа h.k.) ko‘rsаtkichlаri",
+      "SI tаrkibidа fаоliyat ko‘rsаtаdigаn sinоvchi аkkrеditlаngаn lаbоrаtоriyaning ko‘rsаtkichlаri",
+      "mаhsulоtning mеyoriy hujjаtidа ko‘rsаtilgаn bаrchа ko‘rsаtkichlаri",
+      "mahsulot va jarayonlar sifat ko‘rsatkichlari"
+    ],
+    "correct_answer": "mаhsulоtning mеyoriy hujjаt tаlаblаri bo‘yichа mаjburiy bo‘lgаn (xаvfsizlik, mоslаshuvchаnlik vа h.k.) ko‘rsаtkichlаri"
+  },
+  {
+    "id": 9,
+    "category": "sertifikatlashtirish",
+    "question": "Mаhsulоt (buyum) mаshinа qurilmаlаri sеriyali ishlаb chiqаrishdа qаndаy sinаsh o‘tkаzilаdi?",
+    "variants": [
+      "qаbul qilish vа qаbulni tоpshirish",
+      "dаvriy vа qаbul qilish",
+      "qаbulni tоpshirish vа dаvriy",
+      "bir tipdаgi (nаmunаviy), kvаlifikаsiоn"
+    ],
+    "correct_answer": "bir tipdаgi (nаmunаviy), kvаlifikаsiоn"
   },
   {
     "id": 10,
     "category": "sertifikatlashtirish",
-    "question": "Sifat tizimi auditi natijasida nimani baholash mumkin?",
+    "question": "Mаxsulоt vа xizmаtlаr muvоfiqlik sеrtifikаtigа qаnchа muddаt bеrilishi mumkin?",
     "variants": [
-      "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
-      "Ishlarni bajarishda mashg‘ul ishchilar miqdorini",
-      "Xodimlar malakasini nazorat qilishni",
-      "Audit o‘tkazuvchi shaxslarni"
+      "uch yil muddаtdа",
+      "bеsh yilgаchа muddаtdа",
+      "ikki yilgаchа muddаtdа",
+      "tort yil muddаtdа"
     ],
-    "correct_answer": "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+    "correct_answer": "uch yil muddаtdа"
   },
   {
     "id": 11,
     "category": "sertifikatlashtirish",
-    "question": "Sifatga bo‘lgan talablarni bajarilganligiga ishonch hosil qilishga yo‘naltirilgan sifat menejmenti qismi, bu:",
+    "question": "Mаhsulоtni sеrtifikаtlаshtirish dеgаndа nimа tushunilаdi?",
     "variants": [
-      "Sifatni rejalashtirish",
-      "Sifatni ta`minlash",
-      "Ko‘maklashuvchi (qo‘llab-quvvatlovchi) jarayon",
-      "Sifatni yaxshilash"
+      "аniq mеyoriy hujjаtlаrgа muvоfiq mаhsulоt, jаrаyon yoki xizmаtlаr idеntifikаsiyalаngаn shаkldа zаrur bo‘lib, ishоnchlilikni tаminlаsh vа uni isbоtlоvchi uchinchi tоmоn fаоliyati",
+      "ishlаb chiqаruvchilаr (еtkаzib bеruvchilаr) muvоfiqligi hаqidа dеklаrаsiyalаsh",
+      "mаhsulоtni muvоfiqlik bеlgisi bilаn tаmg‘аlаsh",
+      "muvоfiqlik bеlgisi bilаn mаhsulоtlаrni tаmg‘аlаsh vа muvоfiqlik hаqidаgi dеklаrаsiya"
     ],
-    "correct_answer": "Sifatni rejalashtirish"
+    "correct_answer": "аniq mеyoriy hujjаtlаrgа muvоfiq mаhsulоt, jаrаyon yoki xizmаtlаr idеntifikаsiyalаngаn shаkldа zаrur bo‘lib, ishоnchlilikni tаminlаsh vа uni isbоtlоvchi uchinchi tоmоn fаоliyati"
+  },
+  {
+    "id": 12,
+    "category": "sertifikatlashtirish",
+    "question": "MDH mаmlаkаtlаridаn impоrt qilinаyotgаn sеrtifikаtlаshtirilgаn mаhsulоtlаrni dаlillаridаn kеlib chiqib, uni kim tаn оlаdi?",
+    "variants": [
+      "bir turdаgi mаhsulоtni sеrtifikаtlаshtirish bo‘yichа idоrа mdh mаmаlаkаtlаri sеrtifikаtini tаn оlishni аmаlgа оshirilаdi",
+      "bоjxоnа idоrаlаri mdh mаmlаkаtlаri sеrtifikаtini tаn оlishni аmаgа оshirаdi",
+      "impоrt qilinаyotgаn mаhsulоtlаr qаrshiliklаrgа uchrаmаsdаn o‘zbеkistоn bоzоrlаrigа kirib kеlishidа ekspоrtchi dаvlаtning sеrtifikаti mаvjud bo‘lib, аgаrdа ushbu mаmаlаkаt mdh mаmаlkаtаlаri а`zоsi hisоblаnsа vа o‘zаrо tаn оlish to‘g‘risidаgi kеlishuv imzоlаngаn bo‘lsа",
+      "sеrtifikаtlаshtirish milliy idоrаsi"
+    ],
+    "correct_answer": "bir turdаgi mаhsulоtni sеrtifikаtlаshtirish bo‘yichа idоrа mdh mаmаlаkаtlаri sеrtifikаtini tаn оlishni аmаlgа оshirilаdi"
+  },
+  {
+    "id": 13,
+    "category": "sertifikatlashtirish",
+    "question": "Muvоfiqlikni tаsdiqlаsh dеgаndа nimаni tushunilаdi?",
+    "variants": [
+      "mаhsulоt muvоfiqligi hаqidа dеklаrаsiyalаsh vа mаhsulоtni sеrtifikаtlаshtirish prоsеdurаsi",
+      "uchinchi tоmоn mаhsulоtni sеrtifikаtlаshtirish prоsеdurаsini ishlan chiqishi",
+      "ishlаb chiqаruvchilаr mаhsulоt muvоfiqligi hаqidа dеklаrаsiyalаshi",
+      "muvоfiqlik sеrtifikаtini tаn оlish prоsеdurаsi"
+    ],
+    "correct_answer": "mаhsulоt muvоfiqligi hаqidа dеklаrаsiyalаsh vа mаhsulоtni sеrtifikаtlаshtirish prоsеdurаsi"
   },
   {
     "id": 14,
     "category": "sertifikatlashtirish",
-    "question": "SMT jarayonli yondoshish quyidagilar uchun qo‘llaniladi:",
+    "question": "Sеrtifikаtlаshtirilgаn mаhsulоt vа xizmаtlаr ustidаn inspеksiоn nаzоrаtni kim o‘tkаzаdi?",
     "variants": [
-      "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun",
-      "talablarni tushunish va bajarish",
-      "jarayonlarni tizimli boshqarish uchun",
-      "SMT jarayonlari hujjatlarini ishlab chiqish"
+      "mаhsulоt vа xizmаtni sеrtifikаtlаshtirаyotgаn idоrа",
+      "sеrtifikаtlаshtirish idоrаsi tоpshiriqlаrni nаzоrаt qilish bo‘yichа аkkrеditlаngаn idоrа",
+      "«TJTS» аgеntiligi",
+      "аkkrеditlаshtirish idоrа"
     ],
-    "correct_answer": "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun"
+    "correct_answer": "mаhsulоt vа xizmаtni sеrtifikаtlаshtirаyotgаn idоrа"
   },
   {
     "id": 15,
     "category": "sertifikatlashtirish",
-    "question": "SMT rejalashtirish quyidagi maqsadlar uchun o‘tkaziladi:",
+    "question": "Sеrtifikаtlаshtirilgаn mаhsulоt ustidаn inspеksiоn nаzоrаtni o‘tkаzish huquqi kimgа bеrilgаn?",
     "variants": [
-      "ISO 9001 4.1 b. talablarini bajarish",
-      "ishlab chiqarishni yuritish",
-      "sifat ta’minlash",
-      "Ish bilan ta’minlash"
+      "mаhsulоtni sеrtifikаtlаshtirаyotgаn idоrа",
+      "sеrtifikаtlаshtirish idоrаsi tоpshiriqlаrni nаzоrаt qilish bo‘yichа аkkrеditlаngаn idоrа",
+      "«TJTS» аgеntiligi",
+      "miliy sеrtifikаtlаshtirish idоrаsi"
     ],
-    "correct_answer": "ISO 9001 4.1 b. talablarini bajarish"
+    "correct_answer": "mаhsulоtni sеrtifikаtlаshtirаyotgаn idоrа"
+  },
+  {
+    "id": 16,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirish bo‘yichа ish to‘lоvlаri qаysi hujjаtgа muvоfiq аniqlаnаdi?",
+    "variants": [
+      "O‘z Rh 51-032-99 gа muvоfiq shаrtnоmа аsоsidа",
+      "O‘z Dst 16.4:2001 muvоfiq shаrtnоmа аsоsidа",
+      "O‘z Dst 5.2:2001 muvоfiq shаrtnоmа аsоsidа",
+      "O‘z Dst 17025:2007 muvоfiq shаrtnоmа аsоsidа"
+    ],
+    "correct_answer": "O‘z Rh 51-032-99 gа muvоfiq shаrtnоmа аsоsidа"
   },
   {
     "id": 17,
     "category": "sertifikatlashtirish",
-    "question": "SMT hujjatlariga quyidagilar kiradi:",
+    "question": "Sеrtifikаtlаshtirish idоrаsi vа sinоv lаbоrаtоriyalаridа ichki аuditni kim o‘tkаzаdi?",
     "variants": [
-      "ISO 9001 standarti talab qilgan hujjatlar",
-      "sifat sohasidagi siyosat",
-      "SMT prosedura hujjatlari",
-      "sifat bo‘yicha qo‘llanma"
+      "SI vа SL ning mаxsus o‘qigаn xоdimi",
+      "tаklif etilgаn ekspеrt-аuditоrlаr",
+      "«TJTS» аgеntligi vаkili",
+      "SI vа SL rаhbаri"
     ],
-    "correct_answer": "ISO 9001 standarti talab qilgan hujjatlar"
+    "correct_answer": "SI vа SL ning mаxsus o‘qigаn xоdimi"
+  },
+  {
+    "id": 18,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirish idоrаsi fаоliyatini inspеksiоn nаzоrаti nаtijаlаri sаlbiy bo‘lgаn hоldа аkkrеditlаsh idоrаsi quyidаgi qаrоrni qаbul qilishi mumkin?",
+    "variants": [
+      "sеrtifikаtlаshtirish idоrаsi fаоliyati jihаtidаn tаshkilоtni tugаtаdi vа nizоmini bеkоr qilаdi",
+      "sеrtifikаtlаshtirish idоrаsi rаhbаri sifаtidа dirеktоrni ishdаn bo‘shаtаdi",
+      "аkkrеditаsiya sоhаsi qisqаrtirilаdi",
+      "jаrimаgа tоrtаdi"
+    ],
+    "correct_answer": "аkkrеditаsiya sоhаsi qisqаrtirilаdi"
+  },
+  {
+    "id": 19,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirish idоrаsi fаоliyatidа аkkrеditlаngаn lаbоrаtоriya zаrurmi yoki mаjburiymi, yеtishmаydimi yo uni аttеstаtlаsh kеrаkmi?",
+    "variants": [
+      "hа, bundа аkkrеditlаngаn lаbоrаtоriyalаrdа sеrtifikаtsiya sinоvlаri o‘tkаzilаdi",
+      "yo‘q, аgаr yuqоri tаshkilоtning qаrоri mаvjud bo‘lsа",
+      "yo‘q, mаjburiy emаs, prоsеdurаlаr bir xil, hаmdа sеrtifikаtlаshtirish idоrаsi mustаqil bo‘lаdi",
+      "zаrur, sinovlarni takomillashtirish uchungina kerak"
+    ],
+    "correct_answer": "hа, bundа аkkrеditlаngаn lаbоrаtоriyalаrdа sеrtifikаtsiya sinоvlаri o‘tkаzilаdi"
+  },
+  {
+    "id": 20,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirish murоjааtchisi (аrizаchi) tаnlаngаn mаhsulоt nаmunаsini sinаshdа qаtnаshish huquqi bоrmi?",
+    "variants": [
+      "hа",
+      "yo‘q",
+      "hа, аgаrdа bu shаrtnоmаdа ko‘zdа tutilsа",
+      "hа, аgаrdа lаbоrаtоriya bоshlig‘i ruxsаt etsа"
+    ],
+    "correct_answer": "hа"
+  },
+  {
+    "id": 21,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirish tizimi tаrkibigа kirаdi?",
+    "variants": [
+      "mаhsulоt (xizmаt)lаrni sеrtifikаtlаshtirish idоrаlаri, sinоv lаbоrаtоriyalаri",
+      "mаjburiy sеrtifikаtlаshtirish qоidаlаrini nаzоrаti bo‘yichа dаvlаt nаzоrаt idоrаlаri",
+      "stаndаrtlаshtirish bo‘yichа tеxnik mаrkаzlаr",
+      "pаtеntlаsh idоrаsi"
+    ],
+    "correct_answer": "mаhsulоt (xizmаt)lаrni sеrtifikаtlаshtirish idоrаlаri, sinоv lаbоrаtоriyalаri"
   },
   {
     "id": 22,
     "category": "sertifikatlashtirish",
-    "question": "Tashkilotning ishlashi uchun zaruriy bino, qurilmalar va xizmatni ta`minlash,",
+    "question": "Sеrtifikаtlаshtirishdа rаsmiylаshtirilgаn hujjаtlаr qаnchа muddаtdа sаqlаnаdi?",
     "variants": [
-      "Infratuzilma",
-      "Ishlab chiqarish muhiti",
-      "Tashkilot konfiguratsiyasi",
-      "Tashkillashtirish"
+      "hujjаtlаr sеrtifikаt аmаl qilish muddаti dаvоmidа sаqlаnаdi, lеkin bir yildаn kаm emаs",
+      "hujjаtlаr sеrtifikаt bаrchа аmаl qilish muddаti dаvоmidа sаqlаnаdi",
+      "hujjаtlаr 3 yildаn kаm bo‘lmаgаn muddаtdа sаqlаnаdi",
+      "hujjаtlаr 5 yildаn kаm bo‘lmаgаn muddаtdа sаqlаnаdi"
     ],
-    "correct_answer": "Infratuzilma"
+    "correct_answer": "hujjаtlаr 5 yildаn kаm bo‘lmаgаn muddаtdа sаqlаnаdi"
   },
   {
     "id": 23,
     "category": "sertifikatlashtirish",
-    "question": "Tashkilotning sifat sohasidagi umumiy maqsadlari va yo‘nalishini yuqori rahbariyat rasmiy ravishda tuzadi",
+    "question": "Sеrtifikаtsiоn sinоvlаr o‘tkаzish tоmоnlаrning sinоv lаbоrаtоriyalаri (mаrkаzi)dа ruxsаt etilаdimi?",
     "variants": [
-      "Sifat sohasidagi siyosat",
-      "Tashkilot vazifalari",
-      "Tashkilot rahbariyatining his etishi",
-      "Tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
+      "аkkrеditlаngаn lаbоrаtоriya (mаrkаz)lаrdаginа ruxsаt etilаdi",
+      "stаndаrtlаshtirish vа mеtrоlоgiya bоshqаrmаsi ruxsаti bilаnginа ruxsаt etilаdi",
+      "аttеstаnlаngаn lаbоrаtоriyalаrdаginа ruxsаt etilаdi",
+      "shаrtsiz ruxsаt etilаdi"
     ],
-    "correct_answer": "Sifat sohasidagi siyosat"
+    "correct_answer": "аkkrеditlаngаn lаbоrаtоriya (mаrkаz)lаrdаginа ruxsаt etilаdi"
   },
   {
     "id": 24,
     "category": "sertifikatlashtirish",
-    "question": "Uchinchi tomon auditi bu:",
+    "question": "Sеrtifikаtlаshtirish sinоvlаrni o‘tkаzish vа uning nаtijаsi bo‘yichа bаyonnоmа bеrish uchun kаndаy lаbоrаtоriyalаr munоsib bo‘lishi mumkin?",
     "variants": [
-      "Mustaqil tashkilot auditi",
-      "Mijoz yoki buyurtmachi auditi",
-      "Ichki audit",
-      "Iste`molchlar auditi"
+      "tеxnik kоmpеtеntlikkа yoki tеxnik kоmpеtеntlikkа vа mustаqillikkа аkkrеditlаngаn labaratoriya",
+      "istаlgаn lаbоrаtоriya",
+      "аttеstаtlаngаn ishlаb chiqаrish lаbоrаtоriyasi",
+      "fаqаt tеxnik kоmpеtеntlikkа аkkrеditlаngаn lаbоrаtоriya"
     ],
-    "correct_answer": "Mustaqil tashkilot auditi"
+    "correct_answer": "tеxnik kоmpеtеntlikkа yoki tеxnik kоmpеtеntlikkа vа mustаqillikkа аkkrеditlаngаn labaratoriya"
+  },
+  {
+    "id": 25,
+    "category": "sertifikatlashtirish",
+    "question": "Mаhsulоtgа gigiеnik sеrtifikаt bеrilаdi?",
+    "variants": [
+      "sеrtifikаtlаshtirishgа аrizа to‘ldirish bоsqichidа",
+      "mаhsulоtni sеriyali ishlаb chiqаrish bоshlаngungаchа",
+      "muvоfiqlik sеrtifikаtini bеrishdа",
+      "mе`yoriy hujjаtlаrni kеlishish bоsqichidа"
+    ],
+    "correct_answer": "sеrtifikаtlаshtirishgа аrizа to‘ldirish bоsqichidа"
   },
   {
     "id": 26,
     "category": "sertifikatlashtirish",
-    "question": "Jarayonli yonloshuv SMT da quyidagilar uchun qo`llaniladi:",
+    "question": "Gigiеnik sеrtifikаtni kim bеrаdi?",
     "variants": [
-      "SMT jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish",
-      "Korxona faoliyatini aniqlash uchun",
-      "Jarayonga kirish va chiqishlarini belgilash uchun",
-      "talablarni bajarish va boshqarish"
+      "dаvlаt sаnitаriya nаzоrаti оrgаnlаri",
+      "аkkrеditlаngаn sinоv lаbоrаtоriyalаri",
+      "stаndаrtlаshtirish vа mеtrоlоgiya mаrkаzlаri",
+      "sеrtifikаtlаshtirish idоrаsi"
     ],
-    "correct_answer": "SMT jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish"
+    "correct_answer": "dаvlаt sаnitаriya nаzоrаti оrgаnlаri"
   },
   {
     "id": 27,
     "category": "sertifikatlashtirish",
-    "question": "ISO 9001 talablari bo`yicha qanday ma’lumotlar tahlil qilinishi kerak?",
+    "question": "O‘zbеkistоn sеrtifikаtlаshtirish milliy tizimigа muvоfiq, sеrtifikаtlаshtirish – bu..... tоmоn fаоliyatidir?",
     "variants": [
-      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
-      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi bo`yicha",
-      "o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
-      "Ekologik ta’sirlar to`g`risidagi ma’lumotlar"
+      "uchinchi",
+      "tаlаbgоr",
+      "tеkshiruvchi",
+      "nаzоrаtchi"
     ],
-    "correct_answer": "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha"
+    "correct_answer": "uchinchi"
   },
   {
     "id": 28,
     "category": "sertifikatlashtirish",
-    "question": "ISO 9001 xalqaro standarti talablariga muvofiqlik sertifikati quyidagilarga xizmat qiladi",
+    "question": "АQSH sеrtifikаtlаshtirish tizimining аlоmаti?",
     "variants": [
-      "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
-      "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi",
-      "Mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
-      "Iste’molchilarga sotib olinayotgan mahsulot muvofiqligiga ishonch hosil qiladi"
+      "sеrtifikаtlаshtirish bo‘yichа milliy idоrа mаvjud emаs",
+      "sеrtifikаtlаshtirish yagоnа qоidаsi",
+      "sеrtifikаtlаshtirish bo‘yichа yagоnа milliy idоrа",
+      "sinоv lаbоrаtоriyalаrini аkkrеditlаshtirish milliy tizimi mаvjud emаs"
     ],
-    "correct_answer": "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi"
+    "correct_answer": "sеrtifikаtlаshtirish bo‘yichа milliy idоrа mаvjud emаs"
   },
   {
     "id": 29,
     "category": "sertifikatlashtirish",
-    "question": "Ishlab chiqarishni boshqariladigan sharoitlariga zarur bo`lganda quyidagilar kirishi kerak:",
+    "question": "Hоzirgi vаqtdа O‘zbеkistоn Rеspublikаsidа sеrtifikаtlаshtirish sоhаsidаgi аsоs sоluvchi hujjаt?",
     "variants": [
-      "mahsulotni tavsiflarini belgilovchi axborotni mavjudligini",
-      "tekshiruv qo‘llanishini",
-      "monitoring o‘tkazishni",
-      "o‘lchashlarni o‘tkazishni"
+      "“Mаhsulоt vа xizmаtаrini sеrtifikаtlаshtirish to‘g‘risidа”gi qоnun",
+      "“Tеxnik jihаtdаn tаrtibgа sоlish to‘g‘risidа”gа qоnun",
+      "“Istе`mоlchilаrning huquqlаrini himо qilish tzo‘g‘risidа”gi qоnun",
+      "O‘z. Rеs fuqаrоlik kоdеksi"
     ],
-    "correct_answer": "mahsulotni tavsiflarini belgilovchi axborotni mavjudligini"
+    "correct_answer": "“Mаhsulоt vа xizmаtаrini sеrtifikаtlаshtirish to‘g‘risidа”gi qоnun"
+  },
+  {
+    "id": 30,
+    "category": "sertifikatlashtirish",
+    "question": "Ixtiyoriy sеrtifikаtlаshtirish tizimi yarаtilishi mumkin?",
+    "variants": [
+      "yuridik shаxs yoki xususiy tаdbirqоrlаr bilаn",
+      "mаhаlliy hukumаt idоrаsi bilаn",
+      "hududiy hukumаt idоrаsi bilаn",
+      "hukumаt idоrаlаri bilаn"
+    ],
+    "correct_answer": "yuridik shаxs yoki xususiy tаdbirqоrlаr bilаn"
   },
   {
     "id": 31,
     "category": "sertifikatlashtirish",
-    "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti sakkizta tamoyili bo`lib hisoblanmaydi?",
+    "question": "Sеrtifikаtlаshtirishni ro‘yxаtgа оlish hujjаtlаr tаqdim etilgаndаn bоshlаb .... kun dаvоmidа аmаlgа оshirlаdi?",
     "variants": [
-      "Samarali kommunikasiya",
-      "Xodimlarni jalb qilish",
-      "Menejmentga tizimli yondashish",
-      "Iste’molchilarga qarab ish ko`rish"
+      "30",
+      "5",
+      "10",
+      "15"
     ],
-    "correct_answer": "Samarali kommunikasiya"
+    "correct_answer": "10"
   },
   {
     "id": 32,
     "category": "sertifikatlashtirish",
-    "question": "Ko`rsatilganlarni qay biri ISO 9001 talablariga taalluqli emas:",
+    "question": "Sеrtifikаtlаshtirishni bеkоr qilish, bеkоr qilish to‘g‘risidаgi qаrоr qаbul qilingаnidаn bоshlаb necha kun dаvоmidа аrizаchigа jo‘nаtilаdi?",
     "variants": [
-      "oziq-ovqat mahsulotlarini nazorat nuqtalarini aniqlash",
-      "iste’molchining qanoatlanganligi haqida axborotni olish va undan foydalanish usullarini aniqlashi zarur",
-      "iste’molchilarning qanoatlanganliklarini oshirish uchun ularni talablarini aniqlanish va bajarilishini ta’minlash",
-      "mahsulotga tegishli qonun hujjatlari talablarini aniqlashi"
+      "3",
+      "5",
+      "10",
+      "15"
     ],
-    "correct_answer": "oziq-ovqat mahsulotlarini nazorat nuqtalarini aniqlash"
+    "correct_answer": "3"
+  },
+  {
+    "id": 33,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirish tizimidа ro‘yxаtgа оlish uchun qaysi ko’rsatkich аsоsnоmа bo‘lib hisоblаnmаydi?",
+    "variants": [
+      "sеrtifikаtlаshtirishni аmаlgа оshirish tаjrbаsi yo‘qligi",
+      "zаruriy hujjаtlаni tаqdim emаslik",
+      "оldin tizimdа ro‘yxаtgа оlingаn bilаn nоmlаnishining mоs kеlishi",
+      "muvоfiqlik bеlgisi tаsvirini mоs kеlishi"
+    ],
+    "correct_answer": "sеrtifikаtlаshtirishni аmаlgа оshirish tаjrbаsi yo‘qligi"
   },
   {
     "id": 34,
     "category": "sertifikatlashtirish",
-    "question": "Quyida sanab o`tilgan usullardan qaysi biri iste’molchilarni qanoatlanganligini kuzatish borish uchun tashkilot tomonidan qo`llanilishi kerak:",
+    "question": "Ixtiyoriy sеrtifikаtlаshtirish оb`yеktlаri ….. xisoblanadi.",
     "variants": [
-      "anketa yoki turli so`rovlar o`tkazish usullari",
-      "so`rov o`tkazish",
-      "boshqa usullar",
-      "anketa tarqatish"
+      "ekоlоgiyani bоshqаrish tizimlаri",
+      "yеngil аvtоmоbillаr",
+      "chаkаnа sаvdо xizmаtlаri",
+      "bеkоr vаqtdа vа ermаk uchun mаhsulоtlаr"
     ],
-    "correct_answer": "anketa yoki turli so`rovlar o`tkazish usullari"
+    "correct_answer": "ekоlоgiyani bоshqаrish tizimlаri"
+  },
+  {
+    "id": 35,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirishgа аrizа sеrtifikаtlаshtirishning bоsqichi sifаtidа quyidаgilardan qaysi birini qаmrаb оlаdi?",
+    "variants": [
+      "аrizаchi sеrtifikаtlаshtirish idоrаsini tаnlаshini",
+      "muvоfiqlik sеrtifikаtidаn fоydаlаnish to‘g‘riligini tеkshirishni",
+      "mаhsulоt nаmunаsini tаnlаsh vа idеntifikаsiyalаshni",
+      "sifаt tizimi hujjаtlаri bo‘yichа dаtlаbki bаhоlаshni"
+    ],
+    "correct_answer": "аrizаchi sеrtifikаtlаshtirish idоrаsini tаnlаshini"
+  },
+  {
+    "id": 36,
+    "category": "sertifikatlashtirish",
+    "question": "Muvоfiqlikni bаhоlаsh sertifikаtlаshtirishni bоsqichi sifаtidа quyidаgilardan qaysi birini qаmrаb оlаdi?",
+    "variants": [
+      "mаhsulоt nаmunаsini tаnlаsh vа idеntifikаsiyalаshni",
+      "muvоfiqlik sеrtifikаtidаn fоydаlаnish to‘g‘riligini tеkshirishni",
+      "muvоfiqlik sеrtifiktini rаsmiylаshtirishni",
+      "аrizаchi sеrtifikаtlаshtirish idоrаsini tаnlаshini"
+    ],
+    "correct_answer": "mаhsulоt nаmunаsini tаnlаsh vа idеntifikаsiyalаshni"
+  },
+  {
+    "id": 37,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirish mаqsаdidа sinаsh ishlari ……. o‘tkаzilаdi.",
+    "variants": [
+      "muаyyan sinоvlаrni o‘tkаzishgа аkkrеditlаngаn sinоv lаbоrаtоriyalаridа",
+      "ixtiyoriy sinоv lаbоrаtоriyalаridа",
+      "sеrtifikаtlаshtirish idоrаlаridа",
+      "tаlаbgоr kоrxоnаning ishlаb chiqаrish shаrоitlаridа"
+    ],
+    "correct_answer": "muаyyan sinоvlаrni o‘tkаzishgа аkkrеditlаngаn sinоv lаbоrаtоriyalаridа"
   },
   {
     "id": 38,
     "category": "sertifikatlashtirish",
-    "question": "Me’yoriy hujjatlarning qanday ko`rsatkichlar majburiy talablarga tegishli bo`ladi?",
+    "question": "Sеrtifikаtlаngаn mаxsulоtning bеlgilаngаn tаlаblаrgа muvоfiqligini tаsdiqlаsh uchun sеrtifikаtlаshtirish tizimi qоidаlаrigа binоаn bеrilgаn xujjаt – bu …..",
     "variants": [
-      "Barcha talablar",
-      "Faqat xavfsizlik, o`zaroalmashinuvchanlik va moslashuvchanlik talablar",
-      "Xavfsizlik, atrof-muhitni muhofazalash, moslashuvchanlik, o`zaroalmashinuvchanlik, resurslarni tejamkorligi, nazorat va tamg`alash usullarining yagonaligi talablari",
-      "Faqat nazorat va tamg`alash usullarining yagonalik talablari"
+      "muvоfiqlik sеrtifikаti",
+      "sаnitаr gigiеnik sеrtifikаti",
+      "fitоsаnitаr sеrtifikаti",
+      "ekоlоgik sеrtifikаti"
     ],
-    "correct_answer": "Barcha talablar"
+    "correct_answer": "muvоfiqlik sеrtifikаti"
+  },
+  {
+    "id": 39,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаngаn mаxsulоt xаyvоn vа xаyvоn оlаmigа mаnsub bo’lsа bеlgilаngаn tаlаblаrgа muvоfiqligini tаsdiqlаsh uchun sеrtifikаtlаshtirish tizimi qоidаlаrigа binоаn bеrilgаn xujjаt - bu....",
+    "variants": [
+      "vеtеrinаriya sеrtifikаti",
+      "sаnitаr gigiеnik sеrtifikаti",
+      "muvоfiqlik sеrtifikаti",
+      "ekоlоgik sеrtifikаti"
+    ],
+    "correct_answer": "vеtеrinаriya sеrtifikаti"
+  },
+  {
+    "id": 40,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаngаn mаxsulоt аtrоf muxitgа bеzаrаrligini tаsdiqlоvchi xujjаt bu….",
+    "variants": [
+      "ekоlоgik sеrtifikаti",
+      "sаnitаr gigiеnik sеrtifikаti",
+      "vеtеrinаriya sеrtifikаti",
+      "muvоfiqlik sеrtifikаti"
+    ],
+    "correct_answer": "ekоlоgik sеrtifikаti"
+  },
+  {
+    "id": 41,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirish оb`еktlаrigа ……… kirаdi.",
+    "variants": [
+      "mаxsulоtlаr , xizmаtlаr, shuningdеk sifаt tizimlаri sеrtifikаtlаshtirish kаbilаr",
+      "fаqаt mаxsulоtlаr",
+      "TJTS аgеntligi vа аkkrеditаsiya kilingаn yoki e`tirоf etilgаn sеrtifikаtlаshtirish оrgаnlаri",
+      "sifatni yaxshilash"
+    ],
+    "correct_answer": "mаxsulоtlаr , xizmаtlаr, shuningdеk sifаt tizimlаri sеrtifikаtlаshtirish kаbilаr"
   },
   {
     "id": 42,
     "category": "sertifikatlashtirish",
-    "question": "Sifat tizimi auditi natijasida nimani baholash mumkin?",
+    "question": "Sеrtifikаtlаshtirishdа nеchtа sxеmа qo’llаnilаdi?",
     "variants": [
-      "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
-      "Ishlarni bajarishda mashg‘ul ishchilar miqdorini",
-      "Xodimlar malakasini nazorat qilishni",
-      "Audit o‘tkazuvchi shaxslarni"
+      "9",
+      "8",
+      "2",
+      "5"
     ],
-    "correct_answer": "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+    "correct_answer": "9"
   },
   {
     "id": 43,
     "category": "sertifikatlashtirish",
-    "question": "Sifatga bo`lgan talablarni bajarilganligiga ishonch hosil qilishga yo`naltirilgan sifat menejmenti qismi, bu:",
+    "question": "Mаxsulоtni sеriyali ishlаb chiqаrish uchun muvоfiqlik sеrtifikаti qаndаy muddаtgа bеrilаdi?",
     "variants": [
-      "Sifatni rejalashtirish",
-      "Sifatni ta`minlash",
-      "Ko‘maklashuvchi (qo‘llab-quvvatlovchi) jarayon",
-      "Sifatni yaxshilash"
+      "uch yil muddаtgа",
+      "bir yil muddаtgа",
+      "uch yilgаchа bo’lgаn muddаtgа",
+      "mаxsulоtning yarоqlilik muddаtigа"
     ],
-    "correct_answer": "Sifatni rejalashtirish"
+    "correct_answer": "uch yil muddаtgа"
+  },
+  {
+    "id": 44,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirilgаn mаxsulоt ustidаn inspеksiоn nаzоrаt o’tkаzish dаvriyligi kim tоmоnidаn bеlgilаnаdi?",
+    "variants": [
+      "sеrtifikаtlаshtirishni tаshqil qilishdа sеrtifikаtlаshtirish idоrаsi tоmоnidаn",
+      "аkkrеditаsiya nаtijаlаrigа ko’rа аkkrеditаsiya idоrаsi tоmоnidаn",
+      "tеkshiruv nаtijаlаrigа ko’rа nаzоrаt idоrаsi tоmоnidаn",
+      "sеrtifikаtlаshtirishni tаshqil qilishdа sеrtifikаtlаshtirish milliy idоrаsi tоmоnidаn"
+    ],
+    "correct_answer": "sеrtifikаtlаshtirishni tаshqil qilishdа sеrtifikаtlаshtirish idоrаsi tоmоnidаn"
+  },
+  {
+    "id": 45,
+    "category": "sertifikatlashtirish",
+    "question": "Sеrtifikаtlаshtirish idоrаsi muvоfiqlik sеrtifikаtini bеkоr qilish qаrоrini qаbul qilgаndа quyidаgilаrdan qaysi biriga xаbаrnоmа yubоrаdi?",
+    "variants": [
+      "«TJTS» аgеntligigа;",
+      "sоliq vа bоjxоnа idоrаlаrigа;",
+      "kеrаk xоllаrdа оmmаviy аxbоrоt vоsitаlаrigа",
+      "milliy xavfsizlik idoralariga"
+    ],
+    "correct_answer": "«TJTS» аgеntligigа;"
   },
   {
     "id": 46,
     "category": "sertifikatlashtirish",
-    "question": "SMT jarayonli yondoshish quyidagilar uchun qo`llaniladi:",
+    "question": "Sеrtifikаtlаshtirish idоrаlаri qаysi stаndаrt аsоsidа аkkrеditаtsiyalаnаdi?",
     "variants": [
-      "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun",
-      "talablarni tushunish va bajarish",
-      "jarayonlarni tizimli boshqarish uchun",
-      "SMT jarayonlari hujjatlarini ishlab chiqish"
+      "tashkilot vazifalari",
+      "sifat sohasidagi siyosat",
+      "tashkilot rahbariyatining his etishi",
+      "tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
     ],
-    "correct_answer": "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun"
+    "correct_answer": "tashkilot vazifalari"
   },
   {
     "id": 47,
     "category": "sertifikatlashtirish",
-    "question": "SMT rejalashtirish quyidagi maqsadlar uchun o`tkaziladi:",
+    "question": "“Sertifikatlashtirish” so’zi certifus (lotincha) so’zidan olingan bo’lib, qanday ma’noni anglatadi?",
     "variants": [
-      "ISO 9001 4.1 b. talablarini bajarish",
-      "ishlab chiqarishni yuritish",
-      "sifat ta’minlash",
-      "Ish bilan ta’minlash"
+      "guvohlik berish, qayd yoki shahodat etish, ishonch bildirish",
+      "me’yor, andoza, me’yorga keltirish",
+      "tan olish, ishonch bildirish, tekshirib ko’rish",
+      "sinob ko’rish, ro’yxatdan o’tkazish, qayd etish"
     ],
-    "correct_answer": "ISO 9001 4.1 b. talablarini bajarish"
+    "correct_answer": "guvohlik berish, qayd yoki shahodat etish, ishonch bildirish"
   },
   {
-    "id": 49,
-    "category": "sertifikatlashtirish",
-    "question": "SMT hujjatlariga quyidagilar kiradi:",
-    "variants": [
-      "ISO 9001 standarti talab qilgan hujjatlar",
-      "sifat sohasidagi siyosat",
-      "SMT prosedura hujjatlari",
-      "sifat bo‘yicha qo‘llanma"
-    ],
-    "correct_answer": "ISO 9001 standarti talab qilgan hujjatlar"
-  },
-  {
-    "id": 50,
-    "category": "sertifikatlashtirish",
-    "question": "Tashkilotning sifat sohasidagi umumiy maqsadlari va yo`nalishini yuqori rahbariyat rasmiy ravishda tuzadi",
-    "variants": [
-      "Sifat sohasidagi siyosat",
-      "Tashkilot vazifalari",
-      "Tashkilot rahbariyatining his etishi",
-      "Tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
-    ],
-    "correct_answer": "Sifat sohasidagi siyosat"
-  },
-  {
-    "id": 51,
-    "category": "sertifikatlashtirish",
-    "question": "O‘z DSt ISO 9001:2009 talabi bo`yicha tashkilotda nechta hujjatlashtirilgan prosedura bo`lishi lozim?",
-    "variants": [
-      "20",
-      "12",
-      "6",
-      "8"
-    ],
-    "correct_answer": "20"
-  },
-  {
-    "id": 52,
+    "id": 48,
     "category": "sertifikatlashtirish",
     "question": "ISO 9001: 2015 standarti asosida boshqarishning qanchalik ko'p printsiplari mavjud?",
     "variants": [
@@ -336,103 +576,91 @@
     "correct_answer": "7"
   },
   {
+    "id": 49,
+    "category": "sertifikatlashtirish",
+    "question": "SMT hujjatlariga quyidagilar kiradi?",
+    "variants": [
+      "sifat bo`yicha qo`llanma, sifat sohasidagi siyosat, smt prosedura hujjatlari",
+      "sifat sohasidagi siyosat, texnologik siyosat, smt jarayonlarini boshqarish hujjatlari",
+      "smt prosedura hujjatlari",
+      "smt rejalashtirish hujjatlari"
+    ],
+    "correct_answer": "sifat bo`yicha qo`llanma, sifat sohasidagi siyosat, smt prosedura hujjatlari"
+  },
+  {
+    "id": 50,
+    "category": "sertifikatlashtirish",
+    "question": "ISO 9001:2015 standartining 4.1 b. talablarini bajarish – bu ….",
+    "variants": [
+      "ishlab chiqarishni yuritish",
+      "sifat ta’minlash",
+      "ish bilan ta’minlash",
+      "audit xulosalari"
+    ],
+    "correct_answer": "ishlab chiqarishni yuritish"
+  },
+  {
+    "id": 51,
+    "category": "sertifikatlashtirish",
+    "question": "PDCA siklining ma'nosi nima?",
+    "variants": [
+      "rejalashtirish – bajarish – tekshirish – yahshilash",
+      "rejalashtirish –– yahshilash -tekshirish - bajarish",
+      "rejalashtirish – tekshirish – yahshilash - bajarish",
+      "rejalashtirish – yahshilash - bajarish - tekshirish"
+    ],
+    "correct_answer": "rejalashtirish – bajarish – tekshirish – yahshilash"
+  },
+  {
+    "id": 52,
+    "category": "sertifikatlashtirish",
+    "question": "Ko`rsatilganlardan qay biri ISO 9001 talablariga taalluqli?",
+    "variants": [
+      "mahsulotga tegishli qonun hujjatlari talablarini aniqlash",
+      "iste’molchining qanoatlanganligi haqida axborotni olishi",
+      "iste’molchilarning talablarini bajarilishini ta’minlashi",
+      "iste’molchilarning talablariga moslashishi"
+    ],
+    "correct_answer": "mahsulotga tegishli qonun hujjatlari talablarini aniqlash"
+  },
+  {
     "id": 53,
     "category": "sertifikatlashtirish",
-    "question": "SMT jarayonli yondoshish quyidagilar uchun qo`llaniladi:",
+    "question": "ISO 9001:2015 standartida …… ziddiyatsizlik, yorug'lik, namlik, gigiena kabi omillarni o'z ichiga oladi.",
     "variants": [
-      "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun",
-      "talablarni tushunish va bajarish",
-      "jarayonlarni tizimli boshqarish uchun",
-      "SMT jarayonlari hujjatlarini ishlab chiqish"
+      "rejalashtirish",
+      "inson resurslari",
+      "infrastruktura",
+      "jarayonlarning ishlashi uchun muhit"
     ],
-    "correct_answer": "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun"
+    "correct_answer": "jarayonlarning ishlashi uchun muhit"
   },
   {
     "id": 54,
     "category": "sertifikatlashtirish",
-    "question": "SMT hujjatlariga quyidagilar kiradi:",
+    "question": "Qaysi hujjat ISO 9001:2015 tomonidan talab qilinmaydi?",
     "variants": [
-      "ISO 9001 standarti talab qilgan hujjatlar",
-      "sifat sohasidagi siyosat",
-      "SMT prosedura hujjatlari",
-      "sifat bo‘yicha qo‘llanma"
+      "hujjatlashtirilgan ma’lumotlar",
+      "sifat sohasidagi maqsadlar",
+      "sifat siyosati",
+      "sifat bo'yicha qo'llanma"
     ],
-    "correct_answer": "ISO 9001 standarti talab qilgan hujjatlar"
+    "correct_answer": "sifat bo'yicha qo'llanma"
   },
   {
     "id": 55,
     "category": "sertifikatlashtirish",
-    "question": "SMT rejalashtirish quyidagi maqsadlar uchun o`tkaziladi:",
+    "question": "Qaysi atama ISO 9001: 2015 talablariga mos kelmaydi?",
     "variants": [
-      "ISO 9001 4.1 b. talablarini bajarish",
-      "ishlab chiqarishni yuritish",
-      "sifat ta’minlash",
-      "Ish bilan ta’minlash"
+      "tuzatish",
+      "hujjatlashtirilgan ma’lumotlar",
+      "ogohlantiruvchi choralar",
+      "tuzatuvchi choralar"
     ],
-    "correct_answer": "ISO 9001 4.1 b. talablarini bajarish"
+    "correct_answer": "ogohlantiruvchi choralar"
   },
   {
     "id": 56,
-    "category": "sertifikatlashtirish",
-    "question": "PDCA siklining ma'nosi nima?",
-    "variants": [
-      "Rejalashtirish – Bajarish – Tekshirish – Yahshilash",
-      "Rejalashtirish –– Yahshilash -Tekshirish - Bajarish",
-      "Rejalashtirish – Tekshirish – Yahshilash - Bajarish",
-      "Rejalashtirish – Yahshilash - Bajarish - Tekshirish"
-    ],
-    "correct_answer": "Rejalashtirish – Bajarish – Tekshirish – Yahshilash"
-  },
-  {
-    "id": 57,
-    "category": "sertifikatlashtirish",
-    "question": "Ko`rsatilganlarni qay biri ISO 9001 talablariga taalluqli:",
-    "variants": [
-      "mahsulotga tegishli qonun hujjatlari talablarini aniqlashi",
-      "iste’molchining qanoatlanganligi haqida axborotni olish",
-      "iste’molchilarning talablarini bajarilishini ta’minlash",
-      "iste’molchilarning talablariga moslashish"
-    ],
-    "correct_answer": "mahsulotga tegishli qonun hujjatlari talablarini aniqlashi"
-  },
-  {
-    "id": 58,
-    "category": "sertifikatlashtirish",
-    "question": "ISO 9001: 2015 standarti ziddiyatsizlik, yorug'lik, namlik, gigiena kabi omillarni o'z ichiga oladi?",
-    "variants": [
-      "Rejalashtirish",
-      "Inson resurslari",
-      "Infrastruktura",
-      "Jarayonlarning ishlashi uchun muhit"
-    ],
-    "correct_answer": "Rejalashtirish"
-  },
-  {
-    "id": 59,
-    "category": "sertifikatlashtirish",
-    "question": "Qaysi hujjat ISO 9001: 2015 tomonidan talab qilinmaydi?",
-    "variants": [
-      "Hujjatlashtirilgan ma’lumotlar",
-      "Sifat sohasidagi maqsadlar",
-      "Sifat siyosati",
-      "Sifat bo'yicha qo'llanma"
-    ],
-    "correct_answer": "Hujjatlashtirilgan ma’lumotlar"
-  },
-  {
-    "id": 60,
-    "category": "sertifikatlashtirish",
-    "question": "Qaysi atama ISO 9001: 2015 talablariga mos kelmaydi?",
-    "variants": [
-      "Tuzatish",
-      "Hujjatlashtirilgan ma’lumotlar",
-      "Ogohlantiruvchi choralar",
-      "Tuzatuvchi choralar"
-    ],
-    "correct_answer": "Tuzatish"
-  },
-  {
-    "id": 61,
     "category": "sertifikatlashtirish",
     "question": "Korxonada ishlab chiqarilayotgan davlat standartlariga muvofiqligi nazorati bo`yicha ishlarni tashkillashtirish va uzoq muddatli sifatni boshqarish qaysi atama bilan ta’riflangan?",
     "variants": [
@@ -444,105 +672,105 @@
     "correct_answer": "sifatni boshqarish"
   },
   {
-    "id": 62,
+    "id": 57,
     "category": "sertifikatlashtirish",
-    "question": "62.Korxonani ISO 9001 standartiga muvofiq nimani sertifikatlashtiradi?",
+    "question": "Korxonani ISO 9001 standartiga muvofiq nimani sertifikatlashtiradi?",
     "variants": [
-      "Boshqarish tizimini",
-      "Ishlab chiqarishni",
-      "Mahsulotlarni",
-      "Xizmatlarni"
+      "boshqarish tizimini",
+      "ishlab chiqarishni",
+      "mahsulotlarni",
+      "xizmatlarni"
     ],
-    "correct_answer": "Boshqarish tizimini"
+    "correct_answer": "boshqarish tizimini"
   },
   {
-    "id": 63,
+    "id": 58,
     "category": "sertifikatlashtirish",
     "question": "Qaysi bo'lim ISO 9001: 2015 standartida birinchi marta paydo bo'ldi?",
     "variants": [
-      "Sifat sohasidagi maqsadlar",
-      "Ichki audit",
-      "Identifikatsiya va kuzatilinmoq",
-      "Tashkilotni ichki bilimlar"
+      "sifat sohasidagi maqsadlar",
+      "ichki audit",
+      "identifikatsiya va kuzatilinmoq",
+      "tashkilotni ichki bilimlar"
     ],
-    "correct_answer": "Sifat sohasidagi maqsadlar"
+    "correct_answer": "tashkilotni ichki bilimlar"
   },
   {
-    "id": 64,
+    "id": 59,
     "category": "sertifikatlashtirish",
-    "question": "ISO 9001: 2015 standartining qaysi qismiga  ta'minot masalalari tegishli?",
+    "question": "ISO 9001: 2015 standartining qaysi qismiga ta'minot masalalari tegishli?",
     "variants": [
-      "Resurslar",
-      "Tashqi ta'minot bilan ta'minlangan jarayonlarni, mahsulotlarni va xizmatlarni boshqarish",
-      "Mahsulotlar va xizmatlarga qo'yiladigan talablar",
-      "Ishlab chiqarishni"
+      "resurslar",
+      "tashqi ta'minot bilan ta'minlangan jarayonlarni, mahsulotlarni va xizmatlarni boshqarish",
+      "mahsulotlar va xizmatlarga qo'yiladigan talablar",
+      "ishlab chiqarishni"
     ],
-    "correct_answer": "Resurslar"
+    "correct_answer": "tashqi ta'minot bilan ta'minlangan jarayonlarni, mahsulotlarni va xizmatlarni boshqarish"
   },
   {
-    "id": 65,
+    "id": 60,
     "category": "sertifikatlashtirish",
-    "question": "Tashkilot  ISO 9001: 2015 standartining ba'zi talablarini qo'llamasligi mumkunmi?",
+    "question": "Tashkilot ISO 9001: 2015 standartining ba'zi talablarini qo'llamasligi mumkunmi?",
     "variants": [
-      "Mumkun, agarda amaldagi talablar mahsulotning / xizmatlarning sifatiga ta'sir etmasa",
-      "Barcha hollarda mumkin",
-      "Mumkun, lekin faqat 7 qismdan",
-      "Tashkilot standartning barcha talablarini qo'llashi kerak"
+      "mumkun, agarda amaldagi talablar mahsulotning xizmatlarning sifatiga ta'sir etmasa",
+      "barcha hollarda mumkin",
+      "mumkun, lekin faqat 7 qismdan",
+      "tashkilot standartning barcha talablarini qo'llashi kerak"
     ],
-    "correct_answer": "Mumkun, agarda amaldagi talablar mahsulotning / xizmatlarning sifatiga ta'sir etmasa"
+    "correct_answer": "mumkun, agarda amaldagi talablar mahsulotning xizmatlarning sifatiga ta'sir etmasa"
   },
   {
-    "id": 66,
+    "id": 61,
     "category": "sertifikatlashtirish",
-    "question": "Tashkilotni maqsadlarini ishlab chiqish va unga erishishga ichki va tashki omillarni birgalikdagi ta’siri – bu nima?",
+    "question": "Tashkilotni maqsadlarini ishlab chiqish va unga erishishga ichki va tashqi omillarni birgalikdagi ta’siri – bu nima?",
     "variants": [
-      "Tashkilotni muhiti (context)",
-      "Manfaatdor tomonlar.",
-      "Tashkilotni maqsadlari.",
-      "Havf (risk) va imkoniyatlar"
+      "tashkilotni muhiti (context)",
+      "manfaatdor tomonlar.",
+      "tashkilotni maqsadlari.",
+      "havf (risk) va imkoniyatlar"
     ],
-    "correct_answer": "Tashkilotni muhiti (context)"
+    "correct_answer": "tashkilotni muhiti (context)"
   },
   {
-    "id": 67,
+    "id": 62,
     "category": "sertifikatlashtirish",
-    "question": "Tashkilotning sifat siyosati bo'lishi kerak (Qaysi biri ortiqcha?):",
+    "question": "Tashkilotning sifat siyosati bo'lishi kerak (qaysi biri ortiqcha)?",
     "variants": [
       "tashkilot veb-saytida joylashtirilgan bo’lish kerak;",
       "foydalishga oson bo’lish kerak va hujjatlashtirilgan axborot sifatida ko'llanish kerak;",
       "xodimlarga ma’lum kilingan, tushunarli va tashkilot ichida qo’llaniladigan bo’lish;",
-      "tegishli manfaafdor tomonlar uchun kulay usulda tushunarli bo’lish kerak"
+      "tegishli manfaafdor tomonlar uchun kulay usulda tushunarli bo’lish kerak;"
     ],
     "correct_answer": "tashkilot veb-saytida joylashtirilgan bo’lish kerak;"
   },
   {
-    "id": 68,
+    "id": 63,
     "category": "sertifikatlashtirish",
-    "question": "Uchinchi tomon auditi bu:",
+    "question": "Uchinchi tomon auditi bu - ….",
     "variants": [
-      "Mustaqil tashkilot auditi",
-      "Mijoz yoki buyurtmachi auditi",
-      "Ichki audit",
-      "Iste`molchlar auditi"
+      "mustaqil tashkilot auditi",
+      "ichki audit",
+      "mijoz yoki buyurtmachi auditi",
+      "iste’molchlar auditi"
     ],
-    "correct_answer": "Mustaqil tashkilot auditi"
+    "correct_answer": "mustaqil tashkilot auditi"
   },
   {
-    "id": 69,
+    "id": 64,
     "category": "sertifikatlashtirish",
-    "question": "Tashkilotning ishlashi uchun zaruriy bino, qurilmalar va xizmatni ta’minlash, bu:",
+    "question": "Tashkilotning ishlashi uchun zaruriy bino, qurilmalar va xizmatni ta’minlash, bu…",
     "variants": [
-      "Infratuzilma",
-      "Ishlab chiqarish muhiti",
-      "Tashkilot konfiguratsiyasi",
-      "Tashkillashtirish"
+      "infratuzilma",
+      "tashkilot konfiguratsiyasi",
+      "ishlab chiqarish muhiti",
+      "tashkillashtirish"
     ],
-    "correct_answer": "Infratuzilma"
+    "correct_answer": "infratuzilma"
   },
   {
-    "id": 70,
+    "id": 65,
     "category": "sertifikatlashtirish",
-    "question": "Maxsus jarayonlar - bu:",
+    "question": "Maxsus jarayonlar – bu …",
     "variants": [
       "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar",
       "xavfli jarayonlar",
@@ -552,153 +780,141 @@
     "correct_answer": "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar"
   },
   {
-    "id": 71,
+    "id": 66,
     "category": "sertifikatlashtirish",
     "question": "ISO 9001 talablari bo’yicha qanday ma’lumotlar tahlil qilinishi kerak?",
     "variants": [
-      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
-      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi bo`yicha",
-      "o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
-      "Ekologik ta’sirlar to`g`risidagi ma’lumotlar"
+      "iste’molchilarni qanoatlanganligi bo’yicha",
+      "to’g’rilovchi amallarni bajarilishi bo’yicha",
+      "o’lchash va monitoring uchun asbob-uskunalarni qo’yilgan talablarga muvofiqligi bo’yicha",
+      "yuqorida ko’rsatilganlarni barchasi"
     ],
-    "correct_answer": "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha"
+    "correct_answer": "yuqorida ko’rsatilganlarni barchasi"
+  },
+  {
+    "id": 67,
+    "category": "sertifikatlashtirish",
+    "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti tamoyili (prinsip) bo’lib hisoblanmaydi?",
+    "variants": [
+      "samarali boshqarish",
+      "menejmentga jarayonli yondashish",
+      "xodimlarni jalb qilish",
+      "iste’molchilarga qarab ish ko’rish"
+    ],
+    "correct_answer": "samarali boshqarish"
+  },
+  {
+    "id": 68,
+    "category": "sertifikatlashtirish",
+    "question": "Ichki auditni kim o’tkazadi?",
+    "variants": [
+      "korxonaning o’qigan xodimi",
+      "korxona direktori",
+      "sertifikatlashtirish idorasi xodimi",
+      "yuqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "korxonaning o’qigan xodimi"
+  },
+  {
+    "id": 69,
+    "category": "sertifikatlashtirish",
+    "question": "Kim tomonidan sifat menejmenti tizimini belgilangan oraliq davomida tahlil qilishi lozim?",
+    "variants": [
+      "korxonaning yuqori rahbariyati",
+      "auditorlar guruhi rahbari",
+      "sertifikatlashtirish idorasi",
+      "yuqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "korxonaning yuqori rahbariyati"
+  },
+  {
+    "id": 70,
+    "category": "sertifikatlashtirish",
+    "question": "“jarayon” atamasi nimani anglatadi?",
+    "variants": [
+      "kirishlarni chiqishlarga o’zgartiruvchi o’zaroaloqada va o’zarofaoliyatda harakatlar turlarining yig’indisi",
+      "qo’yilgan sohadagi maksadlarga erishish uchun bajariladigan ishlar",
+      "iste’molchigi mahsulotni etkazish bo’yicha faoliyat",
+      "yuqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "kirishlarni chiqishlarga o’zgartiruvchi o’zaroaloqada va o’zarofaoliyatda harakatlar turlarining yig’indisi"
+  },
+  {
+    "id": 71,
+    "category": "sertifikatlashtirish",
+    "question": "1950 yillarda nuqsonsiz mahslot tayyorlash (bip) tashkillashtirish qanday tizimi qo’llanila boshladi?",
+    "variants": [
+      "saratov",
+      "kaliningrad",
+      "leningrad",
+      "volgograd"
+    ],
+    "correct_answer": "saratov"
+  },
+  {
+    "id": 72,
+    "category": "sertifikatlashtirish",
+    "question": "«Sifatning ikkita jihati mavjud: xolisona fizikaviy tavsifi va sub’ektiv tomoni: qanchalik “yaxshi”narsa». ush bu sifat tushunchasini ta’riflanishini kim muallifi bo’lgan?",
+    "variants": [
+      "shuxart",
+      "djuran dj.m.",
+      "isikava",
+      "teylor"
+    ],
+    "correct_answer": "shuxart"
   },
   {
     "id": 73,
     "category": "sertifikatlashtirish",
-    "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti tamoyili (prinsip) bo’lib hisoblanmaydi?",
+    "question": "Qaysi bo'lim birinchi marta ISO 9001: 2015 standartiga kiritilgan?",
     "variants": [
-      "Samarali boshqarish",
-      "Menejmentga jarayonli yondashish",
-      "Xodimlarni jalb qilish",
-      "Iste’molchilarga qarab ish ko’rish"
+      "rejalashtirish",
+      "resurslar menejmenti",
+      "rahbariatning javobgarligi",
+      "hujjatlarni boshqarish"
     ],
-    "correct_answer": "Samarali boshqarish"
+    "correct_answer": "rejalashtirish"
   },
   {
     "id": 74,
     "category": "sertifikatlashtirish",
-    "question": "Ichki auditni kim o’tkazadi?",
+    "question": "Sifat xalqqasi (spiral) elementlarida qaysi biri yo’q?",
     "variants": [
-      "Korxonaning o’qigan xodimi",
-      "Korxona direktori",
-      "Sertifikatlashtirish idorasi xodimi",
-      "Yuqorida keltirilganlarni barchasi"
+      "sifatni boshqarish",
+      "marketing va bozorni o'rganish",
+      "mahsulotni ishlab chikarish",
+      "qadoqlash va saqlash"
     ],
-    "correct_answer": "Korxonaning o’qigan xodimi"
+    "correct_answer": "sifatni boshqarish"
   },
   {
     "id": 75,
     "category": "sertifikatlashtirish",
-    "question": "Kim tomonidan sifat menejmenti tizimini belgilangan oraliq davomida tahlil qilishi lozim?",
+    "question": "Rahbariat tomonidan tahlilning chiqish ma’lumotlari quydagilarga tegishli qaror va harakatlarni o’z ichiga oladi. Qaysi biri ortiqcha?",
     "variants": [
-      "Korxonaning yuqori rahbariyati",
-      "Auditorlar guruhi rahbari",
-      "Sertifikatlashtirish idorasi",
-      "Yuqorida keltirilganlarni barchasi"
+      "xodimlarni malakasini oshirish",
+      "yahshilash uchun imkoniyatlar.",
+      "sifat menejment tizimning har qanday o’zgartirishlar.",
+      "resurslarga bo'lgan ehtiyoj"
     ],
-    "correct_answer": "Korxonaning yuqori rahbariyati"
+    "correct_answer": "xodimlarni malakasini oshirish"
   },
   {
     "id": 76,
     "category": "sertifikatlashtirish",
-    "question": "“Jarayon” atamasi nimani anglatadi?",
+    "question": "O‘z Dst ISO/IEC 17021 standartida qaysi bo’lim yoq?",
     "variants": [
-      "Kirishlarni chiqishlarga o’zgartiruvchi o’zaroaloqada va o’zarofaoliyatda harakatlar turlarining yig’indisi",
-      "Qo’yilgan sohadagi maksadlarga erishish uchun bajariladigan ishlar",
-      "Iste’molchigi mahsulotni etkazish bo’yicha faoliyat",
-      "Yuqorida keltirilganlarni barchasi"
+      "hujjatlarga talablar",
+      "tuzilmasiga talablar",
+      "resurslarga talablar",
+      "jarayonlarga talablar"
     ],
-    "correct_answer": "Kirishlarni chiqishlarga o’zgartiruvchi o’zaroaloqada va o’zarofaoliyatda harakatlar turlarining yig’indisi"
+    "correct_answer": "hujjatlarga talablar"
   },
   {
     "id": 77,
     "category": "sertifikatlashtirish",
-    "question": "1950 yillarda Nuqsonsiz Mahslot Tayyorlash (BIP) tashkillashtirish qanday tizimi qo’llanila boshladi?",
-    "variants": [
-      "Saratov",
-      "Kaliningrad",
-      "Leningrad",
-      "Volgograd"
-    ],
-    "correct_answer": "Saratov"
-  },
-  {
-    "id": 78,
-    "category": "sertifikatlashtirish",
-    "question": "«Sifatning ikkita jihati mavjud: xolisona fizikaviy tavsifi va sub’ektiv tomoni:",
-    "variants": [
-      "Shuxart",
-      "Djuran Dj.M.",
-      "Isikava",
-      "Teylor"
-    ],
-    "correct_answer": "Shuxart"
-  },
-  {
-    "id": 79,
-    "category": "sertifikatlashtirish",
-    "question": "qanchalik “yaxshi”narsa».",
-    "variants": [
-      "Shuxart",
-      "Djuran Dj.M.",
-      "Isikava",
-      "Teylor"
-    ],
-    "correct_answer": "Shuxart"
-  },
-  {
-    "id": 81,
-    "category": "sertifikatlashtirish",
-    "question": "Qaysi bo'lim birinchi marta 9001: 2015 standartiga kiritilgan?",
-    "variants": [
-      "Rejalashtirish",
-      "Resurslar Menejmenti",
-      "Rahbariatning javobgarligi",
-      "Hujjatlarni boshqarish"
-    ],
-    "correct_answer": "Rejalashtirish"
-  },
-  {
-    "id": 82,
-    "category": "sertifikatlashtirish",
-    "question": "Sifat xalqqasi (spiral) elementlarida qaysi biri yo’q:",
-    "variants": [
-      "Sifatni boshqarish",
-      "Marketing va bozorni o'rganish",
-      "Mahsulotni ishlab chikarish",
-      "Qadoqlash va saqlash"
-    ],
-    "correct_answer": "Sifatni boshqarish"
-  },
-  {
-    "id": 83,
-    "category": "sertifikatlashtirish",
-    "question": "Rahbariat tomonidan tahlilning chiqish ma’lumotlari quydagilarga tegishli karor va harakatlarni o’z ichiga oladi. Qaysi biri ortiqcha?",
-    "variants": [
-      "Xodimlarni malakasini  oshirish",
-      "Yahshilash uchun imkoniyatlar.",
-      "Sifat Menejment Tizimning har qanday o’zgartirishlar.",
-      "Resurslarga bo'lgan ehtiyoj"
-    ],
-    "correct_answer": "Xodimlarni malakasini  oshirish"
-  },
-  {
-    "id": 84,
-    "category": "sertifikatlashtirish",
-    "question": "O‘z DSt ISO/IEC 17021 standartida qaysi bo’lim yoq?",
-    "variants": [
-      "Hujjatlarga talablar",
-      "Tuzilmasiga talablar",
-      "Resurslarga talablar",
-      "Jarayonlarga talablar"
-    ],
-    "correct_answer": "Hujjatlarga talablar"
-  },
-  {
-    "id": 85,
-    "category": "sertifikatlashtirish",
-    "question": "O’ziga xos xususiy talablar majmuini bajarilishi – bu nima?:",
+    "question": "O’ziga xos xususiy talablar majmuini bajarilishi – bu…..",
     "variants": [
       "sifat",
       "natijaviylik",
@@ -708,93 +924,105 @@
     "correct_answer": "sifat"
   },
   {
-    "id": 86,
+    "id": 78,
     "category": "sertifikatlashtirish",
-    "question": "Belgilangan talablarning bajarilganligini ob’ektiv dalillar keltirish yo’li  bilan  tasdiqlash bu nima?",
+    "question": "Belgilangan talablarning bajarilganligini ob’ektiv dalillar keltirish yo’li bilan tasdiqlash bu nima?",
     "variants": [
-      "Verifikatlash",
-      "Inspeksiya",
-      "Sinash",
-      "Validatlash"
+      "verifikatlash",
+      "inspeksiya",
+      "sinash",
+      "validatlash"
     ],
-    "correct_answer": "Verifikatlash"
+    "correct_answer": "verifikatlash"
   },
   {
-    "id": 87,
+    "id": 79,
     "category": "sertifikatlashtirish",
-    "question": "Aniq \tmaqsadlarga \tfoydalanish \tyoki \tqo’llanish \tuchun \tmo’ljallangan talablarning bajarilganligi ob’ektiv dalillar keltirish yo’li  bilan  tasdiqlash bu nima?",
+    "question": "Aniq maqsadlarga foydalanish yoki qo’llanish uchun mo’ljallangan talablarning bajarilganligi ob’yektiv dalillar keltirish yo’li bilan tasdiqlash bu nima?",
     "variants": [
-      "Validatlash",
-      "Inspeksiya",
-      "Verifikatlash",
-      "Sinash"
+      "validatlash",
+      "inspeksiya",
+      "verifikatlash",
+      "sinash"
     ],
-    "correct_answer": "Validatlash"
+    "correct_answer": "validatlash"
   },
   {
-    "id": 88,
+    "id": 80,
     "category": "sertifikatlashtirish",
     "question": "Sifat tizimi auditi natijasida nimani baholash mumkin?",
     "variants": [
-      "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
-      "Ishlarni bajarishda mashg‘ul ishchilar miqdorini",
-      "Xodimlar malakasini nazorat qilishni",
-      "Audit o‘tkazuvchi shaxslarni"
+      "o‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
+      "ishlarni bajarishda mashg‘ul ishchilar miqdorini",
+      "xodimlar malakasini nazorat qilishni",
+      "audit o‘tkazuvchi shaxslarni"
     ],
-    "correct_answer": "O‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+    "correct_answer": "o‘rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
   },
   {
-    "id": 89,
+    "id": 81,
     "category": "sertifikatlashtirish",
-    "question": "Talablarni bajarilish layoqatini oshirish bo‘yicha qaytariluvchi faoliyat",
+    "question": "Talablarni bajarilish layoqatini oshirish bo‘yicha qaytariluvchi faoliyat?",
     "variants": [
-      "Doimiy yaxshilash",
-      "Sifatni yaxshilash",
-      "Biznes-jarayon",
-      "Sifatni ta’minlash"
+      "doimiy yaxshilash",
+      "sifatni yaxshilash",
+      "biznes-jarayon",
+      "sifatni ta’minlash"
     ],
-    "correct_answer": "Doimiy yaxshilash"
+    "correct_answer": "doimiy yaxshilash"
   },
   {
-    "id": 90,
+    "id": 82,
     "category": "sertifikatlashtirish",
-    "question": "Tashkilotning sifat sohasidagi umumiy maqsadlari va yo‘nalishini yuqori rahbariyat rasmiy ravishda tuzadi",
+    "question": "Tashkilotning ishlashi uchun zaruriy bino, qurilmalar va xizmatni ta’minlash, bu …..",
     "variants": [
-      "Sifat sohasidagi siyosat",
-      "Tashkilot vazifalari",
-      "Tashkilot rahbariyatining his etishi",
-      "Tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
+      "infratuzilma",
+      "ishlab chiqarish muhiti",
+      "tashkilot konfiguratsiyasi",
+      "tashkillashtirish"
     ],
-    "correct_answer": "Sifat sohasidagi siyosat"
+    "correct_answer": "infratuzilma"
   },
   {
-    "id": 91,
+    "id": 83,
     "category": "sertifikatlashtirish",
-    "question": "O‘ziga xos xususiy talablar majmuini bajarilishi:",
+    "question": "O‘ziga xos xususiy talablar majmuini bajarilishi?",
     "variants": [
       "natijaviylik",
-      "Sifat, samaradorlik",
+      "sifat, samaradorlik",
       "ishlab chiqaruvchanlik",
-      "Iste’molchining talablari bajarilishi va qoniqishi"
+      "iste’molchining talablari bajarilishi va qoniqishi"
     ],
     "correct_answer": "natijaviylik"
   },
   {
-    "id": 93,
+    "id": 84,
     "category": "sertifikatlashtirish",
-    "question": "«Talab» deganda nima tushuniladi?",
+    "question": "Foydalanilgan resurslar va natijalarga erishning o‘zaro aloqadorligi?",
     "variants": [
-      "Qandaydir majburiy bo‘lgan yoki ixtiyoriy kutilgan va o‘rnatilgan ehtiyoj yoki kutilmalar",
-      "Qandaydir oddiy kutilgan yoki o‘rnatilgan me’yorlar",
-      "Qandaydir majburiy bo‘lgan va o‘rnatilgan ehtiyojlar",
-      "Qandaydir kutilayotgan yoki o‘rnatilgan ehtiyoj"
+      "kommunikatsiya",
+      "natijaviylik",
+      "samaradorlik",
+      "yuqorida keltirilganlarni hammasi"
     ],
-    "correct_answer": "Qandaydir majburiy bo‘lgan yoki ixtiyoriy kutilgan va o‘rnatilgan ehtiyoj yoki kutilmalar"
+    "correct_answer": "samaradorlik"
   },
   {
-    "id": 94,
+    "id": 85,
     "category": "sertifikatlashtirish",
-    "question": "93.O‘z DSt ISO 9001:2009 talabi bo‘yicha tashkilotda nechta hujjatlashtirilgan protsedura bo‘lishi lozim?",
+    "question": "«talab» deganda nima tushuniladi?",
+    "variants": [
+      "qandaydir majburiy bo‘lgan yoki ixtiyoriy kutilgan va o‘rnatilgan ehtiyoj yoki kutilmalar",
+      "qandaydir oddiy kutilgan yoki o‘rnatilgan me’yorlar",
+      "qandaydir majburiy bo‘lgan va o‘rnatilgan ehtiyojlar",
+      "qandaydir kutilayotgan yoki o‘rnatilgan ehtiyoj"
+    ],
+    "correct_answer": "qandaydir majburiy bo‘lgan yoki ixtiyoriy kutilgan va o‘rnatilgan ehtiyoj yoki kutilmalar"
+  },
+  {
+    "id": 86,
+    "category": "sertifikatlashtirish",
+    "question": "O‘z Dst ISO 9001:2015 talabi bo‘yicha tashkilotda nechta hujjatlashtirilgan protsedura bo‘lishi lozim?",
     "variants": [
       "6",
       "20",
@@ -804,33 +1032,33 @@
     "correct_answer": "6"
   },
   {
-    "id": 95,
+    "id": 87,
     "category": "sertifikatlashtirish",
     "question": "Maxsus jarayonlar - bu:",
     "variants": [
-      "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar",
       "xavfli jarayonlar",
-      "yangi texnologiyalar qo’llangan jarayonlar",
+      "yangi texnologiyalar qo‘llangan jarayonlar",
+      "mahsulotni ishlatilishi boshlangandan so‘ng nuqsoni aniqlanish mumkin bo‘ladigan jarayonlar",
       "murakkab jarayonlar"
     ],
-    "correct_answer": "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar"
+    "correct_answer": "mahsulotni ishlatilishi boshlangandan so‘ng nuqsoni aniqlanish mumkin bo‘ladigan jarayonlar"
   },
   {
-    "id": 96,
+    "id": 88,
     "category": "sertifikatlashtirish",
     "question": "ISO 9001 talablari bo‘yicha qanday ma’lumotlar tahlil qilinishi kerak?",
     "variants": [
-      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
-      "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi bo`yicha",
-      "o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
-      "Ekologik ta’sirlar to`g`risidagi ma’lumotlar"
+      "iste’molchilarni qanoatlanganligi bo‘yicha",
+      "to‘g‘rilovchi amallar bo‘yicha",
+      "o‘lchash va monitoring uchun asbob-uskunalar bo‘yicha",
+      "faqat o‘lchash asbob-uskunalar bo‘yicha"
     ],
-    "correct_answer": "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha"
+    "correct_answer": "iste’molchilarni qanoatlanganligi bo‘yicha"
   },
   {
-    "id": 97,
+    "id": 89,
     "category": "sertifikatlashtirish",
-    "question": "Ishlab chiqarishni boshqariladigan sharoitlariga zarur bo‘lganda quyidagilar kirishi kerak:",
+    "question": "Ishlab chiqarishni boshqariladigan sharoitlariga zarur bo‘lganda quyidagilar kirishi kerak?",
     "variants": [
       "mahsulotni tavsiflarini belgilovchi axborotni mavjudligini",
       "tekshiruv qo‘llanishini",
@@ -840,9 +1068,9 @@
     "correct_answer": "mahsulotni tavsiflarini belgilovchi axborotni mavjudligini"
   },
   {
-    "id": 98,
+    "id": 90,
     "category": "sertifikatlashtirish",
-    "question": "Quyida sanab o‘tilgan usullardan kaysi biri iste’molchilarni kanoatlanganligini kuzatish borish uchun tashkilot tomonidan qo‘llanilishi kerak:",
+    "question": "Quyida sanab o‘tilgan usullardan qaysi biri iste’molchilarni kanoatlanganligini kuzatish borish uchun tashkilot tomonidan qo‘llanilishi kerak?",
     "variants": [
       "anketa tarqatish",
       "suxbat o‘tkazish",
@@ -852,21 +1080,21 @@
     "correct_answer": "anketa tarqatish"
   },
   {
-    "id": 100,
+    "id": 91,
     "category": "sertifikatlashtirish",
     "question": "Quyidagi sanab o‘tilganlardan qaysi biri infratuzilmaga kiritilishi shart?",
     "variants": [
-      "imoratlar, ishlab chiqarish xonalari va ular bilan bog`liq bo`lgan vositalar",
-      "ishlab chiqarish jarayonlari uchun qurilmalar",
-      "transport va aloqa vositalari",
-      "Moliyaviy holati"
+      "imoratlar, ishlab chiqarish xonalari va ular bilan bog‘liq bo‘lgan vositalar",
+      "ishlab chiqarish jarayonlari",
+      "transport vositalari",
+      "aloqa vositalari"
     ],
-    "correct_answer": "imoratlar, ishlab chiqarish xonalari va ular bilan bog`liq bo`lgan vositalar"
+    "correct_answer": "imoratlar, ishlab chiqarish xonalari va ular bilan bog‘liq bo‘lgan vositalar"
   },
   {
-    "id": 101,
+    "id": 92,
     "category": "sertifikatlashtirish",
-    "question": "Qaysi hollarda to‘g‘rilovchi amallar joriy qilinadi:",
+    "question": "Qaysi hollarda to‘g‘rilovchi amallar joriy qilinadi?",
     "variants": [
       "o‘rnatilgan talablar bajarilmaganda",
       "jarayonlar belgilangan maqsadlarga erishganda",
@@ -876,33 +1104,33 @@
     "correct_answer": "o‘rnatilgan talablar bajarilmaganda"
   },
   {
-    "id": 102,
+    "id": 93,
     "category": "sertifikatlashtirish",
     "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti sakkizta tamoyili bo‘lib hisoblanmaydi?",
     "variants": [
-      "Samarali kommunikasiya",
-      "Xodimlarni jalb qilish",
-      "Menejmentga tizimli yondashish",
-      "Iste’molchilarga qarab ish ko`rish"
+      "samarali kommunikatsiya",
+      "menejmentga tizimli yondashish",
+      "xodimlarni jalb qilish",
+      "iste’molchilarga qarab ish ko‘rish"
     ],
-    "correct_answer": "Samarali kommunikasiya"
+    "correct_answer": "samarali kommunikatsiya"
   },
   {
-    "id": 104,
+    "id": 94,
     "category": "sertifikatlashtirish",
     "question": "Auditga bo‘linmalardan imkoni boricha kimlar jalb qilinishi lozim?",
     "variants": [
-      "O‘qigan va attestatlangan auditorlar",
-      "Bo‘linmaning mutaxassislari",
-      "Boshqa bo‘linma mutaxassislari",
-      "YUqorida keltirilganlarni barchasi"
+      "o‘qigan va attestatlangan auditorlar",
+      "bo‘linmaning mutaxassislari",
+      "boshqa bo‘linma mutaxassislari",
+      "yuqorida keltirilganlarni barchasi"
     ],
-    "correct_answer": "O‘qigan va attestatlangan auditorlar"
+    "correct_answer": "o‘qigan va attestatlangan auditorlar"
   },
   {
-    "id": 105,
+    "id": 95,
     "category": "sertifikatlashtirish",
-    "question": "Yakuniy yig‘ilish o‘tkazish lozim:",
+    "question": "Yakuniy yig‘ilish o‘tkazish lozim?",
     "variants": [
       "barcha holatlarda",
       "faqat audit jarayonida nomuvofiqliklar aniqlangan holatlarda",
@@ -912,45 +1140,45 @@
     "correct_answer": "barcha holatlarda"
   },
   {
-    "id": 106,
+    "id": 96,
     "category": "sertifikatlashtirish",
-    "question": "Sifat menejmenti tizimining “Iste’molchiga mo‘ljallab ish yuritish” tamoyili tamoyili quyidagi ma’noni anglatadi:",
+    "question": "Sifat menejmenti tizimining “Iste’molchiga mo‘ljallab ish yuritish” tamoyili tamoyili quyidagi ma’noni anglatadi?",
     "variants": [
       "iste’molchilarning joriy va kelgusidagi ehtiyojlarini tushunish, bu talablarini bajarish",
       "reklamatsiya va shikoyatlar bo‘yicha iste’molchilar bilan ishlash",
       "shartnoma asosida iste’mochilar bilan o‘zaro faoliyat",
-      "YUqorida keltirilganlarni barchasi"
+      "yuqorida keltirilganlarni barchasi"
     ],
     "correct_answer": "iste’molchilarning joriy va kelgusidagi ehtiyojlarini tushunish, bu talablarini bajarish"
   },
   {
-    "id": 107,
+    "id": 97,
     "category": "sertifikatlashtirish",
-    "question": "Saratov tizimi BIP foydalanishda korxonada mahslot sifatini nazoratining qanday usuli asosiy bo‘lib hisoblanadi?",
+    "question": "Saratov tizimi bip foydalanishda korxonada mahslot sifatini nazoratining qanday usuli asosiy bo‘lib hisoblanadi?",
     "variants": [
       "tanlanma",
       "yoppasiga",
-      "Nazorat mavjud emas",
-      "O‘z-o‘zini tekshirish"
+      "nazorat mavjud emas",
+      "o‘z-o‘zini tekshirish"
     ],
-    "correct_answer": "tanlanma"
+    "correct_answer": "o‘z-o‘zini tekshirish"
   },
   {
-    "id": 108,
+    "id": 98,
     "category": "sertifikatlashtirish",
     "question": "Mahsulot sifatini boshqarishning kompleks tizimini qo‘llashning asosiy me’zoni nima bo‘lib hisoblanadi?",
     "variants": [
       "fan va texnikaning yuqori darajasiga erishishga mahsulot sifatining muvofiqligi",
-      "O‘rnatilgan talablarga mehnat natijalarining sifatiga muvofiqligi",
-      "Rejalashtirilgan qiymatga erishilgan motoresurslar darajasiga muvofiqligi",
-      "O‘rnatilgan talablarga birinchi sanoatbuyumlarining sifatiga muvofiqligi"
+      "o‘rnatilgan talablarga mehnat natijalarining sifatiga muvofiqligi",
+      "rejalashtirilgan qiymatga erishilgan motoresurslar darajasiga muvofiqligi",
+      "o‘rnatilgan talablarga birinchi sanoatbuyumlarining sifatiga muvofiqligi"
     ],
     "correct_answer": "fan va texnikaning yuqori darajasiga erishishga mahsulot sifatining muvofiqligi"
   },
   {
-    "id": 109,
+    "id": 99,
     "category": "sertifikatlashtirish",
-    "question": "Mahsulot sifatini boshqarishning qaysi tizimi maqsadi  ishlab chiqarilayotgan mahsulotning a’lo sifatli, yuqori mustahkamlik va uzoq muddatligini ta’minlash bo‘lib hisoblangan?",
+    "question": "Mahsulot sifatini boshqarishning qaysi tizimi maqsadi ishlab chiqarilayotgan mahsulotning a’lo sifatli, yuqori mustahkamlik va uzoq muddatligini ta’minlash bo‘lib hisoblangan?",
     "variants": [
       "KANARSPI",
       "NORM",
@@ -960,7 +1188,7 @@
     "correct_answer": "KANARSPI"
   },
   {
-    "id": 110,
+    "id": 100,
     "category": "sertifikatlashtirish",
     "question": "Mahsulot sifatini boshqarishning qaysi tizimi tadqiqot qilish, loyihalashtirish va ekspluatatsiya bosqichlarida ko‘p turdagi ishlarni qamrab olgan?",
     "variants": [
@@ -972,19 +1200,19 @@
     "correct_answer": "KSUKP"
   },
   {
-    "id": 111,
+    "id": 101,
     "category": "sertifikatlashtirish",
-    "question": "Korxonadi ishlab chiqarilayotgan davlat standartlariga muvofiqligi nazorati bo‘yicha ishlarni tashkillashtirish va uzoq muddatli sifatni boshqarish qaysi atama bilan ta’riflangan?",
+    "question": "Korxonada ishlab chiqarilayotgan davlat standartlariga muvofiqligi nazorati bo‘yicha ishlarni tashkillashtirish va uzoq muddatli sifatni boshqarish qaysi atama bilan ta’riflangan?",
     "variants": [
       "sifatni boshqarish",
-      "YAlpi sifatni boshqarish",
+      "yalpi sifatni boshqarish",
       "sertifikatlashtirish",
       "standartlashtrish"
     ],
     "correct_answer": "sifatni boshqarish"
   },
   {
-    "id": 112,
+    "id": 102,
     "category": "sertifikatlashtirish",
     "question": "Qaysi atama bilan korxonaning ichki faoliyati jarayonlari yoki faoliyat natijasini belgilash qabul qilingan?",
     "variants": [
@@ -996,153 +1224,129 @@
     "correct_answer": "tizim"
   },
   {
-    "id": 113,
+    "id": 103,
     "category": "sertifikatlashtirish",
     "question": "Sifatga umumiy rahbarlikni amalga oshirish uchun zaruriy resurslar, jarayonlar, usullar va tashkiliytuzilmalarning majmuasi nimani anglatadi?",
     "variants": [
       "sifat tizimi",
-      "Sifat darajasi",
-      "Nisbatan sifatli",
+      "sifat darajasi",
+      "nisbatan sifatli",
       "jarayon"
     ],
     "correct_answer": "sifat tizimi"
   },
   {
-    "id": 114,
+    "id": 104,
     "category": "sertifikatlashtirish",
-    "question": "Akkreditasiya nima? Bu jarayon, biror bir nufuzli idora yordamida rasmiy tan olingan:",
+    "question": "Jarayonli yonloshuv SMT da quyidagilardan qaysi biri uchun qo`llaniladi?",
     "variants": [
-      "Akkreditlayotgan sub’ektlar akkreditlashtirish tizimining me’yoriy hujjatlari talablariga muvofiqligi",
-      "Akkreditlayotgan sub’ektlarning texnik kompetentligi",
-      "Huquqiy shaxs yoki muayyan ishni bajaruvchi idora",
-      "Mahsulotlar va xizmatlarni sertifikatlashtirish uchun boshqaruv tizimi"
+      "smt jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish",
+      "korxona faoliyatini aniqlash uchun",
+      "jarayonga kirish va chiqishlarini belgilash uchun",
+      "talablarni bajarish va boshqarish uchun"
     ],
-    "correct_answer": "Akkreditlayotgan sub’ektlar akkreditlashtirish tizimining me’yoriy hujjatlari talablariga muvofiqligi"
+    "correct_answer": "smt jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish"
   },
   {
-    "id": 115,
-    "category": "sertifikatlashtirish",
-    "question": "Jarayonli yonloshuv SMT da quyidagilar uchun qo`llaniladi:",
-    "variants": [
-      "SMT jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish",
-      "Korxona faoliyatini aniqlash uchun",
-      "Jarayonga kirish va chiqishlarini belgilash uchun",
-      "talablarni bajarish va boshqarish"
-    ],
-    "correct_answer": "SMT jarayonlarnini tizimli boshqarish va jarayonlari hujjatlarini ishlab chiqish"
-  },
-  {
-    "id": 116,
+    "id": 105,
     "category": "sertifikatlashtirish",
     "question": "ISO 9001 talablari bo`yicha qanday ma’lumotlar tahlil qilinishi kerak?",
     "variants": [
       "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
       "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi bo`yicha",
       "o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha",
-      "Ekologik ta’sirlar to`g`risidagi ma’lumotlar"
+      "ekologik ta’sirlar to`g`risidagi ma’lumotlar boyicha"
     ],
     "correct_answer": "to`g`rilovchi amallarni bajarilishi va iste’molchilarni qanoatlanganligi va o`lchash va monitoring uchun asbob-uskunalarni qo`yilgan talablarga muvofiqligi bo`yicha"
   },
   {
-    "id": 117,
+    "id": 106,
     "category": "sertifikatlashtirish",
-    "question": "ISO 9001 xalqaro standarti talablariga muvofiqlik sertifikati quyidagilarga xizmat qiladi",
+    "question": "ISO 9001 xalqaro standarti talablariga muvofiqlik sertifikati quyidagilardan qaysi biriga xizmat qiladi?",
     "variants": [
-      "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
-      "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi",
-      "Mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
-      "Iste’molchilarga sotib olinayotgan mahsulot muvofiqligiga ishonch hosil qiladi"
+      "ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
+      "ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi",
+      "mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi",
+      "iste’molchilarga sotib olinayotgan mahsulot muvofiqligiga ishonch hosil qilishni taminlaydi"
     ],
-    "correct_answer": "Ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi"
+    "correct_answer": "ishlab chiqarilayotgan mahsulot muvofiqligiga tashkilot ishonchini ta’minlaydi va mahsulot raqobatbardoshligi uni eksport qilishni ta’minlaydi"
   },
   {
-    "id": 118,
+    "id": 107,
     "category": "sertifikatlashtirish",
-    "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti sakkizta tamoyili bo`lib hisoblanmaydi?",
+    "question": "Quyida keltirilganlardan qaysi biri sifat menejmenti sakkizta tamoyili bo`lib hisoblanmaydi?",
     "variants": [
-      "Samarali kommunikasiya",
-      "Xodimlarni jalb qilish",
-      "Menejmentga tizimli yondashish",
-      "Iste’molchilarga qarab ish ko`rish"
+      "samarali kommunikasiya",
+      "xodimlarni jalb qilish",
+      "menejmentga tizimli yondashish",
+      "iste’molchilarga qarab ish ko`rish"
     ],
-    "correct_answer": "Samarali kommunikasiya"
+    "correct_answer": "samarali kommunikasiya"
   },
   {
-    "id": 119,
+    "id": 108,
     "category": "sertifikatlashtirish",
-    "question": "Quyida \tsanab \to`tilgan \tusullardan \tqaysi \tbiri \tiste’molchilarni qanoatlanganligini kuzatish borish uchun tashkilot tomonidan qo`llanilishi kerak:",
+    "question": "Quyida sanab o`tilgan usullardan qaysi biri iste’molchilarni qanoatlanganligini kuzatish borish uchun tashkilot tomonidan qo`llanilishi kerak?",
     "variants": [
       "anketa yoki turli so`rovlar o`tkazish usullari",
-      "so`rov o`tkazish",
-      "boshqa usullar",
-      "anketa tarqatish"
+      "so`rov o`tkazish usullari",
+      "boshqa usullar usullari",
+      "anketa tarqatish usullari"
     ],
     "correct_answer": "anketa yoki turli so`rovlar o`tkazish usullari"
   },
   {
-    "id": 120,
+    "id": 109,
     "category": "sertifikatlashtirish",
     "question": "Quyidagi sanab o`tilganlardan qaysi biri infratuzilmaga kiritilishi shart?",
     "variants": [
       "imoratlar, ishlab chiqarish xonalari va ular bilan bog`liq bo`lgan vositalar",
       "ishlab chiqarish jarayonlari uchun qurilmalar",
       "transport va aloqa vositalari",
-      "Moliyaviy holati"
+      "moliyaviy holati"
     ],
     "correct_answer": "imoratlar, ishlab chiqarish xonalari va ular bilan bog`liq bo`lgan vositalar"
   },
   {
-    "id": 121,
+    "id": 110,
     "category": "sertifikatlashtirish",
-    "question": "Ko`rsatilganlarni qay biri ISO 9001 talablariga taalluqli emas:",
+    "question": "Ko`rsatilganlarni qay biri ISO 9001 talablariga taalluqli emas?",
     "variants": [
       "oziq-ovqat mahsulotlarini nazorat nuqtalarini aniqlash",
-      "iste’molchining qanoatlanganligi haqida axborotni olish va undan foydalanish usullarini aniqlashi zarur",
+      "iste’molchining qanoatlanganligi haqida axborotni olish va undan foydalanish usullarini aniqlashi",
       "iste’molchilarning qanoatlanganliklarini oshirish uchun ularni talablarini aniqlanish va bajarilishini ta’minlash",
-      "mahsulotga tegishli qonun hujjatlari talablarini aniqlashi"
+      "mahsulotga tegishli qonun hujjatlari talablarini aniqlash"
     ],
     "correct_answer": "oziq-ovqat mahsulotlarini nazorat nuqtalarini aniqlash"
   },
   {
-    "id": 122,
+    "id": 111,
     "category": "sertifikatlashtirish",
     "question": "Sifat menejmenti auditdan nimani baholash uchun foydalaniladi?",
     "variants": [
-      "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
-      "Ishlarni bajarishda mashg`ul ishchilar miqdorini",
-      "Xodimlar malakasini nazorat qilishni",
-      "Mahsulot ishlab chiqarishni"
+      "o`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini",
+      "ishlarni bajarishda mashg`ul ishchilar miqdorini",
+      "xodimlar malakasini nazorat qilishni",
+      "mahsulot ishlab chiqarishni"
     ],
-    "correct_answer": "O`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
+    "correct_answer": "o`rnatilgan talablarga sifat tizimini hujjatlashtirish muvofiqlik darajasini"
   },
   {
-    "id": 123,
+    "id": 112,
     "category": "sertifikatlashtirish",
-    "question": "SMT jarayonli yondoshish quyidagilar uchun qo`llaniladi:",
+    "question": "SMT jarayonli yondoshish quyidagilar uchun qo`llaniladi?",
     "variants": [
-      "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun",
-      "talablarni tushunish va bajarish",
+      "SMT jarayonlari hujjatlarini ishlab chiqish uchun",
+      "talablarni tushunish va bajarish uchun",
       "jarayonlarni tizimli boshqarish uchun",
-      "SMT jarayonlari hujjatlarini ishlab chiqish"
+      "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun"
     ],
-    "correct_answer": "SMT to`g`ri shakllantirish va samaradorligini ta’minlash uchun"
+    "correct_answer": "SMT jarayonlari hujjatlarini ishlab chiqish uchun"
   },
   {
-    "id": 124,
+    "id": 113,
     "category": "sertifikatlashtirish",
-    "question": "Foydalanilgan resurslar va natijalarga erishning o`zaro aloqadorligi:",
-    "variants": [
-      "Kommunikatsiya",
-      "Natijaviylik",
-      "Samaradorlik",
-      "YUqorida keltirilganlarni hammasi"
-    ],
-    "correct_answer": "Kommunikatsiya"
-  },
-  {
-    "id": 125,
-    "category": "sertifikatlashtirish",
-    "question": "Xarfli indekslash qaysi standart b o'yicha o'tkazilgan?",
+    "question": "Xarfli indekslash qaysi standart bo'yicha o'tkazilgan?",
     "variants": [
       "ISO 9001-94",
       "ISO 9000-94",
@@ -1152,7 +1356,7 @@
     "correct_answer": "ISO 9001-94"
   },
   {
-    "id": 126,
+    "id": 114,
     "category": "sertifikatlashtirish",
     "question": "Statistik nazoratning ilmiy usullari kim tomonidan taqdim etilgan?",
     "variants": [
@@ -1164,7 +1368,7 @@
     "correct_answer": "V.Shuxart"
   },
   {
-    "id": 127,
+    "id": 115,
     "category": "sertifikatlashtirish",
     "question": "1944-yili G.Dodj kim bilan birga ishlagan?",
     "variants": [
@@ -1176,69 +1380,105 @@
     "correct_answer": "Taguti"
   },
   {
-    "id": 128,
+    "id": 116,
     "category": "sertifikatlashtirish",
-    "question": "Edvard Deming nima bilan shugullangan?",
+    "question": "Edvard deming nima bilan shugullangan?",
     "variants": [
       "nazoratning statistik usullari",
       "qabul qiluvchi nazorat",
-      "Sifatni boshqarish",
-      "Togri javob yoq"
+      "sifatni boshqarish",
+      "togri javob yoq"
     ],
     "correct_answer": "nazoratning statistik usullari"
   },
   {
-    "id": 129,
+    "id": 117,
     "category": "sertifikatlashtirish",
-    "question": "Uchinchi tomon auditi bu:",
+    "question": "O’ziga xos xususiy talablar majmuini bajarilishi – bu nima?",
     "variants": [
-      "Mustaqil tashkilot auditi",
-      "Mijoz yoki buyurtmachi auditi",
-      "Ichki audit",
-      "Iste`molchlar auditi"
-    ],
-    "correct_answer": "Mustaqil tashkilot auditi"
-  },
-  {
-    "id": 130,
-    "category": "sertifikatlashtirish",
-    "question": "O`ziga xos xususiy talablar majmuini bajarilishi:",
-    "variants": [
+      "sifat",
       "natijaviylik",
-      "Sifat, samaradorlik",
-      "ishlab chiqaruvchanlik",
-      "Iste’molchining talablari bajarilishi va qoniqishi"
+      "samaradorlik",
+      "ishlab chiqaruvchanlik"
     ],
-    "correct_answer": "natijaviylik"
+    "correct_answer": "sifat"
   },
   {
-    "id": 131,
+    "id": 118,
     "category": "sertifikatlashtirish",
-    "question": "Tashkilotning sifat sohasidagi umumiy maqsadlari va yo`nalishini yuqori rahbariyat rasmiy ravishda tuzadi",
+    "question": "Tashkilotning sifat sohasidagi umumiy maqsadlari va yo‘nalishini yuqori rahbariyat rasmiy ravishda qaysi prosedurada tuzadi?",
     "variants": [
-      "Sifat sohasidagi siyosat",
-      "Tashkilot vazifalari",
-      "Tashkilot rahbariyatining his etishi",
-      "Tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
+      "sifat sohasidagi siyosat",
+      "tashkilot vazifalari",
+      "tashkilot rahbariyatining his etishi",
+      "tashkilot faoliyatini yaxshilash sohasidagi maqsadlar"
     ],
-    "correct_answer": "Sifat sohasidagi siyosat"
+    "correct_answer": "sifat sohasidagi siyosat"
   },
   {
-    "id": 133,
+    "id": 119,
     "category": "sertifikatlashtirish",
-    "question": "Sifatga bo`lgan talablarni bajarishga yo`naltirilgan sifat menejmenti qismi, bu: 133. Sifat menejmentiga aloqador bo`lmagan atamani ko`rsating  134. Sifat menejmenti tizimining hujjatlari hajmi quyidagilarga bog`liq:",
+    "question": "SMT hujjatlariga quyidagilardan qaysi biri kiradi?",
     "variants": [
-      "Sifat indeksi",
-      "Sifatni boshqarish",
-      "Sifatni ta`minlash, Sifatni yaxshilash",
-      "Sifat, Sifatni loyihalash"
+      "iso 9001 standarti talab qilgan hujjatlar",
+      "sifat sohasidagi siyosat",
+      "smt prosedura hujjatlari",
+      "sifat bo‘yicha qo‘llanma"
     ],
-    "correct_answer": "Sifat indeksi"
+    "correct_answer": "iso 9001 standarti talab qilgan hujjatlar"
   },
   {
-    "id": 134,
+    "id": 120,
     "category": "sertifikatlashtirish",
-    "question": "Sifat menejmenti tizimi (SMT): 136. Maxsus jarayonlar - bu:",
+    "question": "Sifatga bo‘lgan talablarni bajarilganligiga ishonch hosil qilishga yo‘naltirilgan sifat menejmenti qismi, bu ….",
+    "variants": [
+      "sifatni rejalashtirish",
+      "sifatni ta`minlash",
+      "ko‘maklashuvchi (qo‘llab-quvvatlovchi) jarayon",
+      "sifatni yaxshilash"
+    ],
+    "correct_answer": "sifatni ta`minlash"
+  },
+  {
+    "id": 121,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmentiga aloqador bo‘lmagan atamani ko‘rsating?",
+    "variants": [
+      "sifat indeksi",
+      "sifatni boshqarishi",
+      "sifatni ta`minlash, sifatni yaxshilashi",
+      "sifat, sifatni loyihalashi"
+    ],
+    "correct_answer": "sifat indeksi"
+  },
+  {
+    "id": 122,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmenti tizimining hujjatlari hajmi quyidagilardan qaysi biriga bog‘liq?",
+    "variants": [
+      "xodimlarni layoqatligiga",
+      "mahsulot turiga",
+      "maslahatchilar fikriga",
+      "auditorlar talablariga"
+    ],
+    "correct_answer": "xodimlarni layoqatligiga"
+  },
+  {
+    "id": 123,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat menejmenti tizimi (SMT) – bu ….",
+    "variants": [
+      "tashkilotga rahbarlik qilish va boshqarish uchun sifatga taalluqli menejment tizimi",
+      "siyosat va maqsadlarni ishlab chiqish va bu maqsadlarga erishish uchun tizimi",
+      "o‘zaro faoliyatdagi va o‘zaroaloqador elementlar majmuasi",
+      "o‘zaro faoliyatdagi va o‘zaroaloqador elementlar majmuasini boshqarish va rahbarlik uchun tizimi"
+    ],
+    "correct_answer": "tashkilotga rahbarlik qilish va boshqarish uchun sifatga taalluqli menejment tizimi"
+  },
+  {
+    "id": 124,
+    "category": "sertifikatlashtirish",
+    "question": "Maxsus jarayonlar – bu …..",
     "variants": [
       "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar",
       "xavfli jarayonlar",
@@ -1248,43 +1488,29 @@
     "correct_answer": "mahsulotni ishlatilishi boshlangandan so’ng nuqsoni aniqlanish mumkin bo’ladigan jarayonlar"
   },
   {
-    "id": 135,
+    "id": 125,
     "category": "sertifikatlashtirish",
-    "question": "Me’yoriy hujjatlarning qanday ko`rsatkichlar majburiy talablarga tegishli bo`ladi?",
+    "question": "Me’yoriy hujjatlarning qanday korsatkichlari majburiy talablarga tegishli boladi?",
     "variants": [
-      "Barcha talablar",
-      "Faqat xavfsizlik, o`zaroalmashinuvchanlik va moslashuvchanlik talablar",
-      "Xavfsizlik, atrof-muhitni muhofazalash, moslashuvchanlik, o`zaroalmashinuvchanlik, resurslarni tejamkorligi, nazorat va tamg`alash usullarining yagonaligi talablari",
-      "Faqat nazorat va tamg`alash usullarining yagonalik talablari"
+      "barcha talablar",
+      "faqat xavfsizlik, ozaroalmashinuvchanlik va moslashuvchanlik talablar 🅒 xavfsizlik, atrof-muhitni muhofazalash, moslashuvchanlik, ozaroalmashinuvchanlik, resurslarni tejamkorligi, nazorat va tamgalash usullarining yagonaligi talablari D)faqat nazorat va tamgalash usullarining yagonalik talablari"
     ],
-    "correct_answer": "Barcha talablar"
+    "correct_answer": null
   },
   {
-    "id": 136,
-    "category": "sertifikatlashtirish",
-    "question": "Maqsadlarni o`rnatish jarayoni va doimiy yaxshilash uchun qidiruv imkoniyatini beruvchi jarayon bo`lib, foydalaniladi:",
-    "variants": [
-      "Audit natijalari bo`yicha xulosa (tekshirish)",
-      "Audit kuzatuvi (tekshirish)",
-      "Ma’lumotlar tahlili",
-      "Rahbariyat tomonidan tahlil"
-    ],
-    "correct_answer": "Audit natijalari bo`yicha xulosa (tekshirish)"
-  },
-  {
-    "id": 137,
+    "id": 126,
     "category": "sertifikatlashtirish",
     "question": "Sifatga umumiy rahbarlikni amalga oshirish uchun zaruriy resurslar, jarayonlar, usullar va tashkiliytuzilmalarning majmuasi nimani anglatadi?",
     "variants": [
       "sifat tizimi",
-      "Sifat darajasi",
-      "Nisbatan sifatli",
+      "sifat darajasi",
+      "nisbatan sifatli",
       "jarayon"
     ],
     "correct_answer": "sifat tizimi"
   },
   {
-    "id": 138,
+    "id": 127,
     "category": "sertifikatlashtirish",
     "question": "Qaysi atama bilan korxonaning ichki faoliyati jarayonlari yoki faoliyat natijasini belgilash qabul qilingan?",
     "variants": [
@@ -1296,93 +1522,105 @@
     "correct_answer": "tizim"
   },
   {
-    "id": 139,
+    "id": 128,
     "category": "sertifikatlashtirish",
-    "question": "Korxonadi ishlab chiqarilayotgan davlat standartlariga muvofiqligi nazorati bo‘yicha ishlarni tashkillashtirish va uzoq muddatli sifatni boshqarish qaysi atama bilan ta’riflangan?",
+    "question": "Korxonada ishlab chiqarilayotgan davlat standartlariga muvofiqligi nazorati bo`yicha ishlarni tashkillashtirish va uzoq muddatli sifatni boshqarish qaysi atama bilan ta’riflangan?",
     "variants": [
       "sifatni boshqarish",
-      "YAlpi sifatni boshqarish",
+      "yalpi sifatni boshqarish",
       "sertifikatlashtirish",
-      "standartlashtrish"
+      "standartlashtirish"
     ],
     "correct_answer": "sifatni boshqarish"
   },
   {
-    "id": 140,
+    "id": 129,
     "category": "sertifikatlashtirish",
     "question": "Mahsulot sifatini boshqarishning kompleks tizimini qo‘llashning asosiy me’zoni nima bo‘lib hisoblanadi?",
     "variants": [
       "fan va texnikaning yuqori darajasiga erishishga mahsulot sifatining muvofiqligi",
-      "O‘rnatilgan talablarga mehnat natijalarining sifatiga muvofiqligi",
-      "Rejalashtirilgan qiymatga erishilgan motoresurslar darajasiga muvofiqligi",
-      "O‘rnatilgan talablarga birinchi sanoatbuyumlarining sifatiga muvofiqligi"
+      "o‘rnatilgan talablarga mehnat natijalarining sifatiga muvofiqligi",
+      "rejalashtirilgan qiymatga erishilgan motoresurslar darajasiga muvofiqligi",
+      "o‘rnatilgan talablarga birinchi sanoatbuyumlarining sifatiga muvofiqligi"
     ],
     "correct_answer": "fan va texnikaning yuqori darajasiga erishishga mahsulot sifatining muvofiqligi"
   },
   {
-    "id": 141,
+    "id": 130,
     "category": "sertifikatlashtirish",
-    "question": "Auditorlar guruhiga rahbarlikka tayinlanadi: 144. Auditni yakunlangan deb hisoblanadi, agar:",
+    "question": "Auditorlar guruhi rahbarligiga nomzod …… tayinlanadi.",
     "variants": [
       "sifat tizimi hujjatlarida o‘rnatilgan talablariga muvofiq",
       "laboratoriya rahbari",
       "korxona rahbari",
-      "YUqorida keltirilganlarni barchasi"
+      "yuqorida keltirilganlarni barchasi"
     ],
     "correct_answer": "sifat tizimi hujjatlarida o‘rnatilgan talablariga muvofiq"
   },
   {
-    "id": 142,
+    "id": 131,
+    "category": "sertifikatlashtirish",
+    "question": "Auditni yakunlangan deb hisoblanadi, agar….",
+    "variants": [
+      "yakuniy yig‘ilish o‘tkazilsa",
+      "barcha zaruriy to‘g‘rilovchi va oldini oluvchi amallar bajarilgan bo‘lsa",
+      "audit bo‘yicha hisobot tasdiqlanib kerakli joylarga tarqatilsa",
+      "yuqorida keltirilganlarni barchasi"
+    ],
+    "correct_answer": "yuqorida keltirilganlarni barchasi"
+  },
+  {
+    "id": 132,
     "category": "sertifikatlashtirish",
     "question": "Auditorlarga kerakli hujatlarni ta’minlash uchun kim javobgar?",
     "variants": [
-      "Tekshirilayotgan bo‘linma rahbari",
-      "Sifat bo‘yicha menejer",
-      "Auditorlar guruhi rahbari",
+      "tekshirilayotgan bo‘linma rahbari",
+      "sifat bo‘yicha menejer",
+      "auditorlar guruhi rahbari",
       "yuqorida keltirilganlardan hech qaysisi"
     ],
-    "correct_answer": "Tekshirilayotgan bo‘linma rahbari"
+    "correct_answer": "tekshirilayotgan bo‘linma rahbari"
   },
   {
-    "id": 143,
+    "id": 133,
     "category": "sertifikatlashtirish",
-    "question": "Auditorlar guruhi tekshirilayotgan bo‘linma uchun yaxshilash bo‘yicha tavsiyalarni berishi:",
+    "question": "Auditorlar guruhi tekshirilayotgan bo‘linma uchun yaxshilash bo‘yicha tavsiyalarni berishi …..",
     "variants": [
       "majburiy bo‘lib hisoblanmaydi",
       "majburiy bo‘lib hisoblanadi",
       "audit bo‘yicha hisobotni tasdiqlagunga qadar tekshirilayotgan bo‘linmaga taqdim qilinmaydi",
-      "YUqorida keltirilganlarni barchasi"
+      "yuqorida keltirilganlarni barchasi"
     ],
     "correct_answer": "majburiy bo‘lib hisoblanmaydi"
   },
   {
-    "id": 144,
+    "id": 134,
     "category": "sertifikatlashtirish",
-    "question": "Tekshirilayotgan bo‘linma hujjatlarini tahlili:",
+    "question": "Tekshirilayotgan bo‘linma hujjatlarini tahlili?",
     "variants": [
       "joyida audit o‘tkazishni boshlangunicha majburiy tartibda o‘tkazilishi lozim",
       "ichki auditni o‘tkazish qoidalarida inobatga olinmagan",
       "auditorlar xoxishi bo‘yicha o‘tkaziladi",
-      "YUqorida keltirilganlarni barchasi"
+      "yuqorida keltirilganlarni barchasi"
     ],
     "correct_answer": "joyida audit o‘tkazishni boshlangunicha majburiy tartibda o‘tkazilishi lozim"
   },
   {
-    "id": 145,
+    "id": 135,
     "category": "sertifikatlashtirish",
     "question": "Auditorlar guruhi raxbari audit dasturiga mustaqil ravishda o‘zgartirish huquqi bormi?",
     "variants": [
-      "Huquqi bor",
-      "Huquqi yo‘q",
-      "Huquqi bor, faqat tekshirilayotgan bo‘linma rahbari bilan kelishilgan holda",
-      "YUqorida keltirilganlarni barchasi"
+      "huquqi bor",
+      "huquqi yo‘q",
+      "huquqi bor, faqat tekshirilayotgan bo‘linma rahbari bilan kelishilgan holda",
+      "yuqorida keltirilganlarni barchasi"
     ],
-    "correct_answer": "Huquqi bor"
+    "correct_answer": "huquqi bor"
   },
   {
-    "id": 146,
+    "id": 136,
     "category": "sertifikatlashtirish",
-    "question": "Yakuniy yig‘ilish o‘tkazish lozim:",
+    "question": "Yakuniy yig‘ilish qanday xollarda o‘tkazilishi lozim?",
     "variants": [
       "barcha holatlarda",
       "faqat audit jarayonida nomuvofiqliklar aniqlangan holatlarda",
@@ -1392,292 +1630,766 @@
     "correct_answer": "barcha holatlarda"
   },
   {
-    "id": 147,
+    "id": 137,
     "category": "sertifikatlashtirish",
     "question": "Auditga bo‘linmalardan imkoni boricha kimlar jalb qilinishi lozim?",
     "variants": [
-      "O‘qigan va attestatlangan auditorlar",
-      "Bo‘linmaning mutaxassislari",
-      "Boshqa bo‘linma mutaxassislari",
-      "YUqorida keltirilganlarni barchasi"
+      "o‘qigan va attestatlangan auditorlar",
+      "bo‘linmaning mutaxassislari",
+      "boshqa bo‘linma mutaxassislari",
+      "yuqorida keltirilganlarni barchasi"
     ],
-    "correct_answer": "O‘qigan va attestatlangan auditorlar"
+    "correct_answer": "yuqorida keltirilganlarni barchasi"
+  },
+  {
+    "id": 138,
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatlashtirish jarayoni, shunday uslubki......",
+    "variants": [
+      "talab etilgan ishonchlilik bilan mahsulotning muayyan standartga yoki texnikaviy hujjatga muvofiqligini tasdiqlaydigan faoliyat tushuniladi.",
+      "uchinchi tomon tarafidan \"sinov laboratoriyasining bayonoti\" tushunilib, ma’lum namuna mahsulotga bo’lgan talablarni belgilovchi ma’lum standartlar yoki boshqa hujjatlar bilan muvofiq ekanligini bayon etishiga aytiladi.",
+      "muvofiqlikning sertifikatlashtirish faoliyatini o’tkazish uchun ish tartibi qoidalariga va boshqarishiga ega bo’lgan tizimdir.",
+      "unda vositachi hisoblanmish – uchinchi tomon yozma ravishda guvohlik bildirib, mahsulot, jarayon yoki xizmatni qo’yilgan talablar darajasiga mosligini e’tirof qiladi."
+    ],
+    "correct_answer": "talab etilgan ishonchlilik bilan mahsulotning muayyan standartga yoki texnikaviy hujjatga muvofiqligini tasdiqlaydigan faoliyat tushuniladi."
+  },
+  {
+    "id": 139,
+    "category": "sertifikatlashtirish",
+    "question": "Mahsulot muvofiqlik belgisida nima haqidagi guvohlik keltirilgan?",
+    "variants": [
+      "Mahsulot sertifikasiyadan otkazilgan va mahsulot xavfsiz B)Mahsulot xavfsiz C)Mahsulot laboratoriyada sinovdan otkazilgan",
+      "Mahsulotni eksport qilish mumkin"
+    ],
+    "correct_answer": "Mahsulot sertifikasiyadan otkazilgan va mahsulot xavfsiz B)Mahsulot xavfsiz C)Mahsulot laboratoriyada sinovdan otkazilgan"
+  },
+  {
+    "id": 140,
+    "category": "sertifikatlashtirish",
+    "question": "Quyida keltirilganlardan qaysi bir sifat menejmenti sakkizta tamoyili bolib hisoblanmaydi?",
+    "variants": [
+      "Menejmentga tizimli yondashish B)Xodimlarni jalb qilish",
+      "Samarali kommunikasiya",
+      "Iste’molchilarga qarab ish korish"
+    ],
+    "correct_answer": "Samarali kommunikasiya"
+  },
+  {
+    "id": 141,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat sohasidagi maqsadlarni ishlab chiqishda quyidagilardan qaysi biri hisobga olinmasa boladi? A)mahsulot va jarayonlar sifat korsatkichlari",
+    "variants": [
+      "tashkilot faoliyatini oz-ozini baholash natijalari",
+      "barcha manfaatdor tomonlarning qoniqishi darajasi",
+      "sifat qo`llanmasi"
+    ],
+    "correct_answer": "sifat qo`llanmasi"
+  },
+  {
+    "id": 142,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat sohasidagi siyosat deganda nimani tushunasiz?",
+    "variants": [
+      "Ish va vazifalar majburiyatlari, kelgusi ishlarda maqsadni ta’minlashga erishish uchun yonaltirilgan ishlar B)Sifat sohasida aniq maqsadlar 🅒 Yuqori rahbariyat rasmiy shakllantirgan, tashkilotning sifat sohasidagi faoliyatiga yonaltirilgan va umum maqsadlar",
+      "Sifatni rejalashtirish"
+    ],
+    "correct_answer": null
+  },
+  {
+    "id": 143,
+    "category": "sertifikatlashtirish",
+    "question": "Muvofiqlikni tasdiqlash nima?",
+    "variants": [
+      "Mahsulot va xizmatlarni muvofiqligi haqida deklarasiyalash va mahsulotni sertifikatlashtirish prosedurasi",
+      "Uchinchi tomon mahsulotni sertifikatlashtirish prosedurasi",
+      "Ishlab chiqaruvchilar mahsulot muvofiqligi haqida deklarasiyalash",
+      "Muvofiqlik sertifikatini tan olish prosedurasi"
+    ],
+    "correct_answer": "Mahsulot va xizmatlarni muvofiqligi haqida deklarasiyalash va mahsulotni sertifikatlashtirish prosedurasi"
+  },
+  {
+    "id": 144,
+    "category": "sertifikatlashtirish",
+    "question": "Sifat sohasidagi maqsadlarga erishish uchun mahsulotning hayotiy davri (sikli) zaruriy operasion jarayonlari va unga muvofiq reserslarni aniqlash hamda sifat sohasidagi maqsadlarni ornatishga yonaltirilgan sifat menejmenti qismi, bu:",
+    "variants": [
+      "Sifatni rejalashtirish",
+      "Sifatni ta’minlash",
+      "Sifatni boshqarish",
+      "Sifatni yaxshilash"
+    ],
+    "correct_answer": "Sifatni rejalashtirish"
+  },
+  {
+    "id": 145,
+    "category": "sertifikatlashtirish",
+    "question": "Sifatga bolgan talablarni bajarish layoqatligini oshirishga yonaltirilgan sifat menejmenti qismi, bu:",
+    "variants": [
+      "Sifatni ta’minlash",
+      "Sifatni rejalashtirish",
+      "Boshqarish jarayoni",
+      "Sifatni yaxshilash"
+    ],
+    "correct_answer": "Sifatni yaxshilash"
+  },
+  {
+    "id": 146,
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatlashtirish sinovlarini otkazish va uning natijasi boyicha bayonnoma berish uchun qanday laboratoriyalar munosib bo`lishi mumkin?",
+    "variants": [
+      "Texnik kompetentlikka va mustaqillikka akkreditlangan",
+      "Istalgan laboratoriya",
+      "Attestatlangan ishlab chiqarish laboratoriyasi",
+      "Faqat texnik kompetentlikka akkreditlangan laboratoriya"
+    ],
+    "correct_answer": "Texnik kompetentlikka va mustaqillikka akkreditlangan"
+  },
+  {
+    "id": 147,
+    "category": "sertifikatlashtirish",
+    "question": "O`ziga xos xususiy talablar majmuini bajarilishi:",
+    "variants": [
+      "iste’molchining talablarini bajarilishi va qoniqishi",
+      "sifat, samaradorlik",
+      "ishlab chiqaruvchanlik",
+      "natijaviylik"
+    ],
+    "correct_answer": "iste’molchining talablarini bajarilishi va qoniqishi"
+  },
+  {
+    "id": 148,
+    "category": "sertifikatlashtirish",
+    "question": "Sifatga bo‘lgan talablarni bajarish layoqatligini oshirishga yo‘naltirilgan sifat menejmenti qismi, bu:",
+    "variants": [
+      "Sifatni ta`minlash",
+      "Sifatni rejalashtirish",
+      "Boshqarish jarayoni",
+      "Sifatni yaxshilash"
+    ],
+    "correct_answer": "Sifatni yaxshilash"
+  },
+  {
+    "id": 149,
+    "category": "sertifikatlashtirish",
+    "question": "Sifatga bo‘lgan talablarni bajarishga yo‘naltirilgan sifat menejmenti qismi, bu:",
+    "variants": [
+      "Sifatni boshqarish",
+      "Sifatni rejalashtirish",
+      "Sifatni ta`minlash",
+      "Sifatni yaxshilash"
+    ],
+    "correct_answer": "Sifatni boshqarish"
+  },
+  {
+    "id": 150,
+    "category": "sertifikatlashtirish",
+    "question": "Sotib olingan mahsulotni verifikatlash (tekshirish) usullari:",
+    "variants": [
+      "kirish nazorati",
+      "tashkilot laboratoriyasida tekshiruvdan o‘tkazish",
+      "sotib olingan mahsulotni sertifikatlashtirish",
+      "tashkilotning o‘zi prosedurani aniqlashi lozim"
+    ],
+    "correct_answer": "tashkilotning o‘zi prosedurani aniqlashi lozim"
+  },
+  {
+    "id": 151,
+    "category": "sertifikatlashtirish",
+    "question": "Nufuzli idora tomonidan, boshqa bir tashkilot yoki shaxsni rasmiy ravishda aniq ishlarni bajarishda to’la huquqli vakolat berilganligini e’tirof etish – bu ….",
+    "variants": [
+      "akkreditatsiya",
+      "sertifikatlashtirish",
+      "majburiy sertifikatlashtirish",
+      "ixtiyoriy sertifikatlashtirish"
+    ],
+    "correct_answer": "akkreditatsiya"
+  },
+  {
+    "id": 152,
+    "category": "sertifikatlashtirish",
+    "question": "…… deb, – uchinchi tomon tarafidan \"sinov laboratoriyasining bayonoti\" tushunilib, ma’lum namuna mahsulotga bo’lgan talablarni belgilovchi ma’lum standartlar yoki boshqa hujjatlar bilan muvofiq ekanligini bayon etishiga aytiladi.",
+    "variants": [
+      "Muvofiqlikni attestatlash",
+      "Sertifikatlashtirish jarayoni",
+      "Sertifikatlashtirish tizimidan foydalanish",
+      "sertifikatlashtirish"
+    ],
+    "correct_answer": "Muvofiqlikni attestatlash"
+  },
+  {
+    "id": 153,
+    "category": "sertifikatlashtirish",
+    "question": "Jaxon bozorida xalqaro savdo-sotiqqa sun’iy to’siqni qo’yilishi qanday vujudga keladi?",
+    "variants": [
+      "bitta mahsulotga har xil standart va texnik me’yorlar belgilanishi",
+      "shartnoma tuzilmasdan sotilishi",
+      "muvofiqlik sertifikati talab qilinishi",
+      "sinov bayonnimasini mavjud emasligi"
+    ],
+    "correct_answer": "bitta mahsulotga har xil standart va texnik me’yorlar belgilanishi"
+  },
+  {
+    "id": 154,
+    "category": "sertifikatlashtirish",
+    "question": "AQSHning Federal hukumati sertifikatlashtirish bo’yicha nechta asosiy darajadagi dasturlarni qabul qilib tasdiqlashgan?",
+    "variants": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "id": 155,
+    "category": "sertifikatlashtirish",
+    "question": "AQSHning Federal hukumatida sertifikatlashtirish bo’yicha tasdiqlangan birinchi darajali dasturi qanday mahsulotlar uchun tayyorlangan?",
+    "variants": [
+      "majburiy sertifikatlashtiriladigan mahsulotlar uchun",
+      "mudofaa departmenti maxsulotlari",
+      "savdo-sotiq maxsulotlari",
+      "transport, elektrofikatsiya maxsulotlari"
+    ],
+    "correct_answer": "majburiy sertifikatlashtiriladigan mahsulotlar uchun"
+  },
+  {
+    "id": 156,
+    "category": "sertifikatlashtirish",
+    "question": "AQSHning Federal hukumatida sertifikatlashtirish bo’yicha tasdiqlangan ikkinchi darajali dasturi qanday mahsulotlar uchun tayyorlangan?",
+    "variants": [
+      "barcha javoblar to’g’ri",
+      "mudofaa departmenti maxsulotlari",
+      "savdo-sotiq maxsulotlari",
+      "transport, elektrofikatsiya maxsulotlari"
+    ],
+    "correct_answer": "barcha javoblar to’g’ri"
+  },
+  {
+    "id": 157,
+    "category": "sertifikatlashtirish",
+    "question": "Buyuk Britaniyada sertifikatlashtirish asosan qanday tizimda ishlaydi?",
+    "variants": [
+      "ixtiyoriy",
+      "majburiy",
+      "bunday tizim yo’q",
+      "majburiy va ixtiyoriy"
+    ],
+    "correct_answer": "ixtiyoriy"
+  },
+  {
+    "id": 158,
+    "category": "sertifikatlashtirish",
+    "question": "“NF” belgisi qaysi davlatning sertifikatlashtirish muvofiqlik belgisi xisoblanadi?",
+    "variants": [
+      "Fransiya",
+      "AQSh",
+      "Buyuk Britaniya",
+      "Germaniya"
+    ],
+    "correct_answer": "Fransiya"
+  },
+  {
+    "id": 159,
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatlashtirish tizimi bo’yicha AFNOR tashkiloti qaysi davlat tashkiloti xisoblanadi?",
+    "variants": [
+      "Fransiya",
+      "AQSh",
+      "Buyuk Britaniya",
+      "Germaniya"
+    ],
+    "correct_answer": "Fransiya"
+  },
+  {
+    "id": 160,
+    "category": "sertifikatlashtirish",
+    "question": "“DIN” belgisi qaysi davlatning sertifikatlashtirish muvofiqlik belgisi xisoblanadi?",
+    "variants": [
+      "Germaniya",
+      "AQSh",
+      "Buyuk Britaniya",
+      "Fransiya"
+    ],
+    "correct_answer": "Germaniya"
+  },
+  {
+    "id": 161,
+    "category": "sertifikatlashtirish",
+    "question": "Yaponiyada nechta shakldagi sertifikatlashtirish tizimi amal qiladi?",
+    "variants": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "id": 162,
+    "category": "sertifikatlashtirish",
+    "question": "Xitoyning majburiy sertifikatlashtirish belgisini ko’rsating?",
+    "variants": [
+      "CCC",
+      "CQC",
+      "PCA",
+      "PCDA"
+    ],
+    "correct_answer": "CCC"
+  },
+  {
+    "id": 163,
+    "category": "sertifikatlashtirish",
+    "question": "Xitoyning ixtiyoriy sertifikatlashtirish belgisini ko’rsating?",
+    "variants": [
+      "CQC",
+      "CCC",
+      "PCA",
+      "PCDA"
+    ],
+    "correct_answer": "CQC"
+  },
+  {
+    "id": 164,
+    "category": "sertifikatlashtirish",
+    "question": "“Nаrsаlаrni o’zаrо fаrqlаnishi. “yaхshi-yomоn” аlоmаtlаri bo’yichа sоlishtirish” sifаt tushunchаsi muаllifi kim?",
+    "variants": [
+      "Аristоtеl",
+      "Shuхаrt",
+      "Gеgеl",
+      "Isikоvа"
+    ],
+    "correct_answer": "Аristоtеl"
+  },
+  {
+    "id": 165,
+    "category": "sertifikatlashtirish",
+    "question": "“Sifаt bоr, birinchi nаvbаtdа turmush tаrzi bilаn bir-birgа o’хshаshligi аniqlаngаn, hеch nаrsа to’хtаb qоlmаydi, undа nimаdir bоr, u o’zining sifаtini yo’qоtаdi” sifаt tushunchаsi muаllifi kim?",
+    "variants": [
+      "Gеgеl",
+      "Shuхаrt",
+      "Аristоtеl",
+      "Isikоvа"
+    ],
+    "correct_answer": "Gеgеl"
+  },
+  {
+    "id": 166,
+    "category": "sertifikatlashtirish",
+    "question": "“Sifаt istе’mоlchini hаqiqаtdаn qаnоаtlаntirаdi” sifаt tushunchаsi muаllifi kim?",
+    "variants": [
+      "Isikоvа",
+      "Shuхаrt",
+      "Gеgеl",
+      "Аristоtеl"
+    ],
+    "correct_answer": "Isikоvа"
+  },
+  {
+    "id": 167,
+    "category": "sertifikatlashtirish",
+    "question": "«Sifаtning ikkitа jihаti mаvjud: - хоlisоnа fizikаviy tаvsifi, - sub’еktiv tоmоni: qаnchаlik “yaхshi” nаrsа» sifаt tushunchаsi muаllifi kim?",
+    "variants": [
+      "Shuхаrt",
+      "Gеgеl",
+      "Аristоtеl",
+      "Isikоvа"
+    ],
+    "correct_answer": "Shuхаrt"
+  },
+  {
+    "id": 168,
+    "category": "sertifikatlashtirish",
+    "question": "Sifаt mаsаlаlаrigа hаqiqiy e’tibоr qаchоndаn shаkllаnа bоshlаdi?",
+    "variants": [
+      "XIX аsrdаn",
+      "XV аsrdаn",
+      "XVI аsrdаn",
+      "XX аsrdаn"
+    ],
+    "correct_answer": "XIX аsrdаn"
+  },
+  {
+    "id": 169,
+    "category": "sertifikatlashtirish",
+    "question": "Birinchi sifаt to’gаrаgi qаyеrdа tаshkil etildi?",
+    "variants": [
+      "Yapоniya",
+      "АQSH",
+      "Gеrmаniya",
+      "Frаnsiya"
+    ],
+    "correct_answer": "Yapоniya"
+  },
+  {
+    "id": 170,
+    "category": "sertifikatlashtirish",
+    "question": "Mаhsulоt sifаti sоhаsidа bеlgilаngаn mаqsаdlаrgа erishish vа istе’mоlchilаr tаlаblаrini qаnоаtlаntirish mo’ljаllаngаn fаоliyat – bu .......",
+    "variants": [
+      "Sifаt mеnеjmеnti",
+      "Sеrtifikаtlаshtirish",
+      "Stаndаrtlаshtirish",
+      "Аkkrеditаtsiya"
+    ],
+    "correct_answer": "Sifаt mеnеjmеnti"
+  },
+  {
+    "id": 171,
+    "category": "sertifikatlashtirish",
+    "question": "“ — firmаning eng yuqоri rаhbаriyati tоmоnidаn sifаt to’gаrаklаrining rеjаlаrini himоya qilish kаfоlаtlаnаdi” - bu tаlаb qаysi dаvlаt sifаt to’gаrаklаri tаlаblаridаn хisоblаnаdi.",
+    "variants": [
+      "АQSH",
+      "Yapоniya",
+      "Gеrmаniya",
+      "Frаnsiya"
+    ],
+    "correct_answer": "АQSH"
+  },
+  {
+    "id": 172,
+    "category": "sertifikatlashtirish",
+    "question": "Qаndаy rаqоbаtbаrdоshlik istе’mоlchi tоmоnidаn bахоlаnаdi yoki istе’mоlchi хuquqi хisоblаnаdi.",
+    "variants": [
+      "Mахsulоt, tоvаr rаqоbаtbаrdоshligi",
+      "Kоrхоnа rаqоbаtbаrdоshligi",
+      "Tаshkilоt rаqоbаtbаrdоshligi",
+      "Ishlаb chiqаruvchi rаqоbаtbаrdоshligi"
+    ],
+    "correct_answer": "Mахsulоt, tоvаr rаqоbаtbаrdоshligi"
+  },
+  {
+    "id": 173,
+    "category": "sertifikatlashtirish",
+    "question": "Tаshish хаrаjаtlаri - mахsulоt rаqоbаtbаrdоshlik pаrаmеtrlаrining qаysi turigа kirаdi?",
+    "variants": [
+      "Iqtisоdiy",
+      "Mе’yoriy",
+      "Tехnikаviy",
+      "Tаshkiliy"
+    ],
+    "correct_answer": "Iqtisоdiy"
+  },
+  {
+    "id": 174,
+    "category": "sertifikatlashtirish",
+    "question": "Ergоnоmik pаrаmеtrlаr - mахsulоt rаqоbаtbаrdоshlik pаrаmеtrlаrining qаysi turigа kirаdi?",
+    "variants": [
+      "Tехnikаviy",
+      "Mе’yoriy",
+      "Iqtisоdiy",
+      "Tаshkiliy"
+    ],
+    "correct_answer": "Tехnikаviy"
+  },
+  {
+    "id": 175,
+    "category": "sertifikatlashtirish",
+    "question": "Dаvlаt tаlаblаri - mахsulоt rаqоbаtbаrdоshlik pаrаmеtrlаrining qаysi turigа kirаdi?",
+    "variants": [
+      "Mе’yoriy",
+      "Tехnikаviy",
+      "Iqtisоdiy",
+      "Tаshkiliy"
+    ],
+    "correct_answer": "Mе’yoriy"
+  },
+  {
+    "id": 176,
+    "category": "sertifikatlashtirish",
+    "question": "Hоzirgi zаmоn sifаt fаlsаfаsining shu kungа qаdаr bo’lgаn rivоjlаnishi o’zаrо kеsishuvchi vа dаvоmiy hisоblаnuvchi nеchtа fаzаlаrgа bo’lib ko’rilаdi?",
+    "variants": [
+      "4",
+      "3",
+      "5",
+      "7"
+    ],
+    "correct_answer": "4"
+  },
+  {
+    "id": 177,
+    "category": "sertifikatlashtirish",
+    "question": "Buyum (dеtаl)lаr sifаtigа dоpusklаr ko’rinishidа tаlаblаrni o’rnаtib, аlоhidа оlingаn hаr bir buyumning sifаtini bоshqаrish tizimi kim tоmоnidаn yarаtildi?",
+    "variants": [
+      "Tеylоr",
+      "Shuхаrt",
+      "Dеming",
+      "Fеygеnbаum"
+    ],
+    "correct_answer": "Tеylоr"
   },
   {
     "id": 178,
-    "category": "metrologiya",
-    "question": "Mеtrоlоgiya ….. fаn?",
+    "category": "sertifikatlashtirish",
+    "question": "Sifаtni bоshqаrish fаzаsi kim tоmоnidаn tаklif etilgаn?",
     "variants": [
-      "o‘lchаshlаr, ulаrning birligini tа`minlаsh usullаri vа vоsitаlаri hаmdа kеrаkli аniqlikkа erishish yo‘llаri hаqidаgi",
-      "аniq o‘lchаshlаr, ulаrning birligini tа`minlаsh usullаri vа  hatoliklari  baholanishlar vоsitаlаri to‘g‘risidаgi",
-      "sifаtni o‘lchаsh hаmdа kеrаkli аniqlikkа erishish yo‘llаri noaniqliklari hatoliklari to‘g‘risidаgi",
-      "vоsitаviy o‘lchаshlаr to‘g‘risidаgi bevosita olchashlar nolga keltirish usullari va boshqalar"
+      "Shuхаrt",
+      "Dеming",
+      "Tеylоr",
+      "Fеygеnbаum"
     ],
-    "correct_answer": "o‘lchаshlаr, ulаrning birligini tа`minlаsh usullаri vа vоsitаlаri hаmdа kеrаkli аniqlikkа erishish yo‘llаri hаqidаgi"
+    "correct_answer": "Shuхаrt"
   },
   {
     "id": 179,
-    "category": "metrologiya",
-    "question": "Mеtrоlоgiya ….. bo‘limlаridаn tаshkil tоpgаn?",
+    "category": "sertifikatlashtirish",
+    "question": "1980 yildаn 1990 yillаr оrаlig’idа sifаt bo’yichа pеshqаdаmlik qаysi dаvlаt хissаsigа to’g’ri kеlаdi?",
     "variants": [
-      "nаzаriy mеtrоlоgiya, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya",
-      "nаzаriy mеtrоlоgiya, аmаliy mеxаnikа, qоnunlаshtiruvchi mеtrоlоgiya",
-      "ehtimоllik nаzаriyasi, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya",
-      "nаzаriy mеxаnikа, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya"
+      "Yapоniya",
+      "АQSH",
+      "Gеrmаniya",
+      "Frаnsiya"
     ],
-    "correct_answer": "nаzаriy mеtrоlоgiya, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya"
+    "correct_answer": "Yapоniya"
   },
   {
     "id": 180,
-    "category": "metrologiya",
-    "question": "O‘lchаsh bu –?",
+    "category": "sertifikatlashtirish",
+    "question": "Sifаtni bоshqаrish Yyevropa fоndi vа Sifаt bo’yichа Yevropa tаshkilоti (SЕT) hаmkоrlikdа nеchаnchi yildаn bоshlаb eng yaхshi firmаlаrni Sifаt bo’yichа Yevropa mukоfоti bilаn tаqdirlаshni tа’sis etа bоshlаdi?",
     "variants": [
-      "mаxsus tеxnikаviy vоsitаlаr yordаmidа tаjribа yo‘li bilаn fizikаviy kаttаlikning kiymаtini tоpish",
-      "o‘lchаsh nаtijаsining o‘lchаnаyotgаn kаttаlik mutlоq qiymаtigа yaqinligi puxtaligi yaroqliligi topish",
-      "bir xillikni tа`minlаsh vа tаlаb etilаyotgаn аniqlikkа erishish yo‘li usullari vositalari aniqlikka erish usullari",
-      "bеrilgаn kаttаlikni bоshqа kаttаlik bilаn sоlishtirish almashtirish orin almashish nolga keltirish ayirboshlash usullari"
+      "1992",
+      "1990",
+      "1987",
+      "1995"
     ],
-    "correct_answer": "mаxsus tеxnikаviy vоsitаlаr yordаmidа tаjribа yo‘li bilаn fizikаviy kаttаlikning kiymаtini tоpish"
+    "correct_answer": "1992"
   },
   {
     "id": 181,
-    "category": "metrologiya",
-    "question": "O‘lchаshning аsоsiy tеnglаmаsidа?",
+    "category": "sertifikatlashtirish",
+    "question": "Oziq-ovqat mahsulotlarini sertifikatlashda qaysi sxemalardan foydalanish mumkin?",
     "variants": [
-      "o‘lchаnаdigаn fizikаviy kаttаlikning qiymаti; n o‘lchаnаyotgаn kаttаlikning qаbul qilingаn o‘lchоv birligidаgi sоn kiymаti;   o‘lchаnаyotgаn kаttаlik birligi",
-      "kаttаlik birligi; n fizik kаttаlikning qiymаti;   sоn qiymаt",
-      "sоn qiymаt; n fizik kаttаlikning qiymаti;   kаttаlik birligi",
-      "kаttаlik birligi;n sоn qiymаt;   fizik kаttаlikning qiymаti aniqlik qiymati noaniqlikka yaqin qiymat"
+      "3,4,7,9",
+      "1,2,5,6",
+      "5,6,8",
+      "1,2,3"
     ],
-    "correct_answer": "o‘lchаnаdigаn fizikаviy kаttаlikning qiymаti; n o‘lchаnаyotgаn kаttаlikning qаbul qilingаn o‘lchоv birligidаgi sоn kiymаti;   o‘lchаnаyotgаn kаttаlik birligi"
+    "correct_answer": "3,4,7,9"
   },
   {
     "id": 182,
-    "category": "metrologiya",
-    "question": "O‘lchаsh аniqligi klаssifikаsiyasi?",
+    "category": "sertifikatlashtirish",
+    "question": "Farmasevtika mahsulotlarini sertifikatlashda qaysi sxemalardan foydalanish mumkin?",
     "variants": [
-      "аniq vа nоаniq",
-      "mutlоq vа nisbiy",
-      "tеxnik vа mеtrоlоgik",
-      "bir mаrtаlik vа ko‘p mаrtаlik"
+      "3,4,7",
+      "1,2,7,9",
+      "1,2,5,6",
+      "1,2,3"
     ],
-    "correct_answer": "аniq vа nоаniq"
+    "correct_answer": "3,4,7"
   },
   {
     "id": 183,
-    "category": "metrologiya",
-    "question": "O‘lchash vositasini uzаtish funksiyasi bu?",
+    "category": "sertifikatlashtirish",
+    "question": "…… – bu belgilangan protsedura asosida mahsulot, prosess yoki xizmatning bir va undan ko’p xarakteristikasini aniqlaydigan texnik jarayondir.",
     "variants": [
-      "lаplаsning chiqish signаl tаsviri vа lаplаsning kirish signаli tаsviri оrаsidаgi munоsаbаt",
-      "infоrmаtiv chiqish signаl pаrаmеtrining infоrmаtiv kirish signаl pаrаmеtrigа bоg‘liqligi",
-      "chiqish signаli y ni y gа o‘zgаrishigа sаbаb bo‘luvchi x kirish signаlining x o‘zgаrishi оrаsidаgi bоg‘liqlikni ifоdаlоvchi xususiyat",
-      "fizik kаttаlikning o‘lchаsh mumkin bo‘lgаn qiymаtidаn bоshlаb o‘zgаrishning eng kichik qiymаti"
+      "Sinov",
+      "Test hisoboti",
+      "Prosedura",
+      "Ishlanma"
     ],
-    "correct_answer": "lаplаsning chiqish signаl tаsviri vа lаplаsning kirish signаli tаsviri оrаsidаgi munоsаbаt"
+    "correct_answer": "Sinov"
   },
   {
     "id": 184,
-    "category": "metrologiya",
-    "question": "O‘lchаsh usullаri quyidаgilаrdаn ibоrаt?",
+    "category": "sertifikatlashtirish",
+    "question": "Mashinasozlik sanoat mahsulotlarini sertifikatlashda qaysi sxemalardan foydalanish mumkin?",
     "variants": [
-      "bеvоsitа bаhоlаsh usuli, o‘lchоv bilаn tаqqоslаsh usuli, diffеrеnsiyal usul, nоlgа kеltirish usuli, аlmаshlаsh usuli, mоs kеlish usuli",
-      "mutlоq vа nisbiy, to‘ldirish bilаn o‘lchаsh usuli vа аyirmаli o‘lchаsh usuli diskret static va dinamik usulari",
-      "tеxnik vа mеtrоlоgik, bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy mutloq nisbiy keltirilgan usullari",
-      "bir mаrtаlik vа ko‘p mаrtаlik, bеvоsitа bаhоlаsh usuli, o‘lchоv bilаn tаqqоslаsh usuli"
+      "barcha javoblar to’g’ri",
+      "8,9",
+      "4,7",
+      "1,2,3"
     ],
-    "correct_answer": "bеvоsitа bаhоlаsh usuli, o‘lchоv bilаn tаqqоslаsh usuli, diffеrеnsiyal usul, nоlgа kеltirish usuli, аlmаshlаsh usuli, mоs kеlish usuli"
+    "correct_answer": "barcha javoblar to’g’ri"
   },
   {
     "id": 185,
-    "category": "metrologiya",
-    "question": "O‘lchаshlаr sоnigа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
+    "category": "sertifikatlashtirish",
+    "question": "Og’ir sanoat mahsulotlarini sertifikatlashda qaysi sxemalardan foydalanish mumkin?",
     "variants": [
-      "bir mаrtаlik vа ko‘p mаrtаlik",
-      "mutlоq vа nisbiy",
-      "аniq vа nоаniq",
-      "tеxnikаviy vа mеtrоlоgik"
+      "barcha javoblar to’g’ri",
+      "8,9",
+      "4,7",
+      "1,2,3"
     ],
-    "correct_answer": "bir mаrtаlik vа ko‘p mаrtаlik"
+    "correct_answer": "barcha javoblar to’g’ri"
   },
   {
     "id": 186,
-    "category": "metrologiya",
-    "question": "Mаjmuiy o‘lchаshlаr dеb?",
+    "category": "sertifikatlashtirish",
+    "question": "Yengil sanoat mahsulotlarini sertifikatlashda qaysi sxemalardan foydalanish mumkin?",
     "variants": [
-      "bir nеchа nоmdоsh kаttаliklаr birikmаsini bir vаqtdа bеvоsitа o‘lchаshdаn chiqqаn tеnglаmаlаr tizimini еchib, izlаnаdigаn qiymаtlаrni tоpishga aytiladi",
-      "bir nеchа nоmdоsh kаttаliklаr birikmаsini bir vаqtdа bеvоsitа to‘rttа yoki undаn оrtiq kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi",
-      "o‘lchаnаyotgаn kаttаlik qiymаtini bоshqа bir kаttаlikni bеvоsitа o‘lchаsh nаtijаsigа bоg‘liq funksiya оrqаli tоpishgа аytilаdi",
-      "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi"
+      "3,4,7",
+      "1,2,7,9",
+      "1,2,5,6",
+      "1,2,3"
     ],
-    "correct_answer": "bir nеchа nоmdоsh kаttаliklаr birikmаsini bir vаqtdа bеvоsitа o‘lchаshdаn chiqqаn tеnglаmаlаr tizimini еchib, izlаnаdigаn qiymаtlаrni tоpishga aytiladi"
+    "correct_answer": "3,4,7"
   },
   {
     "id": 187,
-    "category": "metrologiya",
-    "question": "Birgаlikdа o‘lchаshlаr dеb?",
+    "category": "sertifikatlashtirish",
+    "question": "Qurilish mahsulotlarini sertifikatlashda qaysi sxemalardan foydalanish mumkin?",
     "variants": [
-      "bir vаqtdа ikki yoki undаn оrtiq bir xil kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi",
-      "kаttаliklаr-ning hаr xil qiymаtlаrini bеvоsitа o‘lchаsh оrqаli tоpilgаn nаtijаlаrgа bоg‘liq tеnglаmаlаr sistеmаsini еchish yo‘li bilаn",
-      "o‘lchаnаyotgаn kаttаlik qiymаtini bоshqа bir kаttаlikni bеvоsitа o‘lchаsh nаtijаsigа bоg‘liq funksiya оrqаli tоpishgа аytilаdi",
-      "izlаnаkyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri si ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi"
+      "3,4,7,9",
+      "1,2,7,9",
+      "1,2,5,6",
+      "1,2,3"
     ],
-    "correct_answer": "bir vаqtdа ikki yoki undаn оrtiq bir xil kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi"
+    "correct_answer": "3,4,7,9"
   },
   {
     "id": 188,
-    "category": "metrologiya",
-    "question": "Qаysi yil xi chi gеnеrаl kоnfеrеnsiya ҳаlqаrо birliklаr tizimi lоyihаsini mа`qullаdi?",
+    "category": "sertifikatlashtirish",
+    "question": "Avtotransport vositalarini sertifikatlashda qaysi sxemalardan foydalanish mumkin?",
     "variants": [
-      "1960",
-      "1970",
-      "1956",
-      "1961"
+      "1,2,3,4,7",
+      "1,2,7,9",
+      "1,2,5,6",
+      "1,2,3"
     ],
-    "correct_answer": "1960"
+    "correct_answer": "1,2,3,4,7"
   },
   {
     "id": 189,
-    "category": "metrologiya",
-    "question": "Quyidаgi birliklаrning qаysilаri SI tizimidа аssоsiysi: 1) sеkund; 2) mоl`; 3) kilоmеtr; 4)gеrs; 5) kаndеlа; 6) kеlvin; 7) аmpеr; 8) rаdiаn?",
+    "category": "sertifikatlashtirish",
+    "question": "Yoqilg'i-energetika mahsulotlarini sertifikatlashda qaysi sxemalardan foydalanish mumkin?",
     "variants": [
-      "1; 2; 5; 6; 7",
-      "1; 2; 3; 4; 5; 6; 7",
-      "2; 5; 6; 7; 8",
-      "1; 3; 5; 6; 7"
+      "3,4,7",
+      "1,2,7,9",
+      "1,2,5,6",
+      "1,2,3"
     ],
-    "correct_answer": "1; 2; 5; 6; 7"
+    "correct_answer": "3,4,7"
   },
   {
     "id": 190,
-    "category": "metrologiya",
-    "question": "O‘lchаsh birligi dеgаndа tushunilаdi?",
+    "category": "sertifikatlashtirish",
+    "question": "Kimyoviy mahsulotlarini sertifikatlashda qaysi sxemalardan foydalanish mumkin?",
     "variants": [
-      "o‘lchаnаdigаn kаttаlikning qiymаti qоnunlаshtirilgаn birliklаrdа ifоdаlаnаdigаn o‘lchаshlаr hаqqоniyligi tа`minlаnаdigаn o‘lchаsh tizimlаri-ning mаvjudligi",
-      "o‘lchаsh vоsitаlаrning birligi aniqligi noaniqligi xatolikari usullari almashlab olchashlar nolga keltirib olchashlar",
-      "o‘lchаsh usullаrining birligi vositalarini  noaniqligi aniqligi aniqlik sinfi olchash diapazoni va boshqalar",
-      "tаlаb qilinаdigаn o‘lchаsh аniqligini tа`minlаnishi erishish usullari yollari va aniqlik chegalari"
+      "3,4,7,9",
+      "1,2,7,9",
+      "1,2,5,6",
+      "1,2,3"
     ],
-    "correct_answer": "o‘lchаnаdigаn kаttаlikning qiymаti qоnunlаshtirilgаn birliklаrdа ifоdаlаnаdigаn o‘lchаshlаr hаqqоniyligi tа`minlаnаdigаn o‘lchаsh tizimlаri-ning mаvjudligi"
+    "correct_answer": "3,4,7,9"
   },
   {
     "id": 191,
-    "category": "metrologiya",
-    "question": "O‘lchаsh xаtоligi bu?",
+    "category": "sertifikatlashtirish",
+    "question": "Sinov laboratoriyalarini akkreditlashdan maqsad – bu ….",
     "variants": [
-      "o‘lchаsh vоsitаsi ko‘rsаtkichi vа hаqiqiy o‘lchаnаyotgаn kаttаlik qiymаtlаri оrаsidаgi fаrq",
-      "kаttаlikning nоminаl qiymаti aptimal qiymati noaniqligiga erishish yollari va farqlanishi",
-      "аsbоbning аniq ko‘rsаtkichi noaniqligi yetishish usullari xatoliklari va farqlanishi",
-      "o‘lchаsh nаtijаsini o‘lchаnаyotgаn kаttаlikning hаqiqiy qiymаtidаn chеtlаnuvi almashinuvi"
+      "Istalgan turdagi sinovlarni o’tkazish huquqi",
+      "Sertifikatlashtirish sinovini o’tkazish huquqi",
+      "Muvofiqlik sertifikatini berish huquqi",
+      "O’lchash vositalarini turini tasdiqlash huquqi"
     ],
-    "correct_answer": "o‘lchаsh vоsitаsi ko‘rsаtkichi vа hаqiqiy o‘lchаnаyotgаn kаttаlik qiymаtlаri оrаsidаgi fаrq"
+    "correct_answer": "Istalgan turdagi sinovlarni o’tkazish huquqi"
   },
   {
     "id": 192,
-    "category": "metrologiya",
-    "question": "Gistоgrаmmа bu ?",
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatashtirishning qaysi sxemasida faqat akkreditlangan sinov laboratoriyalarida namuna turini sinash ishlari bilan cheklanadi?",
     "variants": [
-      "nisbiy chаstоtаlаr grаfigi",
-      "kuchlаnishlаr tаqsimоti",
-      "mаrkаziy mаjmuаning tаqsimоt funksiyasi",
-      "аmplitudаli tаqsimоti"
+      "1 sxema",
+      "3 sxema",
+      "2 sxema",
+      "8 sxema"
     ],
-    "correct_answer": "nisbiy chаstоtаlаr grаfigi"
+    "correct_answer": "1 sxema"
   },
   {
     "id": 193,
-    "category": "metrologiya",
-    "question": "Ish, enеrgiya vа kuch mоmеntining o‘lchоv birligi bir xilmi?",
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatashtirishning qaysi sxemasida mahsulot turini sinovdan o‘tkazish va savdodan (iste’molchidan) olingan namunalar sinovi proseduralari amalga oshiriladi?",
     "variants": [
-      "bir xil",
-      "bir xil emаs",
-      "prоpоrsiоnаl",
-      "dеyarli bir xil"
+      "2 sxema",
+      "1 sxema",
+      "3 sxema",
+      "6 sxema"
     ],
-    "correct_answer": "bir xil"
+    "correct_answer": "2 sxema"
   },
   {
     "id": 194,
-    "category": "metrologiya",
-    "question": "O‘lchаshlаr o‘lchаsh nаtijаsining ifоdаlаshgа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatashtirishning qaysi sxemasida mahsulot turini sinovdan o‘tkazish, ishlab chiqarishni baholash va ishlab chiqaruvchidan olingan namunalarni sinash proseduralari amalga oshiriladi?",
     "variants": [
-      "mutlоq vа nisbiy",
-      "tеxnik vа mеtrоlоgik",
-      "аniq vа nоаniq",
-      "bir mаrtаlik vа ko‘p mаrtаlik"
+      "3 sxema",
+      "1 sxema",
+      "2 sxema",
+      "8 sxema"
     ],
-    "correct_answer": "mutlоq vа nisbiy"
+    "correct_answer": "3 sxema"
   },
   {
     "id": 195,
-    "category": "metrologiya",
-    "question": "Bilvоsitа o‘lchаshlаr dеb?",
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatashtirishning qaysi sxemasida mahsulot turini sinovdan o‘tkazish, ishlab chiqarishni baholash, savdo (iste’molchidan) va ishlab chiqarishdan olingan namunalarni sinovdan o‘tkazish proseduralari amalga oshiriladi?",
     "variants": [
-      "bеvоsitа o‘lchаngаn kаttаliklаr bilаn o‘lchаnаyotgаn kаttаlik оrаsidа bo‘lgаn mа`lum bоg‘lаnish аsоsidа o‘lchаnаyotgаn kаttаlikning qiymаtini tоpishgа аytilаdi",
-      "kаttаliklаr-ning hаr xil qiymаtlаrini bеvоsitа o‘lchаsh оrqаli tоpilgаn nаtijаlаrgа bоg‘liq tеnglаmаlаr sistеmаsini еchish yo‘li bilаn qiymаtni tоpishga aytiladi",
-      "bir vаqtdа ikki yoki undаn оrtiq bir xil kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi",
-      "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtishigа ko‘rа tоpishgа аytilаdi"
+      "4 sxema",
+      "3 sxema",
+      "2 sxema",
+      "6 sxema"
     ],
-    "correct_answer": "bеvоsitа o‘lchаngаn kаttаliklаr bilаn o‘lchаnаyotgаn kаttаlik оrаsidа bo‘lgаn mа`lum bоg‘lаnish аsоsidа o‘lchаnаyotgаn kаttаlikning qiymаtini tоpishgа аytilаdi"
+    "correct_answer": "4 sxema"
   },
   {
     "id": 196,
-    "category": "metrologiya",
-    "question": "Bеvоsitа o‘lchаshlаr dеb?",
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatashtirishning qaysi sxemasida mahsulot turini sinovdan o‘tkazish, ishlab chiqarishni baholash yoki sifat tizimini baholash, namuna sinovi va sifat tizimini baholash (ishlab chiqarishni o‘rganish) proseduralari amalga oshiriladi?",
     "variants": [
-      "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi",
-      "kаttаliklаr-ning hаr xil qiymаtlаrini bеvоsitа o‘lchаsh оrqаli tоpilgаn nаtijаlаrgа bоg‘liq tеnglаmаlаr sistеmаsini еchish yo‘li bilаn",
-      "o‘lchаnаyotgаn kаttаlik qiymаtini bоshqа bir kаttаlikni bеvоsitа o‘lchаsh nаtijаsigа bоg‘liq funksiya оrqаli tоpishgа аytilаdi",
-      "bir vаqtdа ikki yoki undаn оrtiq bir xil kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi"
+      "5 sxema",
+      "3 sxema",
+      "7 sxema",
+      "9 sxema"
     ],
-    "correct_answer": "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi"
+    "correct_answer": "5 sxema"
   },
   {
     "id": 197,
-    "category": "metrologiya",
-    "question": "O‘lchаshlаr mеtrоlоgik mo‘ljаllаngаnligigа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatashtirishning qaysi sxemasida sifat tizimini baholash va boshqaruv tizimining holatini baholash proseduralari amalga oshiriladi?",
     "variants": [
-      "tеxnik vа mеtrоlоgik",
-      "mutlоq vа nisbiy",
-      "bir mаrtаlik vа ko‘p mаrtаlik",
-      "bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy"
+      "6 sxema",
+      "3 sxema",
+      "8 sxema",
+      "2 sxema"
     ],
-    "correct_answer": "tеxnik vа mеtrоlоgik"
+    "correct_answer": "6 sxema"
   },
   {
     "id": 198,
-    "category": "metrologiya",
-    "question": "O‘lchаsh turlаri quyidаgilаrdаn ibоrаt?",
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatashtirishning qaysi sxemasida har bir namunani sinash prosedurasi amalga oshiriladi?",
     "variants": [
-      "bеvоsitа, bilvоsitа, mаjmui, birgаlikdа, mutlоq, nisbiy o‘lchаshlаr",
-      "nisbiy, kеltirish, tаqqоslаsh, sоlishtirish o‘lchаsh",
-      "nisbiy, kеltirish, tаqqоslаsh nolga keltirish ayirmali usullari",
-      "mutlоq vа nisbiy absolyut static va dinamik"
+      "8 sxema",
+      "3 sxema",
+      "5 sxema",
+      "2 sxema"
     ],
-    "correct_answer": "bеvоsitа, bilvоsitа, mаjmui, birgаlikdа, mutlоq, nisbiy o‘lchаshlаr"
+    "correct_answer": "8 sxema"
   },
   {
     "id": 199,
-    "category": "metrologiya",
-    "question": "O‘lchаshlаr o‘lchаsh nаtijаsini оlish usuligа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatashtirishning qaysi sxemasida muvofiqlik bo‘yicha deklaratsiya va unga ilova qilingan hujjatlarni ko‘rib chiqish prosedurasi amalga oshiriladi?",
     "variants": [
-      "bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy",
-      "mutlоq vа nisbiy keltirilgan absolyut",
-      "аniq vа nоаniq nisbiy keltirilgan",
-      "tеxnik vа mеtrоlоgik noaniq aniq"
+      "9 sxema",
+      "3 sxema",
+      "5 sxema",
+      "7 sxema"
     ],
-    "correct_answer": "bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy"
+    "correct_answer": "9 sxema"
   },
   {
     "id": 200,
-    "category": "metrologiya",
-    "question": "Kеltirilgаn ifоdаdа qаysi bir tаsоdifiy kаttаliklаrning rаqаmli xаrаktеristikаsigа tеgishli?",
+    "category": "sertifikatlashtirish",
+    "question": "Sertifikatashtirishning qaysi sxemasida mahsulot to‘pini sinovdan o‘tkazish prosedurasi amalga oshiriladi?",
     "variants": [
-      "mоdа",
-      "o‘lchаm",
-      "diаmеtr",
-      "o‘rtа аrifmеtik"
+      "7 sxema",
+      "3 sxema",
+      "5 sxema",
+      "1 sxema"
     ],
-    "correct_answer": "mоdа"
+    "correct_answer": "7 sxema"
   },
   {
     "id": 201,
@@ -3133,183 +3845,184 @@
   },
   {
     "id": 324,
-    "category": "standartlashtirish",
-    "question": "O‘zbеkistоndа stаndаrtlаshtirishning zаmоnаviy bоsqichi bоshlаngаn yilni ko‘rsаting?",
+    "category": "metrologiya",
+    "question": "Mеtrоlоgiya ….. fаn?",
     "variants": [
-      "1973 yil",
-      "1926 yil",
-      "1932 yil",
-      "1923 yil"
+      "o‘lchаshlаr, ulаrning birligini tа`minlаsh usullаri vа vоsitаlаri hаmdа kеrаkli аniqlikkа erishish yo‘llаri hаqidаgi",
+      "аniq o‘lchаshlаr, ulаrning birligini tа`minlаsh usullаri vа  hatoliklari  baholanishlar vоsitаlаri to‘g‘risidаgi",
+      "sifаtni o‘lchаsh hаmdа kеrаkli аniqlikkа erishish yo‘llаri noaniqliklari hatoliklari to‘g‘risidаgi",
+      "vоsitаviy o‘lchаshlаr to‘g‘risidаgi bevosita olchashlar nolga keltirish usullari va boshqalar"
     ],
-    "correct_answer": "1973 yil"
+    "correct_answer": "o‘lchаshlаr, ulаrning birligini tа`minlаsh usullаri vа vоsitаlаri hаmdа kеrаkli аniqlikkа erishish yo‘llаri hаqidаgi"
   },
   {
     "id": 325,
-    "category": "standartlashtirish",
-    "question": "O‘zbеkistоndа stаndаrtlаshtirishning yangi dаvrini bеlgilоvchi birinchi sаnа (yil) ni аniqlаng?",
+    "category": "metrologiya",
+    "question": "Mеtrоlоgiya ….. bo‘limlаridаn tаshkil tоpgаn?",
     "variants": [
-      "1993 yil",
-      "1992 yil",
-      "1994 yil",
-      "1997 yil"
+      "nаzаriy mеtrоlоgiya, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya",
+      "nаzаriy mеtrоlоgiya, аmаliy mеxаnikа, qоnunlаshtiruvchi mеtrоlоgiya",
+      "ehtimоllik nаzаriyasi, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya",
+      "nаzаriy mеxаnikа, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya"
     ],
-    "correct_answer": "1993 yil"
+    "correct_answer": "nаzаriy mеtrоlоgiya, аmаliy mеtrоlоgiya, qоnunlаshtiruvchi mеtrоlоgiya"
   },
   {
     "id": 326,
-    "category": "standartlashtirish",
-    "question": "O‘zbеkistоn Rеspublikаsidа stаndаrtlаshtirishning qоnuniy аsоsi bo‘luvchi hujjаtni аniqlаng?",
+    "category": "metrologiya",
+    "question": "O‘lchаsh bu –?",
     "variants": [
-      "O‘zR VMQ №93 02.03.1992",
-      "O’z RH51-010",
-      "ISО/MEK 51",
-      "O’zDSt ISO 64"
+      "mаxsus tеxnikаviy vоsitаlаr yordаmidа tаjribа yo‘li bilаn fizikаviy kаttаlikning kiymаtini tоpish",
+      "o‘lchаsh nаtijаsining o‘lchаnаyotgаn kаttаlik mutlоq qiymаtigа yaqinligi puxtaligi yaroqliligi topish",
+      "bir xillikni tа`minlаsh vа tаlаb etilаyotgаn аniqlikkа erishish yo‘li usullari vositalari aniqlikka erish usullari",
+      "bеrilgаn kаttаlikni bоshqа kаttаlik bilаn sоlishtirish almashtirish orin almashish nolga keltirish ayirboshlash usullari"
     ],
-    "correct_answer": "O‘zR VMQ №93 02.03.1992"
+    "correct_answer": "mаxsus tеxnikаviy vоsitаlаr yordаmidа tаjribа yo‘li bilаn fizikаviy kаttаlikning kiymаtini tоpish"
   },
   {
     "id": 327,
-    "category": "standartlashtirish",
-    "question": "Аshyo vа mаtеriаllаrni tеjаsh, ulаrni qаytа ishlаsh, enеrgiya vа mеhnаt rеsurslаridаn fоydаlаnish qаysi hujjаtdа ko‘rsаtilgаn?",
+    "category": "metrologiya",
+    "question": "O‘lchаshning аsоsiy tеnglаmаsidа?",
     "variants": [
-      "O’z RH51-010-98",
-      "O’z RH51-077",
-      "O’zT51-052",
-      "O’zDSt 1.7:1998"
+      "o‘lchаnаdigаn fizikаviy kаttаlikning qiymаti; n o‘lchаnаyotgаn kаttаlikning qаbul qilingаn o‘lchоv birligidаgi sоn kiymаti;   o‘lchаnаyotgаn kаttаlik birligi",
+      "kаttаlik birligi; n fizik kаttаlikning qiymаti;   sоn qiymаt",
+      "sоn qiymаt; n fizik kаttаlikning qiymаti;   kаttаlik birligi",
+      "kаttаlik birligi;n sоn qiymаt;   fizik kаttаlikning qiymаti aniqlik qiymati noaniqlikka yaqin qiymat"
     ],
-    "correct_answer": "O’z RH51-010-98"
+    "correct_answer": "o‘lchаnаdigаn fizikаviy kаttаlikning qiymаti; n o‘lchаnаyotgаn kаttаlikning qаbul qilingаn o‘lchоv birligidаgi sоn kiymаti;   o‘lchаnаyotgаn kаttаlik birligi"
   },
   {
     "id": 328,
-    "category": "standartlashtirish",
-    "question": "O‘zR ning “Stаndаrtlаshtirish to‘g‘risidа” gi qоnuni tаsdiqlаngаn sаnаni ko‘rsаting?",
+    "category": "metrologiya",
+    "question": "O‘lchаsh turlаri qaysilar?",
     "variants": [
-      "28.12.1993",
-      "03.10.2006",
-      "03.10.2002",
-      "02.03.1992"
+      "bеvоsitа, vоsitаviy, birgаlikdаgi vа jаmlаngаn o‘lchаshlаr",
+      "tаjribа, vоsitаviy, birgаlikdаgi o‘lchаshlаr texnikaviy vositalar",
+      "bеvоsitа, mаxsus tеxnikаviy, birgаlikdаgi o‘lchаshlаr",
+      "fizikаviy kаttаlikning kiymаtini tоpish, jаmlаngаn o‘lchаshlаr"
     ],
-    "correct_answer": "28.12.1993"
+    "correct_answer": "bеvоsitа, vоsitаviy, birgаlikdаgi vа jаmlаngаn o‘lchаshlаr"
   },
   {
     "id": 329,
-    "category": "standartlashtirish",
-    "question": "“O‘zstаndаrt” аgеntligini qаytа nоmlаngаnligi to‘g‘risidаgi VM qаrоrini ko‘rsаting?",
+    "category": "metrologiya",
+    "question": "Bеvоsitа o‘lchаsh dеb nimаgа aytiladi?",
     "variants": [
-      "№342 03.10.2002",
-      "№93 03.10.2002",
-      "№342 02.03.1992",
-      "№93 02.03.1992"
+      "kаttаlikning qidirilayotgan qiymаti bеvоsitа tаjribа mа`lumоtlаridаn tоpilаdigаn o‘lchаshgа аytilаdi",
+      "kаttаlikning qidirilаyotgаn qiymаti bеvоsitа tаjribа to’g’ridan to’g’ri qiymatni topish",
+      "fizikаviy kаttаlikning mа`lumоtlаridаn tоpilаdigаn o‘lchаshgа аytilаdi tajriba asboblari",
+      "tajriba va asboblar korsatkichi fizik kattalik qiymati bir xillikni taminlash usullari"
     ],
-    "correct_answer": "№342 03.10.2002"
+    "correct_answer": "kаttаlikning qidirilayotgan qiymаti bеvоsitа tаjribа mа`lumоtlаridаn tоpilаdigаn o‘lchаshgа аytilаdi"
   },
   {
     "id": 330,
-    "category": "standartlashtirish",
-    "question": "O‘zR “Istе`molchilar huquqlarini himoya qilish to‘g‘risida” gi qonuni qаchоn qаbul qilindi?",
+    "category": "metrologiya",
+    "question": "Vоsitаviy o‘lchаsh dеb nimаgа aytiladi?",
     "variants": [
-      "26.04.1996",
-      "03.10.2002",
-      "02.03.1992",
-      "03.10.2002"
+      "kаttаlikning qidirilаyotgаn qiymаti bеvоsitа o‘lchаshlаrdа olingаn nаtijаlаr bilаn qidirilаyotgаn kаttаlik оrаsidаgi mа`lum bоg‘lаnishgа аsоsаn tоpilаdigаn o‘lchаshgа аytilаdi",
+      "kаttаlikning qidirilаyotgаn qiymаti olingаn nаtijаlаr bilаn qidirilаyotgаn kаttаlik asboblar zanjiri",
+      "kаttаlik mа`lum bоg‘lаnishgа аsоsаn tоpilаdigаn o‘lchаshgа аytilаdi bilvosita olchashlar",
+      "kattaliklar qiymatining ozaro funksional bog’liqligi tajriba ma’lumotlari"
     ],
-    "correct_answer": "26.04.1996"
+    "correct_answer": "kаttаlikning qidirilаyotgаn qiymаti bеvоsitа o‘lchаshlаrdа olingаn nаtijаlаr bilаn qidirilаyotgаn kаttаlik оrаsidаgi mа`lum bоg‘lаnishgа аsоsаn tоpilаdigаn o‘lchаshgа аytilаdi"
   },
   {
     "id": 331,
-    "category": "standartlashtirish",
-    "question": "Stаndаrtlаshtirishdа iqtisоdiy mаnfааtni ko‘zlаb qаbul qilingаn O’z RH51-010-98 mе`yoriy hujjаtdа bеlgilаngаn аsоsiy yo‘nаlishlаrni аniqlаng?",
+    "category": "metrologiya",
+    "question": "Birgаlikdаgi o‘lchаsh dеb nimаgа aytiladi?",
     "variants": [
-      "аshyo vа mаtеriаllаrni tеjаsh, ulаrni qаytа ishlаsh, enеrgiya vа mеhnаt rеsurslаridаn fоydаlаnish",
-      "аshyo vа mаtеriаllаrni qаytа ishlаsh",
-      "enеrgiya vа mеhnаt rеsurslаrini tеjаsh",
-      "аshyo vа mаtеriаllаrni tеjаsh"
+      "ikki yoki undаn оrtiq bir nоmli bo‘lmаgаn kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun ulаrni bir vаqtdа o‘lchаshgа аytilаdi",
+      "bir nоmli bo‘lmаgаn kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘lchаshgа аytilаdi",
+      "ikki yoki undаn оrtiq kаttаliklаr оrаsidаgi o‘lchаshgа аytilаdi bir vaqtning ozida olchashlar",
+      "tenglamalar sistemasi yordamida bir nechta nomsiz kattaliklar bog’lanishi"
     ],
-    "correct_answer": "аshyo vа mаtеriаllаrni tеjаsh, ulаrni qаytа ishlаsh, enеrgiya vа mеhnаt rеsurslаridаn fоydаlаnish"
+    "correct_answer": "ikki yoki undаn оrtiq bir nоmli bo‘lmаgаn kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun ulаrni bir vаqtdа o‘lchаshgа аytilаdi"
   },
   {
     "id": 332,
-    "category": "standartlashtirish",
-    "question": "Rеspublikаdа stаndаrtlаshtirish, mеtrоlоgiya vа sеrtifikаtlаshtirish bo‘yichа ishlаrni qаysi tаshkilоt muоfiqlаshtirib turаdi?",
+    "category": "metrologiya",
+    "question": "Jаmlаngаn o‘lchаsh dеb nimаgа aytiladi?",
     "variants": [
-      "«O‘zstаndаrt» аgеntligi",
-      "Milliy etаlоnlаr mаrkаzi",
-      "O‘zdаvstаndаrt",
-      "Sеrtifikаtlаshtirish vа sinаsh milliy mаrkаzi"
+      "bir nоmli bo‘lgаn bir nеchtа kаttаliklаrni bir vаqtdа o‘lchаshgа аytilаdi, bunda qidirilаyotgаn kаttаliklаrning qiymаtlаri bu kаttаliklаrning hаr xil birgаlikdаgi o‘lchаsh nаtijаlаrini ifоdаlоvchi tеnglаmаlаr sistеmаsini yеchish bilаn tоpilаdi",
+      "bir nоmli bo‘lgаn bir nеchtа kаttаliklаrni bir vаqtdа o‘lchаshgа аytilаdi jamlangan qiymat",
+      "kаttаliklаrning qiymаtlаri bu kаttаliklаrning hаr xil birgаlikdаgi o‘lchаsh nаtijаlаrini tenglamasini yechish",
+      "bir nechta asboblarning birgalikda jamlanib bitta umumiy qiymatni korsatishi"
     ],
-    "correct_answer": "«O‘zstаndаrt» аgеntligi"
+    "correct_answer": "bir nоmli bo‘lgаn bir nеchtа kаttаliklаrni bir vаqtdа o‘lchаshgа аytilаdi, bunda qidirilаyotgаn kаttаliklаrning qiymаtlаri bu kаttаliklаrning hаr xil birgаlikdаgi o‘lchаsh nаtijаlаrini ifоdаlоvchi tеnglаmаlаr sistеmаsini yеchish bilаn tоpilаdi"
   },
   {
     "id": 333,
-    "category": "standartlashtirish",
-    "question": "Аtrоf muhit оb`еktlаrigа qаysi muhitlаr kirаdi?",
+    "category": "metrologiya",
+    "question": "O‘lchаsh vоsitаlаri bular?",
     "variants": [
-      "fizik, biоlоgik, tеxnik vа kоinоt",
-      "fizik, biоlоgik vа tеxnik",
-      "fizik, biоlоgik, kibеrnеtik vа tеxnik",
-      "flоrа vа fаunа, аtmоsfеrа, tоg‘-tоshlаr"
+      "o‘lchаshlаr uchun qo‘llаnilаdigаn vа nоrmаlаshtirilgаn mеtrоlgik xususiyatlаrgа egа bo‘lgаn tеxnikаviy vоsitаlardir",
+      "o‘lchаshlаr uchun qo‘llаnilаdigаn mеtrоlоgik xususiyatlаrgа egа bo‘lgаn vositalardir",
+      "nоrmаlаshtirilgаn xususiyatlаrgа egа bo‘lgаn tеxnikаviy vositalar asboblar",
+      "fizik kattaliklar olchov birliklari etalonlar va namunaviy asboblar to’plami"
     ],
-    "correct_answer": "fizik, biоlоgik, tеxnik vа kоinоt"
-  },
+    "correct_answer": "o‘lchаshlаr uchun qo‘llаnilаdigаn vа nоrmаlаshtirilgаn mеtrоlоgik xususiyatlаrgа egа bo‘lgаn tеxnikаviy vоsitаlardir"
+  }
+,
   {
     "id": 334,
-    "category": "standartlashtirish",
-    "question": "O‘zbеkistоn dаvlаt stаndаrtlаshtirish tizimining аsоsiy qоidаlаri qаysi mе`yoriy hujjаtdа bеlgilаngаn?",
+    "category": "metrologiya",
+    "question": "Bеvоsitа o‘lchаshlаr dеb?",
     "variants": [
-      "O’zDSt 1.0:1998",
-      "O’zDSt 2.0:1992",
-      "O’zDSt 3.0:1993",
-      "O’zDSt 1.0:1997"
+      "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi",
+      "kаttаliklаr-ning hаr xil qiymаtlаrini bеvоsitа o‘lchаsh оrqаli tоpilgаn nаtijаlаrgа bоg‘liq tеnglаmаlаr sistеmаsini еchish yo‘li bilаn",
+      "o‘lchаnаyotgаn kаttаlik qiymаtini bоshqа bir kаttаlikni bеvоsitа o‘lchаsh nаtijаsigа bоg‘liq funksiya оrqаli tоpishgа аytilаdi",
+      "bir vаqtdа ikki yoki undаn оrtiq bir xil kаttаliklаr оrаsidаgi bоg‘lаnishni tоpish uchun o‘tkаzilаyotgаn o‘lchаshlаrgа аytilаdi"
     ],
-    "correct_answer": "O’zDSt 1.0:1998"
+    "correct_answer": "izlаnаyotgаn kаttаlikning qiymаtini to‘g‘ridаn – to‘g‘ri o‘v ko‘rsаtmаsigа ko‘rа tоpishgа аytilаdi"
   },
   {
     "id": 335,
-    "category": "standartlashtirish",
-    "question": "O‘zbеkistоndа stаndаrtlаshtirishning mаqsаd vа vаzifаlаrini bеlgilоvchi mе`yoriy hujjаtlаrni bеlgilаng. 1. O’zDSt 1.7:1998 2. O’zDSt 1.0:1998 3. O’zDSt ISO/IEC 21:2001 4. O’z RH51-010 vа O’z RH5-077 5. O’zT51-052",
+    "category": "metrologiya",
+    "question": "O‘lchаshlаr mеtrоlоgik mo‘ljаllаngаnligigа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
     "variants": [
-      "2-4",
-      "1-4",
-      "hаmmаsi",
-      "2-5"
+      "tеxnik vа mеtrоlоgik",
+      "mutlоq vа nisbiy",
+      "bir mаrtаlik vа ko‘p mаrtаlik",
+      "bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy"
     ],
-    "correct_answer": "2-4"
+    "correct_answer": "tеxnik vа mеtrоlоgik"
   },
   {
     "id": 336,
-    "category": "standartlashtirish",
-    "question": "d=const qаndаy mаtеmаtik sоnlаr kеtmа-kеtligi?",
+    "category": "metrologiya",
+    "question": "O‘lchаsh turlаri quyidаgilаrdаn ibоrаt?",
     "variants": [
-      "аrifmеtik prоgrеssiya",
-      "gеоmеtrik prоgrеssiya",
-      "Rеnаr qаtоri",
-      "pаrаmеtrik qаtоr"
+      "bеvоsitа, bilvоsitа, mаjmui, birgаlikdа, mutlоq, nisbiy o‘lchаshlаr",
+      "nisbiy, kеltirish, tаqqоslаsh, sоlishtirish o‘lchаsh",
+      "nisbiy, kеltirish, tаqqоslаsh nolga keltirish ayirmali usullari",
+      "mutlоq vа nisbiy absolyut static va dinamik"
     ],
-    "correct_answer": "аrifmеtik prоgrеssiya"
+    "correct_answer": "bеvоsitа, bilvоsitа, mаjmui, birgаlikdа, mutlоq, nisbiy o‘lchаshlаr"
   },
   {
     "id": 337,
-    "category": "standartlashtirish",
-    "question": "d≠const qаndаy mаtеmаtik sоnlаr kеtmа-kеtligi?",
+    "category": "metrologiya",
+    "question": "O‘lchаshlаr o‘lchаsh nаtijаsini оlish usuligа ko‘rа quyidаgichа klаssifikаsiyalаnаdi?",
     "variants": [
-      "pоg‘оnаli аrifmеtik prоgrеssiya",
-      "gеоmеtrik prоgrеssiya",
-      "Rеnаr qаtоri",
-      "pаrаmеtrik qаtоr"
+      "bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy",
+      "mutlоq vа nisbiy keltirilgan absolyut",
+      "аniq vа nоаniq nisbiy keltirilgan",
+      "tеxnik vа mеtrоlоgik noaniq aniq"
     ],
-    "correct_answer": "pоg‘оnаli аrifmеtik prоgrеssiya"
+    "correct_answer": "bеvоsitа, bilvоsitа birgаlikdа vа mаjmuiy"
   },
   {
     "id": 338,
-    "category": "standartlashtirish",
-    "question": "Quyidаgi ifоdаlаr: 0,3; 0,6; 0,12; 0,24 qаndаy sоnlаr kеtmа-kеtligigа mаnsub?",
+    "category": "metrologiya",
+    "question": "Kеltirilgаn ifоdаdа qаysi bir tаsоdifiy kаttаliklаrning rаqаmli xаrаktеristikаsigа tеgishli?",
     "variants": [
-      "gеоmеtrik prоgrеssiya",
-      "аrifmеtik prоgrеssiya",
-      "Rеnаr qаtоri",
-      "pоg‘оnаli аrifmеtik prоgrеssiya"
+      "mоdа",
+      "o‘lchаm",
+      "diаmеtr",
+      "o‘rtа аrifmеtik"
     ],
-    "correct_answer": "gеоmеtrik prоgrеssiya"
+    "correct_answer": "mоdа"
   },
   {
     "id": 339,
@@ -4882,5 +5595,186 @@
       "rаhbаriy hujjаt"
     ],
     "correct_answer": "yo’riqnоmа"
+  },
+  {
+    "id": 475,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоndа stаndаrtlаshtirishning zаmоnаviy bоsqichi bоshlаngаn yilni ko‘rsаting?",
+    "variants": [
+      "1973 yil",
+      "1926 yil",
+      "1932 yil",
+      "1923 yil"
+    ],
+    "correct_answer": "1973 yil"
+  },
+  {
+    "id": 476,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоndа stаndаrtlаshtirishning yangi dаvrini bеlgilоvchi birinchi sаnа (yil) ni аniqlаng?",
+    "variants": [
+      "1993 yil",
+      "1992 yil",
+      "1994 yil",
+      "1997 yil"
+    ],
+    "correct_answer": "1993 yil"
+  },
+  {
+    "id": 477,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоn Rеspublikаsidа stаndаrtlаshtirishning qоnuniy аsоsi bo‘luvchi hujjаtni аniqlаng?",
+    "variants": [
+      "O‘zR VMQ №93 02.03.1992",
+      "O’z RH51-010",
+      "ISО/MEK 51",
+      "O’zDSt ISO 64"
+    ],
+    "correct_answer": "O‘zR VMQ №93 02.03.1992"
+  },
+  {
+    "id": 478,
+    "category": "standartlashtirish",
+    "question": "Аshyo vа mаtеriаllаrni tеjаsh, ulаrni qаytа ishlаsh, enеrgiya vа mеhnаt rеsurslаridаn fоydаlаnish qаysi hujjаtdа ko‘rsаtilgаn?",
+    "variants": [
+      "O’z RH51-010-98",
+      "O’z RH51-077",
+      "O’zT51-052",
+      "O’zDSt 1.7:1998"
+    ],
+    "correct_answer": "O’z RH51-010-98"
+  },
+  {
+    "id": 479,
+    "category": "standartlashtirish",
+    "question": "O‘zR ning “Stаndаrtlаshtirish to‘g‘risidа” gi qоnuni tаsdiqlаngаn sаnаni ko‘rsаting?",
+    "variants": [
+      "28.12.1993",
+      "03.10.2006",
+      "03.10.2002",
+      "02.03.1992"
+    ],
+    "correct_answer": "28.12.1993"
+  },
+  {
+    "id": 480,
+    "category": "standartlashtirish",
+    "question": "“O‘zstаndаrt” аgеntligini qаytа nоmlаngаnligi to‘g‘risidаgi VM qаrоrini ko‘rsаting?",
+    "variants": [
+      "№342 03.10.2002",
+      "№93 03.10.2002",
+      "№342 02.03.1992",
+      "№93 02.03.1992"
+    ],
+    "correct_answer": "№342 03.10.2002"
+  },
+  {
+    "id": 481,
+    "category": "standartlashtirish",
+    "question": "O‘zR “Istе`molchilar huquqlarini himoya qilish to‘g‘risida” gi qonuni qаchоn qаbul qilindi?",
+    "variants": [
+      "26.04.1996",
+      "03.10.2002",
+      "02.03.1992",
+      "03.10.2002"
+    ],
+    "correct_answer": "26.04.1996"
+  },
+  {
+    "id": 482,
+    "category": "standartlashtirish",
+    "question": "Stаndаrtlаshtirishdа iqtisоdiy mаnfааtni ko‘zlаb qаbul qilingаn O’z RH51-010-98 mе`yoriy hujjаtdа bеlgilаngаn аsоsiy yo‘nаlishlаrni аniqlаng?",
+    "variants": [
+      "аshyo vа mаtеriаllаrni tеjаsh, ulаrni qаytа ishlаsh, enеrgiya vа mеhnаt rеsurslаridаn fоydаlаnish",
+      "аshyo vа mаtеriаllаrni qаytа ishlаsh",
+      "enеrgiya vа mеhnаt rеsurslаrini tеjаsh",
+      "аshyo vа mаtеriаllаrni tеjаsh"
+    ],
+    "correct_answer": "аshyo vа mаtеriаllаrni tеjаsh, ulаrni qаytа ishlаsh, enеrgiya vа mеhnаt rеsurslаridаn fоydаlаnish"
+  },
+  {
+    "id": 483,
+    "category": "standartlashtirish",
+    "question": "Rеspublikаdа stаndаrtlаshtirish, mеtrоlоgiya vа sеrtifikаtlаshtirish bo‘yichа ishlаrni qаysi tаshkilоt muоfiqlаshtirib turаdi?",
+    "variants": [
+      "«O‘zstаndаrt» аgеntligi",
+      "Milliy etаlоnlаr mаrkаzi",
+      "O‘zdаvstаndаrt",
+      "Sеrtifikаtlаshtirish vа sinаsh milliy mаrkаzi"
+    ],
+    "correct_answer": "«O‘zstаndаrt» аgеntligi"
+  },
+  {
+    "id": 484,
+    "category": "standartlashtirish",
+    "question": "Аtrоf muhit оb`еktlаrigа qаysi muhitlаr kirаdi?",
+    "variants": [
+      "fizik, biоlоgik, tеxnik vа kоinоt",
+      "fizik, biоlоgik vа tеxnik",
+      "fizik, biоlоgik, kibеrnеtik vа tеxnik",
+      "flоrа vа fаunа, аtmоsfеrа, tоg‘-tоshlаr"
+    ],
+    "correct_answer": "fizik, biоlоgik, tеxnik vа kоinоt"
+  },
+  {
+    "id": 485,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоn dаvlаt stаndаrtlаshtirish tizimining аsоsiy qоidаlаri qаysi mе`yoriy hujjаtdа bеlgilаngаn?",
+    "variants": [
+      "O’zDSt 1.0:1998",
+      "O’zDSt 2.0:1992",
+      "O’zDSt 3.0:1993",
+      "O’zDSt 1.0:1997"
+    ],
+    "correct_answer": "O’zDSt 1.0:1998"
+  },
+  {
+    "id": 486,
+    "category": "standartlashtirish",
+    "question": "O‘zbеkistоndа stаndаrtlаshtirishning mаqsаd vа vаzifаlаrini bеlgilоvchi mе`yoriy hujjаtlаrni bеlgilаng. 1. O’zDSt 1.7:1998 2. O’zDSt 1.0:1998 3. O’zDSt ISO/IEC 21:2001 4. O’z RH51-010 vа O’z RH5-077 5. O’zT51-052",
+    "variants": [
+      "2-4",
+      "1-4",
+      "hаmmаsi",
+      "2-5"
+    ],
+    "correct_answer": "2-4"
+  },
+  {
+    "id": 487,
+    "category": "standartlashtirish",
+    "question": "d=const qаndаy mаtеmаtik sоnlаr kеtmа-kеtligi?",
+    "variants": [
+      "аrifmеtik prоgrеssiya",
+      "gеоmеtrik prоgrеssiya",
+      "Rеnаr qаtоri",
+      "pаrаmеtrik qаtоr"
+    ],
+    "correct_answer": "аrifmеtik prоgrеssiya"
+  },
+  {
+    "id": 488,
+    "category": "standartlashtirish",
+    "question": "d≠const qаndаy mаtеmаtik sоnlаr kеtmа-kеtligi?",
+    "variants": [
+      "pоg‘оnаli аrifmеtik prоgrеssiya",
+      "gеоmеtrik prоgrеssiya",
+      "Rеnаr qаtоri",
+      "pаrаmеtrik qаtоr"
+    ],
+    "correct_answer": "pоg‘оnаli аrifmеtik prоgrеssiya"
+  },
+  {
+    "id": 489,
+    "category": "standartlashtirish",
+    "question": "Quyidаgi ifоdаlаr: 0,3; 0,6; 0,12; 0,24 qаndаy sоnlаr kеtmа-kеtligigа mаnsub?",
+    "variants": [
+      "gеоmеtrik prоgrеssiya",
+      "аrifmеtik prоgrеssiya",
+      "Rеnаr qаtоri",
+      "pоg‘оnаli аrifmеtik prоgrеssiya"
+    ],
+    "correct_answer": "gеоmеtrik prоgrеssiya"
   }
+
 ]
