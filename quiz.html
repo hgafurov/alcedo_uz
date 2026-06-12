@@ -21,11 +21,10 @@
         .progress { color: #9E9E9E; font-size: 13px; font-weight: bold; margin-bottom: 24px; text-transform: uppercase; letter-spacing: 1px; }
         .question { font-size: 20px; font-weight: bold; margin-bottom: 32px; line-height: 1.4; text-align: center; padding: 0 10px; }
         
-        /* 🔘 Variantlar guruhi (Rasmdagi kabi chapda dumaloq) */
+        /* 🔘 Variantlar guruhi (Chapda dumaloq) */
         .options-group { text-align: left; margin-bottom: 32px; }
         .option-label { display: flex; align-items: center; background-color: transparent; padding: 14px 10px; margin-bottom: 12px; border-radius: 8px; cursor: pointer; transition: 0.2s; font-size: 15px; line-height: 1.4; }
         
-        /* Haqiqiy radio tugmani yashirib, custom dumaloq shakl yasaymiz */
         .option-label input { display: none; }
         .custom-radio { min-width: 20px; height: 20px; border: 2px solid #2196F3; border-radius: 50%; margin-right: 14px; display: inline-block; position: relative; box-sizing: border-box; }
         .option-label input:checked + .custom-radio::after { content: ""; width: 10px; height: 10px; background-color: #2196F3; border-radius: 50%; position: absolute; top: 3px; left: 3px; }
@@ -59,7 +58,6 @@
 
     <!-- ✏️ TEST SAVOLLARI OYNASI -->
     <div id="quizContainer" class="container">
-        
         <!-- 🔢 Savollar indikatorlari bloki -->
         <div id="indicatorsBox" class="indicators-wrapper"></div>
 
@@ -77,7 +75,6 @@
         <button id="nextBtn">TEKSHIRISH ➔</button>
         <button id="finishEarlyBtn" class="btn-finish">IMTIHONNI YAKUNLASH</button>
     </div>
-
     <!-- 📊 NATIJA VA SERTIFIKAT OYNASI -->
     <div id="resultContainer" class="container hidden">
         <div class="cert-box">
@@ -95,7 +92,7 @@
     </div>
 
     <script>
-        const jsonUrl = "https://githubusercontent.com";
+        const jsonUrl = "professional_quiz_baza.json";
         const urlParams = new URLSearchParams(window.location.search);
         const userName = urlParams.get('user') || 'Foydalanuvchi';
         const selectedCategory = urlParams.get('category') || 'umumiy';
@@ -113,23 +110,15 @@
 
         async function fetchQuestions() {
             try {
-                let cachedData = localStorage.getItem("OFFLINE_QUIZ_BAZA");
-                if (navigator.onLine && jsonUrl !== "" && jsonUrl.includes("http")) {
-                    const response = await fetch(jsonUrl);
-                    allQuestions = await response.json();
-                    localStorage.setItem("OFFLINE_QUIZ_BAZA", JSON.stringify(allQuestions));
-                } else if (cachedData) {
-                    allQuestions = JSON.parse(cachedData);
-                } else {
-                    document.getElementById("questionTv").innerText = "Xato: Internet yo'q!";
-                    return;
+                const response = await fetch(jsonUrl);
+                if (!response.ok) {
+                    throw new Error("Lokal json topilmadi: " + response.status);
                 }
+                allQuestions = await response.json();
                 initQuiz();
             } catch (error) {
-                console.error(error);
-                let cachedData = localStorage.getItem("OFFLINE_QUIZ_BAZA");
-                if (cachedData) { allQuestions = JSON.parse(cachedData); initQuiz(); }
-                else { document.getElementById("questionTv").innerText = "Xatolik yuz berdi!"; }
+                console.error("Xatolik:", error);
+                document.getElementById("questionTv").innerText = "Lokal JSON bazasini yuklashda xatolik yuz berdi!";
             }
         }
 
@@ -158,6 +147,39 @@
                 selectedQuestionsList = unviewedQuestions.slice(0, maxQuestions);
 
                 selectedQuestionsList.forEach(q => { if(q.id) viewedIds.push(q.id); });
+                localStorage.setItem(viewedKey, JSON.stringify(viewedIds));
+            } else {
+                let savedIndexKey = "LAST_INDEX_" + selectedCategory;
+                let lastIndex = parseInt(localStorage.getItem(savedIndexKey) || "0");
+                if (lastIndex >= filtered.length) lastIndex = 0;
+
+                let tempQuestions = [];
+                let idx = lastIndex;
+                for (let i = 0; i < Math.min(filtered.length, maxQuestions); i++) {
+                    if (idx >= filtered.length) idx = 0;
+                    tempQuestions.push(filtered[idx]);
+                    idx++;
+                }
+                localStorage.setItem(savedIndexKey, idx);
+                selectedQuestionsList = tempQuestions;
+            }
+
+            totalQuestionsCount = selectedQuestionsList.length;
+            
+            const indBox = document.getElementById("indicatorsBox");
+            indBox.innerHTML = "";
+            answeredTracker = new Array(totalQuestionsCount).fill(null);
+            for (let i = 1; i <= totalQuestionsCount; i++) {
+                let btn = document.createElement("span");
+                btn.className = "ind-btn";
+                btn.id = "indBtn_" + i;
+                btn.innerText = i;
+                indBox.appendChild(btn);
+            }
+
+            startTimer();
+            displayQuestion();
+        }
         function startTimer() {
             clearInterval(timerInterval);
             timerInterval = setInterval(() => {
@@ -324,3 +346,4 @@
     </script>
 </body>
 </html>
+
