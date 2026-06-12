@@ -17,7 +17,7 @@
         button { width: 100%; padding: 14px; background-color: #2196F3; color: white; border: none; border-radius: 4px; font-weight: bold; font-size: 16px; cursor: pointer; }
         .hidden { display: none !important; }
         
-        /* Ranglar (To'g'ri/Xato) */
+        /* 🎨 Ranglar (To'g'ri / Xato) */
         .correct { background-color: rgba(76, 175, 80, 0.2) !important; border-color: #4CAF50 !important; color: #4CAF50 !important; font-weight: bold; }
         .wrong { background-color: rgba(244, 67, 54, 0.2) !important; border-color: #F44336 !important; color: #F44336 !important; font-weight: bold; }
         .disabled { pointer-events: none; opacity: 0.8; }
@@ -46,8 +46,8 @@
             <label class="option-label" id="lbl4"><input type="radio" name="quiz_opt" value="3"><span id="opt4"></span></label>
         </div>
         
-        <!-- Tugmalar bloki -->
         <button id="nextBtn">TEKSHIRISH ➔</button>
+        <button id="finishEarlyBtn" style="background-color: #D32F2F; margin-top: 12px;">🏁 IMTIHONNI YAKUNLASH</button>
         <button id="quitBtn" style="background-color: #33334E; margin-top: 12px;">🏠 BOSH SAHIFA</button>
     </div>
 
@@ -68,9 +68,7 @@
     </div>
 
     <script>
-        // 🔥 Siz yuklagan GitHub rasmiy havola to'liq joylashtirildi
-        const jsonUrl = "https://raw.githubusercontent.com/hgafurov/alcedo_uz/refs/heads/main/professional_quiz_baza.json";
-
+        const jsonUrl = "https://githubusercontent.com";
         const urlParams = new URLSearchParams(window.location.search);
         const userName = urlParams.get('user') || 'Foydalanuvchi';
         const selectedCategory = urlParams.get('category') || 'umumiy';
@@ -88,7 +86,6 @@
         async function fetchQuestions() {
             try {
                 let cachedData = localStorage.getItem("OFFLINE_QUIZ_BAZA");
-                
                 if (navigator.onLine && jsonUrl !== "" && jsonUrl.includes("http")) {
                     const response = await fetch(jsonUrl);
                     allQuestions = await response.json();
@@ -96,20 +93,15 @@
                 } else if (cachedData) {
                     allQuestions = JSON.parse(cachedData);
                 } else {
-                    document.getElementById("questionTv").innerText = "Xato: Internet yo'q va xotirada ma'lumot topilmadi!";
+                    document.getElementById("questionTv").innerText = "Xato: Internet yo'q!";
                     return;
                 }
-                
                 initQuiz();
             } catch (error) {
-                console.error("Xatolik:", error);
+                console.error(error);
                 let cachedData = localStorage.getItem("OFFLINE_QUIZ_BAZA");
-                if (cachedData) {
-                    allQuestions = JSON.parse(cachedData);
-                    initQuiz();
-                } else {
-                    document.getElementById("questionTv").innerText = "Savollarni yuklashda xatolik yuz berdi!";
-                }
+                if (cachedData) { allQuestions = JSON.parse(cachedData); initQuiz(); }
+                else { document.getElementById("questionTv").innerText = "Xatolik yuz berdi!"; }
             }
         }
 
@@ -125,8 +117,20 @@
             }
 
             if (selectedCategory === "umumiy") {
-                filtered.sort(() => Math.random() - 0.5);
-                selectedQuestionsList = filtered.slice(0, Math.min(filtered.length, maxQuestions));
+                let viewedKey = "VIEWED_QUESTIONS_UMUMIY";
+                let viewedIds = JSON.parse(localStorage.getItem(viewedKey) || "[]");
+                let unviewedQuestions = filtered.filter(q => !viewedIds.includes(q.id));
+
+                if (unviewedQuestions.length < maxQuestions) {
+                    viewedIds = [];
+                    unviewedQuestions = filtered;
+                }
+
+                unviewedQuestions.sort(() => Math.random() - 0.5);
+                selectedQuestionsList = unviewedQuestions.slice(0, maxQuestions);
+
+                selectedQuestionsList.forEach(q => { if(q.id) viewedIds.push(q.id); });
+                localStorage.setItem(viewedKey, JSON.stringify(viewedIds));
             } else {
                 let savedIndexKey = "LAST_INDEX_" + selectedCategory;
                 let lastIndex = parseInt(localStorage.getItem(savedIndexKey) || "0");
@@ -147,8 +151,8 @@
             startTimer();
             displayQuestion();
         }
-
         function startTimer() {
+            clearInterval(timerInterval);
             timerInterval = setInterval(() => {
                 if (timeLeft <= 0) {
                     clearInterval(timerInterval);
@@ -183,10 +187,20 @@
             document.getElementById("quizCountTv").innerText = `SAVOL: ${currentProgress}/${totalQuestionsCount}`;
             document.getElementById("questionTv").innerText = currentQuiz.question;
 
-            shuffledVariants = [...currentQuiz.variants].sort(() => Math.random() - 0.5);
+            if (currentQuiz.variants && Array.isArray(currentQuiz.variants)) {
+                shuffledVariants = [...currentQuiz.variants].sort(() => Math.random() - 0.5);
+            } else {
+                shuffledVariants = [
+                    currentQuiz.correct_variant || currentQuiz.correct_answer,
+                    currentQuiz.variant_2,
+                    currentQuiz.variant_3,
+                    currentQuiz.variant_4
+                ].filter(Boolean).sort(() => Math.random() - 0.5);
+            }
+
             for (let i = 0; i < 4; i++) {
-                document.getElementById("opt" + (i+1)).innerText = shuffledVariants[i];
-                radios[i].value = shuffledVariants[i];
+                document.getElementById("opt" + (i+1)).innerText = shuffledVariants[i] || "";
+                radios[i].value = shuffledVariants[i] || "";
             }
         }
 
@@ -214,9 +228,6 @@
 
             if (selectedValue === "") {
                 alert("Iltimos, javoblardan birini belgilang!");
-                let skipped = selectedQuestionsList.shift();
-                selectedQuestionsList.push(skipped);
-                displayQuestion();
                 return;
             }
 
@@ -224,19 +235,27 @@
             document.getElementById("nextBtn").innerText = "KEYINGI SAVOL ➔";
             document.getElementById("optionsGroup").classList.add("disabled");
 
-            if (selectedValue === currentQuiz.correct_answer) {
+            let realCorrect = currentQuiz.correct_answer || currentQuiz.correct_variant;
+
+            if (selectedValue === realCorrect) {
                 score++;
                 selectedLabel.classList.add("correct");
             } else {
                 selectedLabel.classList.add("wrong");
                 for (let i = 0; i < 4; i++) {
-                    if (radios[i].value === currentQuiz.correct_answer) {
+                    if (radios[i].value === realCorrect) {
                         document.getElementById("lbl" + (i+1)).classList.add("correct");
                         break;
                     }
                 }
             }
         }
+
+        document.getElementById("finishEarlyBtn").onclick = function() {
+            if (confirm("Haqiqatdan ham imtihonni hozir yakunlab, natijalarni ko'rmoqchimisiz?")) {
+                finishQuiz();
+            }
+        };
 
         function finishQuiz() {
             clearInterval(timerInterval);
@@ -267,7 +286,6 @@
             }
         }
 
-        // BOSH SAHIFA tugmasi bosilganda chiqish mantiqi
         document.getElementById("quitBtn").onclick = function() {
             if (confirm("Haqiqatdan ham testdan chiqmoqchimisiz? To'plangan ballar saqlanmaydi.")) {
                 window.location.href = "category.html?user=" + encodeURIComponent(userName);

@@ -27,12 +27,11 @@
     </div>
 
     <script>
-        // Ssilka orqali kelgan foydalanuvchi ismini olamiz
         const urlParams = new URLSearchParams(window.location.search);
         const userName = urlParams.get('user') || 'Foydalanuvchi';
 
         function startQuiz(categoryName) {
-            // Ism va tanlangan bo'limni quiz.html ga yuboramiz
+            // ➔ Test sahifasiga ism va bo'limni yuboramiz
             window.location.href = "quiz.html?user=" + encodeURIComponent(userName) + "&category=" + categoryName;
         }
     </script>

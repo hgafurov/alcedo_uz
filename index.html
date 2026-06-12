@@ -6,7 +6,7 @@
     <title>ALCEDO.UZ</title>
     <style>
         body { background-color: #0F0F2F; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .container { text-align: center; padding: 24dp; max-width: 400px; width: 100%; }
+        .container { text-align: center; padding: 24px; max-width: 400px; width: 100%; }
         input { width: 80%; padding: 12px; margin: 12px 0; border-radius: 4px; border: none; font-size: 16px; }
         button { width: 85%; padding: 12px; background-color: #2196F3; color: white; border: none; border-radius: 4px; font-weight: bold; font-size: 16px; cursor: pointer; }
         .hidden { display: none; }
@@ -35,13 +35,11 @@
     </div>
 
     <script>
-        // LocalStorage xotirasini tekshiramiz
         let isActivated = localStorage.getItem("IS_ACTIVATED") === "true";
 
-        // 🆔 iPhone uchun unikal 5 xonali kod yaratish yoki mavjudini olish
+        // 🆔 Qurilma kodi yaratish
         let shortId = localStorage.getItem("DEVICE_ID");
         if (!shortId) {
-            // Agar oldin kodi bo'lmasa, tasodifiy yangi kod yaratamiz
             let chars = "ABCDEF0123456789";
             shortId = "";
             for (let i = 0; i < 5; i++) {
@@ -61,16 +59,12 @@
 
         deviceIdTv.innerText = "Qurilma kodi: " + shortId;
 
-        // Agar ilova oldin faollashtirilgan bo'lsa, srazu ism so'rashga o'tadi
         if (isActivated) {
             showUserForm();
         }
 
-        // 🔐 Parolni tekshirish tugmasi
         startBtn.onclick = function() {
             let inputKey = passwordEt.value.trim().toUpperCase();
-            
-            // Formula: Kodning teskarisi + QUIZ2026
             let reversedId = shortId.split("").reverse().join("");
             let correctPassword = reversedId + "QUIZ2026";
 
@@ -83,15 +77,14 @@
             }
         };
 
-        // 👤 Test sahifasiga o'tish tugmasi
         beginQuizBtn.onclick = function() {
             let fullName = fullNameEdt.value.trim();
             if (fullName === "") {
                 alert("Iltimos, ism va familiyangizni kiriting!");
                 return;
             }
-            // Bu yerda keyingi test sahifasiga (quiz.html) o'tkazamiz
-            window.location.href = "quiz.html?user=" + encodeURIComponent(fullName);
+            // ➔ Bo'limlarni tanlash sahifasiga ismni uzatamiz
+            window.location.href = "category.html?user=" + encodeURIComponent(fullName);
         };
 
         function showUserForm() {
