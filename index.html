@@ -9,7 +9,7 @@
         .container { text-align: center; padding: 24px; max-width: 400px; width: 100%; }
         input { width: 80%; padding: 12px; margin: 12px 0; border-radius: 4px; border: none; font-size: 16px; }
         button { width: 85%; padding: 12px; background-color: #2196F3; color: white; border: none; border-radius: 4px; font-weight: bold; font-size: 16px; cursor: pointer; }
-        .hidden { display: none; }
+        .hidden { display: none !important; }
         .error { color: #F44336; font-size: 14px; margin-top: 5px; }
     </style>
 </head>
@@ -35,9 +35,7 @@
     </div>
 
     <script>
-        let isActivated = localStorage.getItem("IS_ACTIVATED") === "true";
-
-        // 🆔 Qurilma kodi yaratish
+        // 🆔 Qurilma kodi yaratish yoki olish
         let shortId = localStorage.getItem("DEVICE_ID");
         if (!shortId) {
             let chars = "ABCDEF0123456789";
@@ -47,6 +45,21 @@
             }
             localStorage.setItem("DEVICE_ID", shortId);
         }
+        
+        shortId = shortId.toUpperCase();
+
+        // 🎯 FAQAT BIR MARTA RESET QILINADIGAN QURILMA
+        if (shortId === "85ADE") {
+            // Agar ushbu qurilma uchun oldin reset bajarilmagan bo'lsa
+            let isResetDone = localStorage.getItem("RESET_DONE_85ADE") === "true";
+            if (!isResetDone) {
+                localStorage.setItem("IS_ACTIVATED", "false"); // Aktivatsiyasini o'chiramiz
+                localStorage.setItem("RESET_DONE_85ADE", "true"); // Reset bajarildi deb belgilaymiz
+            }
+        }
+
+        // Xotiradan faol holatni o'qiymiz
+        let isActivated = localStorage.getItem("IS_ACTIVATED") === "true";
 
         const passwordBlock = document.getElementById("passwordBlock");
         const userBlock = document.getElementById("userBlock");
@@ -63,6 +76,7 @@
             showUserForm();
         }
 
+        // 🔐 Parolni tekshirish tugmasi
         startBtn.onclick = function() {
             let inputKey = passwordEt.value.trim().toUpperCase();
             let reversedId = shortId.split("").reverse().join("");
@@ -83,7 +97,6 @@
                 alert("Iltimos, ism va familiyangizni kiriting!");
                 return;
             }
-            // ➔ Bo'limlarni tanlash sahifasiga ismni uzatamiz
             window.location.href = "category.html?user=" + encodeURIComponent(fullName);
         };
 
