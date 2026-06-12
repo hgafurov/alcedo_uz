@@ -1,73 +1,3 @@
-<!DOCTYPE html>
-<html lang="uz">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALCEDO.UZ - Imtihon</title>
-    <style>
-        body { background-color: #0F0F2F; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; box-sizing: border-box; }
-        .container { background-color: #1F1F42; padding: 24px; border-radius: 8px; max-width: 500px; width: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.5); text-align: center; }
-        .timer { color: #B81616; font-size: 20px; font-weight: bold; margin-bottom: 8px; }
-        .progress { color: #9E9E9E; font-size: 14px; font-weight: bold; margin-bottom: 16px; }
-        .question { font-size: 18px; font-weight: bold; margin-bottom: 24px; line-height: 1.5; }
-        .options-group { text-align: left; margin-bottom: 24px; }
-        .option-label { display: block; background-color: #2A2A5A; padding: 14px; margin-bottom: 10px; border-radius: 4px; cursor: pointer; transition: 0.2s; font-size: 16px; border: 1px solid transparent; }
-        .option-label input { display: none; }
-        .option-label:hover { background-color: #353570; }
-        button { width: 100%; padding: 14px; background-color: #2196F3; color: white; border: none; border-radius: 4px; font-weight: bold; font-size: 16px; cursor: pointer; }
-        .hidden { display: none !important; }
-        
-        /* 🎨 Ranglar (To'g'ri / Xato) */
-        .correct { background-color: rgba(76, 175, 80, 0.2) !important; border-color: #4CAF50 !important; color: #4CAF50 !important; font-weight: bold; }
-        .wrong { background-color: rgba(244, 67, 54, 0.2) !important; border-color: #F44336 !important; color: #F44336 !important; font-weight: bold; }
-        .disabled { pointer-events: none; opacity: 0.8; }
-
-        /* 📜 Sertifikat Dizayni */
-        .cert-box { border: 4px double #FFD700; background-color: #151535; padding: 24px; border-radius: 4px; margin-bottom: 32px; }
-        .cert-title { color: #FFD700; font-size: 22px; font-weight: bold; margin: 16px 0; letter-spacing: 2px; }
-        .cert-name { font-size: 24px; font-weight: bold; color: #FFFFFF; margin: 12px 0; border-bottom: 1px solid #333; padding-bottom: 8px; }
-        .cert-status { font-size: 22px; font-weight: bold; padding: 10px; border: 2px solid; display: inline-block; margin: 16px 0; }
-        .pass-color { color: #4CAF50; border-color: #4CAF50; }
-        .fail-color { color: #F44336; border-color: #F44336; }
-    </style>
-</head>
-<body>
-
-    <!-- ✏️ TEST SAVOLLARI OYNASI -->
-    <div id="quizContainer" class="container">
-        <div id="timerTv" class="timer">Vaqt: 00:00</div>
-        <div id="quizCountTv" class="progress">SAVOL: 1/20</div>
-        <div id="questionTv" class="question">Savollar yuklanmoqda...</div>
-        
-        <div id="optionsGroup" class="options-group">
-            <label class="option-label" id="lbl1"><input type="radio" name="quiz_opt" value="0"><span id="opt1"></span></label>
-            <label class="option-label" id="lbl2"><input type="radio" name="quiz_opt" value="1"><span id="opt2"></span></label>
-            <label class="option-label" id="lbl3"><input type="radio" name="quiz_opt" value="2"><span id="opt3"></span></label>
-            <label class="option-label" id="lbl4"><input type="radio" name="quiz_opt" value="3"><span id="opt4"></span></label>
-        </div>
-        
-        <button id="nextBtn">TEKSHIRISH ➔</button>
-        <button id="finishEarlyBtn" style="background-color: #D32F2F; margin-top: 12px;">🏁 IMTIHONNI YAKUNLASH</button>
-        <button id="quitBtn" style="background-color: #33334E; margin-top: 12px;">🏠 BOSH SAHIFA</button>
-    </div>
-
-    <!-- 📊 NATIJA VA SERTIFIKAT OYNASI -->
-    <div id="resultContainer" class="container hidden">
-        <div class="cert-box">
-            <h2 style="color: #2196F3; margin: 0;">ALCEDO.UZ</h2>
-            <div id="certTitle" class="cert-title">RASMIY SERTIFIKAT</div>
-            <div style="color: #9E9E9E; font-size: 14px;">Ushbu hujjat egasi:</div>
-            <div id="resName" class="cert-name">Ism Familiya</div>
-            <p id="resDescription" style="font-size: 14px; color: #E0E0E0; line-height: 1.4; padding: 0 10px;">Imtihondan muvaffaqiyatli o'tdi.</p>
-            <div id="resExamStatus" class="cert-status pass-color">IMTIHONDAN O'TDI</div>
-            <div id="resScore" style="font-size: 18px; font-weight: bold; margin-top: 10px;">To'plangan ball: 0 / 20</div>
-            <div id="resPercent" style="font-size: 14px; color: #9E9E9E; margin-top: 4px;">Foiz: 0%</div>
-        </div>
-        <button id="restartBtn" style="margin-bottom: 12px;">🔄 QAYTA URINISH</button>
-        <button id="homeBtn" style="background-color: #33334E;">🏠 BOSH SAHIFA</button>
-    </div>
-
-    <script>
         const jsonUrl = "https://githubusercontent.com";
         const urlParams = new URLSearchParams(window.location.search);
         const userName = urlParams.get('user') || 'Foydalanuvchi';
@@ -82,6 +12,7 @@
         let shuffledVariants = [];
         let timerInterval = null;
         let timeLeft = 0;
+        let answeredTracker = []; 
 
         async function fetchQuestions() {
             try {
@@ -98,7 +29,6 @@
                 }
                 initQuiz();
             } catch (error) {
-                console.error(error);
                 let cachedData = localStorage.getItem("OFFLINE_QUIZ_BAZA");
                 if (cachedData) { allQuestions = JSON.parse(cachedData); initQuiz(); }
                 else { document.getElementById("questionTv").innerText = "Xatolik yuz berdi!"; }
@@ -147,10 +77,25 @@
                 selectedQuestionsList = tempQuestions;
             }
 
+            // 🎯 Savollar soni bazadan kelgan hajmga qarab qat'iy belgilandi
             totalQuestionsCount = selectedQuestionsList.length;
+            
+            // 🔢 Raqamli indikatorlar aynan savollar soniga moslab yaratiladi
+            const indBox = document.getElementById("indicatorsBox");
+            indBox.innerHTML = "";
+            answeredTracker = new Array(totalQuestionsCount).fill(null);
+            for (let i = 1; i <= totalQuestionsCount; i++) {
+                let btn = document.createElement("span");
+                btn.className = "ind-btn";
+                btn.id = "indBtn_" + i;
+                btn.innerText = i;
+                indBox.appendChild(btn);
+            }
+
             startTimer();
             displayQuestion();
         }
+
         function startTimer() {
             clearInterval(timerInterval);
             timerInterval = setInterval(() => {
@@ -166,7 +111,6 @@
                 document.getElementById("timerTv").innerText = `Vaqt: ${mins < 10 ? '0':''}${mins}:${secs < 10 ? '0':''}${secs}`;
             }, 1000);
         }
-
         function displayQuestion() {
             if (selectedQuestionsList.length === 0) {
                 finishQuiz();
@@ -186,6 +130,17 @@
             let currentProgress = totalQuestionsCount - selectedQuestionsList.length + 1;
             document.getElementById("quizCountTv").innerText = `SAVOL: ${currentProgress}/${totalQuestionsCount}`;
             document.getElementById("questionTv").innerText = currentQuiz.question;
+
+            document.querySelectorAll(".ind-btn").forEach((btn, index) => {
+                if (index === (currentProgress - 1)) {
+                    btn.classList.add("active");
+                    btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                } else {
+                    btn.classList.remove("active");
+                }
+                if (answeredTracker[index] === true) btn.classList.add("solved-correct");
+                if (answeredTracker[index] === false) btn.classList.add("solved-wrong");
+            });
 
             if (currentQuiz.variants && Array.isArray(currentQuiz.variants)) {
                 shuffledVariants = [...currentQuiz.variants].sort(() => Math.random() - 0.5);
@@ -236,12 +191,15 @@
             document.getElementById("optionsGroup").classList.add("disabled");
 
             let realCorrect = currentQuiz.correct_answer || currentQuiz.correct_variant;
+            let currentProgress = totalQuestionsCount - selectedQuestionsList.length;
 
             if (selectedValue === realCorrect) {
                 score++;
                 selectedLabel.classList.add("correct");
+                answeredTracker[currentProgress] = true;
             } else {
                 selectedLabel.classList.add("wrong");
+                answeredTracker[currentProgress] = false;
                 for (let i = 0; i < 4; i++) {
                     if (radios[i].value === realCorrect) {
                         document.getElementById("lbl" + (i+1)).classList.add("correct");
@@ -249,6 +207,10 @@
                     }
                 }
             }
+            
+            let currentBtn = document.getElementById("indBtn_" + (currentProgress + 1));
+            if(selectedValue === realCorrect) currentBtn.classList.add("solved-correct");
+            else currentBtn.classList.add("solved-wrong");
         }
 
         document.getElementById("finishEarlyBtn").onclick = function() {
@@ -286,12 +248,6 @@
             }
         }
 
-        document.getElementById("quitBtn").onclick = function() {
-            if (confirm("Haqiqatdan ham testdan chiqmoqchimisiz? To'plangan ballar saqlanmaydi.")) {
-                window.location.href = "category.html?user=" + encodeURIComponent(userName);
-            }
-        };
-
         document.getElementById("restartBtn").onclick = function() {
             window.location.href = "quiz.html?user=" + encodeURIComponent(userName) + "&category=" + selectedCategory;
         };
@@ -301,7 +257,4 @@
         };
 
         fetchQuestions();
-    </script>
-</body>
-</html>
 
