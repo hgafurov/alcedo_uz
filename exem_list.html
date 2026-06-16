@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALCEDO.UZ - Imtihonlar</title>
+    <style>
+        body { background-color: #0F0F2F; color: white; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 16px; box-sizing: border-box; }
+        .container { max-width: 450px; width: 100%; text-align: center; }
+        h1 { color: #2196F3; font-size: 26px; margin: 0 0 4px 0; font-weight: bold; }
+        h2 { font-size: 18px; color: #FFFFFF; margin: 0 0 24px 0; font-weight: bold; }
+        
+        .card { background-color: #171B30; padding: 16px; border-radius: 16px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; cursor: pointer; text-align: left; box-sizing: border-box; border: none; width: 100%; color: white; transition: 0.2s; }
+        .card:hover { background-color: #1E233D; }
+        .card-left { display: flex; align-items: center; }
+        .card-icon { font-size: 24px; margin-right: 16px; }
+        .card-title { font-size: 16px; font-weight: bold; margin: 0; }
+        .card-desc { font-size: 12px; color: #8A8D9F; margin: 4px 0 0 0; }
+        .badge { background-color: #673AB7; color: white; font-size: 12px; font-weight: bold; padding: 6px 12px; border-radius: 4px; white-space: nowrap; }
+        
+        .info-box { background-color: #12162D; padding: 12px; border-radius: 8px; display: flex; align-items: center; margin-top: 20px; text-align: left; }
+        .info-icon { font-size: 20px; color: #2196F3; margin-right: 12px; }
+        .info-title { font-size: 13px; font-weight: bold; margin: 0; }
+        .info-desc { font-size: 11px; color: #8A8D9F; margin: 2px 0 0 0; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ALCEDO.UZ</h1>
+        <h2>IMTIHONLAR</h2>
+
+        <!-- ⭐ ENg tepadagi 50 talik random umumiy imtihon -->
+        <button class="card" onclick="startExam('umumiy')">
+            <div class="card-left">
+                <div class="card-icon">📊</div>
+                <div>
+                    <p class="card-title">UMUMIY IMTIHON</p>
+                    <p class="card-desc">Barcha fanlardan aralash 50 ta tasodifiy savol</p>
+                </div>
+            </div>
+            <div class="badge">50 TA SAVOL</div>
+        </button>
+
+        <!-- 📜 Imtihon №1, №2 va hokazolar shu yerga dinamik tushadi -->
+        <div id="examsContainer"></div>
+
+        <div class="info-box">
+            <div class="info-icon">ℹ️</div>
+            <div>
+                <p id="totalQuestionsTv" class="info-title">Jami savollar: Yuklanmoqda...</p>
+                <p class="info-desc">Har bir imtihondagi savollar o'zgarmaydi va takrorlanmaydi.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const userName = urlParams.get('user') || 'Foydalanuvchi';
+        
+        async function loadExams() {
+            try {
+                // Professional quiz baza json faylini o'qiymiz
+                const response = await fetch("professional_quiz_baza.json");
+                const allQuestions = await response.json();
+                
+                document.getElementById("totalQuestionsTv").innerText = "Jami savollar: " + allQuestions.length + " ta";
+                
+                // Bazadagi barcha imtihon1, imtihon2... larni unikal qilib ajratamiz
+                const categories = [...new Set(allQuestions.map(q => q.category))]
+                                    .filter(cat => cat && cat.startsWith("imtihon"))
+                                    .sort((a, b) => a.localeCompare(b, undefined, {numeric: true}));
+                
+                const container = document.getElementById("examsContainer");
+                
+                categories.forEach(cat => {
+                    const examNumber = cat.replace("imtihon", "");
+                    const displayTitle = "IMTIHON №" + examNumber;
+                    const questionCount = allQuestions.filter(q => q.category === cat).length;
+                    
+                    const buttonHtml = `
+                        <button class="card" onclick="startExam('${cat}')">
+                            <div class="card-left">
+                                <div class="card-icon">📝</div>
+                                <div>
+                                    <p class="card-title">${displayTitle}</p>
+                                    <p class="card-desc">Ushbu blok bo'yicha maxsus tayyorlangan test</p>
+                                </div>
+                            </div>
+                            <div class="badge" style="background-color: #2196F3;">${questionCount} TA SAVOL</div>
+                        </button>
+                    `;
+                    container.innerHTML += buttonHtml;
+                });
+                
+            } catch (error) {
+                console.error("Xatolik yuz berdi:", error);
+            }
+        }
+
+        function startExam(categoryName) {
+            window.location.href = "quiz.html?user=" + encodeURIComponent(userName) + "&category=" + categoryName;
+        }
+
+        loadExams();
+    </script>
+</body>
+</html>
+

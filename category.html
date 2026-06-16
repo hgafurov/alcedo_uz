@@ -31,9 +31,13 @@
         const userName = urlParams.get('user') || 'Foydalanuvchi';
 
         function startQuiz(categoryName) {
-            // ➔ Test sahifasiga ism va bo'limni yuboramiz
-            window.location.href = "quiz.html?user=" + encodeURIComponent(userName) + "&category=" + categoryName;
-        }
+    if (categoryName === 'umumiy') {
+        // To'g'ridan-to'g'ri testga kirmaydi, yangi ochgan faylimizga o'tadi!
+        window.location.href = "exam_list.html?user=" + encodeURIComponent(userName);
+    } else {
+        window.location.href = "quiz.html?user=" + encodeURIComponent(userName) + "&category=" + categoryName;
+    }
+}
     </script>
 </body>
 </html>
