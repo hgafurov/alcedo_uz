@@ -54,56 +54,83 @@
         </div>
     </div>
 
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const userName = urlParams.get('user') || 'Foydalanuvchi';
-        
-        async function loadExams() {
-            try {
-                // Professional quiz baza json faylini o'qiymiz
-                const response = await fetch("professional_quiz_baza.json");
-                const allQuestions = await response.json();
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const userName = urlParams.get('user') || 'Foydalanuvchi';
+    
+    async function loadExams() {
+        try {
+            const response = await fetch("professional_quiz_baza.json");
+            const allQuestions = await response.json();
+            
+            const currentTotalQuestions = allQuestions.length;
+            document.getElementById("totalQuestionsTv").innerText = "Jami savollar: " + currentTotalQuestions + " ta";
+            
+            // Xotiradan eski taqsimotni va oxirgi marta hisoblangan jami savollar sonini o'qiymiz
+            let examDistribution = localStorage.getItem("ALCEDO_EXAM_DISTRIBUTION");
+            let savedTotalCount = localStorage.getItem("ALCEDO_LAST_TOTAL_COUNT");
+            
+            // Agarda xotirada ma'lumot bo'lmasa YOKI bazadagi savollar soni o'zgargan bo'lsa (yangi savol qo'shilgan bo'lsa):
+            if (!examDistribution || savedTotalCount !== String(currentTotalQuestions)) {
+                examDistribution = {};
                 
-                document.getElementById("totalQuestionsTv").innerText = "Jami savollar: " + allQuestions.length + " ta";
+                // Savollarni nusxalab, random aralashtiramiz
+                let pool = [...allQuestions].sort(() => Math.random() - 0.5);
                 
-                // Bazadagi barcha imtihon1, imtihon2... larni unikal qilib ajratamiz
-                const categories = [...new Set(allQuestions.map(q => q.category))]
-                                    .filter(cat => cat && cat.startsWith("imtihon"))
-                                    .sort((a, b) => a.localeCompare(b, undefined, {numeric: true}));
+                // Savollar sonidan qat'iy nazar avtomatik nechta imtihon chiqishini hisoblaydi (482 bo'lsa 10 ta, 1000 bo'lsa 20 ta)
+                let totalExamsCount = Math.floor(pool.length / 50);
+                if (pool.length % 50 > 0) totalExamsCount++; 
+
+                for (let i = 1; i <= totalExamsCount; i++) {
+                    let chunk = pool.slice((i - 1) * 50, i * 50);
+                    examDistribution["imtihon" + i] = chunk.map(q => q.id);
+                }
                 
-                const container = document.getElementById("examsContainer");
-                
-                categories.forEach(cat => {
-                    const examNumber = cat.replace("imtihon", "");
-                    const displayTitle = "IMTIHON №" + examNumber;
-                    const questionCount = allQuestions.filter(q => q.category === cat).length;
-                    
-                    const buttonHtml = `
-                        <button class="card" onclick="startExam('${cat}')">
-                            <div class="card-left">
-                                <div class="card-icon">📝</div>
-                                <div>
-                                    <p class="card-title">${displayTitle}</p>
-                                    <p class="card-desc">Ushbu blok bo'yicha maxsus tayyorlangan test</p>
-                                </div>
-                            </div>
-                            <div class="badge" style="background-color: #2196F3;">${questionCount} TA SAVOL</div>
-                        </button>
-                    `;
-                    container.innerHTML += buttonHtml;
-                });
-                
-            } catch (error) {
-                console.error("Xatolik yuz berdi:", error);
+                // Yangi taqsimot va yangi jami savollar sonini xotiraga yozamiz
+                localStorage.setItem("ALCEDO_EXAM_DISTRIBUTION", JSON.stringify(examDistribution));
+                localStorage.setItem("ALCEDO_LAST_TOTAL_COUNT", String(currentTotalQuestions));
+            } else {
+                examDistribution = JSON.parse(examDistribution);
             }
-        }
 
-        function startExam(categoryName) {
-            window.location.href = "quiz.html?user=" + encodeURIComponent(userName) + "&category=" + categoryName;
-        }
+            const container = document.getElementById("examsContainer");
+            container.innerHTML = ""; 
 
-        loadExams();
-    </script>
+            // Nechta imtihon bloki chiqqan bo'lsa, hammasini dinamik ravishda chizadi (Son muhim emas!)
+            Object.keys(examDistribution).forEach(examKey => {
+                const examNumber = examKey.replace("imtihon", "");
+                const displayTitle = "IMTIHON №" + examNumber;
+                const questionCount = examDistribution[examKey].length;
+                const idsString = examDistribution[examKey].join(",");
+
+                const buttonHtml = `
+                    <button class="card" onclick="startExam('${examKey}', '${idsString}')">
+                        <div class="card-left">
+                            <div class="card-icon">📝</div>
+                            <div>
+                                <p class="card-title">${displayTitle}</p>
+                                <p class="card-desc">Boshqa bloklarni takrorlamaydigan maxsus test</p>
+                            </div>
+                        </div>
+                        <div class="badge" style="background-color: #2196F3;">${questionCount} TA SAVOL</div>
+                    </button>
+                `;
+                container.innerHTML += buttonHtml;
+            });
+            
+        } catch (error) {
+            console.error("Xatolik yuz berdi:", error);
+        }
+    }
+
+    function startExam(categoryName, selectedIds) {
+        window.location.href = "quiz.html?user=" + encodeURIComponent(userName) + 
+                               "&category=" + categoryName + 
+                               "&selected_ids=" + selectedIds;
+    }
+
+    loadExams();
+</script>
 </body>
 </html>
 
