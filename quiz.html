@@ -122,51 +122,80 @@
             }
         }
 
-        function initQuiz() {
-            let filtered = selectedCategory === "umumiy" ? [...allQuestions] : allQuestions.filter(q => q.category === selectedCategory);
-            let maxQuestions = selectedCategory === "umumiy" ? 50 : 20;
-            timeLeft = selectedCategory === "umumiy" ? 50 * 60 : 20 * 60;
+       function initQuiz() {
+    let filtered = [];
+    let maxQuestions = 20;
+    const selectedIdsParam = urlParams.get('selected_ids') || '';
 
-            if (filtered.length === 0) {
-                alert("Bu bo'limda savollar topilmadi!");
-                window.location.href = "category.html?user=" + encodeURIComponent(userName);
-                return;
-            }
+    if (selectedCategory === "umumiy") {
+        // 📊 UMUMIY IMTIHON REJIM: 50 ta random savol
+        timeLeft = 50 * 60; 
+        maxQuestions = 50;
 
-            if (selectedCategory === "umumiy") {
-                let viewedKey = "VIEWED_QUESTIONS_UMUMIY";
-                let viewedIds = JSON.parse(localStorage.getItem(viewedKey) || "[]");
-                let unviewedQuestions = filtered.filter(q => !viewedIds.includes(q.id));
+        let viewedKey = "VIEWED_QUESTIONS_UMUMIY";
+        let viewedIds = JSON.parse(localStorage.getItem(viewedKey) || "[]");
+        let unviewedQuestions = allQuestions.filter(q => !viewedIds.includes(q.id));
 
-                if (unviewedQuestions.length < maxQuestions) {
-                    viewedIds = [];
-                    unviewedQuestions = filtered;
-                }
+        if (unviewedQuestions.length < maxQuestions) {
+            viewedIds = [];
+            unviewedQuestions = allQuestions;
+        }
 
-                unviewedQuestions.sort(() => Math.random() - 0.5);
-                selectedQuestionsList = unviewedQuestions.slice(0, maxQuestions);
+        unviewedQuestions.sort(() => Math.random() - 0.5);
+        filtered = unviewedQuestions.slice(0, maxQuestions);
 
-                selectedQuestionsList.forEach(q => { if(q.id) viewedIds.push(q.id); });
-                localStorage.setItem(viewedKey, JSON.stringify(viewedIds));
-            } else {
-                let savedIndexKey = "LAST_INDEX_" + selectedCategory;
-                let lastIndex = parseInt(localStorage.getItem(savedIndexKey) || "0");
-                if (lastIndex >= filtered.length) lastIndex = 0;
+        filtered.forEach(q => { if(q.id) viewedIds.push(q.id); });
+        localStorage.setItem(viewedKey, JSON.stringify(viewedIds));
 
-                let tempQuestions = [];
-                let idx = lastIndex;
-                for (let i = 0; i < Math.min(filtered.length, maxQuestions); i++) {
-                    if (idx >= filtered.length) idx = 0;
-                    tempQuestions.push(filtered[idx]);
-                    idx++;
-                }
-                localStorage.setItem(savedIndexKey, idx);
-                selectedQuestionsList = tempQuestions;
-            }
+    } else if (selectedCategory.startsWith("imtihon") && selectedIdsParam !== '') {
+        // 📝 TAKRORLANMAS IMTIHON BLOKLARI (Imtihon 1, Imtihon 2...)
+        // URL'dan kelgan ID'larni raqam (Number) ko'rinishiga ishonchli o'tkazib olamiz
+        const targetIds = selectedIdsParam.split(",").map(id => parseInt(id.trim())).filter(Boolean);
+        
+        // TO'G'RILANDI: JSON bazadagi id'ni matnga (String), targetIds ichidagini ham matnga o'girib solishtiramiz
+        // Bu usul JSON'da id raqam yoki matn bo'lishidan qat'iy nazar xatosiz topib beradi!
+        filtered = allQuestions.filter(q => {
+            return targetIds.some(targetId => String(q.id) === String(targetId));
+        });
+        
+        // Savollar kelgan tartibda saqlanishi uchun targetIds tartibi bo'yicha saralaymiz
+        filtered.sort((a, b) => {
+            return targetIds.indexOf(parseInt(a.id)) - targetIds.indexOf(parseInt(b.id));
+        });
 
-            totalQuestionsCount = selectedQuestionsList.length;
-            
-            const indBox = document.getElementById("indicatorsBox");
+        maxQuestions = filtered.length;
+        timeLeft = maxQuestions * 60; // Har bir savolga 1 daqiqa
+
+    } else {
+        // 📐 ODDIY MAVZULAR (metrologiya, standartlashtirish...): 20 talik random
+        timeLeft = 20 * 60;
+        maxQuestions = 20;
+        let categoryQuestions = allQuestions.filter(q => {
+            return q.category && q.category.toLowerCase() === selectedCategory.toLowerCase();
+        });
+        
+        let savedIndexKey = "LAST_INDEX_" + selectedCategory;
+        let lastIndex = parseInt(localStorage.getItem(savedIndexKey) || "0");
+        if (lastIndex >= categoryQuestions.length) lastIndex = 0;
+
+        let tempQuestions = [];
+        let idx = lastIndex;
+        for (let i = 0; i < Math.min(categoryQuestions.length, maxQuestions); i++) {
+            if (idx >= categoryQuestions.length) idx = 0;
+            tempQuestions.push(categoryQuestions[idx]);
+            idx++;
+        }
+        localStorage.setItem(savedIndexKey, idx);
+        filtered = tempQuestions;
+    }
+
+    selectedQuestionsList = filtered;
+    totalQuestionsCount = selectedQuestionsList.length;
+
+    // Tekshirish paneli va testni boshlash
+    if (totalQuestionsCount > 0) {
+        const indBox = document.getElementById("indicatorsBox");
+        if (indBox) {
             indBox.innerHTML = "";
             answeredTracker = new Array(totalQuestionsCount).fill(null);
             for (let i = 1; i <= totalQuestionsCount; i++) {
@@ -176,10 +205,16 @@
                 btn.innerText = i;
                 indBox.appendChild(btn);
             }
-
-            startTimer();
-            displayQuestion();
         }
+
+        startTimer();
+        displayQuestion();
+    } else {
+        // Agar hali ham topilmasa, xatolik chiqadi
+        alert("Bu bo'limda savollar topilmadi! (Solishtirish xatoligi to'g'rilandi, keshni tozalang)");
+        window.location.href = "exam_list.html?user=" + encodeURIComponent(userName);
+    }
+}
         function startTimer() {
             clearInterval(timerInterval);
             timerInterval = setInterval(() => {
